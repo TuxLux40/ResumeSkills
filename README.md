@@ -1,229 +1,165 @@
-# Resume Skills for Claude Code
+# ResumeSkills für Claude Code – Deutsche Version
 
-A collection of AI agent skills focused on resume optimization, job applications, and career development. Built for job seekers, career changers, and professionals who want Claude Code to help with resume writing, ATS optimization, interview prep, and strategic job search.
+Eine Sammlung von KI-Agent-Skills für Bewerbungen, Lebenslauf-Optimierung und Karriereentwicklung. Für deutschsprachige Nutzer lokalisiert: mit deutschen Beispielen, €-Beträgen, DSGVO-Referenzen und deutschen Bewerbungskonventionen.
 
-## What are Skills?
+> **Original-Repo:** [Paramchoudhary/ResumeSkills](https://github.com/Paramchoudhary/ResumeSkills)
 
-Skills are markdown files that give AI agents specialized knowledge and workflows for specific tasks. When you add these to your project, Claude Code can recognize when you're working on resume and job search tasks and apply the right frameworks and best practices.
+## Was sind Skills?
 
-## Available Skills
+Skills sind Markdown-Dateien, die KI-Agenten spezialisiertes Wissen und strukturierte Workflows für bestimmte Aufgaben geben. Wenn du diese Skills installierst, erkennt Claude Code automatisch, wann du an Bewerbungsunterlagen arbeitest, und wendet die richtigen Methoden an.
 
-| Skill | Description |
-|-------|-------------|
-| [resume-ats-optimizer](/skills/resume-ats-optimizer) | Optimize resumes for Applicant Tracking Systems, check ATS compatibility, analyze keyword match |
-| [resume-bullet-writer](/skills/resume-bullet-writer) | Transform weak bullets into achievement-focused statements with metrics and impact |
-| [job-description-analyzer](/skills/job-description-analyzer) | Analyze job postings, calculate match scores, identify gaps, create application strategy |
-| [resume-tailor](/skills/resume-tailor) | Customize resume for specific job postings while maintaining truthfulness |
-| [cover-letter-generator](/skills/cover-letter-generator) | Create personalized, compelling cover letters from resume + job description |
-| [linkedin-profile-optimizer](/skills/linkedin-profile-optimizer) | Sync resume with LinkedIn, optimize for searchability and engagement |
-| [interview-prep-generator](/skills/interview-prep-generator) | Generate STAR stories, practice questions, talking points from resume |
-| [salary-negotiation-prep](/skills/salary-negotiation-prep) | Research market rates, build negotiation strategy, create counter-offer scripts |
-| [tech-resume-optimizer](/skills/tech-resume-optimizer) | Optimize resumes for software engineering, PM, and technical roles |
-| [executive-resume-writer](/skills/executive-resume-writer) | Create C-suite and VP level resumes emphasizing strategic leadership |
-| [career-changer-translator](/skills/career-changer-translator) | Translate skills from one industry to another, identify transferable skills |
-| [resume-quantifier](/skills/resume-quantifier) | Find opportunities to add metrics, estimate when numbers unknown |
-| [resume-formatter](/skills/resume-formatter) | Ensure ATS-friendly formatting, create clean scannable layouts |
-| [portfolio-case-study-writer](/skills/portfolio-case-study-writer) | Transform resume bullets into detailed portfolio case studies |
-| [academic-cv-builder](/skills/academic-cv-builder) | Format CVs for academic positions with publications, grants, teaching |
-| [reference-list-builder](/skills/reference-list-builder) | Format professional references properly and prepare reference materials |
-| [offer-comparison-analyzer](/skills/offer-comparison-analyzer) | Compare multiple job offers side-by-side with total compensation analysis |
-| [resume-version-manager](/skills/resume-version-manager) | Track different resume versions, maintain master resume, manage tailored versions |
-| [creative-portfolio-resume](/skills/creative-portfolio-resume) | Balance visual design with ATS compatibility for creative roles |
-| [resume-section-builder](/skills/resume-section-builder) | Create targeted sections optimized for different experience levels and roles |
+## Verfügbare Skills
+
+Alle Skills sind in zwei Sprachversionen verfügbar: **Englisch** (Original) und **Deutsch** (`-de`-Suffix).
+
+### Deutsche Skills (`-de`)
+
+| Skill | Beschreibung |
+|-------|--------------|
+| [resume-ats-optimizer-de](/skills/resume-ats-optimizer-de) | Lebenslauf für ATS-Systeme optimieren, Kompatibilität prüfen, Schlüsselwort-Analyse |
+| [resume-bullet-writer-de](/skills/resume-bullet-writer-de) | Schwache Aufzählungen in leistungsorientierte Aussagen mit Kennzahlen umwandeln |
+| [job-description-analyzer-de](/skills/job-description-analyzer-de) | Stellenanzeigen analysieren, Übereinstimmungswert berechnen, Bewerbungsstrategie entwickeln |
+| [resume-tailor-de](/skills/resume-tailor-de) | Lebenslauf für konkrete Stellenangebote anpassen |
+| [cover-letter-generator-de](/skills/cover-letter-generator-de) | Personalisierte Anschreiben aus Lebenslauf + Stellenbeschreibung erstellen |
+| [linkedin-profile-optimizer-de](/skills/linkedin-profile-optimizer-de) | LinkedIn-Profil mit Lebenslauf abgleichen und für Auffindbarkeit optimieren |
+| [interview-prep-generator-de](/skills/interview-prep-generator-de) | STAR-Geschichten, Übungsfragen und Gesprächspunkte generieren |
+| [salary-negotiation-prep-de](/skills/salary-negotiation-prep-de) | Marktgehälter recherchieren, Verhandlungsstrategie aufbauen, Gegenangebots-Skripte erstellen |
+| [tech-resume-optimizer-de](/skills/tech-resume-optimizer-de) | Lebensläufe für Software-Engineering, PM und technische Rollen optimieren |
+| [executive-resume-writer-de](/skills/executive-resume-writer-de) | Führungskraft-Lebensläufe für C-Suite- und VP-Positionen erstellen |
+| [career-changer-translator-de](/skills/career-changer-translator-de) | Fähigkeiten zwischen Branchen übersetzen, übertragbare Kompetenzen identifizieren |
+| [resume-quantifier-de](/skills/resume-quantifier-de) | Kennzahlen hinzufügen, Zahlen schätzen wenn keine genauen Daten vorliegen |
+| [resume-formatter-de](/skills/resume-formatter-de) | ATS-freundliche Formatierung sicherstellen, übersichtliche Layouts erstellen |
+| [portfolio-case-study-writer-de](/skills/portfolio-case-study-writer-de) | Lebenslauf-Aufzählungen in Portfolio-Fallstudien umwandeln |
+| [academic-cv-builder-de](/skills/academic-cv-builder-de) | Akademische Lebensläufe mit Publikationen, Drittmitteln und Lehre erstellen |
+| [reference-list-builder-de](/skills/reference-list-builder-de) | Referenzlisten professionell formatieren und Referenzgeber vorbereiten |
+| [offer-comparison-analyzer-de](/skills/offer-comparison-analyzer-de) | Mehrere Jobangebote mit vollständiger Vergütungsanalyse vergleichen |
+| [resume-version-manager-de](/skills/resume-version-manager-de) | Verschiedene Lebenslauf-Versionen verwalten und Master-Lebenslauf pflegen |
+| [creative-portfolio-resume-de](/skills/creative-portfolio-resume-de) | Visuelles Design und ATS-Kompatibilität für kreative Berufe ausbalancieren |
+| [resume-section-builder-de](/skills/resume-section-builder-de) | Gezielte Abschnitte für verschiedene Erfahrungsstufen und Rollen erstellen |
+| [cold-email-writer-de](/skills/cold-email-writer-de) | Kalt-E-Mails für Initiativbewerbungen und Networking schreiben |
+| [application-form-filler-de](/skills/application-form-filler-de) | Online-Bewerbungsformulare mit passenden Antworten ausfüllen |
 
 ## Installation
 
-### Option 1: CLI Install (Recommended)
+### Option 1: CLI-Installation (Empfohlen)
 
 ```bash
-# Install all 20 skills globally (works across all projects)
-npx skills add Paramchoudhary/ResumeSkills -g -y
+# Alle deutschen Skills global installieren (für alle Projekte)
+npx skills add TuxLux40/ResumeSkills -g -y
 
-# Install to current project only
-npx skills add Paramchoudhary/ResumeSkills -y
+# Nur für das aktuelle Projekt installieren
+npx skills add TuxLux40/ResumeSkills -y
 
-# List installed skills
+# Installierte Skills anzeigen
 npx skills list
-
-# List global skills
-npx skills list --global
 ```
 
-### Option 2: Manual Install
+### Option 2: Manuelle Installation
 
 ```bash
-# Clone and copy to skills folder
-git clone https://github.com/Paramchoudhary/ResumeSkills.git
-mkdir -p ~/.cursor/skills
-cp -r ResumeSkills/skills/* ~/.cursor/skills/
+git clone https://github.com/TuxLux40/ResumeSkills.git
+mkdir -p ~/.claude/skills
+cp -r ResumeSkills/skills/*-de ~/.claude/skills/
 ```
 
-### Option 3: Direct Download
+### Option 3: Einzelne Skills herunterladen
 
-Download individual skill files from the `/skills` directory and add them to your AI agent's skills folder.
+Einzelne SKILL.md-Dateien aus dem `/skills`-Verzeichnis herunterladen und in den Skills-Ordner des KI-Agenten kopieren.
 
-### Uninstall
+## Verwendung
 
-```bash
-# Remove individual skills by name
-npx skills remove resume-ats-optimizer
-npx skills remove resume-bullet-writer
-
-# Or remove all skills from a directory
-rm -rf ~/.agents/skills/resume-*
-rm -rf ~/.cursor/skills/resume-*
-```
-
-## Supported AI Agents
-
-These skills work with multiple AI coding assistants:
-
-- **Cursor** (IDE)
-- **Claude Code** (CLI)
-- **Windsurf**
-- **Codex**
-- **Gemini CLI**
-- **Amp, Antigravity, Augment** and 30+ more
-
-## Usage
-
-Once installed, just ask your AI assistant to help with resume tasks:
+Nach der Installation einfach auf Deutsch mit dem KI-Assistenten kommunizieren:
 
 ```
-"Optimize my resume for ATS"
-→ Uses resume-ats-optimizer skill
+„Optimiere meinen Lebenslauf für ATS"
+→ Verwendet resume-ats-optimizer-de
 
-"Improve my resume bullets"
-→ Uses resume-bullet-writer skill
+„Verbessere meine Aufzählungspunkte"
+→ Verwendet resume-bullet-writer-de
 
-"Should I apply to this job?" + paste job description
-→ Uses job-description-analyzer skill
+„Soll ich mich auf diese Stelle bewerben?" + Stellenbeschreibung einfügen
+→ Verwendet job-description-analyzer-de
 
-"Write me a cover letter for this role"
-→ Uses cover-letter-generator skill
+„Schreib mir ein Anschreiben für diese Stelle"
+→ Verwendet cover-letter-generator-de
 
-"Prep me for an interview at Google"
-→ Uses interview-prep-generator skill
+„Bereite mich auf ein Vorstellungsgespräch bei SAP vor"
+→ Verwendet interview-prep-generator-de
 ```
 
-## Skill Categories
+## Skill-Kategorien
 
-### Resume Optimization
-- `resume-ats-optimizer` - Pass ATS systems
-- `resume-bullet-writer` - Write achievement-focused bullets
-- `resume-quantifier` - Add metrics and numbers
-- `resume-formatter` - Clean, scannable formatting
-- `resume-section-builder` - Targeted section creation
+### Lebenslauf-Optimierung
+- `resume-ats-optimizer-de` – ATS-Systeme bestehen
+- `resume-bullet-writer-de` – Leistungsorientierte Aufzählungen schreiben
+- `resume-quantifier-de` – Kennzahlen und Zahlen hinzufügen
+- `resume-formatter-de` – Übersichtliche, scannbare Formatierung
+- `resume-section-builder-de` – Gezielte Abschnitte erstellen
 
-### Job Search Strategy
-- `job-description-analyzer` - Match analysis and strategy
-- `resume-tailor` - Customize for specific jobs
-- `resume-version-manager` - Track multiple versions
-- `offer-comparison-analyzer` - Compare job offers
+### Jobsuche-Strategie
+- `job-description-analyzer-de` – Übereinstimmungsanalyse und Strategie
+- `resume-tailor-de` – Für spezifische Stellen anpassen
+- `resume-version-manager-de` – Mehrere Versionen verwalten
+- `offer-comparison-analyzer-de` – Jobangebote vergleichen
 
-### Supporting Documents
-- `cover-letter-generator` - Personalized cover letters
-- `linkedin-profile-optimizer` - LinkedIn optimization
-- `portfolio-case-study-writer` - Portfolio content
-- `reference-list-builder` - Professional references
+### Bewerbungsunterlagen
+- `cover-letter-generator-de` – Personalisierte Anschreiben
+- `linkedin-profile-optimizer-de` – LinkedIn-Optimierung
+- `portfolio-case-study-writer-de` – Portfolio-Inhalte
+- `reference-list-builder-de` – Professionelle Referenzen
+- `cold-email-writer-de` – Initiativbewerbungen
+- `application-form-filler-de` – Bewerbungsformulare
 
-### Interview & Negotiation
-- `interview-prep-generator` - STAR stories and practice
-- `salary-negotiation-prep` - Negotiation strategy
+### Vorstellungsgespräch & Gehaltsverhandlung
+- `interview-prep-generator-de` – STAR-Geschichten und Übung
+- `salary-negotiation-prep-de` – Verhandlungsstrategie
 
-### Specialized Roles
-- `tech-resume-optimizer` - Engineering/PM/technical
-- `executive-resume-writer` - C-suite/VP
-- `academic-cv-builder` - Academic positions
-- `creative-portfolio-resume` - Design/creative roles
-- `career-changer-translator` - Career transitions
+### Spezialisierte Rollen
+- `tech-resume-optimizer-de` – Engineering/PM/Technik
+- `executive-resume-writer-de` – Führungskräfte/Vorstände
+- `academic-cv-builder-de` – Akademische Positionen
+- `creative-portfolio-resume-de` – Design/Kreativberufe
+- `career-changer-translator-de` – Berufliche Neuorientierung
 
-## Why These Skills Matter
+## Deutsche Lokalisierung
 
-**The Problem:**
-- 75% of resumes rejected by ATS before humans see them
-- Average job gets 250 applications
-- Most resumes have weak bullets with no metrics
-- Job seekers apply to wrong jobs, waste time
+Diese Skills sind für den deutschsprachigen Markt angepasst:
 
-**The Solution:**
-- Pass ATS with optimized formatting and keywords
-- Stand out with achievement-focused bullets
-- Apply strategically to right-fit roles
-- Get interviews faster with tailored applications
+- **Währung:** € statt $
+- **Datenschutz:** DSGVO statt GDPR/HIPAA
+- **Altersvorsorge:** bAV (betriebliche Altersvorsorge) statt 401k
+- **Gehaltsquellen:** Gehalt.de, Stepstone, Kununu, Bundesagentur für Arbeit
+- **Bewerbungskonventionen:** Deutsche Briefform, „Mit freundlichen Grüßen", Anrede „Sehr geehrte/r"
+- **Telefonnummern:** +49-Format
+- **Beispiele:** Deutsche Unternehmen, Universitäten und Berufsbezeichnungen
 
-**The Results:**
-- 2-3x more interviews per application
-- Higher quality responses
-- Faster job search (2 months saved on average)
-- Better salary negotiations ($10K+ higher offers)
+## Warum diese Skills?
 
-## Quick Start Examples
+**Das Problem:**
+- 75% der Lebensläufe werden von ATS-Systemen abgelehnt, bevor ein Mensch sie sieht
+- Durchschnittlich 250 Bewerbungen pro Stelle
+- Die meisten Lebensläufe haben schwache Aufzählungen ohne Kennzahlen
+- Bewerber verschwenden Zeit mit unpassenden Stellen
 
-### Example 1: Full Resume Optimization
+**Die Lösung:**
+- ATS bestehen durch optimierte Formatierung und Schlüsselwörter
+- Auffallen mit leistungsorientierten Aufzählungen
+- Gezielt auf passende Stellen bewerben
+- Schneller Interviews bekommen durch angepasste Bewerbungen
 
-```
-User: Here's my resume [paste]. I'm applying to data scientist roles. Help me optimize it.
+## Mitwirken
 
-Claude will:
-1. Run ATS compatibility check
-2. Analyze against common data scientist job requirements
-3. Improve bullet points with metrics
-4. Suggest keyword additions
-5. Format for ATS compatibility
-```
+Verbesserungen gefunden? Neuen Skill vorschlagen? PRs und Issues willkommen!
 
-### Example 2: Job-Specific Tailoring
+- Bestehende Skills verbessern
+- Branchenspezifische Beispiele hinzufügen
+- Neue Skills für Spezialanwendungen erstellen
+- Übersetzungen in weitere Sprachen ergänzen
 
-```
-User: Here's a job description [paste] and my resume [paste]. Should I apply?
+## Lizenz
 
-Claude will:
-1. Calculate match score
-2. Identify gaps and strengths
-3. Flag any red flags in posting
-4. Provide resume customization strategy
-5. Generate cover letter talking points
-```
-
-### Example 3: Interview Preparation
-
-```
-User: I have an interview at [Company] for [Role]. Here's my resume. Help me prepare.
-
-Claude will:
-1. Generate STAR stories from your experience
-2. Predict likely interview questions
-3. Create talking points for each bullet
-4. Research company-specific prep
-5. Prepare questions to ask
-```
-
-## Contributing
-
-Found a way to improve a skill? Have a new skill to suggest? PRs and issues welcome!
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
-### Ways to Contribute
-- Improve existing skill instructions
-- Add industry-specific examples
-- Create new skills for specialized use cases
-- Fix typos or clarify language
-- Add translations
-
-## License
-
-MIT License - Use these skills however you want.
-
-See [LICENSE](LICENSE) for details.
-
-## About
-
-Resume skills for Claude Code. ATS optimization, bullet writing, job matching, interview prep, and career development.
-
-**Keywords:** resume, CV, ATS, job search, career, interview, cover letter, LinkedIn, salary negotiation, job application
+MIT-Lizenz – Verwende diese Skills nach Belieben.
 
 ---
 
-*Built with care for job seekers everywhere. Good luck with your search!*
+*Viel Erfolg bei deiner Jobsuche!*
