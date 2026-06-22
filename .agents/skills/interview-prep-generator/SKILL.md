@@ -1,375 +1,286 @@
 ---
 name: interview-prep-generator
-description: Generate STAR stories, practice questions, and talking points from resume
+description: STAR-Geschichten, Übungsfragen und Gesprächspunkte aus dem Lebenslauf generieren
 ---
 
-# Interview Prep Generator
+# Vorstellungsgespräch-Vorbereitung
 
-## When to Use This Skill
+## Wann diesen Skill verwenden
 
-Use this skill when the user wants to:
-- Prepare for a job interview
-- Practice answering interview questions
-- Create STAR stories from their experience
-- Anticipate questions for a specific role
-- Mentions: "interview prep", "prepare for interview", "STAR stories", "interview questions", "behavioral questions"
+Diesen Skill verwenden, wenn der Nutzer:
+- Sich auf ein Vorstellungsgespräch vorbereiten möchte
+- Interviewfragen üben möchte
+- STAR-Geschichten aus seiner Erfahrung erstellen möchte
+- Fragen für eine bestimmte Stelle antizipieren möchte
+- Erwähnt: „Gesprächsvorbereitung", „Interview vorbereiten", „STAR-Methode", „Interviewfragen", „Verhaltensfragen"
 
-## Core Capabilities
+## Kernfähigkeiten
 
-- Generate role-specific interview questions
-- Create STAR stories from resume bullets
-- Predict questions based on job description
-- Prepare answers for common questions
-- Create talking points for each experience
-- Identify potential concerns and prepare responses
+- Stellenspezifische Interviewfragen generieren
+- STAR-Geschichten aus Lebenslauf-Aufzählungen erstellen
+- Fragen basierend auf der Stellenbeschreibung vorhersagen
+- Antworten auf häufige Fragen vorbereiten
+- Gesprächspunkte für jede Erfahrung entwickeln
+- Potenzielle Bedenken identifizieren und Antworten vorbereiten
 
-## Interview Preparation Framework
+## Vorbereitungsrahmenwerk
 
-### Phase 1: Role Analysis
-- Extract likely questions from job description
-- Identify skills that will be tested
-- Research company interview style
+### Phase 1: Rollenanalyse
+- Wahrscheinliche Fragen aus der Stellenbeschreibung extrahieren
+- Zu testende Fähigkeiten identifizieren
+- Interview-Stil des Unternehmens recherchieren
 
-### Phase 2: Story Banking
-- Convert resume bullets into STAR stories
-- Create stories for common competencies
-- Practice concise delivery
+### Phase 2: Geschichten-Bank aufbauen
+- Lebenslauf-Aufzählungen in STAR-Geschichten umwandeln
+- Geschichten für häufige Kompetenzen erstellen
+- Präzise Darstellung üben
 
-### Phase 3: Mock Preparation
-- Practice common questions
-- Prepare questions to ask
-- Research company-specific topics
+### Phase 3: Übungsvorbereitung
+- Häufige Fragen üben
+- Eigene Fragen vorbereiten
+- Unternehmensthemen recherchieren
 
-## The STAR Method Detailed
+## Die STAR-Methode im Detail
 
-### Structure
-- **S**ituation: Set the context (1-2 sentences)
-- **T**ask: Describe your responsibility (1 sentence)
-- **A**ction: Explain what YOU did (2-3 sentences)
-- **R**esult: Share the outcome with metrics (1-2 sentences)
+### Struktur
+- **S**ituation: Kontext setzen (1–2 Sätze)
+- **T**ask: Verantwortung beschreiben (1 Satz)
+- **A**ktion: Was SIE konkret getan haben (2–3 Sätze)
+- **R**esultat: Ergebnis mit Kennzahlen (1–2 Sätze)
 
-### STAR Story Template
-
-```
-SITUATION: "At [Company], we faced [specific challenge/context]..."
-
-TASK: "I was responsible for [specific ownership]..."
-
-ACTION: "I [specific action 1], [specific action 2], and [specific action 3]..."
-
-RESULT: "As a result, [quantified outcome]. This led to [business impact]."
-```
-
-### Example STAR Story
-
-**Question:** "Tell me about a time you led a team through a difficult project."
-
-**Answer:**
-```
-SITUATION: "At TechCorp, our main product was losing customers to a competitor who had launched a better mobile experience. We were seeing 5% monthly churn, up from our normal 2%."
-
-TASK: "As the product manager, I was responsible for turning around our mobile product to stop the bleeding and win back customers."
-
-ACTION: "I started by interviewing 30 churned customers to understand exactly why they left. Based on that research, I prioritized 5 critical features that would achieve parity with competitors. I then worked with engineering to restructure our roadmap, negotiated with leadership to add 2 contract developers, and implemented weekly sprint reviews to keep the project on track. I also started a beta program with 50 of our best customers to get feedback before full launch."
-
-RESULT: "We launched the improved mobile app in 3 months, reducing churn from 5% back to 2% within 60 days. We recovered 35% of churned customers and the NPS for our mobile app increased from 32 to 58. This project was recognized in our company all-hands as a turnaround success."
-```
-
-**Time:** 90 seconds to 2 minutes
-
-## Story Banking Process
-
-### Step 1: Identify Core Competencies
-
-**Leadership Stories Needed:**
-- Led a team through challenge
-- Managed conflict
-- Made a difficult decision
-- Delegated effectively
-- Developed/mentored someone
-
-**Problem-Solving Stories Needed:**
-- Solved complex technical problem
-- Fixed a process that was broken
-- Handled unexpected obstacle
-- Made decision with incomplete information
-- Improved something proactively
-
-**Collaboration Stories Needed:**
-- Worked with difficult colleague
-- Aligned cross-functional stakeholders
-- Built consensus
-- Partnered with other teams
-- Influenced without authority
-
-**Achievement Stories Needed:**
-- Exceeded goals/expectations
-- Delivered under pressure
-- Went above and beyond
-- Took initiative
-- Accomplished something proud of
-
-**Failure/Growth Stories Needed:**
-- Made a mistake and learned
-- Received critical feedback
-- Failed and recovered
-- Changed approach based on learning
-
-### Step 2: Map Resume to Stories
-
-For each resume bullet, create a full STAR story:
+### STAR-Geschichten-Template
 
 ```
-RESUME BULLET: "Led cross-functional team of 12 to deliver $2M product launch"
+SITUATION: „Bei [Unternehmen] standen wir vor [konkrete Herausforderung/Kontext]..."
 
-STAR EXPANSION:
+TASK: „Ich war verantwortlich für [konkrete Zuständigkeit]..."
 
-SITUATION: Our company was losing market share to a competitor, and leadership decided we needed to launch a new product line within 6 months.
+AKTION: „Ich habe [konkrete Maßnahme 1], [Maßnahme 2] und [Maßnahme 3] ergriffen..."
 
-TASK: As Product Manager, I was tasked with leading the product from concept to launch, coordinating across engineering, design, marketing, and sales teams (12 people total).
-
-ACTION: 
-- I established weekly cross-functional syncs and a shared Notion workspace
-- Created a detailed project plan with milestones and dependencies
-- Implemented a rapid prototyping process with 2-week design sprints
-- Personally resolved 3 major conflicts between engineering and marketing
-- Presented monthly updates to leadership to maintain alignment
-
-RESULT: 
-- Launched on time and under budget
-- Generated $2M revenue in first year
-- Acquired 50 new enterprise customers
-- Team received company innovation award
+RESULTAT: „Als Ergebnis [quantifiziertes Ergebnis]. Dies führte zu [geschäftlichem Impact]."
 ```
 
-### Step 3: Create Multiple Versions
+### Beispiel STAR-Geschichte
 
-Each story should have:
-- **Full version:** 2 minutes (for "tell me about a time...")
-- **Short version:** 60 seconds (for follow-ups)
-- **One-liner:** 15 seconds (for "give me an example")
+**Frage:** „Erzählen Sie von einer Situation, in der Sie ein Team durch ein schwieriges Projekt geführt haben."
 
-## Common Interview Questions by Category
-
-### Behavioral Questions
-
-**Leadership:**
-- "Tell me about a time you led a team."
-- "Describe a situation where you had to make an unpopular decision."
-- "How have you developed team members?"
-- "Tell me about a time you dealt with a difficult team member."
-
-**Problem-Solving:**
-- "Describe a complex problem you solved."
-- "Tell me about a time something didn't go as planned."
-- "How do you approach problems with incomplete information?"
-- "Give an example of an innovative solution you developed."
-
-**Collaboration:**
-- "Tell me about working with someone difficult."
-- "Describe a time you had to influence someone without authority."
-- "How do you handle disagreements with colleagues?"
-- "Tell me about a successful cross-functional project."
-
-**Achievement:**
-- "What's your proudest professional accomplishment?"
-- "Tell me about a time you exceeded expectations."
-- "Describe a goal you achieved against the odds."
-- "What's the biggest impact you've had in your career?"
-
-**Failure/Growth:**
-- "Tell me about a time you failed."
-- "What's the biggest mistake you've made at work?"
-- "How do you handle criticism?"
-- "What would you do differently in your career?"
-
-### Role-Specific Questions
-
-**Product Management:**
-- "How do you prioritize features?"
-- "Walk me through how you'd approach [product problem]."
-- "How do you measure product success?"
-- "Tell me about a product you shipped from 0 to 1."
-
-**Engineering:**
-- "Describe your experience with [specific technology]."
-- "How do you approach code reviews?"
-- "Tell me about a technical challenge you solved."
-- "How do you balance technical debt vs. features?"
-
-**Marketing:**
-- "How do you measure campaign success?"
-- "Tell me about a campaign that didn't work."
-- "How do you allocate budget across channels?"
-- "Describe your approach to brand building."
-
-**Sales:**
-- "Walk me through your sales process."
-- "Tell me about a deal you lost and why."
-- "How do you handle objections?"
-- "Describe your largest closed deal."
-
-### Standard Questions
-
-**About You:**
-- "Tell me about yourself." (2 min pitch)
-- "Walk me through your resume."
-- "Why are you looking for a new role?"
-- "Where do you see yourself in 5 years?"
-
-**About the Role:**
-- "Why this role?"
-- "What interests you about this position?"
-- "What do you think this role entails?"
-- "What would you do in your first 90 days?"
-
-**About the Company:**
-- "Why this company?"
-- "What do you know about us?"
-- "Why do you want to work here?"
-- "What excites you about our mission?"
-
-## Questions to Ask Interviewers
-
-### For Hiring Manager
-- "What does success look like in this role at 30/60/90 days?"
-- "What are the biggest challenges facing the team?"
-- "How is performance measured?"
-- "What's the team structure?"
-
-### For Team Members
-- "What's a typical day/week like?"
-- "What do you enjoy most about working here?"
-- "How do teams collaborate?"
-- "What would you want a new hire to know?"
-
-### For Executives
-- "What's the company's strategy for the next year?"
-- "How does this team contribute to company goals?"
-- "What keeps you excited about the company?"
-
-### To Avoid
-- ❌ Questions about salary/benefits (save for HR)
-- ❌ Questions you could easily Google
-- ❌ Negative questions about company problems
-- ❌ Yes/no questions (ask open-ended)
-
-## Handling Difficult Questions
-
-### "What's your greatest weakness?"
-
-**Formula:** Real weakness + Self-awareness + Improvement steps
-
+**Antwort:**
 ```
-"I tend to be overly detail-oriented, which can sometimes slow me down. I've recognized this and now set time limits for tasks and ask for feedback on when good enough is good enough. In my current role, I've also learned to delegate detailed work when appropriate."
+SITUATION: „Bei TechGmbH verlor unser Hauptprodukt Kunden an einen Wettbewerber mit besserem Mobile-Erlebnis. Wir sahen 5% monatliche Abwanderung, gegenüber normalerweise 2%."
+
+TASK: „Als Product Manager war ich verantwortlich dafür, unser mobiles Produkt zu verbessern, die Abwanderung zu stoppen und Kunden zurückzugewinnen."
+
+AKTION: „Ich begann mit Interviews mit 30 abgewanderten Kunden, um die genauen Gründe zu verstehen. Basierend auf dieser Recherche priorisierte ich 5 kritische Features für die Gleichwertigkeit mit dem Wettbewerber. Dann arbeitete ich mit Engineering zusammen, um unsere Roadmap umzustrukturieren, und implementierte wöchentliche Sprint-Reviews, um das Projekt auf Kurs zu halten. Ich startete auch ein Beta-Programm mit 50 unserer besten Kunden für Feedback vor dem vollen Launch."
+
+RESULTAT: „Wir brachten die verbesserte Mobile-App in 3 Monaten heraus, reduzierten die Abwanderung von 5% zurück auf 2% innerhalb von 60 Tagen. Wir gewannen 35% der abgewanderten Kunden zurück, und der NPS für unsere Mobile-App stieg von 32 auf 58."
 ```
 
-### "Why are you leaving your current job?"
+**Zeit:** 90 Sekunden bis 2 Minuten
 
-**Keep it:**
-- Positive (growth-focused)
-- Forward-looking (not complaint-based)
-- Brief (don't over-explain)
+## Geschichten-Bank aufbauen
+
+### Schritt 1: Kernkompetenzen identifizieren
+
+**Führungs-Geschichten benötigt:**
+- Team durch Herausforderung geführt
+- Konflikt gemanagt
+- Schwierige Entscheidung getroffen
+- Effektiv delegiert
+- Jemanden entwickelt/gefördert
+
+**Problemlösungs-Geschichten benötigt:**
+- Komplexes technisches Problem gelöst
+- Kaputten Prozess behoben
+- Unerwartetes Hindernis gemeistert
+- Entscheidung bei unvollständigen Informationen
+- Proaktiv etwas verbessert
+
+**Zusammenarbeits-Geschichten benötigt:**
+- Mit schwierigen Kolleg/innen gearbeitet
+- Bereichsübergreifende Stakeholder ausgerichtet
+- Konsens aufgebaut
+- Mit anderen Teams kooperiert
+- Ohne formale Autorität beeinflusst
+
+**Erfolgs-Geschichten benötigt:**
+- Ziele übertroffen
+- Unter Druck geliefert
+- Extra-Meile gegangen
+- Initiative ergriffen
+- Leistung, auf die man stolz ist
+
+**Fehler/Wachstums-Geschichten benötigt:**
+- Fehler gemacht und gelernt
+- Kritisches Feedback erhalten
+- Gescheitert und erholt
+- Ansatz basierend auf Lernerfahrung geändert
+
+### Schritt 2: Lebenslauf auf Geschichten abbilden
 
 ```
-"I've learned a lot at [Company], but I'm looking for [specific opportunity] that I don't see available in my current path. This role at [Company] offers exactly that - the chance to [specific thing]."
+LEBENSLAUF-AUFZÄHLUNG: „Bereichsübergreifendes Team von 12 geführt für $2 Mio. Produktlaunch"
+
+STAR-ERWEITERUNG:
+
+SITUATION: Unser Unternehmen verlor Marktanteile an Wettbewerber, Führung entschied neue Produktlinie in 6 Monaten.
+
+TASK: Als Product Manager war ich verantwortlich für die Leitung des Produkts von Konzept bis Launch, Koordination über Engineering, Design, Marketing und Vertrieb (12 Personen).
+
+AKTION:
+- Wöchentliche bereichsübergreifende Syncs und gemeinsamen Notion-Workspace etabliert
+- Detaillierten Projektplan mit Meilensteinen erstellt
+- Rapid-Prototyping mit 2-wöchigen Design-Sprints implementiert
+- 3 wichtige Konflikte zwischen Engineering und Marketing persönlich gelöst
+
+RESULTAT:
+- Pünktlich und unter Budget geliefert
+- 2 Mio. € Umsatz im ersten Jahr
+- 50 neue Enterprise-Kunden gewonnen
 ```
 
-### "Tell me about a time you failed"
+### Schritt 3: Mehrere Versionen erstellen
 
-**Must include:**
-- Real failure (not humble brag)
-- What you learned
-- How you applied the learning
+Jede Geschichte sollte haben:
+- **Vollversion:** 2 Minuten (für „Erzählen Sie von einer Zeit, als...")
+- **Kurzversion:** 60 Sekunden (für Nachfragen)
+- **Ein-Liner:** 15 Sekunden (für „Geben Sie ein Beispiel")
+
+## Häufige Interviewfragen nach Kategorie
+
+### Verhaltensfragen
+
+**Führung:**
+- „Erzählen Sie von einer Zeit, als Sie ein Team geführt haben."
+- „Beschreiben Sie eine Situation, in der Sie eine unpopuläre Entscheidung treffen mussten."
+- „Wie haben Sie Teammitglieder entwickelt?"
+
+**Problemlösung:**
+- „Beschreiben Sie ein komplexes Problem, das Sie gelöst haben."
+- „Erzählen Sie von einer Zeit, als etwas nicht nach Plan lief."
+
+**Zusammenarbeit:**
+- „Erzählen Sie von der Arbeit mit jemand Schwierigem."
+- „Wie gehen Sie mit Meinungsverschiedenheiten mit Kolleg/innen um?"
+
+**Leistung:**
+- „Was ist Ihre größte berufliche Errungenschaft?"
+- „Erzählen Sie von einer Zeit, als Sie Erwartungen übertroffen haben."
+
+**Fehler/Wachstum:**
+- „Erzählen Sie von einer Zeit, als Sie gescheitert sind."
+- „Wie gehen Sie mit Kritik um?"
+
+### Standardfragen
+
+**Über Sie:**
+- „Erzählen Sie etwas über sich." (2-min-Pitch)
+- „Führen Sie mich durch Ihren Lebenslauf."
+- „Warum suchen Sie eine neue Stelle?"
+- „Wo sehen Sie sich in 5 Jahren?"
+
+**Über die Stelle:**
+- „Warum diese Stelle?"
+- „Was interessiert Sie an dieser Position?"
+- „Was würden Sie in Ihren ersten 90 Tagen tun?"
+
+**Über das Unternehmen:**
+- „Warum dieses Unternehmen?"
+- „Was wissen Sie über uns?"
+- „Was begeistert Sie an unserer Mission?"
+
+## Fragen an die Interviewer
+
+### An den Hiring Manager
+- „Wie sieht Erfolg in dieser Rolle nach 30/60/90 Tagen aus?"
+- „Was sind die größten Herausforderungen für das Team?"
+- „Wie wird die Leistung gemessen?"
+- „Wie ist die Teamstruktur?"
+
+### An Teammitglieder
+- „Wie sieht ein typischer Tag/eine typische Woche aus?"
+- „Was gefällt Ihnen am meisten an der Arbeit hier?"
+- „Wie arbeiten Teams zusammen?"
+
+### Zu vermeiden
+- ❌ Fragen zu Gehalt/Benefits (für HR aufsparen)
+- ❌ Fragen, die man leicht googeln könnte
+- ❌ Ja/Nein-Fragen (offen formulieren)
+
+## Schwierige Fragen meistern
+
+### „Was ist Ihre größte Schwäche?"
+
+**Formel:** Echte Schwäche + Selbstreflexion + Verbesserungsschritte
 
 ```
-"In my first year as a PM, I launched a feature without sufficient user research. The feature was technically sound but users found it confusing. Only 10% adopted it. I learned the hard way that building the right thing matters more than building the thing right. Since then, I never skip user research - I now always do at least 10 user interviews before major feature decisions."
+„Ich neige dazu, zu detailorientiert zu sein, was mich manchmal verlangsamt. Ich erkenne das und setze jetzt Zeitlimits für Aufgaben und frage nach Feedback, wann ‚gut genug' wirklich gut genug ist."
 ```
 
-### Salary Questions
+### „Warum verlassen Sie Ihren aktuellen Job?"
 
-**Deflect until you have to answer:**
-
+**Positiv halten:**
 ```
-"I'm flexible on compensation and more focused on finding the right role. Can you share the range budgeted for this position?"
-```
-
-**If pressed:**
-```
-"Based on my research and experience, I'm looking for something in the range of $X-$Y, but I'm open to discussing the full compensation package."
+„Ich habe bei [Unternehmen] viel gelernt, suche aber nach [spezifischer Möglichkeit], die ich in meinem aktuellen Weg nicht sehe. Diese Stelle bei [Unternehmen] bietet genau das – die Chance, [spezifisches Ziel zu erreichen]."
 ```
 
-## Output Format
+### „Erzählen Sie von einem Misserfolg"
 
-When generating interview prep:
+**Muss enthalten:**
+- Echter Misserfolg (kein verstecktes Eigenlob)
+- Was man gelernt hat
+- Wie man das Lernen angewendet hat
+
+## Ausgabeformat
 
 ```markdown
-# INTERVIEW PREP: [POSITION] AT [COMPANY]
+# GESPRÄCHSVORBEREITUNG: [STELLE] BEI [UNTERNEHMEN]
 
-## Role Analysis
-**Key competencies they'll test:**
-1. [Competency] - Evidence: [From JD]
-2. [Competency] - Evidence: [From JD]
-3. [Competency] - Evidence: [From JD]
+## Rollenanalyse
+**Zu testende Kernkompetenzen:**
+1. [Kompetenz] – Nachweis: [Aus Stellenbeschreibung]
+2. [Kompetenz] – Nachweis: [Aus Stellenbeschreibung]
 
-## Predicted Questions
+## Vorhergesagte Fragen
 
-### High Probability (prepare thoroughly)
-1. [Question] → Use story: [Story name]
-2. [Question] → Use story: [Story name]
-3. [Question] → Use story: [Story name]
+### Hohe Wahrscheinlichkeit (gründlich vorbereiten)
+1. [Frage] → Geschichte verwenden: [Geschichte]
+2. [Frage] → Geschichte verwenden: [Geschichte]
 
-### Medium Probability
-1. [Question]
-2. [Question]
+## Ihre STAR-Geschichten-Bank
 
-## Your STAR Story Bank
-
-### Story 1: [Name - e.g., "Product Launch Success"]
-**Use for:** Leadership, Achievement, Cross-functional
+### Geschichte 1: [Name – z.B. „Produktlaunch-Erfolg"]
+**Verwenden für:** Führung, Leistung, bereichsübergreifend
 **STAR:**
 - S: [Situation]
 - T: [Task]
-- A: [Action]
-- R: [Result with metrics]
-**Short version:** [60 second version]
+- A: [Aktion]
+- R: [Ergebnis mit Kennzahlen]
 
-### Story 2: [Name]
-[Same structure]
+## „Erzählen Sie etwas über sich"-Skript
+[2-Minuten-Pitch auf diese Stelle zugeschnitten]
 
-## "Tell Me About Yourself" Script
-[2-minute pitch tailored to this role]
+## Eigene Fragen
+**An Hiring Manager:**
+1. [Frage]
 
-## Questions to Ask
-**For Hiring Manager:**
-1. [Question]
-2. [Question]
+**An Team:**
+1. [Frage]
 
-**For Team:**
-1. [Question]
-2. [Question]
-
-## Company Research Notes
-- Recent news: [Item]
-- Key facts to reference: [Facts]
-- Potential concerns: [Items to be ready for]
-
-## Red Flag Answers to Avoid
-- Don't mention: [Topics]
-- Don't criticize: [Past employer aspects]
-- Watch out for: [Potential trap questions]
+## Unternehmensrecherche
+- Aktuelle Nachrichten: [Punkt]
+- Wichtige Fakten: [Fakten]
+- Mögliche Bedenken: [Themen vorbereiten]
 ```
 
-## Implementation Checklist
+## Checkliste
 
-For complete interview prep:
-1. ✅ Analyze job description for competencies
-2. ✅ Create 8-10 STAR stories covering all competencies
-3. ✅ Write "tell me about yourself" pitch
-4. ✅ Prepare answers for likely questions
-5. ✅ Research company thoroughly
-6. ✅ Prepare thoughtful questions to ask
-7. ✅ Practice out loud (time yourself)
-8. ✅ Prepare logistics (outfit, route, tech check)
-9. ✅ Review the day before interview
-10. ✅ Send thank you notes after
+1. ✅ Stellenbeschreibung auf Kompetenzen analysieren
+2. ✅ 8–10 STAR-Geschichten für alle Kompetenzen erstellen
+3. ✅ „Erzählen Sie etwas über sich"-Pitch schreiben
+4. ✅ Antworten auf wahrscheinliche Fragen vorbereiten
+5. ✅ Unternehmen gründlich recherchieren
+6. ✅ Eigene Fragen vorbereiten
+7. ✅ Laut üben (Zeit messen)
+8. ✅ Logistik vorbereiten (Kleidung, Weg, Technik-Check)
+9. ✅ Am Vortag des Gesprächs nochmals durchgehen
+10. ✅ Dankesnachrichten nach dem Gespräch senden

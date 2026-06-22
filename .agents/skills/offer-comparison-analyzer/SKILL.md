@@ -1,366 +1,301 @@
 ---
 name: offer-comparison-analyzer
-description: Compare multiple job offers side-by-side with total compensation analysis
+description: Mehrere Jobangebote nebeneinander mit Gesamtvergütungsanalyse vergleichen
 ---
 
-# Offer Comparison Analyzer
+# Angebots-Vergleich-Analysator
 
-## When to Use This Skill
+## Wann diesen Skill verwenden
 
-Use this skill when the user:
-- Has multiple job offers to compare
-- Needs to evaluate total compensation
-- Wants to make a data-driven job decision
-- Is weighing different opportunities
-- Mentions: "compare offers", "multiple offers", "which job", "offer comparison", "deciding between jobs"
+Diesen Skill verwenden, wenn der Nutzer:
+- Mehrere Jobangebote vergleichen möchte
+- Die Gesamtvergütung bewerten möchte
+- Eine datengetriebene Jobentscheidung treffen möchte
+- Verschiedene Möglichkeiten abwägt
+- Erwähnt: „Angebote vergleichen", „mehrere Angebote", „welcher Job", „Angebotsvergleich", „zwischen Jobs entscheiden"
 
-## Core Capabilities
+## Kernfähigkeiten
 
-- Compare total compensation across offers
-- Evaluate non-monetary factors
-- Create weighted decision frameworks
-- Calculate true offer value
-- Identify hidden costs and benefits
-- Guide the decision-making process
+- Gesamtvergütung über Angebote hinweg vergleichen
+- Nicht-monetäre Faktoren bewerten
+- Gewichtete Entscheidungsrahmen erstellen
+- Echten Angebotswert berechnen
+- Versteckte Kosten und Vorteile identifizieren
+- Entscheidungsprozess begleiten
 
-## The Comparison Challenge
+## Das Vergleichsproblem
 
-**The Problem:** 
-Comparing offers is hard because:
-- Different compensation structures
-- Non-monetary factors matter
-- Hidden benefits and costs
-- Emotional factors cloud judgment
-- Information asymmetry
+**Das Problem:**
+Angebote vergleichen ist schwierig wegen:
+- Unterschiedlicher Vergütungsstrukturen
+- Wichtiger nicht-monetärer Faktoren
+- Versteckter Vorteile und Kosten
+- Emotionaler Faktoren, die das Urteil trüben
+- Informationsasymmetrie
 
-**The Solution:**
-Systematic comparison framework that considers:
-- Total compensation (not just salary)
-- Career growth potential
-- Work-life factors
-- Risk assessment
-- Personal values alignment
+**Die Lösung:**
+Systematischer Vergleichsrahmen, der berücksichtigt:
+- Gesamtvergütung (nicht nur Gehalt)
+- Karrierewachstumspotenzial
+- Work-Life-Faktoren
+- Risikoabschätzung
+- Persönliche Werteübereinstimmung
 
-## Total Compensation Calculator
+## Gesamtvergütungsrechner
 
-### Components to Include
+### Einzubeziehende Komponenten
 
-**Cash Compensation:**
-- Base salary
-- Signing bonus (one-time)
-- Annual bonus (target %)
-- Commission (for sales roles)
-- Relocation assistance
+**Barvergütung:**
+- Grundgehalt
+- Einstellungsbonus (einmalig)
+- Jahresbonus (Zielprozentsatz)
+- Provision (bei Vertriebsrollen)
+- Umzugsunterstützung
 
-**Equity Compensation:**
-- Stock options (value = current price - strike price)
-- RSUs (value = current price × shares)
-- Vesting schedule
-- Refresh grant expectations
+**Aktienoptionen/Beteiligung:**
+- Aktienoptionen (Wert = aktueller Kurs − Ausübungspreis)
+- RSUs (Wert = aktueller Kurs × Anzahl)
+- Vesting-Zeitplan
+- Refresh-Grant-Erwartungen
 
-**Benefits Value:**
-- Health insurance (employer contribution)
-- 401(k) match
-- HSA/FSA contributions
-- Life/disability insurance
-- Other insurance benefits
+**Leistungspaket:**
+- Krankenversicherung (Arbeitgeberanteil)
+- Betriebliche Altersvorsorge / bAV
+- Weitere Versicherungsleistungen
+- Sonstige Benefits
 
-**Perks Value:**
-- Vacation days (can assign $ value)
-- Remote work (saves commute costs)
-- Professional development budget
-- Equipment/office stipend
-- Meals, gym, etc.
+**Vergünstigungen:**
+- Urlaubstage (€-Wert zuweisbar)
+- Remote-Arbeit (spart Pendelkosten)
+- Weiterbildungsbudget
+- Ausstattung/Bürostipendium
+- Mahlzeiten, Sport etc.
 
-### Calculation Template
+### Berechnungs-Template
 
 ```
-OFFER A - TOTAL COMPENSATION
+ANGEBOT A – GESAMTVERGÜTUNG
 
-CASH
-Base Salary:                    $150,000
-Signing Bonus (year 1 only):     $25,000
-Target Bonus (15%):              $22,500
+BARLEISTUNGEN
+Grundgehalt:                    75.000 €
+Einstellungsbonus (nur Jahr 1): 12.500 €
+Zielbonus (15%):                11.250 €
 --------------------------------
-Cash Compensation:              $197,500 (year 1)
-                               $172,500 (ongoing)
+Barvergütung:                   98.750 € (Jahr 1)
+                                86.250 € (laufend)
 
-EQUITY
-RSU Grant: $200,000 over 4 years
-Annual Value:                    $50,000
+AKTIEN
+Aktienpaket: 100.000 € über 4 Jahre
+Jährlicher Wert:                25.000 €
+
+LEISTUNGSPAKET
+bAV-Beitrag AG (4%):             3.000 €
+Krankenversicherungszuschuss:    7.200 €
 --------------------------------
-Equity Compensation:             $50,000/year
+Leistungswert:                  10.200 €/Jahr
 
-BENEFITS
-401(k) Match (4%):               $6,000
-Health Insurance:                $15,000 (employer portion)
-HSA Contribution:                 $1,000
+VERGÜNSTIGUNGEN
+Urlaub: 30 Tage (vs. 20 Standard)
+  Extra 10 Tage × ~250 €/Tag:    2.500 € Wert
+Remote-Arbeit-Ersparnis:         2.000 € (Pendeln, Mittagessen)
+Weiterbildungsbudget:            1.500 €
 --------------------------------
-Benefits Value:                  $22,000/year
+Vergünstigungswert:              6.000 €/Jahr
 
-PERKS
-Vacation: 20 days (vs 10 standard)
-  Extra 10 days × ~$575/day:      $5,750 value
-Remote Work Savings:              $3,000 (commute, lunch)
-Professional Dev:                 $2,000 budget
---------------------------------
-Perks Value:                     $10,750/year
-
-TOTAL YEAR 1:        $280,250
-TOTAL ONGOING:       $255,250/year
+GESAMT JAHR 1:        141.950 €
+GESAMT LAUFEND:       127.450 €/Jahr
 ```
 
-## Side-by-Side Comparison Template
+## Vergleichstemplate Nebeneinander
 
 ```markdown
-# OFFER COMPARISON
+# ANGEBOTSVERGLEICH
 
-|                          | Company A | Company B | Notes |
-|--------------------------|-----------|-----------|-------|
-| **CASH**                 |           |           |       |
-| Base Salary              | $150,000  | $160,000  | B +$10K |
-| Signing Bonus            | $25,000   | $10,000   | A +$15K |
-| Target Bonus             | 15%       | 10%       | A +$6.5K |
-| **Cash Total (Yr 1)**    | $197,500  | $186,000  | A +$11.5K |
-|                          |           |           |       |
-| **EQUITY**               |           |           |       |
-| Grant Value (4yr)        | $200,000  | $300,000  | B +$100K |
-| Annual Equity            | $50,000   | $75,000   | B +$25K |
-|                          |           |           |       |
-| **BENEFITS**             |           |           |       |
-| 401(k) Match             | 4%        | 6%        | B +$3.2K |
-| Health Insurance         | Good      | Premium   | B better |
-| PTO                      | 20 days   | Unlimited | Varies |
-|                          |           |           |       |
-| **TOTAL COMP (Yr 1)**    | $280,250  | $285,000  | B +$4.7K |
-| **TOTAL COMP (Ongoing)** | $255,250  | $275,000  | B +$19.7K |
+|                          | Unternehmen A | Unternehmen B | Anmerkungen |
+|--------------------------|---------------|---------------|-------------|
+| **BARLEISTUNGEN**        |               |               |             |
+| Grundgehalt              | 75.000 €      | 80.000 €      | B +5.000 €  |
+| Einstellungsbonus        | 12.500 €      | 5.000 €       | A +7.500 €  |
+| Zielbonus                | 15%           | 10%           | A +3.250 €  |
+| **Barvergütung (J1)**    | 98.750 €      | 93.000 €      | A +5.750 €  |
+|                          |               |               |             |
+| **AKTIEN**               |               |               |             |
+| Paket (4 Jahre)          | 100.000 €     | 150.000 €     | B +50.000 € |
+| Jährlicher Wert          | 25.000 €      | 37.500 €      | B +12.500 € |
+|                          |               |               |             |
+| **LEISTUNGEN**           |               |               |             |
+| bAV                      | 4%            | 6%            | B +1.600 €  |
+| Krankenversicherung      | Standard      | Premium       | B besser    |
+| Urlaub                   | 30 Tage       | Unbegrenzt    | Variiert    |
+|                          |               |               |             |
+| **GESAMT VERGÜTUNG (J1)**| 141.950 €     | 142.500 €     | B +550 €    |
+| **GESAMT LAUFEND**       | 127.450 €     | 137.750 €     | B +10.300 € |
 ```
 
-## Non-Monetary Factor Framework
+## Nicht-monetäre Faktoren
 
-### Career Growth (Weight: High)
+### Karrierewachstum (Gewicht: Hoch)
 
-**Questions to Consider:**
-- Which role offers more learning?
-- Which company/brand helps future job search?
-- Which has better promotion track?
-- Which offers more scope/responsibility?
-- Which manager will develop you more?
+**Zu prüfende Fragen:**
+- Welche Rolle bietet mehr Lernmöglichkeiten?
+- Welche Unternehmen-/Markenbekanntheit hilft bei künftiger Jobsuche?
+- Welche hat bessere Beförderungsstruktur?
+- Welche bietet mehr Verantwortung?
+- Welche Führungskraft fördert Sie mehr?
 
-**Scoring:**
+**Bewertung:**
 ```
-Company A: Growth Score
-- Learning opportunity: 8/10
-- Brand/resume value: 7/10
-- Promotion potential: 6/10
-- Scope: 8/10
-Average: 7.25/10
-
-Company B: Growth Score
-- Learning opportunity: 7/10
-- Brand/resume value: 9/10
-- Promotion potential: 8/10
-- Scope: 7/10
-Average: 7.75/10
+Unternehmen A: Wachstums-Score
+- Lernmöglichkeit: 8/10
+- Marken-/Lebenslaufwert: 7/10
+- Beförderungspotenzial: 6/10
+- Verantwortungsbereich: 8/10
+Durchschnitt: 7,25/10
 ```
 
-### Work-Life Balance (Weight: Personal)
+### Work-Life-Balance (Gewicht: Persönlich)
 
-**Factors:**
-- Expected hours
-- Remote/hybrid flexibility
-- Vacation usage culture
-- On-call requirements
-- Travel requirements
-- Commute time
+**Faktoren:**
+- Erwartete Arbeitszeiten
+- Remote-/Hybrid-Flexibilität
+- Urlaubskultur
+- Bereitschaftsanforderungen
+- Reiseanforderungen
+- Pendelzeit
 
-### Team & Culture (Weight: High)
+### Team & Kultur (Gewicht: Hoch)
 
-**Factors:**
-- Manager quality (crucial!)
-- Team health/dynamics
-- Company culture fit
-- DEI considerations
-- Company stability/growth
-- Values alignment
+**Faktoren:**
+- Qualität der Führungskraft (entscheidend!)
+- Teamgesundheit/-dynamik
+- Unternehmenskultur-Passung
+- Unternehmensstabilität/-wachstum
+- Werteübereinstimmung
 
-### Risk Assessment (Weight: Medium)
+### Risikoabschätzung (Gewicht: Mittel)
 
-**Startup vs. Established:**
-- Funding runway
-- Market position
-- Company trajectory
-- Equity risk (could be worth $0)
+**Start-up vs. Etabliertes Unternehmen:**
+- Finanzierungsreichweite
+- Marktposition
+- Unternehmenstrajektorie
+- Aktien-Risiko (könnten wertlos sein)
 
-**Questions:**
-- What happens if company struggles?
-- How stable is this role?
-- What's the severance policy?
+## Gewichtete Entscheidungsmatrix
 
-## Weighted Decision Matrix
-
-### Step 1: Define Your Priorities
+### Schritt 1: Prioritäten definieren
 
 ```
-Factor                  Weight
+Faktor                    Gewicht
 ------------------------------------
-Total Compensation       25%
-Career Growth            25%
-Work-Life Balance        20%
-Team & Culture           20%
-Location/Commute         10%
+Gesamtvergütung            25%
+Karrierewachstum           25%
+Work-Life-Balance          20%
+Team & Kultur              20%
+Standort/Pendeln           10%
 ------------------------------------
-Total:                   100%
+Gesamt:                   100%
 ```
 
-### Step 2: Score Each Factor
+### Schritt 2: Jeden Faktor bewerten
 
 ```
-                    Company A   Company B
-Factor              Score (1-10)
+                    Unternehmen A   Unternehmen B
+Faktor              Punkte (1–10)
 ------------------------------------
-Compensation        7           8
-Career Growth       7           8
-Work-Life           8           6
-Team & Culture      9           7
-Location            8           5
+Vergütung           7               8
+Karrierewachstum    7               8
+Work-Life           8               6
+Team & Kultur       9               7
+Standort            8               5
 ```
 
-### Step 3: Calculate Weighted Score
+### Schritt 3: Gewichteten Wert berechnen
 
 ```
-Company A:
-(7 × 0.25) + (7 × 0.25) + (8 × 0.20) + (9 × 0.20) + (8 × 0.10)
-= 1.75 + 1.75 + 1.60 + 1.80 + 0.80
-= 7.70
+Unternehmen A:
+(7×0,25) + (7×0,25) + (8×0,20) + (9×0,20) + (8×0,10) = 7,70
 
-Company B:
-(8 × 0.25) + (8 × 0.25) + (6 × 0.20) + (7 × 0.20) + (5 × 0.10)
-= 2.00 + 2.00 + 1.20 + 1.40 + 0.50
-= 7.10
+Unternehmen B:
+(8×0,25) + (8×0,25) + (6×0,20) + (7×0,20) + (5×0,10) = 7,10
 
-Result: Company A scores higher (7.70 vs 7.10)
+Ergebnis: Unternehmen A liegt vorne (7,70 vs. 7,10)
 ```
 
-## Red Flags to Watch
+## Warnsignale
 
-### In the Offer
+### Im Angebot
+- ❌ Vage Bonusformulierung („bis zu 20%")
+- ❌ Aktien ohne Liquiditätspfad
+- ❌ Hohes Fixgehalt ohne Aktien (bei Start-up)
+- ❌ Cliff länger als 1 Jahr
+- ❌ Keine Vesting-Beschleunigung
+- ❌ Wettbewerbsverbote
+- ❌ Mündliche Versprechen nicht schriftlich
 
-- ❌ Vague bonus language ("up to 20%")
-- ❌ Equity with no liquidity path
-- ❌ High base but no equity (at startup)
-- ❌ Cliff longer than 1 year
-- ❌ Vesting acceleration absent
-- ❌ Non-compete restrictions
-- ❌ Verbal promises not in writing
+### Zum Unternehmen
+- ❌ Hohe Fluktuation (LinkedIn prüfen)
+- ❌ Kürzliche Entlassungen oder Umstrukturierungen
+- ❌ Führungskraft wirkt desengagiert
+- ❌ Glassdoor-Muster in negativen Bewertungen
+- ❌ Finanzierungsbedenken
 
-### About the Company
+## Selbstreflexionsfragen
 
-- ❌ High turnover (check LinkedIn)
-- ❌ Recent layoffs or reorgs
-- ❌ Manager seems checked out
-- ❌ Glassdoor patterns in bad reviews
-- ❌ Funding concerns
-- ❌ Unclear path to profitability
+### Der Bauchgefühl-Test
+- Welches Angebot begeistert mich mehr?
+- Welches würde ich bereuen, nicht anzunehmen?
+- Welches entspricht meinen 5-Jahres-Zielen?
 
-### About the Role
+### Der Montagmorgen-Test
+- Für welchen Job möchte ich aufwachen?
+- Mit welchem Team möchte ich arbeiten?
+- Welche Probleme möchte ich lösen?
 
-- ❌ Vague responsibilities
-- ❌ Role seems to change during interviews
-- ❌ Red flags in why position is open
-- ❌ No growth path discussed
-- ❌ Unrealistic expectations set
-
-## Questions to Ask Yourself
-
-### The Gut Check
-- Which offer excites me more?
-- Which would I regret not taking?
-- Which aligns with my 5-year goals?
-- Which would I brag about to friends?
-
-### The Monday Morning Test
-- Which job do I want to wake up for?
-- Which team do I want to work with?
-- Which problems do I want to solve?
-
-### The Learning Test
-- Where will I grow more?
-- Which skills will I develop?
-- Which looks better on my resume in 3 years?
-
-### The Risk Test
-- What's the downside of each?
-- Which failure would I regret more?
-- What's my backup plan for each?
-
-## Output Format
-
-When comparing offers:
+## Ausgabeformat
 
 ```markdown
-# JOB OFFER COMPARISON
+# JOBANGEBOT-VERGLEICH
 
-## Offers Being Compared
-- **Offer A:** [Role] at [Company]
-- **Offer B:** [Role] at [Company]
+## Verglichene Angebote
+- **Angebot A:** [Rolle] bei [Unternehmen]
+- **Angebot B:** [Rolle] bei [Unternehmen]
 
-## Total Compensation Comparison
+## Gesamtvergütungsvergleich
 
-| Component | Offer A | Offer B | Difference |
-|-----------|---------|---------|------------|
-| Base | $X | $X | |
-| Bonus | $X | $X | |
-| Equity (annual) | $X | $X | |
-| Benefits | $X | $X | |
-| **Year 1 Total** | $X | $X | |
-| **Ongoing Total** | $X | $X | |
+| Komponente | Angebot A | Angebot B | Differenz |
+|------------|-----------|-----------|-----------|
+| Grundgehalt | X € | X € | |
+| Bonus | X € | X € | |
+| Aktien (jährlich) | X € | X € | |
+| Leistungen | X € | X € | |
+| **Jahr 1 Gesamt** | X € | X € | |
+| **Laufend Gesamt** | X € | X € | |
 
-## Non-Monetary Comparison
+## Gewichtete Analyse
+- Angebot A Score: X,XX
+- Angebot B Score: X,XX
 
-| Factor | Offer A | Offer B | Notes |
-|--------|---------|---------|-------|
-| Career Growth | X/10 | X/10 | |
-| Work-Life | X/10 | X/10 | |
-| Team/Culture | X/10 | X/10 | |
-| Risk Level | X/10 | X/10 | |
+## Empfehlung
+Basierend auf Ihren Prioritäten [X, Y, Z] erscheint **Angebot [A/B]** die stärkere Wahl...
 
-## Weighted Analysis
+## Zu klärende Punkte
+- [ ] [Frage an Unternehmen A]
+- [ ] [Frage an Unternehmen B]
 
-Using your priorities:
-- Offer A Score: X.XX
-- Offer B Score: X.XX
-
-## Key Differences
-1. [Key difference 1]
-2. [Key difference 2]
-3. [Key difference 3]
-
-## Recommendation
-
-Based on your stated priorities of [X, Y, Z], **Offer [A/B]** appears to be the stronger choice because:
-- [Reason 1]
-- [Reason 2]
-- [Reason 3]
-
-## Things to Clarify Before Deciding
-- [ ] [Question for Company A]
-- [ ] [Question for Company B]
-
-## Negotiation Opportunities
-- [Opportunity 1]
-- [Opportunity 2]
+## Verhandlungsmöglichkeiten
+- [Möglichkeit 1]
+- [Möglichkeit 2]
 ```
 
-## Comparison Checklist
+## Vergleichs-Checkliste
 
-- ✅ Calculated total comp (not just base)
-- ✅ Included equity with realistic valuation
-- ✅ Factored in benefits value
-- ✅ Considered tax implications
-- ✅ Weighted non-monetary factors
-- ✅ Assessed career growth potential
-- ✅ Evaluated team and manager quality
-- ✅ Checked company stability/risk
-- ✅ Aligned with personal priorities
-- ✅ Gut-checked the decision
+- ✅ Gesamtvergütung berechnet (nicht nur Grundgehalt)
+- ✅ Aktien mit realistischer Bewertung einbezogen
+- ✅ Leistungswert berücksichtigt
+- ✅ Steuerliche Implikationen beachtet
+- ✅ Nicht-monetäre Faktoren gewichtet
+- ✅ Karrierewachstumspotenzial bewertet
+- ✅ Team- und Führungsqualität beurteilt
+- ✅ Unternehmensstabilität/-risiko geprüft
+- ✅ Persönliche Prioritäten ausgerichtet
+- ✅ Bauchgefühl zur Entscheidung geprüft

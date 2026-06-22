@@ -1,369 +1,299 @@
 ---
 name: portfolio-case-study-writer
-description: Transform resume bullets into detailed portfolio case studies
+description: Lebenslauf-Aufzählungspunkte in detaillierte Portfolio-Fallstudien verwandeln
 ---
 
-# Portfolio Case Study Writer
+# Portfolio-Fallstudien-Schreiber
 
-## When to Use This Skill
+## Wann diesen Skill verwenden
 
-Use this skill when the user:
-- Wants to create portfolio case studies
-- Needs to expand resume bullets into detailed writeups
-- Is building a portfolio website
-- Wants to showcase project work in depth
-- Mentions: "case study", "portfolio", "project writeup", "work samples", "portfolio piece"
+Diesen Skill verwenden, wenn der Nutzer:
+- Portfolio-Fallstudien erstellen möchte
+- Lebenslauf-Aufzählungen in detaillierte Texte ausbauen möchte
+- Eine Portfolio-Website aufbaut
+- Projektarbeit tiefgehend präsentieren möchte
+- Erwähnt: „Fallstudie", „Portfolio", „Projektbeschreibung", „Arbeitsproben", „Portfolio-Stück"
 
-## Core Capabilities
+## Kernfähigkeiten
 
-- Transform resume bullets into detailed case studies
-- Structure case studies for maximum impact
-- Create compelling project narratives
-- Balance technical detail with business context
-- Format for portfolio websites
-- Tailor depth to audience
+- Lebenslauf-Aufzählungen in detaillierte Fallstudien verwandeln
+- Fallstudien für maximalen Impact strukturieren
+- Überzeugende Projektnarrative entwickeln
+- Technische Details mit Business-Kontext ausbalancieren
+- Für Portfolio-Websites formatieren
+- Tiefe an Zielgruppe anpassen
 
-## Case Study Purpose
+## Zweck von Fallstudien
 
-**Why Case Studies Matter:**
-- Resumes show WHAT you did; case studies show HOW and WHY
-- Demonstrate thinking process, not just outcomes
-- Allow deeper showcase of skills
-- Differentiate you from other candidates
-- Required for many PM, UX, and creative roles
+**Warum Fallstudien wichtig sind:**
+- Lebensläufe zeigen WAS Sie getan haben; Fallstudien zeigen WIE und WARUM
+- Demonstrieren Denkprozess, nicht nur Ergebnisse
+- Ermöglichen tiefere Präsentation von Fähigkeiten
+- Unterscheiden Sie von anderen Kandidaten
+- Erforderlich für viele PM-, UX- und Kreativrollen
 
-## The Case Study Structure
+## Die Fallstudien-Struktur
 
-### Standard Structure
+### Standardstruktur
 
 ```
-1. Overview (Project summary)
-2. Problem (What needed to be solved)
-3. Process (How you approached it)
-4. Solution (What you created/delivered)
-5. Results (The impact)
-6. Learnings (What you'd do differently)
+1. Überblick (Projektzusammenfassung)
+2. Problem (Was gelöst werden musste)
+3. Prozess (Wie man herangegangen ist)
+4. Lösung (Was erstellt/geliefert wurde)
+5. Ergebnisse (Der Impact)
+6. Erkenntnisse (Was man anders machen würde)
 ```
 
-### Time to Read
-- **Quick Read:** 3-5 minutes (essential for portfolio)
-- **Deep Dive:** 10-15 minutes (for interested readers)
+### Lesezeit
+- **Schnelles Lesen:** 3–5 Minuten (unbedingt notwendig)
+- **Tiefes Tauchen:** 10–15 Minuten (für interessierte Leser)
 
-## Section-by-Section Guide
+## Abschnitt für Abschnitt
 
-### 1. Overview Section
+### 1. Überblick-Abschnitt
 
-**Purpose:** Hook the reader, provide context
+**Zweck:** Leser einhaken, Kontext geben
 
-**Include:**
-- Project name and company
-- Your role
-- Timeline
-- Team size
-- One-sentence summary of impact
+**Einbeziehen:**
+- Projektname und Unternehmen
+- Ihre Rolle
+- Zeitraum
+- Teamgröße
+- Ein-Satz-Impact-Zusammenfassung
 
-**Example:**
+**Beispiel:**
 ```
-# Redesigning the Checkout Flow
+# Checkout-Flow neu gestalten
 
-**Company:** E-Commerce Inc.
-**Role:** Lead Product Designer
-**Timeline:** 6 weeks
-**Team:** 2 designers, 3 engineers, 1 PM
+**Unternehmen:** E-Commerce GmbH
+**Rolle:** Lead Product Designer
+**Zeitraum:** 6 Wochen
+**Team:** 2 Designer, 3 Entwickler, 1 PM
 
-**Summary:** Reduced cart abandonment by 35% through a streamlined 3-step checkout process, generating $2M in recovered revenue.
-```
-
-### 2. Problem Section
-
-**Purpose:** Set up why this work mattered
-
-**Include:**
-- Business context
-- User pain points
-- Key metrics or goals
-- Constraints
-
-**Example:**
-```
-## The Problem
-
-E-Commerce Inc. was experiencing 68% cart abandonment—significantly higher than the industry average of 55%. Exit surveys and user research revealed several issues:
-
-- **Too many steps:** Our checkout had 7 screens
-- **Forced account creation:** Users had to register before purchasing
-- **Hidden costs:** Shipping wasn't shown until step 5
-- **Mobile friction:** Forms weren't optimized for mobile
-
-**Goal:** Reduce cart abandonment to below 50% within 3 months.
-
-**Constraints:**
-- No changes to existing payment integrations
-- Had to maintain PCI compliance
-- 6-week timeline before holiday season
+**Zusammenfassung:** Warenkorbabbrüche um 35% reduziert durch optimierten 3-Schritt-Checkout, was zu 2 Mio. € zurückgewonnenem Umsatz führte.
 ```
 
-### 3. Process Section
+### 2. Problem-Abschnitt
 
-**Purpose:** Show your thinking and methodology
+**Zweck:** Erklären, warum diese Arbeit wichtig war
 
-**Include:**
-- Research conducted
-- Stakeholders involved
-- Hypotheses formed
-- Options considered
-- Decisions made (and why)
+**Einbeziehen:**
+- Business-Kontext
+- Nutzerproblemstellen
+- Wichtige Kennzahlen oder Ziele
+- Einschränkungen
 
-**Example:**
+**Beispiel:**
 ```
-## Process
+## Das Problem
 
-### Research
-I started by understanding the problem deeply:
-- Analyzed Mixpanel funnel data for drop-off points
-- Conducted 10 user interviews with recent abandoners
-- Reviewed heatmaps and session recordings
-- Benchmarked against 5 competitor checkout flows
+E-Commerce GmbH hatte 68% Warenkorbabbrüche – deutlich über dem Branchendurchschnitt von 55%. Exit-Umfragen und Nutzerrecherche enthüllten mehrere Probleme:
 
-**Key Insight:** 73% of drop-offs occurred at the account creation screen. Users wanted to purchase, not commit to a relationship.
+- **Zu viele Schritte:** Unser Checkout hatte 7 Bildschirme
+- **Erzwungene Kontoerstellung:** Nutzer mussten sich vor dem Kauf registrieren
+- **Versteckte Kosten:** Versandkosten erst in Schritt 5 angezeigt
+- **Mobile Probleme:** Formulare nicht für Mobilgeräte optimiert
+
+**Ziel:** Warenkorbabbrüche innerhalb von 3 Monaten unter 50% senken.
+
+**Einschränkungen:**
+- Keine Änderungen an bestehenden Zahlungsintegrationen
+- PCI-DSS-Compliance muss erhalten bleiben
+- 6-Wochen-Zeitplan vor der Weihnachtssaison
+```
+
+### 3. Prozess-Abschnitt
+
+**Zweck:** Denken und Methodik zeigen
+
+**Einbeziehen:**
+- Durchgeführte Recherchen
+- Beteiligte Stakeholder
+- Gebildete Hypothesen
+- Betrachtete Optionen
+- Getroffene Entscheidungen (und warum)
+
+**Beispiel:**
+```
+## Prozess
+
+### Recherche
+Zunächst das Problem tiefgehend verstanden:
+- Mixpanel-Trichterdaten auf Ausstiegspunkte analysiert
+- 10 Nutzerinterviews mit jüngst abgebrochenen Käufen geführt
+- Heatmaps und Session-Recordings ausgewertet
+- 5 Wettbewerber-Checkout-Flows benchmarked
+
+**Schlüsselerkenntnis:** 73% der Abbrüche erfolgten beim Kontoerstellungs-Bildschirm. Nutzer wollten kaufen, nicht eine Beziehung eingehen.
 
 ### Ideation
-I explored several approaches:
-1. Guest checkout only (simplest)
-2. Social login options (lower friction)
-3. Progressive profiling (collect info over time)
-4. One-page checkout (Amazon-style)
+Verschiedene Ansätze erkundet:
+1. Nur Gastzahlung (einfachste)
+2. Social-Login-Optionen (geringere Hürde)
+3. Progressive Profilerstellung (Info über Zeit sammeln)
+4. One-Page-Checkout (Amazon-Stil)
 
-After weighing feasibility, timeline, and impact, we chose a hybrid approach...
+Nach Abwägung von Machbarkeit, Zeitplan und Impact wurde ein Hybrid-Ansatz gewählt...
 
-### Decisions Made
-- **Guest checkout first:** Made registration optional and post-purchase
-- **Transparent pricing:** Showed shipping on the first screen
-- **Mobile-first design:** Designed for mobile, then adapted for desktop
-- **Progress indicator:** Added clear "Step 1 of 3" indicator
+### Getroffene Entscheidungen
+- **Gastzahlung zuerst:** Registrierung optional und nach dem Kauf
+- **Transparente Preisgestaltung:** Versandkosten im ersten Bildschirm
+- **Mobile-first-Design:** Für Mobile designed, dann für Desktop angepasst
+- **Fortschrittsanzeige:** Klares „Schritt 1 von 3" hinzugefügt
 ```
 
-### 4. Solution Section
+### 4. Lösungs-Abschnitt
 
-**Purpose:** Show what you actually created
+**Zweck:** Zeigen, was konkret erstellt wurde
 
-**Include:**
-- Visual artifacts (mockups, screenshots, diagrams)
-- Key features/changes
-- Technical implementation (if relevant)
-- How it addressed the problems
+**Einbeziehen:**
+- Visuelle Artefakte (Mockups, Screenshots, Diagramme)
+- Schlüsselfeatures/-änderungen
+- Technische Implementierung (falls relevant)
+- Wie es die Probleme löste
 
-**Example:**
+### 5. Ergebnis-Abschnitt
+
+**Zweck:** Impact mit Daten belegen
+
+**Beispiel:**
 ```
-## Solution
+## Ergebnisse
 
-### The New Checkout Flow
+### Primäre Kennzahlen (90 Tage nach Launch)
 
-**Before:** 7 screens with mandatory registration
-**After:** 3 screens with optional guest checkout
-
-[IMAGE: Before/After comparison]
-
-### Key Changes
-
-**1. Transparent Pricing Widget**
-[IMAGE: Pricing widget mockup]
-Showed order total, shipping, and taxes from the start. No surprises.
-
-**2. Guest Checkout Option**
-[IMAGE: Guest checkout screen]
-Made account creation optional with clear value proposition for why to register.
-
-**3. Smart Form Design**
-[IMAGE: Form design]
-- Single-column layout on mobile
-- Auto-format for phone/card numbers
-- Address autocomplete integration
-- Clear error messaging
-
-**4. Trust Signals**
-Added security badges, money-back guarantee, and customer service contact throughout the flow.
-```
-
-### 5. Results Section
-
-**Purpose:** Prove impact with data
-
-**Include:**
-- Quantitative results (with timeframe)
-- Comparison to goals
-- Secondary metrics affected
-- Business impact
-
-**Example:**
-```
-## Results
-
-### Primary Metrics (90 days post-launch)
-
-| Metric | Before | After | Change |
-|--------|--------|-------|--------|
-| Cart Abandonment | 68% | 44% | -35% |
-| Checkout Completion | 32% | 56% | +75% |
+| Kennzahl | Vorher | Nachher | Veränderung |
+|----------|--------|---------|-------------|
+| Warenkorbabbrüche | 68% | 44% | -35% |
+| Checkout-Abschluss | 32% | 56% | +75% |
 | Mobile Conversion | 18% | 41% | +128% |
-| Revenue per Visitor | $2.40 | $3.85 | +60% |
+| Umsatz pro Besucher | 2,40 € | 3,85 € | +60% |
 
-### Business Impact
-- **$2M additional revenue** in first quarter
-- **15% increase in mobile orders**
-- **Customer support tickets about checkout** dropped by 45%
-
-### Secondary Effects
-- Account creation actually increased 20% (post-purchase)
-- Average order value stayed stable
-- Return customer rate improved
+### Business-Impact
+- **2 Mio. € Mehrumsatz** im ersten Quartal
+- **15% Anstieg mobiler Bestellungen**
+- **Kundensupport-Tickets zu Checkout** um 45% gesunken
 ```
 
-### 6. Learnings Section
+### 6. Erkenntnisse-Abschnitt
 
-**Purpose:** Show growth mindset and self-awareness
-
-**Include:**
-- What worked well
-- What you'd do differently
-- Unexpected challenges
-- Skills developed
-
-**Example:**
+**Beispiel:**
 ```
-## Learnings
+## Erkenntnisse
 
-### What Worked
-- **Early user research** prevented us from building the wrong solution
-- **Cross-functional alignment** meetings kept everyone on the same page
-- **Launching with analytics** let us measure impact immediately
+### Was gut funktioniert hat
+- **Frühe Nutzerrecherche** verhinderte die falsche Lösung
+- **Alignment-Meetings** hielten alle auf Kurs
+- **Analytics beim Launch** ermöglichten sofortige Messung
 
-### What I'd Do Differently
-- **More A/B testing:** We launched the full redesign at once. Would have preferred to test individual changes to understand what drove results.
-- **Earlier mobile focus:** We designed desktop-first then adapted. Starting mobile-first would have been more efficient.
-- **Stakeholder education:** Spent too long convincing leadership. Would start stakeholder alignment earlier next time.
-
-### Skills Developed
-- Advanced Figma prototyping
-- Working with A/B testing frameworks
-- Presenting data-driven design decisions to executives
+### Was ich anders machen würde
+- **Mehr A/B-Tests:** Wir haben das vollständige Redesign auf einmal gelauncht. Hätte lieber einzelne Änderungen testen wollen.
+- **Frühere Mobile-Fokussierung:** Wir haben Desktop-first designed. Mobile-first wäre effizienter gewesen.
+- **Frühere Stakeholder-Einbeziehung:** Zu lange damit verbracht, Führung zu überzeugen.
 ```
 
-## Case Study Types by Role
+## Fallstudientypen nach Rolle
 
-### Product Manager Case Study
-**Focus on:**
-- Strategy and prioritization
-- Stakeholder management
-- Metrics and outcomes
-- Technical trade-offs
+### Product-Manager-Fallstudie
+**Fokus auf:**
+- Strategie und Priorisierung
+- Stakeholder-Management
+- Kennzahlen und Ergebnisse
+- Technische Abwägungen
 
-### UX/Product Designer Case Study
-**Focus on:**
-- User research
-- Design process
-- Visual artifacts
-- Usability improvements
+### UX/Produkt-Designer-Fallstudie
+**Fokus auf:**
+- Nutzerrecherche
+- Designprozess
+- Visuelle Artefakte
+- Usability-Verbesserungen
 
-### Software Engineer Case Study
-**Focus on:**
-- Technical architecture
-- Problem-solving approach
-- System design
-- Code quality/performance
+### Software-Engineer-Fallstudie
+**Fokus auf:**
+- Technische Architektur
+- Problemlösungsansatz
+- Systemdesign
+- Code-Qualität/Performance
 
-### Marketing Case Study
-**Focus on:**
-- Strategy and targeting
-- Creative execution
-- Channel performance
-- ROI and attribution
+### Marketing-Fallstudie
+**Fokus auf:**
+- Strategie und Targeting
+- Kreative Umsetzung
+- Kanal-Performance
+- ROI und Attribution
 
-## Visual Elements
+## Visuelle Elemente
 
-### Must-Have Visuals
-- Before/after comparisons
-- Key screens or deliverables
-- Process diagrams
-- Results charts
+### Must-Have
+- Vorher/Nachher-Vergleiche
+- Wichtige Bildschirme oder Deliverables
+- Prozessdiagramme
+- Ergebnisdiagramme
 
-### Nice-to-Have Visuals
-- User journey maps
-- Wireframes evolution
-- Research artifacts
-- Team photos
+### Visuelle Tipps
+- Konsistente Bildgrößen verwenden
+- Bildunterschriften für jedes Bild
+- Sensible Daten unkenntlich machen
+- Mobile-freundliche Bildgrößen
 
-### Visual Tips
-- Use consistent image sizing
-- Add captions explaining each image
-- Blur sensitive data if needed
-- Ensure mobile-friendly image sizes
-
-## Output Format
-
-When creating a case study:
+## Ausgabeformat
 
 ```markdown
-# CASE STUDY: [PROJECT NAME]
+# FALLSTUDIE: [PROJEKTNAME]
 
-## Quick Facts
-- **Role:** [Your role]
-- **Company:** [Company]
-- **Timeline:** [Duration]
-- **Team:** [Team composition]
-- **Impact:** [One-line result]
+## Kurzfakten
+- **Rolle:** [Ihre Rolle]
+- **Unternehmen:** [Unternehmen]
+- **Zeitraum:** [Dauer]
+- **Team:** [Teamzusammensetzung]
+- **Impact:** [Einzeiliges Ergebnis]
 
 ---
 
-## Overview
-[2-3 sentence summary of the project]
+## Überblick
+[2–3 Satz-Zusammenfassung]
 
 ## Problem
-[Context and challenges - what needed to be solved]
+[Kontext und Herausforderungen]
 
-## Process
-### Research
-[What you learned]
+## Prozess
+### Recherche
+[Was Sie gelernt haben]
 
-### Approach
-[How you tackled it]
+### Ansatz
+[Wie Sie es angegangen sind]
 
-### Key Decisions
-[Important choices and rationale]
+### Schlüsselentscheidungen
+[Wichtige Entscheidungen und Begründungen]
 
-## Solution
-[What you built/created - include visual descriptions]
+## Lösung
+[Was gebaut/erstellt wurde]
 
-### Feature 1
-[Description]
+## Ergebnisse
+[Quantifizierter Impact]
 
-### Feature 2
-[Description]
+| Kennzahl | Vorher | Nachher | Veränderung |
+|----------|--------|---------|-------------|
 
-## Results
-[Quantified impact]
-
-| Metric | Before | After | Change |
-|--------|--------|-------|--------|
-
-## Learnings
-[Reflections and growth]
+## Erkenntnisse
+[Reflexionen und Wachstum]
 
 ---
 
-## Visual Asset List
-[List of images/screenshots needed]
+## Visuelle Anforderungen
+[Liste benötigter Bilder/Screenshots]
 ```
 
-## Case Study Quality Checklist
+## Qualitätscheckliste
 
-- ✅ Clear problem statement
-- ✅ Evidence of user/customer focus
-- ✅ Process clearly explained
-- ✅ Your specific contributions are clear
-- ✅ Quantified results
-- ✅ Visual artifacts included
-- ✅ Honest about challenges/learnings
-- ✅ Appropriate length (3-10 min read)
-- ✅ Proofread and polished
-- ✅ Can discuss in detail in interview
+- ✅ Klares Problemstatement
+- ✅ Nutzer-/Kundenfokus erkennbar
+- ✅ Prozess klar erklärt
+- ✅ Eigene Beiträge deutlich
+- ✅ Quantifizierte Ergebnisse
+- ✅ Visuelle Artefakte einbezogen
+- ✅ Ehrlich über Herausforderungen/Erkenntnisse
+- ✅ Angemessene Länge (3–10 Min. Lesezeit)
+- ✅ Korrekturgelesen und poliert
+- ✅ Im Interview detailliert erläuterbar
