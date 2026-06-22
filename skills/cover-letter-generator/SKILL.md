@@ -1,277 +1,258 @@
 ---
 name: cover-letter-generator
-description: Create personalized, compelling cover letters from resume and job description
+description: Personalisierte, überzeugende Anschreiben aus Lebenslauf und Stellenbeschreibung erstellen
 ---
 
-# Cover Letter Generator
+# Anschreiben-Generator
 
-## When to Use This Skill
+## Wann diesen Skill verwenden
 
-Use this skill when the user wants to:
-- Write a cover letter for a job application
-- Create a personalized application letter
-- Address specific job requirements in letter format
-- Mentions: "cover letter", "application letter", "write cover letter", "letter for job"
+Diesen Skill verwenden, wenn der Nutzer:
+- Ein Anschreiben für eine Bewerbung verfassen möchte
+- Einen personalisierten Bewerbungsbrief erstellen möchte
+- Spezifische Stellenanforderungen im Briefformat ansprechen möchte
+- Erwähnt: „Anschreiben", „Bewerbungsschreiben", „Motivationsschreiben", „Begleitschreiben"
 
-Use AFTER analyzing job description to have clear talking points.
+Nach der Stellenbeschreibungsanalyse verwenden, um klare Argumente zu haben.
 
-## Core Capabilities
+## Kernfähigkeiten
 
-- Generate personalized cover letters from resume + job description
-- Match tone to company culture
-- Address qualification gaps strategically
-- Create compelling opening hooks
-- Structure persuasive arguments for candidacy
-- Maintain authenticity while selling effectively
+- Personalisierte Anschreiben aus Lebenslauf + Stellenbeschreibung generieren
+- Ton auf die Unternehmenskultur abstimmen
+- Qualifikationslücken strategisch ansprechen
+- Überzeugende Einstiegshaken entwickeln
+- Überzeugende Argumente für die Bewerbung strukturieren
+- Authentizität und effektive Selbstdarstellung verbinden
 
-## Cover Letter Philosophy
+## Philosophie des Anschreibens
 
-**The Problem:** Most cover letters are generic, boring, and add no value beyond the resume.
+**Das Problem:** Die meisten Anschreiben sind generisch, langweilig und fügen dem Lebenslauf keinen Mehrwert hinzu.
 
-**The Solution:** A great cover letter should:
-1. Show you've researched the company
-2. Connect YOUR specific experience to THEIR specific needs
-3. Address the "why you, why now, why here" questions
-4. Add personality and context a resume can't convey
+**Die Lösung:** Ein gutes Anschreiben sollte:
+1. Zeigen, dass man das Unternehmen recherchiert hat
+2. Die eigene Erfahrung mit den spezifischen Bedürfnissen des Unternehmens verbinden
+3. Die Fragen „Warum Sie, warum jetzt, warum hier" beantworten
+4. Persönlichkeit und Kontext vermitteln, die ein Lebenslauf nicht kann
 
-## The Perfect Cover Letter Structure
+## Die perfekte Anschreiben-Struktur
 
-### Length & Format
-- **Length:** 250-400 words (3-4 paragraphs)
-- **Format:** Professional business letter style
-- **Tone:** Confident but not arrogant, personalized but professional
+### Länge & Format
+- **Länge:** 250–400 Wörter (3–4 Absätze)
+- **Format:** Professioneller Geschäftsbrief-Stil
+- **Ton:** Selbstbewusst ohne Arroganz, persönlich und professionell
 
-### Structure Overview
+### Struktur-Überblick
 ```
-[Your Contact Info]
-[Date]
-[Recipient Info]
+[Ihre Kontaktdaten]
+[Datum]
+[Empfänger-Daten]
 
-Opening Paragraph: Hook + Position + Why This Company (2-3 sentences)
+Eröffnungsabsatz: Hook + Stelle + Warum dieses Unternehmen (2–3 Sätze)
 
-Body Paragraph 1: Your strongest qualification match (3-4 sentences)
+Hauptabsatz 1: Stärkste Qualifikationsübereinstimmung (3–4 Sätze)
 
-Body Paragraph 2: Additional qualifications + address any gaps (3-4 sentences)
+Hauptabsatz 2: Weitere Qualifikationen + Lücken ansprechen (3–4 Sätze)
 
-Closing Paragraph: Call to action + enthusiasm (2-3 sentences)
+Schlussabsatz: Call-to-Action + Begeisterung (2–3 Sätze)
 
-[Professional Sign-off]
-```
-
-## Opening Paragraph Strategies
-
-The opening is critical - you have 5 seconds to grab attention.
-
-### Hook Types (Choose One)
-
-**1. Specific Company Knowledge**
-```
-"I was excited to see TechCorp's recent launch of your API marketplace - as a Product Manager who's spent 3 years building developer tools, I immediately saw how my experience could accelerate your platform growth."
+[Professionelle Grußformel]
 ```
 
-**2. Mutual Connection**
-```
-"Sarah Chen on your engineering team mentioned you're looking for a PM to lead the payments initiative. Having worked with Sarah at [Previous Company] and led payment integrations at [Current Company], I'd love to discuss how I could contribute."
-```
+## Strategien für den Eröffnungsabsatz
 
-**3. Problem-Solver**
-```
-"Your job description mentions the challenge of aligning technical and business stakeholders - I've navigated this exact challenge, successfully launching 8 products by building shared roadmap visibility across engineering, sales, and executive teams."
-```
+Die Eröffnung ist entscheidend – Sie haben 5 Sekunden, um Aufmerksamkeit zu gewinnen.
 
-**4. Impressive Achievement**
+### Hook-Typen (einen wählen)
+
+**1. Spezifisches Unternehmenswissen**
 ```
-"Last year, I led a product that grew from 0 to 100K users in 6 months. I'm excited about the opportunity to bring that growth mindset to [Company]'s expanding product line."
+„Das Markteinführung des API-Marktplatzes von TechCorp hat mich sofort angesprochen – als Produktmanager mit 3 Jahren Erfahrung im Aufbau von Entwickler-Tools sah ich sofort, wie meine Erfahrung Ihr Plattformwachstum beschleunigen kann."
 ```
 
-**5. Industry Insight**
+**2. Gegenseitige Verbindung**
 ```
-"The B2B payments space is at an inflection point, and [Company]'s approach to embedded finance positions you perfectly for the next wave. As someone who's been building in fintech for 5 years, I'd love to contribute to that growth."
-```
-
-### Opening Don'ts
-- ❌ "I am writing to apply for..." (boring, obvious)
-- ❌ "I am the perfect candidate..." (let them decide)
-- ❌ "I saw your job posting on LinkedIn..." (generic)
-- ❌ Starting with "I" (start with them or a hook)
-
-## Body Paragraph Frameworks
-
-### Body Paragraph 1: Direct Match
-
-Connect your strongest experience to their top requirement.
-
-**Formula:** [Their Need] + [Your Exact Experience] + [Specific Result]
-
-```
-Your focus on data-driven product decisions aligns perfectly with my approach. At [Company], I implemented a product analytics framework that increased feature adoption by 40% by identifying and prioritizing high-impact opportunities through A/B testing and user behavior analysis.
+„[Name] aus Ihrem Engineering-Team hat mir erzählt, dass Sie einen PM für die Payments-Initiative suchen. Da ich mit [Name] bei [früherem Unternehmen] zusammengearbeitet und dort Zahlungsintegrationen geleitet habe, würde ich gerne besprechen, wie ich Ihr Team bereichern kann."
 ```
 
-### Body Paragraph 2: Broader Value + Gap Handling
-
-Show additional value and proactively address concerns.
-
-**If you have gaps, address them:**
+**3. Problemlöser**
 ```
-While my SQL experience is developing (currently completing DataCamp's SQL track), I bring strong analytical skills demonstrated through building Tableau dashboards that informed $2M in strategic decisions. I've consistently collaborated effectively with data teams and have a track record of quickly ramping on new tools.
+„Ihre Stellenbeschreibung erwähnt die Herausforderung, technische und geschäftliche Stakeholder zu alignen – genau dieser Herausforderung begegne ich täglich und habe dabei 8 Produkte erfolgreich durch gemeinsame Roadmap-Transparenz über Engineering, Vertrieb und Führung geführt."
 ```
 
-**If no gaps, add more value:**
+**4. Beeindruckende Leistung**
 ```
-Beyond product management, I bring [relevant additional skill]. At [Company], this enabled me to [specific achievement]. I'm particularly drawn to [Company] because [specific reason showing research].
-```
-
-## Closing Paragraph
-
-End with confidence and a clear call to action.
-
-**Strong Closing Example:**
-```
-I'm excited about the opportunity to bring my [specific skill] experience to [Company]'s [specific initiative or product]. I'd welcome the chance to discuss how my background in [key area] could contribute to your team's goals. Thank you for considering my application.
+„Letztes Jahr habe ich ein Produkt geleitet, das in 6 Monaten von 0 auf 100.000 Nutzer wuchs. Ich freue mich, diese Wachstumsorientierung in [Unternehmens] wachsende Produktpalette einzubringen."
 ```
 
-**Elements of a Good Close:**
-- Express genuine enthusiasm (for something specific)
-- Reference a specific contribution you'd make
-- Clear call to action (discuss, meet, etc.)
-- Thank them
-
-**Closing Don'ts:**
-- ❌ "I look forward to hearing from you" (passive)
-- ❌ "Please find my resume attached" (obvious)
-- ❌ "I am available for an interview at your convenience" (desperate)
-
-## Complete Cover Letter Template
-
+**5. Brancheneinblick**
 ```
-[Your Name]
-[Your Email] | [Your Phone] | [LinkedIn URL]
-[City, State]
-
-[Date]
-
-[Hiring Manager Name, if known]
-[Title]
-[Company Name]
-[Company Address]
-
-Dear [Mr./Ms. Last Name / Hiring Manager],
-
-[OPENING HOOK - 1-2 sentences grabbing attention with company knowledge, mutual connection, or impressive achievement]
-
-[BRIDGE TO POSITION - 1 sentence stating the role and your interest]
-
-[BODY 1 - 3-4 sentences connecting your strongest relevant experience to their primary requirement. Include specific metrics and results.]
-
-[BODY 2 - 3-4 sentences adding additional value, addressing any gaps if needed, and demonstrating company research/culture fit]
-
-[CLOSING - 2-3 sentences expressing enthusiasm, suggesting next steps, and thanking them]
-
-Sincerely,
-[Your Name]
+„Der B2B-Zahlungsmarkt steht an einem Wendepunkt, und [Unternehmens] Ansatz zu Embedded Finance positioniert Sie ideal für die nächste Welle. Als jemand, der seit 5 Jahren im FinTech-Bereich aufbaut, würde ich gerne zu diesem Wachstum beitragen."
 ```
 
-## Industry-Specific Considerations
+### Eröffnungs-Verbote
+- ❌ „Hiermit bewerbe ich mich um..." (langweilig, offensichtlich)
+- ❌ „Ich bin der ideale Kandidat..." (sollen sie entscheiden)
+- ❌ „Ich habe Ihre Stellenanzeige auf LinkedIn gesehen..." (generisch)
+- ❌ Mit „Ich" beginnen (mit ihnen oder einem Hook starten)
+
+## Hauptabsatz-Rahmenwerke
+
+### Hauptabsatz 1: Direkte Übereinstimmung
+
+**Formel:** [Ihr Bedarf] + [Meine exakte Erfahrung] + [Spezifisches Ergebnis]
+
+```
+„Ihr Fokus auf datengetriebene Produktentscheidungen deckt sich mit meinem Ansatz. Bei [Unternehmen] habe ich ein Produktanalyse-Framework implementiert, das die Feature-Adoptionsrate um 40% steigerte, indem ich durch A/B-Tests und Nutzerverhaltensdaten hochimpaktige Möglichkeiten identifizierte."
+```
+
+### Hauptabsatz 2: Breiterer Mehrwert + Lücken
+
+**Falls Lücken vorhanden:**
+```
+„Obwohl meine SQL-Erfahrung sich noch entwickelt (ich absolviere aktuell einen Kurs), bringe ich starke analytische Fähigkeiten mit, die ich durch Tableau-Dashboards für 2 Mio. € strategische Entscheidungen demonstriert habe. Ich arbeite eng mit Datenteams zusammen und lerne neue Tools schnell."
+```
+
+**Falls keine Lücken:**
+```
+„Neben dem Produktmanagement bringe ich [relevante Zusatzfähigkeit] mit. Bei [Unternehmen] ermöglichte mir das, [konkrete Leistung]. Ich bin besonders an [Unternehmen] interessiert, weil [spezifischer Grund mit Recherchebezug]."
+```
+
+## Schlussabsatz
+
+Mit Selbstvertrauen und klarem Call-to-Action enden.
+
+**Starkes Abschluss-Beispiel:**
+```
+„Ich freue mich auf die Möglichkeit, meine [spezifische Fähigkeit] in [Unternehmens] [spezifische Initiative] einzubringen. Gerne bespreche ich, wie mein Hintergrund in [Kernbereich] zu den Zielen Ihres Teams beiträgt. Vielen Dank für Ihre Berücksichtigung."
+```
+
+**Schluss-Verbote:**
+- ❌ „Ich freue mich auf Ihre Rückmeldung" (passiv)
+- ❌ „Im Anhang finden Sie meinen Lebenslauf" (offensichtlich)
+- ❌ „Ich stehe für ein Gespräch zu Ihrer Verfügung" (zu bescheiden)
+
+## Vollständiges Anschreiben-Template
+
+```
+[Ihr Name]
+[Ihre E-Mail] | [Ihre Telefonnummer] | [LinkedIn-URL]
+[Stadt]
+
+[Datum]
+
+[Name der Ansprechperson, falls bekannt]
+[Position]
+[Unternehmensname]
+[Unternehmensadresse]
+
+Sehr geehrte/r [Herr/Frau Nachname / Damen und Herren],
+
+[ERÖFFNUNGS-HOOK – 1–2 Sätze mit Unternehmenswissen, Kontakt oder Leistung]
+
+[BRÜCKE ZUR STELLE – 1 Satz zur Stelle und Ihrem Interesse]
+
+[HAUPTTEIL 1 – 3–4 Sätze, die stärkste relevante Erfahrung mit Hauptanforderung verbinden. Konkrete Kennzahlen und Ergebnisse einbringen.]
+
+[HAUPTTEIL 2 – 3–4 Sätze mit weiterem Mehrwert, ggf. Lücken ansprechen und Unternehmensrecherche zeigen]
+
+[SCHLUSS – 2–3 Sätze, Begeisterung ausdrücken, nächste Schritte vorschlagen, bedanken]
+
+Mit freundlichen Grüßen,
+[Ihr Name]
+```
+
+## Branchenspezifische Überlegungen
 
 ### Tech/Engineering
-- Mention specific technologies
-- Reference GitHub, portfolio, or technical projects
-- Show you understand their tech stack
+- Spezifische Technologien nennen
+- GitHub, Portfolio oder technische Projekte erwähnen
+- Zeigen, dass man den Tech-Stack versteht
 
-### Marketing/Creative
-- Show creativity in the letter itself (within reason)
-- Reference their campaigns or brand voice
-- Include relevant metrics (engagement, conversion, etc.)
+### Marketing/Kreativ
+- Im Brief selbst Kreativität zeigen (im Rahmen)
+- Kampagnen oder Markenstimme des Unternehmens referenzieren
+- Relevante Kennzahlen einbringen
 
-### Finance/Consulting
-- More formal tone
-- Lead with credentials/certifications
-- Emphasize analytical rigor and results
+### Finance/Beratung
+- Formellerer Ton
+- Mit Qualifikationen/Zertifikaten führen
+- Analytische Strenge und Ergebnisse betonen
 
-### Startup vs. Enterprise
-**Startup:** More casual, show scrappiness, emphasize growth mindset
-**Enterprise:** More formal, emphasize process and scale experience
+### Start-up vs. Konzern
+**Start-up:** Lockerer, Agilität zeigen, Wachstumsorientierung betonen
+**Konzern:** Formeller, Prozess- und Skalierungserfahrung hervorheben
 
-## Handling Common Scenarios
+## Sondersituationen
 
-### When You Don't Know the Hiring Manager
+### Wenn kein Ansprechpartner bekannt
 ```
-Dear Hiring Manager,
-OR
-Dear [Department] Team,
-OR
-Dear [Company Name] Recruiting Team,
-```
-Avoid "To Whom It May Concern" (too impersonal)
-
-### When You Have a Referral
-Lead with it:
-```
-"[Name] on your [team] team suggested I reach out about the [Position] role. Having [connection to referrer], I was excited to learn about [Company]'s work in [area]."
+Sehr geehrte Damen und Herren,
+ODER
+Sehr geehrtes [Abteilung]-Team,
 ```
 
-### When You're Underqualified
-Don't apologize. Instead, emphasize:
-- Transferable skills
-- Quick learning ability
-- Genuine enthusiasm
-- Related experience that compensates
-
-### When You're Overqualified
-Explain your motivation:
+### Bei einer Empfehlung
 ```
-"After 10 years leading large teams, I'm energized by the opportunity to return to hands-on [function] work at a company where I can make direct impact on [specific area]."
+„[Name] aus Ihrem [Team] hat mir empfohlen, mich bezüglich der [Position] zu melden..."
 ```
 
-### When Addressing Career Change
+### Bei Unterqualifikation
+Nicht entschuldigen. Stattdessen betonen:
+- Übertragbare Fähigkeiten
+- Schnelle Lernfähigkeit
+- Echte Begeisterung
+- Verwandte Erfahrung als Ausgleich
+
+### Bei Überqualifikation
+Motivation erklären:
 ```
-"While my background is in [Previous Field], I've been actively building [New Field] skills through [courses, projects, etc.]. My experience in [transferable skill] translates directly to [new role] through [specific connection]."
+„Nach 10 Jahren Führung großer Teams bin ich begeistert von der Möglichkeit, zur praktischen [Funktion] zurückzukehren, wo ich direkten Einfluss auf [spezifischen Bereich] haben kann."
 ```
 
-## Output Format
+### Bei Berufswechsel
+```
+„Obwohl mein Hintergrund in [bisheriges Feld] liegt, baue ich aktiv [neues Feld]-Kenntnisse durch [Kurse, Projekte usw.] auf. Meine Erfahrung in [übertragbare Fähigkeit] lässt sich durch [spezifische Verbindung] direkt auf [neue Rolle] übertragen."
+```
 
-When generating a cover letter, provide:
+## Ausgabeformat
 
 ```markdown
-# COVER LETTER FOR [POSITION] AT [COMPANY]
+# ANSCHREIBEN FÜR [STELLE] BEI [UNTERNEHMEN]
 
-## Analysis Summary
-- Match Score: [From JD Analyzer]
-- Key Strengths to Highlight: [List]
-- Gaps to Address: [List or "None"]
-- Company Research Notes: [Key facts to reference]
+## Analyse-Zusammenfassung
+- Übereinstimmungswert: [Aus Stellenbeschreibungsanalyse]
+- Stärken zum Hervorheben: [Liste]
+- Anzusprechende Lücken: [Liste oder „Keine"]
+- Unternehmensrecherche: [Wichtige Fakten]
 
-## Generated Cover Letter
+## Generiertes Anschreiben
 
-[Full cover letter text]
+[Vollständiger Anschreiben-Text]
 
 ---
 
-## Alternative Openings
+## Alternative Einstiege
 
-**Option 1 (Company Knowledge):**
-[Alternative opening hook]
+**Option 1 (Unternehmenswissen):**
+[Alternativer Hook]
 
-**Option 2 (Achievement-Led):**
-[Alternative opening hook]
+**Option 2 (Leistungsgeführt):**
+[Alternativer Hook]
 
-## Key Talking Points for Interview
-- [Point 1 from the letter to expand on]
-- [Point 2]
-- [Point 3]
+## Gesprächspunkte für das Interview
+- [Punkt 1 aus dem Brief zum Vertiefen]
+- [Punkt 2]
 ```
 
-## Quality Checklist
+## Qualitätscheckliste
 
-Before delivering any cover letter:
-
-1. ✅ Opens with a hook (not "I am writing to apply")
-2. ✅ Mentions specific company knowledge
-3. ✅ Connects experience directly to job requirements
-4. ✅ Includes at least one specific metric/achievement
-5. ✅ Addresses any obvious gaps (if applicable)
-6. ✅ Has confident but not arrogant tone
-7. ✅ Ends with clear call to action
-8. ✅ Is 250-400 words (3-4 paragraphs)
-9. ✅ Contains no typos or grammatical errors
-10. ✅ Would make you want to interview this person
+- ✅ Öffnet mit einem Hook (nicht „Hiermit bewerbe ich mich")
+- ✅ Nennt spezifisches Unternehmenswissen
+- ✅ Verbindet Erfahrung direkt mit Stellenanforderungen
+- ✅ Enthält mindestens eine konkrete Kennzahl/Leistung
+- ✅ Spricht offensichtliche Lücken an (falls vorhanden)
+- ✅ Hat selbstbewussten, nicht arroganten Ton
+- ✅ Endet mit klarem Call-to-Action
+- ✅ Ist 250–400 Wörter lang
+- ✅ Enthält keine Tipp- oder Grammatikfehler
+- ✅ Würde Sie zum Interview einladen

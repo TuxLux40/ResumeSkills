@@ -1,212 +1,172 @@
 ---
 name: cold-email-writer
-description: Write personalized cold outreach emails to hiring managers and founders — specific, human, not a pitch deck
+description: Personalisierte Kalt-E-Mails an Hiring Manager und Gründer schreiben – konkret, menschlich, kein Pitch-Deck
 ---
 
-# Cold Email Writer
+# Kalt-E-Mail-Schreiber
 
-## When to Use This Skill
+## Wann diesen Skill verwenden
 
-Use this skill when the user wants to:
-- Write a cold outreach email to a hiring manager, founder, or recruiter
-- Reach out about a job opening they weren't referred to
-- Introduce themselves to a company they want to work at
-- Mentions: "cold email", "reach out", "intro email", "outreach", "contact hiring manager"
+Diesen Skill verwenden, wenn der Nutzer:
+- Eine Kalt-E-Mail an einen Hiring Manager, Gründer oder Recruiter schreiben möchte
+- Sich auf eine Stelle bewerben möchte, ohne empfohlen worden zu sein
+- Sich einem Unternehmen vorstellen möchte, bei dem er arbeiten will
+- Erwähnt: „Kalt-E-Mail", „Kontakt aufnehmen", „Vorstellungs-E-Mail", „Outreach", „Hiring Manager kontaktieren"
 
-## Core Principle
+## Grundprinzip
 
-Cold emails fail because they sound like cover letters. The goal is to sound like a smart person who genuinely noticed something specific about the company — not a candidate broadcasting their credentials.
+Kalt-E-Mails scheitern, weil sie wie Anschreiben klingen. Das Ziel: klingen wie eine kluge Person, der etwas Spezifisches am Unternehmen aufgefallen ist – nicht wie ein Kandidat, der seine Qualifikationen aussendet.
 
-**The email should feel like:** A colleague mentioning something interesting they read, not a sales pitch.
+**Die E-Mail soll sich anfühlen wie:** Ein Kollege, der etwas Interessantes erwähnt, nicht wie ein Verkaufsgespräch.
 
-## The Template Structure
+## Die Template-Struktur
 
-### Subject
+### Betreff
 ```
-Quick intro — [First Name Last Name]
+Kurze Vorstellung – [Vorname Nachname]
 ```
-Simple. No clickbait. No role title. Just a name.
+Einfach. Kein Clickbait. Kein Jobtitel. Nur ein Name.
 
-### Opening — The Hook (2-3 sentences)
-Start with what genuinely pulled the candidate in. Must be specific to this company — not a generic compliment.
-
-```
-I just came across [Company] and ended up spending more time on it than I expected.
-[One specific thing that caught their attention — a stat, a product decision, a market insight from the JD or website]
-```
-
-**What makes a good hook:**
-- A specific number or stat from the company's materials ("only 5% of the market is online")
-- A product decision that shows you understand the domain ("you're building from scratch alongside underwriters, not just distribution")
-- A technical insight from the JD ("improving the data infrastructure for LLM usage, not just the model layer")
-
-**What makes a bad hook:**
-- Generic: "I love what you're building"
-- Vague: "Your mission resonates with me"
-- Flattering: "You're one of the most exciting companies in the space"
-
-### Location Disclosure (if international)
-If the candidate is in a different country from the company, disclose it early and casually:
+### Einstieg – Der Hook (2–3 Sätze)
+Mit dem beginnen, was den Bewerber wirklich angesprochen hat. Muss spezifisch für dieses Unternehmen sein – kein Allgemeinkompliment.
 
 ```
-Before you read further, I should mention I'm based in [country]. But if we both
-feel there's a strong fit, I'd be open to figuring things out.
+Ich bin gerade auf [Unternehmen] gestoßen und habe mehr Zeit dort verbracht als erwartet.
+[Eine konkrete Sache, die aufgefallen ist – eine Zahl, eine Produktentscheidung, eine Markterkenntnis aus der Stellenbeschreibung oder der Website]
 ```
 
-### Experience Gap (if applicable)
-If the role lists more years than the candidate has, acknowledge it briefly and redirect:
+**Was einen guten Hook ausmacht:**
+- Eine spezifische Zahl oder Statistik aus den Unternehmensunterlagen
+- Eine Produktentscheidung, die zeigt, dass man die Domäne versteht
+- Eine technische Erkenntnis aus der Stellenbeschreibung
+
+**Was einen schlechten Hook ausmacht:**
+- Generisch: „Ich liebe, was ihr aufbaut"
+- Vage: „Eure Mission spricht mich an"
+- Schmeichelnd: „Ihr seid eines der aufregendsten Unternehmen"
+
+### Standort (falls international)
+Falls der Bewerber in einem anderen Land als das Unternehmen ist:
 
 ```
-The role mentions [X] years of experience — I'm at [Y], but the work I've
-shipped is production-facing and I'd rather you judge that directly.
+Bevor Sie weiterlesen: Ich sitze in [Land]. Falls wir beide merken, dass es gut passt, bin ich offen, das zu lösen.
 ```
 
-### The Body — Who They Are (3-5 sentences)
-Current role → relevant past → one or two projects. Keep it contextual, not a list.
+### Erfahrungslücke (falls vorhanden)
+Falls die Stelle mehr Jahre verlangt, als der Bewerber hat:
 
 ```
-A bit about me: I currently work at [Company], [one line on what the company does],
-where I [what they actually do there — not a job title]. Before that I worked
-with teams in [region], mostly around [relevant domain].
-
-On the side I've been building [Project] ([link if applicable]) — [one line: what
-it is and one proof point like "got to paying clients" or "20K downloads"].
+Die Stelle nennt [X] Jahre Erfahrung – ich bin bei [Y], aber die Systeme, die ich geliefert habe, sind produktiv im Einsatz. Ich würde es vorziehen, wenn Sie das direkt beurteilen.
 ```
 
-**Rules:**
-- Mention work as context, not as proof of greatness
-- No achievement listings ("I increased X by Y%") — let the project speak
-- If current company is remote with a European/international team, say so explicitly
-- Keep project mentions to one or two max — the most relevant ones only
-
-### The Connection (1-2 sentences)
-Bridge between their background and the specific role. Should feel like an observation, not a claim.
+### Der Hauptteil – Wer man ist (3–5 Sätze)
+Aktuelle Stelle → relevante Vergangenheit → ein oder zwei Projekte. Kontextuell, keine Liste.
 
 ```
-I think you're looking for [what the role actually wants] — that's the kind of
-work I've been doing, and honestly I feel like I'd be a strong fit.
+Kurz zu mir: Ich arbeite derzeit bei [Unternehmen], [eine Zeile was das Unternehmen macht], wo ich [was ich wirklich tue – kein Jobtitel]. Zuvor habe ich mit Teams in [Region] gearbeitet, hauptsächlich rund um [relevante Domäne].
+
+Nebenbei baue ich [Projekt] ([Link falls vorhanden]) – [eine Zeile: was es ist und ein Nachweis wie „hat zahlende Kunden" oder „20.000 Downloads"].
 ```
 
-Or more specific:
-```
-My stack maps naturally to yours — [specific tech overlap]. But more than the
-stack, it's the [domain/problem] that I'm genuinely interested in.
-```
+**Regeln:**
+- Arbeit als Kontext erwähnen, nicht als Beweis für Großartigkeit
+- Keine Leistungsaufzählungen – das Projekt soll für sich sprechen
+- Wenn aktuelles Unternehmen remote mit internationalem Team: explizit sagen
+- Max. ein bis zwei Projekte – nur die relevantesten
 
-### Portfolio Link
-```
-More about me: [portfolio URL]
-```
-
-One line. No elaboration.
-
-### Closing
-End with low-pressure, confident energy. Not desperate, not corporate.
+### Die Verbindung (1–2 Sätze)
+Brücke zwischen Hintergrund und der spezifischen Stelle. Soll wie eine Beobachtung wirken, nicht wie eine Behauptung.
 
 ```
-I'm currently at [Company] and open to what's next. I think my experience lends
-nicely to what you're building — so I think we'd both get something out of a
-conversation.
-
-[First Name]
-[email]
+Ich glaube, Sie suchen [was die Stelle wirklich braucht] – das ist die Art Arbeit, die ich mache, und ich glaube ehrlich, ich wäre eine gute Besetzung.
 ```
 
-**Avoid:**
-- "I look forward to hearing from you"
-- "Please find attached my resume"
-- "I would love the opportunity to..."
-- "I am excited to potentially join..."
-
-## Research Before Writing
-
-Before writing the email, gather:
-1. **Company angle** — read their website, JD, or About page. Find one specific thing worth mentioning.
-2. **Recipient name** — LinkedIn, team page, or AngelList. "Hi [Name]" beats "Hi Hiring Manager" every time.
-3. **Relevant projects** — match the candidate's most relevant work to the role domain.
-4. **Stack overlap** — mention it only if there's a genuine match.
-
-If the user provides a JD but no company website, ask for it or fetch it before writing.
-
-## Length Guidelines
-
-- **Ideal:** 200–300 words
-- **Maximum:** 400 words
-- **Minimum:** 150 words (don't strip out substance for brevity)
-
-Longer is fine if every sentence earns its place. Cut anything that could apply to any company.
-
-## Output Format
-
-Always wrap the final email in a plain code block for clean copy-paste:
-
+Oder spezifischer:
 ```
-Subject: Quick intro — [Name]
-
-Hi [Name],
-
-[Email body]
-
-[First Name]
-[email]
+Mein Stack passt natürlich zu Ihrem – [konkrete Tech-Überschneidung]. Aber mehr als der Stack interessiert mich die [Domäne/das Problem].
 ```
 
-## Common Mistakes to Avoid
+### Portfolio-Link
+```
+Mehr über mich: [Portfolio-URL]
+```
+Eine Zeile. Keine Ausführungen.
 
-**Too confident:**
-❌ "I would be an exceptional addition to your team"
-❌ "My background uniquely positions me for this role"
-✅ "I feel like I'd be a strong fit" — states a belief, doesn't claim certainty
-
-**Too humble:**
-❌ "I know I may not have all the experience you're looking for, but..."
-❌ "I'm just reaching out on the off chance..."
-✅ Acknowledge gaps directly and move on — don't apologize
-
-**Too long:**
-❌ Three paragraphs listing every achievement
-✅ One paragraph on background, one on the connection
-
-**Too generic:**
-❌ Opening with "I am writing to express my interest in..."
-✅ Opening with what specifically pulled them to this company
-
-**No research:**
-❌ "I love your product and mission"
-✅ "The 5% stat — only 5% of a $25B market online — doesn't feel like a feature gap, it feels like an entire industry that hasn't digitised"
-
-## Example Email
+### Abschluss
+Mit entspannter, selbstbewusster Energie enden. Nicht verzweifelt, nicht formell.
 
 ```
-Subject: Quick intro — Sarah Chen
+Ich bin derzeit bei [Unternehmen] und offen für das Nächste. Ich glaube, meine Erfahrung passt gut zu dem, was Sie aufbauen – deshalb denke ich, wir würden beide von einem Gespräch profitieren.
 
-Hi Marcus,
+[Vorname]
+[E-Mail]
+```
 
-I just came across Meridian and spent more time on your site than I planned.
-What pulled me in was the framing around your data infrastructure — you're not
-just building an LLM layer on top of existing records, you're rethinking how
-clinical data flows through the system in the first place. That's a harder
-problem and a more interesting one.
+**Vermeiden:**
+- „Ich freue mich auf Ihre Rückmeldung"
+- „Im Anhang finden Sie meinen Lebenslauf"
+- „Ich würde die Gelegenheit sehr begrüßen..."
+- „Ich wäre begeistert, möglicherweise..."
 
-I'm based in India, flagging that upfront. Happy to figure out the rest if
-there's a real fit.
+## Recherche vor dem Schreiben
 
-I currently work at Lune, a London-based climate intelligence company, where I
-build event-driven data pipelines and agentic AI workflows for emissions
-compliance — regulated, data-intensive systems where reliability isn't optional.
-I also built Memos, a RAG system from scratch: hybrid retrieval, reranking,
-ChromaDB, FastAPI. And InframetAI, an SDK for LLM cost and latency
-observability that came out of seeing what breaks when the data layer isn't
-designed around how models actually work.
+Vor dem Schreiben sammeln:
+1. **Unternehmens-Aspekt** – Website, Stellenbeschreibung oder „Über uns" lesen. Eine konkrete Sache finden, die es wert ist, erwähnt zu werden.
+2. **Name des Empfängers** – LinkedIn, Team-Seite oder AngelList. „Hallo [Name]" schlägt „Sehr geehrte/r Hiring Manager/in" jedes Mal.
+3. **Relevante Projekte** – relevanteste Arbeit des Bewerbers mit der Stellen-Domäne abgleichen.
+4. **Stack-Überschneidung** – nur erwähnen, wenn echte Überschneidung.
 
-I think you're looking for engineers who've actually built AI systems end to
-end, not just wrapped APIs. That's the work I've been doing.
+## Längenrichtwerte
 
-More about me: yourportfolio.com/about
+- **Ideal:** 200–300 Wörter
+- **Maximum:** 400 Wörter
+- **Minimum:** 150 Wörter
 
-I'm currently at Lune and open to what's next. I think my experience maps
-closely to what you're building — so I think we'd both get something out of
-a conversation.
+## Ausgabeformat
+
+```
+Betreff: Kurze Vorstellung – [Name]
+
+Hallo [Name],
+
+[E-Mail-Text]
+
+[Vorname]
+[E-Mail]
+```
+
+## Häufige Fehler vermeiden
+
+**Zu selbstbewusst:**
+❌ „Ich wäre eine außergewöhnliche Bereicherung für Ihr Team"
+✅ „Ich glaube, ich wäre eine gute Besetzung" – drückt eine Überzeugung aus, behauptet keine Gewissheit
+
+**Zu bescheiden:**
+❌ „Ich weiß, dass ich vielleicht nicht alle Anforderungen erfülle, aber..."
+✅ Lücken direkt ansprechen und weitermachen – nicht entschuldigen
+
+**Zu generisch:**
+❌ „Ich schreibe Ihnen, um mein Interesse an..."
+✅ Mit dem zu beginnen, was konkret an diesem Unternehmen aufgefallen ist
+
+## Beispiel-E-Mail
+
+```
+Betreff: Kurze Vorstellung – Sarah Chen
+
+Hallo Marcus,
+
+ich bin gerade auf Meridian gestoßen und habe mehr Zeit auf Ihrer Website verbracht als geplant. Was mich angesprochen hat, war die Ausrichtung rund um Ihre Dateninfrastruktur – Sie bauen nicht einfach eine KI-Schicht über bestehende Datensätze, Sie überdenken, wie klinische Daten durch das System fließen. Das ist ein schwierigeres Problem und ein interessanteres.
+
+Ich sitze in Indien – das sage ich direkt. Wenn wir beide merken, dass es gut passt, lösen wir den Rest.
+
+Ich arbeite derzeit bei Lune, einem Londoner Klimaintelligenz-Unternehmen, wo ich ereignisgesteuerte Datenpipelines und agentische KI-Workflows für Emissionscompliance baue – regulierte, datenintensive Systeme, bei denen Zuverlässigkeit keine Option ist. Nebenbei habe ich Memos gebaut, ein RAG-System from scratch: hybrides Retrieval, Reranking, ChromaDB, FastAPI. Und InframetAI, ein SDK für LLM-Kosten- und Latenz-Observability.
+
+Ich glaube, Sie suchen Ingenieure, die KI-Systeme wirklich end-to-end gebaut haben, nicht nur APIs verpackt. Das ist die Arbeit, die ich mache.
+
+Mehr über mich: ihrportfolio.com/about
+
+Ich bin derzeit bei Lune und offen für das Nächste. Ich glaube, meine Erfahrung passt nah an das, was Sie aufbauen – deshalb denke ich, wir würden beide von einem Gespräch profitieren.
 
 Sarah
 sarah@email.com

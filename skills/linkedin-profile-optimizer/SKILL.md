@@ -1,370 +1,280 @@
 ---
 name: linkedin-profile-optimizer
-description: Optimize LinkedIn profile for searchability, recruiter visibility, and engagement
+description: LinkedIn-Profil für Auffindbarkeit, Recruiter-Sichtbarkeit und Engagement optimieren
 ---
 
-# LinkedIn Profile Optimizer
+# LinkedIn-Profil-Optimierer
 
-## When to Use This Skill
+## Wann diesen Skill verwenden
 
-Use this skill when the user wants to:
-- Optimize their LinkedIn profile for job searching
-- Improve LinkedIn visibility and searchability
-- Sync their resume with their LinkedIn profile
-- Attract recruiters and job opportunities
-- Mentions: "LinkedIn", "LinkedIn profile", "optimize LinkedIn", "LinkedIn headline", "recruiter"
+Diesen Skill verwenden, wenn der Nutzer:
+- LinkedIn-Profil für die Jobsuche optimieren möchte
+- LinkedIn-Sichtbarkeit und Auffindbarkeit verbessern möchte
+- Lebenslauf mit LinkedIn-Profil synchronisieren möchte
+- Recruiter und Jobangebote anziehen möchte
+- Erwähnt: „LinkedIn", „LinkedIn-Profil", „LinkedIn optimieren", „LinkedIn-Überschrift", „Recruiter"
 
-## Core Capabilities
+## Kernfähigkeiten
 
-- Optimize headline for searchability
-- Write compelling About/Summary sections
-- Structure Experience section for impact
-- Improve profile completeness score
-- Add relevant keywords for recruiter searches
-- Align LinkedIn with resume while leveraging platform differences
+- Überschrift für Auffindbarkeit optimieren
+- Überzeugende Info/Zusammenfassung schreiben
+- Erfahrungsabschnitt strukturieren
+- Profilvollständigkeit verbessern
+- Relevante Schlüsselwörter für Recruiter-Suchen hinzufügen
+- LinkedIn mit Lebenslauf ausrichten unter Nutzung der Plattformunterschiede
 
-## LinkedIn vs. Resume: Key Differences
+## LinkedIn vs. Lebenslauf: Wesentliche Unterschiede
 
-| Aspect | Resume | LinkedIn |
-|--------|--------|----------|
-| Length | 1-2 pages | Unlimited |
-| Tone | Formal | More conversational |
-| Keywords | Job-specific | Industry-wide |
-| Audience | One specific employer | All recruiters |
-| Updates | Per application | Always current |
-| Personality | Minimal | Show more |
+| Aspekt | Lebenslauf | LinkedIn |
+|--------|-----------|----------|
+| Länge | 1–2 Seiten | Unbegrenzt |
+| Ton | Formell | Gesprächiger |
+| Schlüsselwörter | Stellenspezifisch | Branchenweit |
+| Zielgruppe | Ein Arbeitgeber | Alle Recruiter |
+| Updates | Je Bewerbung | Immer aktuell |
+| Persönlichkeit | Minimal | Mehr zeigen |
 
-## Profile Section Optimization
+## Profilabschnitt-Optimierung
 
-### 1. Profile Photo
+### 1. Profilfoto
 
-**Requirements:**
-- Professional headshot (not casual photo)
-- Face takes up 60% of frame
-- Neutral or branded background
-- Good lighting, high resolution
-- Appropriate attire for your industry
-- Friendly expression (slight smile)
+**Anforderungen:**
+- Professionelles Headshot (kein Urlaubsfoto)
+- Gesicht nimmt 60% des Bildrahmens ein
+- Neutraler oder markenkonsistenter Hintergrund
+- Gute Beleuchtung, hohe Auflösung
+- Für die Branche angemessene Kleidung
+- Freundlicher Ausdruck (leichtes Lächeln)
 
-**Impact:** Profiles with photos get 21x more views
+**Impact:** Profile mit Fotos erhalten 21x mehr Aufrufe
 
-### 2. Background Banner
+### 2. Hintergrundbanner
 
 **Best Practices:**
-- Use a professional design or industry-related image
-- Can include personal branding elements
-- Size: 1584 x 396 pixels
-- Avoid busy patterns that distract from your photo
+- Professionelles Design oder branchenbezogenes Bild
+- Kann persönliche Markenelemente enthalten
+- Größe: 1584 × 396 Pixel
+- Unruhige Muster vermeiden
 
-**Options:**
-- Company brand (if appropriate)
-- Industry-related imagery
-- Professional abstract design
-- Personal brand statement
+### 3. Überschrift (Wichtigste für Auffindbarkeit)
 
-### 3. Headline (Most Important for Searchability)
+**Zeichenlimit:** 220 Zeichen
 
-**Character Limit:** 220 characters
+**Formel:** [Rolle] | [Kernkompetenz] | [Wertversprechen]
 
-**Formula:** [Role] | [Key Expertise] | [Value Proposition]
+**Beispiele:**
 
-**Examples:**
+❌ **Schwache Überschriften:**
+- „Auf der Suche nach neuen Möglichkeiten"
+- „Arbeitslos suche neue Stelle"
+- „Offen für Arbeit"
 
-❌ **Weak Headlines:**
-- "Looking for opportunities"
-- "Unemployed Product Manager"
-- "Student at University"
-- "Open to work"
-
-✅ **Strong Headlines:**
+✅ **Starke Überschriften:**
 ```
-Senior Product Manager | B2B SaaS | Driving 0→1 Products from Concept to $10M ARR
+Senior Product Manager | B2B SaaS | Produkte von 0 auf 10 Mio. € ARR skaliert
 
-Data Scientist | Machine Learning & Analytics | Turning Data into Business Decisions
+Data Scientist | Machine Learning & Analytics | Daten in Geschäftsentscheidungen verwandeln
 
-Software Engineer | Python, AWS, Kubernetes | Building Scalable Systems at Fortune 500
+Software Engineer | Python, AWS, Kubernetes | Skalierbare Systeme bei DAX-Unternehmen
 
-Marketing Director | Growth & Brand Strategy | 3x Revenue Growth at Series B Startups
+Marketing Director | Wachstum & Markenstrategie | 3x Umsatzwachstum bei Series-B-Start-ups
 ```
 
-**Keyword Strategy:**
-Include terms recruiters search for:
-- Your job title (and variations)
-- Key skills (languages, tools, methodologies)
-- Industry terms
-- Certifications
+**Schlüsselwort-Strategie:**
+Begriffe einbeziehen, nach denen Recruiter suchen:
+- Berufsbezeichnung (und Variationen)
+- Kernfähigkeiten (Sprachen, Tools, Methoden)
+- Branchenbegriffe
+- Zertifizierungen
 
-### 4. About Section (Summary)
+### 4. Info-Abschnitt (Zusammenfassung)
 
-**Character Limit:** 2,600 characters
-**Recommended Length:** 1,500-2,000 characters (3-5 paragraphs)
+**Zeichenlimit:** 2.600 Zeichen
+**Empfohlene Länge:** 1.500–2.000 Zeichen
 
-**Structure:**
-
-```
-[HOOK - Compelling first line that shows up in preview]
-
-[PARAGRAPH 1: Who you are and what you do]
-
-[PARAGRAPH 2: Your key achievements and specialties]
-
-[PARAGRAPH 3: What you're looking for or passionate about]
-
-[SKILLS LIST: Core competencies, searchable keywords]
-
-[CALL TO ACTION: How to reach you]
-```
-
-**Example:**
+**Struktur:**
 
 ```
-I help SaaS companies turn product ideas into revenue.
+[HOOK – Überzeugender erster Satz, der in der Vorschau erscheint]
 
-For the past 8 years, I've been building products that people actually want to use. From a payments platform that processed $50M monthly to a developer tool used by 100K+ engineers, I've led cross-functional teams from idea to launch and beyond.
+[ABSATZ 1: Wer Sie sind und was Sie tun]
 
-What I do best:
-→ Transform ambiguous customer problems into clear product roadmaps
-→ Build and lead high-performing product teams
-→ Drive growth through data-informed decision making
-→ Bridge technical and business stakeholders
+[ABSATZ 2: Ihre Schlüsselleistungen und Spezialgebiete]
 
-Currently, I'm a Senior Product Manager at [Company], where I lead our API platform serving 500+ enterprise customers. Previously, I led product at [Previous Company] through their Series B and 10x growth.
+[ABSATZ 3: Wonach Sie suchen oder was Sie begeistert]
 
-Key skills: Product Strategy, Roadmap Planning, Agile/Scrum, User Research, A/B Testing, SQL, Data Analysis, Stakeholder Management, B2B SaaS, API Products
+[FÄHIGKEITENLISTE: Kernkompetenzen, suchbare Schlüsselwörter]
 
-Let's connect! I'm always happy to chat about product, SaaS, or career advice for aspiring PMs. Reach me at [email].
+[CALL TO ACTION: Wie man Sie kontaktiert]
 ```
 
-**First Line is Crucial:**
-Only ~300 characters show before "see more" - make them count!
-
-### 5. Experience Section
-
-**Key Differences from Resume:**
-- Can be longer and more detailed
-- Should include media (presentations, links)
-- Can show personality
-- Update regularly (not just when job hunting)
-
-**For Each Role Include:**
-- Clear job title
-- Company (with logo linked)
-- Date range
-- Location
-- Description (2-3 sentences about the role)
-- 4-6 bullet points with achievements
-- Media attachments if available
-
-**Example:**
+**Beispiel:**
 
 ```
-Senior Product Manager
-TechCorp Inc. · Full-time
-Jan 2021 - Present · 3 yrs 1 mo
-San Francisco, CA · Hybrid
+Ich helfe SaaS-Unternehmen, Produktideen in Umsatz zu verwandeln.
 
-Leading product strategy for TechCorp's API Platform, serving 500+ enterprise customers and generating $20M ARR.
+In den letzten 8 Jahren habe ich Produkte gebaut, die Menschen wirklich nutzen wollen. Von einer Zahlungsplattform mit 50 Mio. € monatlichem Transaktionsvolumen bis zu einem Developer-Tool mit 100.000+ Nutzern habe ich bereichsübergreifende Teams von der Idee bis zum Launch und darüber hinaus geführt.
 
-• Grew platform revenue from $5M to $20M ARR by launching 3 new product lines and expanding into enterprise segment
-• Led cross-functional team of 15 (engineering, design, data) to deliver 25+ features with 95% on-time delivery rate  
-• Improved customer retention from 82% to 94% through proactive feature development based on usage analytics
-• Established product analytics framework using Amplitude, increasing feature adoption by 40%
-• Collaborated with sales team to close 50+ enterprise deals worth $10M+ by participating in technical sales calls
+Was ich am besten kann:
+→ Unklare Kundenprobleme in klare Produkt-Roadmaps transformieren
+→ Hochleistungsfähige Produktteams aufbauen und führen
+→ Wachstum durch datengetriebene Entscheidungen fördern
+→ Technische und geschäftliche Stakeholder verbinden
 
-Skills: Product Management · B2B SaaS · API Design · Agile Methodology · Stakeholder Management
+Aktuell bin ich Senior Product Manager bei [Unternehmen], wo ich unsere API-Plattform für 500+ Enterprise-Kunden leite.
+
+Kernkompetenzen: Produktstrategie, Roadmap-Planung, Agile/Scrum, Nutzerforschung, A/B-Testing, SQL, Datenanalyse, Stakeholder-Management, B2B-SaaS, API-Produkte
+
+Gerne vernetzen! Ich spreche immer gerne über Produkt, SaaS oder Karrieretipps für angehende PMs. Erreichbar unter [E-Mail].
 ```
 
-### 6. Skills Section
+**Erster Satz ist entscheidend:**
+Nur ~300 Zeichen erscheinen vor „Mehr anzeigen" – diese nutzen!
 
-**Strategy:**
-- List up to 50 skills (use all 50!)
-- Order by relevance and endorsements
-- Get endorsements for top skills
-- Include both technical and soft skills
+### 5. Erfahrungsabschnitt
 
-**Categories to Include:**
-- Job-specific skills (Product Management, Data Analysis)
-- Tools (JIRA, Salesforce, Python)
-- Methodologies (Agile, Six Sigma)
-- Soft skills (Leadership, Communication)
-- Industry terms (B2B, SaaS, Enterprise)
+**Unterschiede zum Lebenslauf:**
+- Kann länger und detaillierter sein
+- Sollte Medien einbinden (Präsentationen, Links)
+- Kann Persönlichkeit zeigen
+- Regelmäßig aktualisieren
 
-**Top 3 Featured Skills:**
-Choose your three most important, most endorsed skills
+**Für jede Rolle einbeziehen:**
+- Klare Berufsbezeichnung
+- Unternehmen (mit Logo verknüpft)
+- Zeitraum
+- Standort
+- Beschreibung (2–3 Sätze zur Rolle)
+- 4–6 Aufzählungspunkte mit Leistungen
+- Medienanhänge wenn verfügbar
 
-### 7. Featured Section
+### 6. Fähigkeiten-Abschnitt
 
-**Use For:**
-- Portfolio pieces
-- Published articles
-- Presentations
-- Media coverage
-- Important posts
-- Project highlights
+**Strategie:**
+- Bis zu 50 Fähigkeiten auflisten (alle 50 nutzen!)
+- Nach Relevanz und Empfehlungen ordnen
+- Empfehlungen für Top-Fähigkeiten erhalten
+- Technische und Soft Skills einbeziehen
 
-**Why It Matters:**
-Appears prominently on profile - showcase your best work
+**Top-3-Hauptfähigkeiten:**
+Die drei wichtigsten, meistempfohlenen Fähigkeiten wählen
 
-### 8. Recommendations
+### 7. Hervorgehobener Abschnitt
 
-**Target:** 5-10 quality recommendations
+**Verwenden für:**
+- Portfolio-Stücke
+- Veröffentlichte Artikel
+- Präsentationen
+- Medienberichte
+- Wichtige Posts
+- Projekt-Highlights
 
-**Best Sources:**
-- Former managers
-- Direct reports
-- Cross-functional partners
-- Clients/customers
+### 8. Empfehlungen
 
-**How to Get Them:**
-1. Give recommendations first
-2. Ask specific people directly
-3. Make it easy - suggest talking points
-4. Time it right (after successful project)
+**Ziel:** 5–10 qualitativ hochwertige Empfehlungen
 
-## Keyword Optimization
+**Beste Quellen:**
+- Frühere Vorgesetzte
+- Senior Kolleg/innen, die Ihre Arbeit kennen
+- Bereichsübergreifende Partner
+- Kunden
 
-### Finding Keywords
-1. Search job descriptions for your target role
-2. Look at profiles of people in roles you want
-3. Use LinkedIn's Skills section suggestions
-4. Check industry publications for terminology
+**Wie man sie bekommt:**
+1. Zuerst selbst Empfehlungen geben
+2. Bestimmte Personen direkt ansprechen
+3. Es einfach machen – Gesprächspunkte vorschlagen
+4. Zeitpunkt wählen (nach erfolgreichem Projekt)
 
-### Keyword Placement
-Place keywords in:
-- Headline (highest weight)
-- About section (multiple times naturally)
-- Experience descriptions
-- Skills section
-- Recommendations (ask recommenders to use)
+## Schlüsselwort-Optimierung
 
-### Search Algorithm Tips
-- Exact matches matter (use exact phrases)
-- Keyword density helps (repeat important terms)
-- Recent activity boosts visibility
-- Complete profiles rank higher
-- Engagement increases reach
+### Schlüsselwörter finden
+1. Stellenbeschreibungen für Zielrolle durchsuchen
+2. Profile von Personen in Wunschrollen ansehen
+3. Vorschläge des LinkedIn-Fähigkeiten-Bereichs nutzen
+4. Branchenpublikationen auf Terminologie prüfen
 
-## Profile Completeness Checklist
+### Schlüsselwort-Platzierung
+Schlüsselwörter einbringen in:
+- Überschrift (höchstes Gewicht)
+- Info-Abschnitt (mehrfach natürlich)
+- Erfahrungsbeschreibungen
+- Fähigkeiten-Abschnitt
 
-**All-Star Profile Requirements:**
-- ✅ Professional photo
-- ✅ Custom headline (not just job title)
-- ✅ Current position with description
-- ✅ Two past positions
-- ✅ Education
-- ✅ At least 5 skills
-- ✅ Industry and postal code
-- ✅ 50+ connections
+### Suchalgorithmus-Tipps
+- Exakte Übereinstimmungen zählen
+- Schlüsselwortdichte hilft (wichtige Begriffe wiederholen)
+- Aktuelle Aktivität steigert Sichtbarkeit
+- Vollständige Profile ranken höher
 
-**Beyond All-Star:**
-- ✅ Custom background banner
-- ✅ Featured section populated
-- ✅ About section (1500+ characters)
-- ✅ Rich media in Experience
-- ✅ 500+ connections
-- ✅ Recommendations (5+)
-- ✅ All 50 skills listed
-- ✅ Volunteer experience
-- ✅ Certifications
+## Profilvollständigkeits-Checkliste
 
-## Recruiter Visibility Settings
+**All-Star-Profil-Anforderungen:**
+- ✅ Professionelles Foto
+- ✅ Individuelle Überschrift
+- ✅ Aktuelle Position mit Beschreibung
+- ✅ Zwei frühere Positionen
+- ✅ Ausbildung
+- ✅ Mindestens 5 Fähigkeiten
+- ✅ Branche und PLZ
+- ✅ 50+ Kontakte
 
-### Open to Work Feature
-**Settings to configure:**
-- Job titles you're interested in
-- Location preferences
-- Start date
-- Job types (full-time, contract, etc.)
+**Über All-Star hinaus:**
+- ✅ Individueller Hintergrundbanner
+- ✅ Hervorgehobener Abschnitt befüllt
+- ✅ Info-Abschnitt (1.500+ Zeichen)
+- ✅ Rich Media in Erfahrung
+- ✅ 500+ Kontakte
+- ✅ Empfehlungen (5+)
+- ✅ Alle 50 Fähigkeiten aufgelistet
+- ✅ Ehrenamtliche Erfahrung
+- ✅ Zertifizierungen
 
-**Visibility Options:**
-- All LinkedIn members (shows green badge)
-- Recruiters only (hidden, more discreet)
+## Recruiter-Sichtbarkeitseinstellungen
 
-### Profile Visibility
-Ensure these are ON:
-- Profile viewing options: Show full profile
-- Sharing profile edits: Your choice
-- Represent in LinkedIn Services: ON (if relevant)
+### „Offen für Arbeit"-Funktion
+**Einzustellen:**
+- Interessante Jobtitel
+- Standortpräferenzen
+- Startdatum
+- Beschäftigungstypen
 
-## Content Strategy
+**Sichtbarkeitsoptionen:**
+- Alle LinkedIn-Mitglieder (zeigt grünes Badge)
+- Nur Recruiter (versteckt, diskreter)
 
-### Why Post Content?
-- Increases profile visibility
-- Demonstrates expertise
-- Builds personal brand
-- Attracts opportunities
-
-### Content Types:
-1. Industry insights/opinions
-2. Professional lessons learned
-3. Career milestones
-4. Helpful resources
-5. Engagement with others' content
-
-### Posting Frequency:
-- Minimum: 1x per week
-- Optimal: 3-5x per week
-- Comment/engage: Daily
-
-## Output Format
-
-When optimizing a LinkedIn profile:
+## Ausgabeformat
 
 ```markdown
-# LINKEDIN PROFILE OPTIMIZATION
+# LINKEDIN-PROFIL-OPTIMIERUNG
 
-## Current Profile Assessment
-**Completeness:** X%
-**Searchability Score:** X/10
-**Key Issues:** [List]
+## Aktuelle Profilbewertung
+**Vollständigkeit:** X%
+**Auffindbarkeit:** X/10
+**Hauptprobleme:** [Liste]
 
-## Optimized Sections
+## Optimierte Abschnitte
 
-### Headline
-**Current:** [Their current headline]
-**Optimized:** [New headline with keywords]
+### Überschrift
+**Aktuell:** [Aktuelle Überschrift]
+**Optimiert:** [Neue Überschrift mit Schlüsselwörtern]
 
-### About Section
-[Full optimized About section text]
+### Info-Abschnitt
+[Vollständiger optimierter Info-Text]
 
-### Experience Improvements
-**[Company Name]**
-- Add: [Suggested additions]
-- Modify: [Suggested changes]
-- Media to add: [Suggestions]
+### Erfahrungsverbesserungen
+**[Unternehmensname]**
+- Hinzufügen: [Vorgeschlagene Ergänzungen]
+- Ändern: [Vorgeschlagene Anpassungen]
 
-### Skills to Add
-[List of skills to add based on target roles]
+### Hinzuzufügende Fähigkeiten
+[Liste der Fähigkeiten basierend auf Zielrollen]
 
-### Keywords Integrated
-[List of keywords added throughout profile]
-
-## Action Items
-1. [ ] Update headline
-2. [ ] Rewrite About section
-3. [ ] Update current role description
-4. [ ] Add X skills
-5. [ ] Request X recommendations
-6. [ ] Add featured content
-7. [ ] Upload professional photo
+## Maßnahmen
+1. [ ] Überschrift aktualisieren
+2. [ ] Info-Abschnitt neu schreiben
+3. [ ] Aktuelle Rollenbeschreibung aktualisieren
+4. [ ] X Fähigkeiten hinzufügen
+5. [ ] X Empfehlungen anfragen
+6. [ ] Hervorgehobene Inhalte hinzufügen
+7. [ ] Professionelles Foto hochladen
 ```
-
-## Resume-to-LinkedIn Sync
-
-### What to Keep the Same:
-- Core achievements and metrics
-- Job titles and dates
-- Key skills and qualifications
-- Overall career narrative
-
-### What to Expand:
-- More detail in descriptions
-- Additional context
-- More bullets per role
-- Personality and voice
-
-### What to Adjust:
-- Tone (more conversational)
-- Length (can be longer)
-- Keywords (broader than job-specific)
-- Call to action (add contact info)

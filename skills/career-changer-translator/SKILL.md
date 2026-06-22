@@ -1,368 +1,252 @@
 ---
 name: career-changer-translator
-description: Translate skills from one industry to another, identify transferable skills
+description: Fähigkeiten zwischen Branchen übersetzen und übertragbare Kompetenzen identifizieren
 ---
 
-# Career Changer Translator
+# Branchenwechsel-Übersetzer
 
-## When to Use This Skill
+## Wann diesen Skill verwenden
 
-Use this skill when the user:
-- Is switching careers or industries
-- Wants to translate their experience for a new field
-- Needs help identifying transferable skills
-- Mentions: "career change", "switching careers", "new industry", "transferable skills", "pivot"
+Diesen Skill verwenden, wenn der Nutzer:
+- Die Karriere oder Branche wechselt
+- Erfahrungen für ein neues Berufsfeld übersetzen möchte
+- Hilfe beim Identifizieren übertragbarer Fähigkeiten benötigt
+- Erwähnt: „Karrierewechsel", „Branchenwechsel", „neue Branche", „übertragbare Fähigkeiten", „Quereinstieg"
 
-## Core Capabilities
+## Kernfähigkeiten
 
-- Identify transferable skills across industries
-- Translate experience into new industry language
-- Reframe achievements for target roles
-- Bridge skill gaps strategically
-- Position career changes positively
-- Create compelling change narratives
+- Übertragbare Fähigkeiten branchenübergreifend identifizieren
+- Erfahrungen in die Sprache der neuen Branche übersetzen
+- Leistungen für Zielstellen neu formulieren
+- Kompetenzlücken strategisch schließen
+- Karrierewechsel positiv positionieren
+- Überzeugende Wechselnarrative entwickeln
 
-## The Career Change Challenge
+## Die Herausforderung beim Karrierewechsel
 
-**Why Career Changes Are Hard:**
-- Experience doesn't directly map to new role
-- Lacking industry-specific keywords
-- Recruiters prefer "safe" candidates
-- Need to explain "why" convincingly
-- Competing against people with direct experience
+**Warum Karrierewechsel schwierig sind:**
+- Erfahrungen passen nicht direkt auf die neue Stelle
+- Branchenspezifische Schlüsselwörter fehlen
+- Recruiter bevorzugen „sichere" Kandidaten
+- Das „Warum" überzeugend erklären müssen
+- Mit Kandidaten mit direkter Erfahrung konkurrieren
 
-**The Solution:**
-- Focus on transferable skills
-- Learn the new industry's language
-- Leverage adjacent experiences
-- Build bridge experiences
-- Tell a compelling story
+**Die Lösung:**
+- Übertragbare Fähigkeiten in den Vordergrund stellen
+- Sprache der neuen Branche erlernen
+- Verwandte Erfahrungen nutzen
+- Brückenerfahrungen aufbauen
+- Eine überzeugende Geschichte erzählen
 
-## Transferable Skills Framework
+## Rahmenwerk für übertragbare Fähigkeiten
 
-### Universal Transferable Skills
+### Universell übertragbare Fähigkeiten
 
-**Leadership & Management**
-- Team leadership
-- Project management
-- Budget oversight
-- Strategic planning
-- Performance management
-- Stakeholder management
+**Führung & Management**
+- Teamführung
+- Projektmanagement
+- Budgetverantwortung
+- Strategische Planung
+- Leistungsmanagement
+- Stakeholder-Management
 
-**Communication**
-- Presentation skills
-- Written communication
-- Client relations
-- Cross-functional collaboration
-- Negotiation
-- Conflict resolution
+**Kommunikation**
+- Präsentationsfähigkeiten
+- Schriftliche Kommunikation
+- Kundenbeziehungen
+- Bereichsübergreifende Zusammenarbeit
+- Verhandlung
+- Konfliktlösung
 
-**Analytical**
-- Data analysis
-- Problem-solving
-- Research
-- Process improvement
-- Decision-making
-- Strategic thinking
+**Analytik**
+- Datenanalyse
+- Problemlösung
+- Recherche
+- Prozessverbesserung
+- Entscheidungsfindung
+- Strategisches Denken
 
-**Technical/Operational**
-- Process design
-- Systems implementation
-- Quality assurance
-- Training and development
-- Vendor management
-- Operations management
+**Technisch/Operativ**
+- Prozessgestaltung
+- Systemimplementierung
+- Qualitätssicherung
+- Training und Entwicklung
+- Lieferantenmanagement
+- Betriebsführung
 
-## Career Change Translation Examples
+## Übersetzungsbeispiele für Karrierewechsel
 
-### Teacher → Corporate Trainer / L&D
+### Lehrer/in → Unternehmensschulungen / L&D
 
-**Teaching Experience:**
-- "Taught 25 students in 5th grade classroom"
+**Lehrererfahrung:**
+- „Habe 25 Schüler in der 5. Klasse unterrichtet"
 
-**Translated:**
-- "Designed and delivered curriculum for 25 learners, achieving 95% proficiency on standardized assessments through differentiated instruction and data-driven intervention strategies"
+**Übersetzt:**
+- „Lehrplan für 25 Lernende konzipiert und durchgeführt, 95%ige Zielerreichung durch differenzierte Lernmethoden und datenbasierte Förderstrategien erreicht"
 
-**Key Translations:**
-| Teaching Term | Corporate Term |
-|--------------|----------------|
-| Lesson plans | Training curriculum |
-| Students | Learners |
-| Classroom management | Group facilitation |
-| Parent conferences | Stakeholder communication |
-| Assessments | Learning evaluations |
-| IEPs | Individual development plans |
+**Schlüsselübersetzungen:**
+| Schul-Begriff | Unternehmens-Begriff |
+|--------------|----------------------|
+| Unterrichtspläne | Schulungskonzepte |
+| Schüler/innen | Lernende |
+| Klassenführung | Gruppenmoderation |
+| Elterngespräche | Stakeholder-Kommunikation |
+| Leistungsbeurteilungen | Lernevaluationen |
+| Förderpläne | Individuelle Entwicklungspläne |
 
-### Military → Corporate
+### Militär → Unternehmen
 
-**Military Experience:**
-- "Commanded platoon of 30 soldiers in combat operations"
+**Militärerfahrung:**
+- „Führte einen Zug von 30 Soldaten in Kampfeinsätzen"
 
-**Translated:**
-- "Led cross-functional team of 30 through high-stakes operations in ambiguous environments, managing $2M in equipment and achieving 100% mission completion rate"
+**Übersetzt:**
+- „Führte interdisziplinäres Team von 30 in hochriskanten Einsätzen unter Unsicherheit, verantwortlich für 2 Mio. € Ausrüstung, 100% Zielerreichungsrate"
 
-**Key Translations:**
-| Military Term | Corporate Term |
-|--------------|----------------|
-| Platoon/Unit | Team/Department |
-| Mission | Project/Initiative |
-| Operations | Programs |
-| Intel | Data/Analytics |
-| Briefing | Presentation |
-| Command | Leadership |
-| Deployment | Implementation |
+**Schlüsselübersetzungen:**
+| Militär-Begriff | Unternehmens-Begriff |
+|----------------|----------------------|
+| Zug/Einheit | Team/Abteilung |
+| Mission | Projekt/Initiative |
+| Operationen | Programme |
+| Geheimdienstinformationen | Daten/Analysen |
+| Lagebesprechung | Präsentation |
+| Befehl | Führung |
+| Einsatz | Implementierung |
 
-### Retail → Sales/Account Management
+### Einzelhandel → Vertrieb/Account-Management
 
-**Retail Experience:**
-- "Sold products to customers and met sales targets"
+**Einzelhandelserfahrung:**
+- „Habe Produkte an Kunden verkauft und Verkaufsziele erfüllt"
 
-**Translated:**
-- "Consistently exceeded sales targets by 125%, generating $500K annual revenue through consultative selling and relationship building with 50+ repeat customers"
+**Übersetzt:**
+- „Verkaufsziele konstant um 125% übertroffen, 500.000 € Jahresumsatz durch beratenden Verkauf und Aufbau von 50+ Stammkundenbindungen generiert"
 
-**Key Translations:**
-| Retail Term | Corporate Term |
-|------------|----------------|
-| Customers | Clients/Accounts |
-| Store sales | Revenue generation |
-| Customer service | Account management |
-| Upselling | Cross-selling |
-| Returns | Issue resolution |
-| Visual merchandising | Brand presentation |
+### Gastgewerbe → Customer Success
 
-### Hospitality → Customer Success
+**Gastgewerbe-Erfahrung:**
+- „Rezeption betreut und Gästebeschwerden bearbeitet"
 
-**Hospitality Experience:**
-- "Managed front desk and handled guest complaints"
+**Übersetzt:**
+- „Als primärer Ansprechpartner für 100+ Tagesgäste eskalierte Probleme mit 95% Zufriedenheitsrate gelöst, Feedback-Prozesse implementiert, die den NPS um 15 Punkte verbesserten"
 
-**Translated:**
-- "Served as primary customer contact for 100+ daily guests, resolving escalated issues with 95% satisfaction rate and implementing feedback processes that improved NPS by 15 points"
+### Gesundheitswesen → Tech/Pharma
 
-**Key Translations:**
-| Hospitality Term | Corporate Term |
-|-----------------|----------------|
-| Guests | Customers/Clients |
-| Reservations | Account management |
-| Guest satisfaction | Customer success |
-| Complaints | Escalations |
-| Concierge services | Customer support |
-| Event planning | Project management |
+**Gesundheitswesen-Erfahrung:**
+- „Habe Patienten betreut und medizinische Akten gepflegt"
 
-### Healthcare → Tech/Pharma
+**Übersetzt:**
+- „Patientenzentrierte Versorgung für 20+ Fälle täglich sichergestellt, 100% DSGVO/Datenschutz-Compliance eingehalten, KIS-Systeme für präzise Dokumentation und Versorgungskoordination genutzt"
 
-**Healthcare Experience:**
-- "Provided patient care and maintained medical records"
+## Strategie für den Karrierewechsel-Lebenslauf
 
-**Translated:**
-- "Delivered patient-centered care to 20+ daily cases, maintaining 100% compliance with HIPAA protocols and utilizing EMR systems (Epic) for accurate documentation and care coordination"
-
-**Key Translations:**
-| Healthcare Term | Corporate Term |
-|----------------|----------------|
-| Patient care | Client service |
-| EMR/EHR | CRM/Database systems |
-| Care coordination | Project coordination |
-| Clinical protocols | Standard operating procedures |
-| Patient outcomes | Performance metrics |
-| Rounds | Status meetings |
-
-## The Career Change Resume Strategy
-
-### 1. Lead with Transferable Summary
+### 1. Professionelle Zusammenfassung mit übertragbaren Skills
 
 **Format:**
-"[Target Role] professional with [X] years of [transferable skill] experience. Background in [previous field] provides unique perspective on [relevant aspect]. Skilled in [transferable skill 1], [transferable skill 2], and [transferable skill 3]."
+„[Zielrolle] mit [X] Jahren Erfahrung in [übertragbare Fähigkeit]. Hintergrund in [bisherige Branche] bietet einzigartige Perspektive auf [relevanten Aspekt]. Expertise in [Fähigkeit 1], [Fähigkeit 2] und [Fähigkeit 3]."
 
-**Example (Teacher → L&D):**
-"Learning & Development professional with 8 years designing and delivering curriculum for diverse audiences. Background in education provides deep expertise in learning science, assessment design, and adult learning principles. Skilled in instructional design, facilitation, and measuring learning outcomes."
+### 2. Funktionales/Hybrides Lebenslaufformat
 
-### 2. Use a Functional/Hybrid Resume Format
-
-**Structure:**
+**Struktur:**
 ```
-Professional Summary (targeted)
-Core Competencies (transferable skills)
-Relevant Experience (grouped by skill)
-Additional Experience (chronological)
-Education & Certifications
+Berufliches Profil (zielgerichtet)
+Kernkompetenzen (übertragbare Fähigkeiten)
+Relevante Erfahrung (nach Kompetenz gruppiert)
+Weitere Erfahrung (chronologisch)
+Ausbildung & Zertifikate
 ```
 
-**Group by Transferable Function:**
-```
-PROJECT MANAGEMENT EXPERIENCE
-[Bullet from Job 1]
-[Bullet from Job 2]
-[Bullet from Job 3]
+### 3. Brückenerfahrungen aufbauen
 
-LEADERSHIP & TEAM DEVELOPMENT
-[Bullet from Job 1]
-[Bullet from Job 2]
+**Wege, relevante Erfahrung zu ergänzen:**
+- Ehrenamtliche Arbeit im Zielfeld
+- Freiberufliche/Beratungsprojekte
+- Relevante Zertifikate
+- Eigenprojekte
+- Berufsverbände
+- Weiterbildungen
 
-CLIENT RELATIONSHIP MANAGEMENT
-[Bullet from Job 1]
-[Bullet from Job 2]
-```
+## Das „Warum"-Thema ansprechen
 
-### 3. Build Bridge Experiences
+**Sie werden gefragt:** „Warum wechseln Sie die Branche?"
 
-**Ways to Add Relevant Experience:**
-- Volunteer work in target field
-- Freelance/consulting projects
-- Relevant certifications
-- Side projects
-- Professional organizations
-- Coursework
+**Gute Gründe:**
+- Natürliche Entwicklung von Interessen
+- Durch Erfahrung entdeckte Leidenschaft
+- Konkretes Erlebnis hat Interesse geweckt
+- Fähigkeiten passen natürlich
+- Branchenveränderungen haben Neuorientierung ausgelöst
+- Wachstum im bisherigen Weg nicht mehr möglich
 
-**Example:**
-```
-BRIDGE EXPERIENCE
+**Schlechte Gründe (nicht sagen):**
+- „Ich bin ausgebrannt"
+- „Ich hasse meinen aktuellen Job"
+- „Ich möchte mehr Geld"
+- „Es scheint einfacher"
 
-Volunteer Marketing Lead | Nonprofit XYZ | 2023-Present
-- Designed social media strategy increasing engagement by 150%
-- Created content calendar and managed 3 volunteer content creators
-
-Google Digital Marketing Certificate | 2023
-- Completed 200+ hour program covering SEO, SEM, Analytics, and Social Media
-```
-
-## Addressing the "Why" Question
-
-**You will be asked:** "Why are you making this change?"
-
-**Good Reasons:**
-- Natural evolution of interests
-- Discovered passion through exposure
-- Specific experience that sparked interest
-- Skills naturally translate
-- Industry changes made you reconsider
-- Seeking growth not available in current path
-
-**Bad Reasons (Don't Say):**
-- "I'm burned out"
-- "I hate my current job"
-- "I want more money"
-- "It seems easier"
-
-### Story Framework
+### Erzähl-Rahmenwerk
 
 ```
-[DISCOVERY]: "Through [experience], I discovered my passion for [new field]..."
+[ENTDECKUNG]: „Durch [Erfahrung] habe ich meine Leidenschaft für [neues Feld] entdeckt..."
 
-[CONNECTION]: "I realized that my experience in [old field] gave me a unique perspective on [new field] because..."
+[VERBINDUNG]: „Ich erkannte, dass meine Erfahrung in [altes Feld] mir eine einzigartige Perspektive auf [neues Feld] gibt, weil..."
 
-[ACTION]: "To prepare for this transition, I've [certifications, projects, volunteering]..."
+[HANDLUNG]: „Um mich auf diesen Wechsel vorzubereiten, habe ich [Zertifikate, Projekte, Ehrenamt]..."
 
-[VISION]: "I'm excited to bring my [transferable skill] expertise to [target company/industry] because..."
+[VISION]: „Ich freue mich darauf, meine [übertragbare Fähigkeit] in [Zielunternehmen/-branche] einzubringen, weil..."
 ```
 
-## Industry-Specific Career Change Paths
-
-### Into Tech
-
-**Best Entry Points:**
-- Customer Success (from any client-facing role)
-- Technical Project Manager (from any PM role)
-- Sales/Account Executive (from any sales role)
-- Product Management (from domain expertise)
-- Technical Writing (from any writing role)
-
-**Bridge Activities:**
-- Learn SQL, basic coding, or relevant tools
-- Get certifications (Google, Salesforce, AWS)
-- Build personal projects
-- Attend tech meetups
-- Volunteer for tech nonprofits
-
-### Into Finance
-
-**Best Entry Points:**
-- Operations (from any process-oriented role)
-- Compliance (from any regulated industry)
-- Client Services (from relationship roles)
-- Analysis (from any analytical role)
-
-**Bridge Activities:**
-- Excel/financial modeling certifications
-- CFA or CFP study
-- Financial analysis courses
-- Industry networking
-
-### Into Healthcare
-
-**Best Entry Points:**
-- Healthcare Administration (from any admin role)
-- Medical Sales (from any sales role)
-- Health IT (from any tech role)
-- Patient Advocacy (from customer service)
-
-**Bridge Activities:**
-- Healthcare certifications
-- HIPAA training
-- Healthcare industry knowledge
-- Volunteer at hospitals
-
-## Output Format
-
-When helping a career changer:
+## Ausgabeformat
 
 ```markdown
-# CAREER CHANGE TRANSLATION
+# KARRIEREWECHSEL-ÜBERSETZUNG
 
-## Current Background
-**Field:** [Current industry]
-**Role:** [Current function]
-**Years:** [Experience]
+## Aktueller Hintergrund
+**Branche:** [Aktuelle Branche]
+**Rolle:** [Aktuelle Funktion]
+**Jahre:** [Erfahrung]
 
-## Target
-**Field:** [Target industry]
-**Role:** [Target function]
+## Ziel
+**Branche:** [Zielbranche]
+**Rolle:** [Zielfunktion]
 
-## Transferable Skills Identified
-1. [Skill] → Relevant because: [explanation]
-2. [Skill] → Relevant because: [explanation]
-3. [Skill] → Relevant because: [explanation]
+## Identifizierte übertragbare Fähigkeiten
+1. [Fähigkeit] → Relevant weil: [Erklärung]
+2. [Fähigkeit] → Relevant weil: [Erklärung]
 
-## Translation Guide
+## Übersetzungsleitfaden
 
-### Experience Reframes
+### Erfahrungs-Neuformulierungen
 
-**Original:** "[Their current bullet]"
-**Translated:** "[Reframed for target industry]"
-**Key changes:** [What was changed and why]
+**Original:** „[Aktueller Aufzählungspunkt]"
+**Übersetzt:** „[Neu formuliert für Zielbranche]"
+**Wichtigste Änderungen:** [Was geändert wurde und warum]
 
-[Repeat for key bullets]
+### Sprachübersetzungen
+| Bisherige Sprache | Sprache der Zielbranche |
+|-------------------|-------------------------|
+| [Begriff] | [Übersetzter Begriff] |
 
-### Language Translations
-| Your Current Language | Target Industry Language |
-|----------------------|--------------------------|
-| [Term] | [Translated term] |
-| [Term] | [Translated term] |
+## Lückenanalyse
 
-## Gap Analysis
+**Zu entwickelnde Fähigkeiten:**
+- [Lücke] → Empfehlung: [Brücke schlagen]
 
-**Skills to Develop:**
-- [Gap] → Suggestion: [How to bridge]
-- [Gap] → Suggestion: [How to bridge]
+**Brückenerfahrungen:**
+- [Empfehlung]
 
-**Bridge Experiences to Consider:**
-- [Suggestion]
-- [Suggestion]
+## Ihre Karrierewechsel-Geschichte
+[Entwurf der „Warum"-Erzählung]
 
-## Your Career Change Story
-
-[Draft of their "why" narrative]
-
-## Recommended Resume Structure
-[Guidance on format and organization]
+## Empfohlene Lebenslaufstruktur
+[Hinweise zu Format und Aufbau]
 ```
 
-## Key Reminders
+## Wichtige Hinweise
 
-1. **Lead with transferable skills**, not job titles
-2. **Use target industry language** - translate everything
-3. **Build bridges** - get any experience in target field
-4. **Tell a compelling story** - make the change make sense
-5. **Focus on value you bring** - your unique perspective is an asset
-6. **Address concerns proactively** - don't let them wonder "why"
-7. **Network in target field** - referrals help career changers most
+1. **Übertragbare Fähigkeiten voranstellen**, nicht Jobtitel
+2. **Sprache der Zielbranche verwenden** – alles übersetzen
+3. **Brücken bauen** – jede Erfahrung im Zielfeld zählt
+4. **Überzeugende Geschichte erzählen** – den Wechsel nachvollziehbar machen
+5. **Mehrwert betonen** – die einzigartige Perspektive ist ein Vorteil
+6. **Bedenken proaktiv ansprechen** – nicht rätseln lassen
+7. **Im Zielfeld netzwerken** – Empfehlungen helfen Quereinsteigern am meisten

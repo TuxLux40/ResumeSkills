@@ -1,421 +1,388 @@
 ---
 name: academic-cv-builder
-description: Format CVs for academic positions with publications, grants, and teaching
+description: Lebensläufe für akademische Positionen formatieren – mit Publikationen, Förderungen und Lehrerfahrung
 ---
 
-# Academic CV Builder
+# Akademischer Lebenslauf-Ersteller
 
-## When to Use This Skill
+## Wann diesen Skill verwenden
 
-Use this skill when the user:
-- Is applying for academic positions (faculty, research, postdoc)
-- Needs to create or update a curriculum vitae
-- Wants to format publications, grants, and teaching experience
-- Is in academia or transitioning to academic careers
-- Mentions: "academic CV", "curriculum vitae", "faculty position", "research CV", "professor resume"
+Diesen Skill verwenden, wenn der Nutzer:
+- Sich auf akademische Stellen bewirbt (Professur, Forschung, Postdoc)
+- Einen Lebenslauf (Curriculum Vitae) erstellen oder aktualisieren möchte
+- Publikationen, Förderungen und Lehrerfahrung formatieren möchte
+- In der Wissenschaft tätig ist oder eine akademische Karriere anstrebt
+- Erwähnt: „akademischer Lebenslauf", „Curriculum Vitae", „Professur", „Forschungs-CV", „Wissenschaftler"
 
-## Core Capabilities
+## Kernfähigkeiten
 
-- Structure CVs for academic positions
-- Format publications, presentations, and grants
-- Organize teaching and research experience
-- Include appropriate academic sections
-- Tailor for different academic roles (tenure-track, postdoc, lecturer)
-- Balance research, teaching, and service
+- Lebensläufe für akademische Stellen strukturieren
+- Publikationen, Vorträge und Förderungen formatieren
+- Lehr- und Forschungserfahrung organisieren
+- Geeignete akademische Abschnitte einbinden
+- Für verschiedene akademische Rollen anpassen (Tenure-Track, Postdoc, Lehrbeauftragter)
+- Balance zwischen Forschung, Lehre und Service
 
-## Academic CV vs. Resume
+## Akademischer CV vs. Bewerbungslebenslauf
 
-| Resume | Academic CV |
-|--------|------------|
-| 1-2 pages | 2-20+ pages (length increases with career) |
-| Highlights relevant experience | Comprehensive record |
-| Results-focused | Scholarship-focused |
-| Industry keywords | Disciplinary expertise |
-| Skills section prominent | Publications prominent |
-| Education minimal | Education detailed |
+| Bewerbungslebenslauf | Akademischer CV |
+|---------------------|-----------------|
+| 1–2 Seiten | 2–20+ Seiten (wächst mit der Karriere) |
+| Relevante Erfahrung hervorheben | Vollständige Dokumentation |
+| Ergebnisorientiert | Wissenschaftsorientiert |
+| Branchenschlüsselwörter | Fachliche Expertise |
+| Fähigkeiten-Abschnitt prominent | Publikationen prominent |
+| Ausbildung minimal | Ausbildung detailliert |
 
-## Standard Academic CV Sections
+## Standard-Abschnitte eines akademischen CVs
 
-### Typical Order
-
-```
-1. Contact Information
-2. Education
-3. Research/Academic Positions
-4. Publications
-5. Presentations
-6. Grants & Funding
-7. Teaching Experience
-8. Mentoring
-9. Service
-10. Professional Memberships
-11. Honors & Awards
-12. References (or "Available upon request")
-```
-
-### Section Order Varies By:
-- **Research position:** Publications, grants, research experience first
-- **Teaching position:** Teaching, course development first
-- **Administrative position:** Leadership, service first
-
-## Section-by-Section Guide
-
-### 1. Contact Information
+### Typische Reihenfolge
 
 ```
-FIRST MIDDLE LAST, Ph.D.
-Department of [Field]
-[University Name]
-[Building, Room Number]
-[City, State ZIP]
+1. Kontaktdaten
+2. Ausbildung
+3. Forschungs-/Akademische Positionen
+4. Publikationen
+5. Vorträge und Präsentationen
+6. Förderungen und Drittmittel
+7. Lehrerfahrung
+8. Betreuung
+9. Service/Gremienarbeit
+10. Mitgliedschaften in Fachgesellschaften
+11. Auszeichnungen und Preise
+12. Referenzen (oder „auf Anfrage")
+```
 
-Email: email@university.edu
-Phone: (555) 123-4567
-Web: www.yoursite.edu
+### Reihenfolge variiert je nach Stelle:
+- **Forschungsstelle:** Publikationen, Förderungen, Forschungserfahrung zuerst
+- **Lehrstelle:** Lehre, Lehrkonzepte zuerst
+- **Verwaltungsstelle:** Führung, Service zuerst
+
+## Abschnitt für Abschnitt
+
+### 1. Kontaktdaten
+
+```
+VORNAME NACHNAME, Dr.
+Institut für [Fach]
+[Universität]
+[Gebäude, Raum]
+[PLZ Ort]
+
+E-Mail: name@uni.de
+Telefon: +49 123 456789
+Web: www.homepage.uni.de
 ORCID: 0000-0000-0000-0000
 ```
 
-### 2. Education
+### 2. Ausbildung
 
-**Format:** Degree, Field, Institution, Year
-
-```
-EDUCATION
-
-Ph.D. in Molecular Biology, Stanford University, 2019
-  Dissertation: "Title of Your Dissertation"
-  Advisor: Dr. Jane Smith
-  Committee: Dr. A, Dr. B, Dr. C
-
-M.S. in Biology, UC Berkeley, 2015
-
-B.S. in Biochemistry, UCLA, 2013
-  Summa Cum Laude
-```
-
-**Include:**
-- All degrees (in reverse chronological order)
-- Dissertation/thesis title
-- Advisor(s)
-- Committee members (for PhD)
-- Honors (cum laude, etc.)
-- Relevant minors or certificates
-
-### 3. Research/Academic Positions
+**Format:** Abschluss, Fach, Institution, Jahr
 
 ```
-ACADEMIC APPOINTMENTS
+AUSBILDUNG
 
-Assistant Professor of Biology, University of Michigan, 2022-Present
-  Department of Molecular, Cellular, and Developmental Biology
+Promotion in Molekularbiologie, Universität Heidelberg, 2019
+  Dissertation: „Titel der Dissertation"
+  Betreuer/in: Prof. Dr. Maria Müller
+  Prüfungskommission: Prof. Dr. A, Prof. Dr. B, Prof. Dr. C
 
-Postdoctoral Fellow, MIT, 2019-2022
-  Advisor: Dr. John Doe
-  Lab: Computational Biology Lab
+M.Sc. in Biologie, Universität Freiburg, 2015
 
-Graduate Research Assistant, Stanford University, 2014-2019
-  Advisor: Dr. Jane Smith
+B.Sc. in Biochemie, Universität München, 2013
+  Auszeichnung: Sehr gut
 ```
 
-### 4. Publications
+**Einbeziehen:**
+- Alle Abschlüsse (in umgekehrt chronologischer Reihenfolge)
+- Titel der Dissertation/Masterarbeit
+- Betreuer/in(nen)
+- Prüfungskommission (bei der Promotion)
+- Auszeichnungen
+- Relevante Nebenfächer oder Zertifikate
 
-**Most Important Section for Research Positions**
-
-#### Formatting Options
-
-**Option 1: Numbered List (Common in Sciences)**
-```
-PUBLICATIONS
-
-Peer-Reviewed Journal Articles
-
-15. Last, F.M., Co-Author, A.B., & Senior, C.D. (2023). Article title. Journal Name, 45(2), 123-145. doi:10.1000/xyz
-
-14. Last, F.M., & Co-Author, A.B. (2022). Article title. Journal Name, 44(1), 10-25. doi:10.1000/abc
-```
-
-**Option 2: Categories (Useful for Multiple Types)**
-```
-PUBLICATIONS
-
-Peer-Reviewed Journal Articles (15)
-
-Book Chapters (3)
-
-Books (1)
-
-Under Review (2)
-
-In Preparation (3)
-```
-
-**Formatting Details:**
-- **Bold your name** in author lists
-- Include DOIs when available
-- Note impact factors if requested/relevant
-- Indicate student co-authors with asterisk*
-- Some fields expect reverse chronological; others expect chronological
-
-**Categories to Consider:**
-- Peer-reviewed journal articles
-- Books and book chapters
-- Conference proceedings
-- Technical reports
-- Non-peer-reviewed publications
-- Works under review
-- Works in preparation
-
-### 5. Presentations
+### 3. Forschungs-/Akademische Positionen
 
 ```
-PRESENTATIONS
+AKADEMISCHE POSITIONEN
 
-Invited Talks
+Juniorprofessor/in für Biologie, Universität Münster, 2022–heute
+  Institut für Molekulare Zellbiologie
 
-"Talk Title," Conference Name, Location, Date.
-"Talk Title," Department Seminar, University Name, Date.
+Postdoktorand/in, Max-Planck-Institut, 2019–2022
+  Betreuer/in: Prof. Dr. Hans Schmidt
+  Arbeitsgruppe: Rechnerische Biologie
 
-Conference Presentations
-
-"Poster/Talk Title," Conference Name, Location, Date. [Poster/Oral]
+Wissenschaftliche/r Mitarbeiter/in, Universität Heidelberg, 2014–2019
+  Betreuer/in: Prof. Dr. Maria Müller
 ```
 
-**Categorize By:**
-- Invited talks (keynotes, seminars)
-- Conference presentations
-- Campus talks
-- Public lectures/outreach
+### 4. Publikationen
 
-### 6. Grants & Funding
+**Wichtigster Abschnitt für Forschungsstellen**
 
+#### Formatierungsoptionen
+
+**Option 1: Nummerierte Liste (üblich in den Naturwissenschaften)**
 ```
-GRANTS AND FUNDING
+PUBLIKATIONEN
 
-Awarded
+Begutachtete Zeitschriftenartikel
 
-NIH R01 (Co-PI), "Project Title," 2023-2028, $2.5M total ($500K to my lab)
+15. Nachname, V., Koautor, A.B. & Senior, C.D. (2023). Titel des Artikels. Zeitschriftname, 45(2), 123–145. doi:10.1000/xyz
 
-NSF CAREER Award (PI), "Project Title," 2022-2027, $650,000
-
-Internal Grant (PI), "Project Title," 2021, $25,000
-
-Pending
-
-NIH R21 (PI), "Project Title," submitted January 2024
-
-Not Funded (Optional)
-
-[Some fields expect you to list unfunded submissions]
+14. Nachname, V. & Koautor, A.B. (2022). Titel des Artikels. Zeitschriftname, 44(1), 10–25.
 ```
 
-**Include:**
-- Funding agency and mechanism
-- Your role (PI, Co-PI, Co-I)
-- Project title
-- Dates
-- Total amount (and amount to your lab if split)
-
-### 7. Teaching Experience
-
+**Option 2: Kategorien (bei verschiedenen Publikationstypen)**
 ```
-TEACHING EXPERIENCE
+PUBLIKATIONEN
 
-Courses Taught
+Begutachtete Zeitschriftenartikel (15)
 
-BIOL 301: Molecular Biology (Instructor of Record)
-  University of Michigan, Fall 2022, Fall 2023
-  Enrollment: 45 students
-  Developed new course curriculum
+Buchkapitel (3)
 
-BIOL 101: Introduction to Biology (Lab Instructor)
-  Stanford University, 2015-2018
-  
-Guest Lectures
+Bücher (1)
 
-"Topic," Course Name, Professor's Name, University, Date
+Eingereicht (2)
+
+In Vorbereitung (3)
 ```
 
-**Include:**
-- Course number and title
-- Your role (Instructor, TA, Guest Lecturer)
-- Institution and dates
-- Enrollment numbers
-- Course development or new preparations
-- Teaching evaluations summary (if strong)
+**Formatierungsdetails:**
+- **Eigenen Namen fett hervorheben** in Autorenlisten
+- DOIs angeben, wenn verfügbar
+- Impaktfaktoren auf Anfrage angeben
+- Studentische Mitautorinnen mit * markieren
+- Je nach Fach: umgekehrt chronologisch oder chronologisch
 
-### 8. Mentoring
+**Kategorien:**
+- Begutachtete Zeitschriftenartikel
+- Bücher und Buchkapitel
+- Konferenzbeiträge
+- Technische Berichte
+- Nicht-begutachtete Publikationen
+- Eingereichte Arbeiten
+- Arbeiten in Vorbereitung
+
+### 5. Vorträge und Präsentationen
 
 ```
-MENTORING
+VORTRÄGE UND PRÄSENTATIONEN
 
-Graduate Students
-- Student Name (Ph.D. expected 2025), Dissertation: "Title"
-- Student Name (Ph.D. 2023), Current position: Postdoc at MIT
+Eingeladene Vorträge
 
-Postdoctoral Fellows
-- Name (2021-2023), Current position: Assistant Professor at X
+„Vortragstitel," Konferenzname, Ort, Datum.
+„Vortragstitel," Institutskolloquium, Universität, Datum.
 
-Undergraduate Researchers
-- Name (2022-2023), Thesis: "Title," Current: PhD program at Y
-- Name (2021-2022), Thesis: "Title," Current: Industry position
+Konferenzbeiträge
+
+„Poster-/Vortragstitel," Konferenzname, Ort, Datum. [Poster/Vortrag]
 ```
 
-### 9. Service
+**Kategorisieren nach:**
+- Eingeladene Vorträge (Keynotes, Kolloquien)
+- Konferenzbeiträge
+- Campusvorträge
+- Öffentliche Vorlesungen/Outreach
+
+### 6. Förderungen und Drittmittel
+
+```
+FÖRDERUNGEN UND DRITTMITTEL
+
+Bewilligt
+
+DFG-Einzelförderung (PI), „Projekttitel," 2023–2026, 250.000 €
+
+BMBF-Verbundprojekt (Co-PI), „Projekttitel," 2022–2025, 500.000 € (150.000 € an meine AG)
+
+Hochschulinterne Förderung (PI), „Projekttitel," 2021, 10.000 €
+
+Beantragt
+
+DFG-Sachbeihilfe (PI), „Projekttitel," eingereicht Januar 2024
+
+Nicht bewilligt (optional)
+
+[In manchen Fächern werden auch abgelehnte Anträge gelistet]
+```
+
+**Angeben:**
+- Förderinstitution und Förderinstrument
+- Eigene Rolle (PI, Co-PI, Mitantragsteller/in)
+- Projekttitel
+- Laufzeit
+- Gesamtbetrag (und Anteil an der eigenen AG)
+
+### 7. Lehrerfahrung
+
+```
+LEHRERFAHRUNG
+
+Lehrveranstaltungen
+
+BIOL 301: Molekularbiologie (Kursleitung)
+  Universität Münster, WS 2022/23, WS 2023/24
+  Teilnehmerzahl: 45 Studierende
+  Neue Lehrveranstaltung entwickelt
+
+BIOL 101: Einführung in die Biologie (Übungsbetreuung)
+  Universität Heidelberg, 2015–2018
+
+Gastvorlesungen
+
+„Thema," Lehrveranstaltung, Prof. Dr. Name, Universität, Datum
+```
+
+**Einbeziehen:**
+- Veranstaltungsbezeichnung und -titel
+- Eigene Rolle (Kursleitung, Übungsbetreuer/in, Gastdozent/in)
+- Institution und Semester/Jahr
+- Teilnehmerzahlen
+- Neue Lehrveranstaltungen
+- Lehrevaluationen (wenn positiv)
+
+### 8. Betreuung
+
+```
+BETREUUNG
+
+Doktorand/innen
+- Name (Promotion erwartet 2025), Titel der Dissertation
+- Name (Promotion 2023), aktuelle Position: Postdoc am MIT
+
+Postdoktorand/innen
+- Name (2021–2023), aktuelle Position: Juniorprofessor/in an Uni X
+
+Studierende (Bachelor/Master)
+- Name (2022/23), Abschlussarbeit: „Titel," Verbleib: Doktorat an Uni Y
+```
+
+### 9. Service/Gremienarbeit
 
 ```
 SERVICE
 
-To the Profession
-- Editorial Board Member, Journal Name, 2022-Present
-- Grant Reviewer, NIH Study Section XYZ, 2023
-- Conference Organizer, Conference Name, 2022
+Wissenschaftliche Community
+- Mitherausgeber/in, Zeitschriftname, 2022–heute
+- Gutachter/in, DFG-Fachausschuss XYZ, 2023
+- Tagungsorganisation, Konferenzname, 2022
 
-To the University
-- Graduate Admissions Committee, 2022-Present
-- Faculty Search Committee, 2023
-- Curriculum Committee, 2022-2023
+Hochschule
+- Promotionsausschuss, 2022–heute
+- Berufungskommission, 2023
+- Studiengangskommission, 2022/23
 
-To the Department
-- Seminar Coordinator, 2022-Present
-- Undergraduate Advisor, 2022-Present
+Institut
+- Kolloquiumskoordination, 2022–heute
+- Studienberatung, 2022–heute
 ```
 
-### 10. Professional Memberships
+### 10. Mitgliedschaften
 
 ```
-PROFESSIONAL MEMBERSHIPS
+MITGLIEDSCHAFTEN
 
-American Society for Cell Biology (ASCB), 2015-Present
-Society for Neuroscience (SfN), 2018-Present
+Deutsche Gesellschaft für Zellbiologie (DGZ), 2015–heute
+Gesellschaft für Neurowissenschaften (GfN), 2018–heute
 ```
 
-### 11. Honors & Awards
+### 11. Auszeichnungen und Preise
 
 ```
-HONORS AND AWARDS
+AUSZEICHNUNGEN UND PREISE
 
-NSF CAREER Award, 2022
-Best Paper Award, Conference Name, 2021
-Outstanding Graduate Student Award, Stanford University, 2018
-National Science Foundation Graduate Research Fellowship, 2015-2018
-Phi Beta Kappa, 2013
+Emmy-Noether-Stipendium, DFG, 2022
+Bester Vortragspreis, Konferenzname, 2021
+Preis für herausragende Promotion, Universität Heidelberg, 2018
+Stipendium der Studienstiftung des deutschen Volkes, 2015–2018
 ```
 
-## Role-Specific Emphasis
+## Rollenspezifische Schwerpunkte
 
-### Tenure-Track Faculty
+### Tenure-Track-Professur
 
-**Emphasize:**
-1. Publications (especially recent, high-impact)
-2. Grants (especially independent funding)
-3. Research trajectory and vision
-4. Teaching experience
-5. Mentoring record
+**Hervorheben:**
+1. Publikationen (besonders aktuelle, hochrangige)
+2. Förderungen (besonders eigenständige Drittmittel)
+3. Forschungsrichtung und -vision
+4. Lehrerfahrung
+5. Betreuungsleistung
 
-### Postdoctoral Position
+### Postdoc-Stelle
 
-**Emphasize:**
-1. Publications (from PhD and postdoc)
-2. Research experience and skills
-3. Collaboration experience
-4. Future research potential
-5. Any funding/fellowships
+**Hervorheben:**
+1. Publikationen (aus Promotion und Postdoc)
+2. Forschungserfahrung und Methoden
+3. Kooperationserfahrung
+4. Zukünftiges Forschungspotenzial
+5. Stipendien und Förderungen
 
-### Lecturer/Teaching Faculty
+### Lehrprofessur / Lehrbeauftragte/r
 
-**Emphasize:**
-1. Teaching experience (courses, evaluations)
-2. Course development
-3. Pedagogical training
-4. Mentoring undergraduates
-5. Teaching awards
+**Hervorheben:**
+1. Lehrerfahrung (Veranstaltungen, Evaluationen)
+2. Lehrkonzepte und neue Veranstaltungen
+3. Hochschuldidaktische Weiterbildung
+4. Betreuung von Studierenden
+5. Lehrpreise
 
-### Research Scientist
+## Länge des akademischen CVs
 
-**Emphasize:**
-1. Publications
-2. Technical skills
-3. Grant writing experience
-4. Collaboration record
-5. Relevant research experience
+| Karrierestufe | Erwartete Länge |
+|---------------|-----------------|
+| Doktorand/in | 2–4 Seiten |
+| Postdoc | 3–6 Seiten |
+| Frühe Karriere | 5–10 Seiten |
+| Mittlere Karriere | 10–20 Seiten |
+| Senior-Professur | 15–30+ Seiten |
 
-## Discipline-Specific Conventions
+**Regel:** Der akademische CV wächst mit der Karriere. Nicht künstlich aufblähen, aber auch nicht unnötig kürzen.
 
-### Sciences (Biology, Chemistry, Physics)
-- Author order matters (first author, last author = senior)
-- Impact factors sometimes included
-- Numbered publication lists common
-- Conference presentations less weighted than publications
-
-### Humanities (History, Literature, Philosophy)
-- Single-author publications highly valued
-- Book publications crucial
-- Conference presentations important
-- Public scholarship valued
-
-### Social Sciences
-- Both solo and collaborative work valued
-- Mix of journal articles and books
-- Funded research important
-- Policy impact valued
-
-## CV Length Guidelines
-
-| Career Stage | Expected Length |
-|--------------|-----------------|
-| Graduate Student | 2-4 pages |
-| Postdoc | 3-6 pages |
-| Early Career Faculty | 5-10 pages |
-| Mid-Career Faculty | 10-20 pages |
-| Senior Faculty | 15-30+ pages |
-
-**Rule:** Your CV grows throughout your career. Don't pad, but don't artificially constrain length.
-
-## Output Format
-
-When creating an academic CV:
+## Ausgabeformat
 
 ```markdown
-# ACADEMIC CV STRUCTURE FOR [NAME]
+# AKADEMISCHER CV FÜR [NAME]
 
-## Recommended Section Order
-[Based on position type and field]
+## Empfohlene Abschnittsreihenfolge
+[Basierend auf Stellentyp und Fach]
 
-1. [Section]
-2. [Section]
+1. [Abschnitt]
+2. [Abschnitt]
 ...
 
-## Section Content
+## Abschnittsinhalte
 
-### Education
-[Formatted education section]
+### Ausbildung
+[Formatierter Ausbildungsabschnitt]
 
-### Publications
-[Formatted with appropriate style for field]
+### Publikationen
+[Formatiert nach Fachkonvention]
 
-### [Other Sections]
-[Formatted content]
+### [Weitere Abschnitte]
+[Formatierter Inhalt]
 
 ---
 
-## Formatting Notes
-- [Field-specific conventions to follow]
-- [Style guide recommendations]
+## Formatierungshinweise
+- [Fachspezifische Konventionen]
+- [Stilempfehlungen]
 
-## Things to Add/Update
-- [ ] [Missing item]
-- [ ] [Item needing update]
+## Zu ergänzen/aktualisieren
+- [ ] [Fehlendes Element]
+- [ ] [Zu aktualisierendes Element]
 ```
 
-## Academic CV Checklist
+## Checkliste für akademischen CV
 
-- ✅ Contact information complete (including ORCID if applicable)
-- ✅ Education includes all degrees, advisors, dissertations
-- ✅ Publications properly formatted with your name highlighted
-- ✅ All grants listed with amounts and your role
-- ✅ Teaching experience comprehensive
-- ✅ Service documented
-- ✅ Consistent formatting throughout
-- ✅ Reverse chronological order (usually)
-- ✅ No unexplained gaps
-- ✅ Updated within last 6 months
+- ✅ Kontaktdaten vollständig (inkl. ORCID falls vorhanden)
+- ✅ Ausbildung mit allen Abschlüssen, Betreuer/innen, Dissertationstitel
+- ✅ Publikationen korrekt formatiert, eigener Name hervorgehoben
+- ✅ Alle Förderungen mit Beträgen und Rolle angegeben
+- ✅ Lehrerfahrung vollständig
+- ✅ Service dokumentiert
+- ✅ Einheitliche Formatierung durchgehend
+- ✅ Umgekehrt chronologische Reihenfolge (in der Regel)
+- ✅ Keine unerklärten Lücken
+- ✅ Innerhalb der letzten 6 Monate aktualisiert

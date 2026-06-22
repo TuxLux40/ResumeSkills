@@ -1,378 +1,373 @@
 ---
 name: salary-negotiation-prep
-description: Research market rates, build negotiation strategy, and create counter-offer scripts
+description: Marktgehälter recherchieren, Verhandlungsstrategie entwickeln und Gegenangebots-Skripte erstellen
 ---
 
-# Salary Negotiation Prep
+# Gehaltsverhandlung-Vorbereitung
 
-## When to Use This Skill
+## Wann diesen Skill verwenden
 
-Use this skill when the user wants to:
-- Negotiate a job offer or salary
-- Research market rates for their role
-- Create a counter-offer strategy
-- Understand total compensation packages
-- Mentions: "salary negotiation", "negotiate offer", "counter offer", "compensation", "how much should I ask for"
+Diesen Skill verwenden, wenn der Nutzer:
+- Ein Jobangebot oder Gehalt verhandeln möchte
+- Marktgehälter für ihre Rolle recherchieren möchte
+- Eine Gegenangebots-Strategie erstellen möchte
+- Gesamtvergütungspakete verstehen möchte
+- Erwähnt: „Gehaltsverhandlung", „Angebot verhandeln", „Gegenangebot", „Vergütung", „wie viel verlangen"
 
-## Core Capabilities
+## Kernfähigkeiten
 
-- Research and validate market compensation
-- Build negotiation strategy and scripts
-- Calculate total compensation (not just base salary)
-- Prepare counter-offer responses
-- Identify negotiation leverage points
-- Navigate difficult salary conversations
+- Marktgerechte Vergütung recherchieren und validieren
+- Verhandlungsstrategie und Skripte aufbauen
+- Gesamtvergütung berechnen (nicht nur Grundgehalt)
+- Gegenangebots-Antworten vorbereiten
+- Verhandlungs-Hebel identifizieren
+- Schwierige Gehaltsgespräche meistern
 
-## The Negotiation Mindset
+## Die Verhandlungs-Denkweise
 
-**Key Principles:**
-1. Negotiation is expected - companies budget for it
-2. 84% of employers expect candidates to negotiate
-3. Not negotiating leaves $500K-$1M on the table over a career
-4. The goal is win-win, not adversarial
+**Grundprinzipien:**
+1. Verhandeln wird erwartet – Unternehmen planen dafür ein
+2. 84% der Arbeitgeber erwarten, dass Kandidaten verhandeln
+3. Nicht verhandeln kostet 200.000–500.000 € über eine Karriere
+4. Das Ziel ist Win-Win, nicht Konfrontation
 
-**What You're Really Negotiating:**
-- Base salary
-- Signing bonus
-- Annual bonus/commission
-- Equity (stock options, RSUs)
-- Benefits (401k match, insurance)
-- Perks (vacation, remote work, professional development)
-- Start date
-- Title
+**Was wirklich verhandelt wird:**
+- Grundgehalt
+- Einmalzahlung (Signing Bonus)
+- Jährlicher Bonus/Provision
+- Beteiligung (Aktienoptionen, Anteile)
+- Leistungen (bAV, Krankenversicherung)
+- Extras (Urlaub, Homeoffice, Weiterbildung)
+- Startdatum
+- Berufsbezeichnung
 
-## Research Phase
+## Recherchephase
 
-### Step 1: Determine Market Rate
+### Schritt 1: Marktgehalt ermitteln
 
-**Sources to Check:**
-- Levels.fyi (best for tech)
-- Glassdoor (general, take with grain of salt)
-- LinkedIn Salary
-- Blind (anonymous reports)
-- PayScale
-- Salary.com
-- H1B salary data (publicly available)
+**Quellen prüfen:**
+- Gehalt.de (Deutschland allgemein)
+- Stepstone.de Gehaltsvergleich
+- Kununu (inkl. Gehaltsdaten)
+- LinkedIn Gehalt
+- Glassdoor.de
+- Bundesagentur für Arbeit – Entgeltatlas
+- IGeL-Gehaltsreport (branchenspezifisch)
 
-**Build a Range:**
+**Bereich aufbauen:**
 ```
-Low (25th percentile): $XXX,XXX
-Target (50th percentile): $XXX,XXX  
-High (75th percentile): $XXX,XXX
-Stretch (90th percentile): $XXX,XXX
-```
-
-### Step 2: Know Your Value
-
-**Factors That Increase Your Worth:**
-- Years of relevant experience
-- Specialized/rare skills
-- Track record of results
-- In-demand certifications
-- Current competing offers
-- Referral from employee
-- Market demand in your field
-
-**Factors That May Limit:**
-- Entry level or career change
-- Less experience than ideal candidate
-- Gaps in required skills
-- Location arbitrage (lower cost of living)
-
-### Step 3: Calculate Total Compensation
-
-**Total Comp = Base + Bonus + Equity + Benefits**
-
-```
-EXAMPLE:
-Base Salary: $150,000
-Target Bonus (15%): $22,500
-RSU Grant (4-year): $200,000 ($50,000/year)
-401k Match (4%): $6,000
-Benefits Value: ~$15,000
-
-Total Annual Comp: $243,500
+Niedrig (25. Perzentil): XX.000 €
+Ziel (50. Perzentil): XX.000 €
+Hoch (75. Perzentil): XX.000 €
+Stretch (90. Perzentil): XX.000 €
 ```
 
-**Common Equity Terms:**
-- **RSUs:** Restricted Stock Units (real shares, taxed when vesting)
-- **Options:** Right to buy at strike price (value = current price - strike price)
-- **Vesting:** Typically 4-year with 1-year cliff
-- **Refresh grants:** Annual additional equity grants
+### Schritt 2: Den eigenen Wert kennen
 
-## Negotiation Strategy
+**Faktoren die den Wert erhöhen:**
+- Jahre relevanter Erfahrung
+- Spezialisierte/seltene Fähigkeiten
+- Erfolgsbilanz mit Ergebnissen
+- Gefragte Zertifizierungen
+- Konkurrierende Angebote
+- Empfehlung durch Mitarbeitende
+- Marktbedarf im Fachgebiet
 
-### When to Negotiate
+**Faktoren die einschränken können:**
+- Berufseinsteiger oder Branchenwechsel
+- Weniger Erfahrung als Idealkandidat
+- Lücken bei geforderten Fähigkeiten
+- Standort-Arbitrage (niedrigere Lebenshaltungskosten)
 
-**Best Time:** After you have a written offer, before you sign
+### Schritt 3: Gesamtvergütung berechnen
 
-**Timeline:**
-1. Receive verbal offer → Express enthusiasm, ask for written offer
-2. Receive written offer → Thank them, ask for time to review
-3. Research and prepare → 24-48 hours
-4. Counter with ask → Email or call
-5. Discussion/back and forth → May take several rounds
-6. Final agreement → Get in writing
-
-### The Counter-Offer Framework
-
-**Structure:**
-1. Express enthusiasm
-2. Reinforce your value
-3. Make specific ask
-4. Provide justification
-5. Open discussion
-
-### Counter-Offer Email Template
+**Gesamtvergütung = Grundgehalt + Bonus + Beteiligung + Leistungen**
 
 ```
-Subject: [Your Name] - Offer Discussion
+BEISPIEL:
+Grundgehalt: 80.000 €
+Zielerreichungsbonus (15%): 12.000 €
+Betriebliche Altersvorsorge (bAV): 2.400 €
+Leistungswert (Krankenversicherung, etc.): ~8.000 €
 
-Hi [Recruiter/Hiring Manager],
-
-Thank you so much for the offer to join [Company] as [Title]. I'm very excited about the opportunity to [specific thing about the role]. After speaking with the team and learning more about [something specific], I'm confident this is the right fit.
-
-I've had time to review the offer details and wanted to discuss the compensation. Based on my research of the market and my [X years of experience / specific valuable skill / competing offer], I was hoping we could discuss a base salary of $[Your Ask] rather than $[Their Offer].
-
-[Optional: Add specific justification - e.g., "I've seen similar roles at [comparable companies] in this range" or "Given the scope of the role and my track record of [specific achievement], I believe this reflects my value."]
-
-I'm flexible and open to discussing other elements of the package as well. Would you have time for a quick call to discuss?
-
-Thank you again for this opportunity. I'm looking forward to finding a package that works for both of us.
-
-Best,
-[Your Name]
+Gesamte Jahresvergütung: ~102.400 €
 ```
 
-### Counter-Offer Call Script
+**Häufige Vergütungskomponenten in Deutschland:**
+- **bAV (betriebliche Altersvorsorge):** Arbeitgeberanteil zur Rentenvorsorge
+- **Dienstwagen:** Geldwerter Vorteil, ca. 1% des Listenpreises/Monat
+- **Aktienoptionen/RSUs:** Bei börsennotierten Unternehmen
+- **Tantieme:** Gewinnbeteiligung, besonders in mittelständischen Unternehmen
+- **Urlaubsgeld/Weihnachtsgeld:** Weit verbreitet, 13. Monatsgehalt möglich
+
+## Verhandlungsstrategie
+
+### Wann verhandeln
+
+**Bester Zeitpunkt:** Nach schriftlichem Angebot, vor Unterzeichnung
+
+**Zeitplan:**
+1. Mündliches Angebot erhalten → Begeisterung zeigen, schriftliches Angebot anfordern
+2. Schriftliches Angebot erhalten → Bedanken, um Bedenkzeit bitten
+3. Recherchieren und vorbereiten → 24–48 Stunden
+4. Gegenangebot machen → E-Mail oder Anruf
+5. Diskussion/Hin und Her → Kann mehrere Runden dauern
+6. Endgültige Einigung → Schriftlich bestätigen
+
+### Das Gegenangebots-Rahmenwerk
+
+**Aufbau:**
+1. Begeisterung ausdrücken
+2. Eigenen Wert unterstreichen
+3. Konkretes Ziel nennen
+4. Begründung liefern
+5. Diskussion öffnen
+
+### Gegenangebots-E-Mail-Vorlage
 
 ```
-"Hi [Name], thanks for making time. I'm really excited about this opportunity - [genuine specific reason].
+Betreff: [Ihr Name] – Angebotsgespräch
 
-I've reviewed the offer and want to discuss compensation. Based on my market research and [X years experience / key accomplishment / competing offer], I was hoping for a base salary closer to $[Amount].
+Sehr geehrte/r Frau/Herr [Name],
 
-Is there flexibility there?"
+vielen Dank für das Angebot, als [Titel] bei [Unternehmen] zu beginnen. Ich freue mich sehr über die Möglichkeit, [spezifisches an der Stelle]. Nach den Gesprächen mit dem Team und meinen weiteren Recherchen zu [etwas Spezifischem] bin ich überzeugt, dass dies die richtige Position für mich ist.
 
-[LISTEN - Let them respond]
+Ich habe mir die Angebotsdetails angesehen und möchte die Vergütung besprechen. Basierend auf meiner Marktrecherche und meiner [X-jährigen Erfahrung / spezifischen wertvollen Fähigkeit / konkurrierenden Angebot] würde ich ein Grundgehalt von [Ihr Ziel] € anstelle der angebotenen [Angebotenes Gehalt] € vorschlagen.
 
-[If they push back:]
-"I understand there are constraints. I'm flexible - could we look at other elements like signing bonus, equity, or [other element] to bridge the gap?"
+[Optional: Begründung hinzufügen – z.B. „Vergleichbare Positionen bei ähnlichen Unternehmen liegen in diesem Bereich" oder „Angesichts des Verantwortungsbereichs und meiner Erfolgsbilanz bei [spezifische Leistung] spiegelt dies meinen Marktwert wider."]
 
-[If they say they'll need to check:]
-"That's totally fair. When would be a good time to reconnect?"
+Ich bin flexibel und offen, auch andere Vergütungsbestandteile zu besprechen. Hätten Sie Zeit für ein kurzes Gespräch?
+
+Nochmals vielen Dank für diese Möglichkeit. Ich freue mich darauf, eine für beide Seiten passende Vereinbarung zu finden.
+
+Mit freundlichen Grüßen
+[Ihr Name]
 ```
 
-## Common Negotiation Scenarios
+### Gegenangebots-Telefonskript
 
-### Scenario 1: First Offer Is Low
-
-**Approach:**
-- Don't accept immediately
-- Express enthusiasm for role
-- Counter with research-backed number
-- Be prepared to justify
-
-**Script:**
 ```
-"I'm thrilled about the opportunity. The base salary is lower than I expected based on my research. For this role and market, I was expecting something in the $X-$Y range. Is there room to move closer to $X?"
-```
+„Guten Tag [Name], danke, dass Sie sich die Zeit nehmen. Ich freue mich sehr über diese Möglichkeit – [echter spezifischer Grund].
 
-### Scenario 2: They Ask Your Salary Expectations First
+Ich habe das Angebot geprüft und möchte die Vergütung besprechen. Basierend auf meiner Marktrecherche und [X Jahren Erfahrung / wichtiger Leistung / konkurrierendem Angebot] würde ich ein Grundgehalt näher an [Betrag] € anstreben.
 
-**Deflection Strategy:**
-```
-"I'm flexible and focused on finding the right fit. What's the range you've budgeted for this role?"
+Gibt es da Spielraum?"
+
+[ZUHÖREN – Antwort abwarten]
+
+[Bei Rückfragen:]
+„Ich verstehe, dass es Einschränkungen gibt. Ich bin flexibel – könnten wir andere Komponenten wie Einmalzahlung, Beteiligung oder [andere Komponente] besprechen, um die Differenz zu überbrücken?"
+
+[Wenn sie prüfen müssen:]
+„Das ist völlig verständlich. Wann wäre ein guter Zeitpunkt, sich wieder zu melden?"
 ```
 
-**If Pressed:**
-```
-"Based on my research for this role and market, I'm looking at $X-$Y, but I'm open to discussing the full compensation picture."
-```
+## Häufige Verhandlungsszenarien
 
-### Scenario 3: They Won't Budge on Base
+### Szenario 1: Erstes Angebot ist zu niedrig
 
-**Alternatives to Negotiate:**
-- Signing bonus (one-time, easier to approve)
-- Additional equity
-- Earlier performance review (sooner raise)
-- More vacation days
-- Remote work flexibility
-- Professional development budget
-- Title upgrade
-- Relocation assistance
-- Start date
+**Vorgehen:**
+- Nicht sofort annehmen
+- Begeisterung für die Stelle zeigen
+- Mit recherchierter Zahl gegenanbieten
+- Bereit sein zu begründen
 
-**Script:**
+**Skript:**
 ```
-"I understand the base salary is firm. Could we discuss a signing bonus to help bridge the gap? Something in the range of $X would make this work."
+„Ich bin sehr begeistert von der Möglichkeit. Das Grundgehalt liegt unter meinen Erwartungen basierend auf meiner Recherche. Für diese Rolle und den Markt hätte ich eher einen Bereich von X–Y € erwartet. Gibt es Spielraum in Richtung X €?"
 ```
 
-### Scenario 4: You Have Competing Offers
+### Szenario 2: Gehaltsvorstellung wird abgefragt
 
-**Use Carefully:**
-- Only mention if true
-- Don't make it a threat
-- Frame as problem-solving
-
-**Script:**
+**Ablenkungsstrategie:**
 ```
-"I want to be transparent - I'm also in discussions with [another company/a few other companies]. They're offering $X. [Your Company] is my first choice because [genuine reason], but I want to make sure the compensation is competitive."
+„Ich bin flexibel und fokussiere mich auf die richtige Stelle. Welchen Bereich haben Sie für diese Position budgetiert?"
 ```
 
-### Scenario 5: They Ask About Current Salary
-
-**In Many States, This Question Is Illegal**
-
-**If Asked (and legal):**
+**Wenn nachgehakt wird:**
 ```
-"I'd prefer to focus on the value I'd bring to this role and what the market rate is. What's the range you've budgeted?"
+„Basierend auf meiner Recherche für diese Rolle und den Markt liege ich bei X–Y €, bin aber offen, das gesamte Vergütungspaket zu besprechen."
 ```
 
-**Or Redirect:**
+### Szenario 3: Grundgehalt ist nicht verhandelbar
+
+**Alternativen verhandeln:**
+- Einmalzahlung (Signing Bonus – einmalig, leichter zu genehmigen)
+- Früheres Leistungsgespräch (schnellere Gehaltserhöhung)
+- Mehr Urlaubstage
+- Homeoffice-Flexibilität
+- Weiterbildungsbudget
+- Berufsbezeichnungs-Upgrade
+- Dienstwagen oder Mobilitätsbudget
+- Startzeitpunkt
+
+**Skript:**
 ```
-"My current compensation isn't really comparable since [different location/role/structure]. Based on my research for this role, I'm targeting $X-$Y."
+„Ich verstehe, dass das Grundgehalt feststeht. Könnten wir eine Einmalzahlung besprechen, um die Differenz zu überbrücken? Ein Betrag von X € würde dies für mich stimmig machen."
 ```
 
-## Negotiation Tactics
+### Szenario 4: Konkurrierende Angebote vorhanden
 
-### Do's:
-- ✅ Always negotiate (respectfully)
-- ✅ Get the offer in writing before negotiating
-- ✅ Research thoroughly
-- ✅ Be specific with numbers
-- ✅ Express genuine enthusiasm
-- ✅ Give them a way to say yes
-- ✅ Consider total compensation
-- ✅ Be patient - process takes time
-- ✅ Get final agreement in writing
+**Vorsichtig einsetzen:**
+- Nur erwähnen wenn wahr
+- Nicht als Drohung formulieren
+- Als Problemlösung rahmen
 
-### Don'ts:
-- ❌ Accept on the spot
-- ❌ Give a salary history (if not required by law)
-- ❌ Make ultimatums
-- ❌ Lie about competing offers
-- ❌ Be rude or aggressive
-- ❌ Negotiate just for the sake of it
-- ❌ Accept verbal promises without writing
-- ❌ Burn bridges if it doesn't work out
+**Skript:**
+```
+„Ich möchte transparent sein – ich führe auch Gespräche mit einem anderen Unternehmen. Das Angebot liegt bei X €. [Ihr Unternehmen] ist meine erste Wahl wegen [echter Grund], aber ich möchte sicherstellen, dass die Vergütung wettbewerbsfähig ist."
+```
 
-## Total Compensation Comparison
+### Szenario 5: Aktuelles Gehalt wird abgefragt
 
-### Side-by-Side Analysis
+**In Deutschland nicht üblich, aber möglich:**
+
+```
+„Ich würde lieber auf den Wert eingehen, den ich für diese Rolle mitbringe, und was der Markt vergibt. Welchen Bereich haben Sie budgetiert?"
+```
+
+**Oder umleiten:**
+```
+„Meine aktuelle Vergütung ist nur bedingt vergleichbar, da [andere Struktur/andere Branche]. Für diese Rolle liege ich bei X–Y €."
+```
+
+## Verhandlungstaktiken
+
+### TUN:
+- ✅ Immer verhandeln (respektvoll)
+- ✅ Angebot schriftlich vor Verhandlung haben
+- ✅ Gründlich recherchieren
+- ✅ Konkrete Zahlen nennen
+- ✅ Echte Begeisterung zeigen
+- ✅ Ihnen eine Möglichkeit zum Ja geben
+- ✅ Gesamtvergütung bedenken
+- ✅ Geduldig sein – Prozess braucht Zeit
+- ✅ Finale Einigung schriftlich bestätigen
+
+### NICHT TUN:
+- ❌ Sofort annehmen
+- ❌ Gehaltshistorie preisgeben (wenn nicht zwingend)
+- ❌ Ultimaten stellen
+- ❌ Über konkurrierende Angebote lügen
+- ❌ Unhöflich oder aggressiv sein
+- ❌ Nur um des Verhandelns willen verhandeln
+- ❌ Mündliche Versprechen ohne Schriftliches akzeptieren
+- ❌ Brücken verbrennen wenn es nicht klappt
+
+## Gesamtvergütungs-Vergleich
+
+### Seite-an-Seite-Analyse
 
 ```markdown
-## OFFER COMPARISON
+## ANGEBOTS-VERGLEICH
 
-| Component | Company A | Company B | Notes |
-|-----------|-----------|-----------|-------|
-| Base Salary | $150,000 | $140,000 | A wins |
-| Target Bonus | 15% ($22,500) | 20% ($28,000) | B wins |
-| Signing Bonus | $20,000 | $10,000 | A wins |
-| Equity (annual) | $50,000 | $75,000 | B wins |
-| 401k Match | 4% ($6,000) | 6% ($8,400) | B wins |
-| Benefits | Standard | Premium | B wins |
-| WFH | Hybrid (3 days) | Full remote | B wins |
-| Vacation | 3 weeks | Unlimited | Depends |
+| Komponente | Unternehmen A | Unternehmen B | Notizen |
+|------------|---------------|---------------|---------|
+| Grundgehalt | 85.000 € | 78.000 € | A gewinnt |
+| Zielerreichungsbonus (15%) | 12.750 € | 15.600 € | B gewinnt |
+| Einmalzahlung | 10.000 € | 5.000 € | A gewinnt |
+| bAV | 3.400 € | 4.680 € | B gewinnt |
+| Homeoffice | Hybrid (3 Tage) | Vollständig | B gewinnt |
+| Urlaub | 28 Tage | 30 Tage | B gewinnt |
 
-**Year 1 Total Comp:**
-Company A: $248,500
-Company B: $261,400
+**Jahr-1-Gesamtvergütung:**
+Unternehmen A: ~111.150 €
+Unternehmen B: ~103.280 €
 
-**Analysis:** Company B is higher total comp, but Company A has higher base which affects future raises and mortgage qualification.
+**Analyse:** Unternehmen A höhere Gesamtvergütung, aber Unternehmen B bessere Work-Life-Balance. Grundgehalt beeinflusst zukünftige Gehaltserhöhungen.
 ```
 
-## Negotiation Timeline Template
+## Verhandlungs-Zeitplan-Template
 
 ```
-Day 1: Receive offer
-- Thank them, express enthusiasm
-- Ask for offer in writing
-- Ask deadline for response
+Tag 1: Angebot erhalten
+- Bedanken, Begeisterung zeigen
+- Schriftliches Angebot anfordern
+- Antwortfrist erfragen
 
-Day 1-3: Research
-- Verify market rate
-- Calculate total comp
-- Identify priorities
-- Prepare counter-offer
+Tag 1–3: Recherche
+- Marktgehalt verifizieren
+- Gesamtvergütung berechnen
+- Prioritäten identifizieren
+- Gegenangebot vorbereiten
 
-Day 3-5: Counter
-- Send counter-offer email or schedule call
-- Be specific about ask
+Tag 3–5: Gegenangebot
+- Gegenangebots-E-Mail senden oder Anruf planen
+- Konkrete Ziele nennen
 
-Day 5-10: Discussion
-- May require several rounds
-- Be patient but responsive
-- Stay professional and positive
+Tag 5–10: Diskussion
+- Mehrere Runden möglich
+- Geduldig aber reaktionsfähig bleiben
+- Professionell und positiv bleiben
 
-Day 10+: Resolution
-- Agree on terms
-- Get everything in writing
-- Sign and celebrate!
+Tag 10+: Einigung
+- Konditionen vereinbaren
+- Alles schriftlich festhalten
+- Arbeitsvertrag sorgfältig prüfen
+- Unterschreiben und feiern!
 ```
 
-## Output Format
-
-When preparing salary negotiation:
+## Ausgabeformat
 
 ```markdown
-# SALARY NEGOTIATION STRATEGY
+# GEHALTSVERHANDLUNG-STRATEGIE
 
-## Market Research Summary
-**Role:** [Title]
-**Location:** [City/Remote]
-**Experience Level:** [Years]
+## Marktrecherche-Zusammenfassung
+**Rolle:** [Titel]
+**Standort:** [Stadt/Remote]
+**Erfahrungsstufe:** [Jahre]
 
-**Market Range:**
-- 25th percentile: $XXX,XXX
-- 50th percentile: $XXX,XXX (target)
-- 75th percentile: $XXX,XXX
-- 90th percentile: $XXX,XXX (stretch)
+**Marktbereich:**
+- 25. Perzentil: XX.000 €
+- 50. Perzentil: XX.000 € (Ziel)
+- 75. Perzentil: XX.000 €
+- 90. Perzentil: XX.000 € (Stretch)
 
-**Sources:** [List sources used]
+**Quellen:** [Verwendete Quellen]
 
-## Their Offer
-| Component | Amount |
-|-----------|--------|
-| Base | $XXX,XXX |
+## Ihr Angebot
+| Komponente | Betrag |
+|------------|--------|
+| Grundgehalt | XX.000 € |
 | Bonus | X% |
-| Equity | $XXX,XXX |
-| Signing | $XXX |
-| Total Year 1 | $XXX,XXX |
+| Beteiligung | X.000 € |
+| Einmalzahlung | X.000 € |
+| Jahr 1 Gesamt | XX.000 € |
 
-## Your Counter
-| Component | Ask | Justification |
-|-----------|-----|---------------|
-| Base | $XXX,XXX | [Why] |
-| Signing | $XXX | [Why] |
-| [Other] | | |
+## Ihr Gegenangebot
+| Komponente | Ziel | Begründung |
+|------------|------|------------|
+| Grundgehalt | XX.000 € | [Warum] |
+| Einmalzahlung | X.000 € | [Warum] |
+| [Sonstiges] | | |
 
-## Counter-Offer Script
-[Email template or call script customized for this situation]
+## Gegenangebots-Skript
+[E-Mail-Vorlage oder Telefonskript für diese Situation]
 
-## If They Push Back
-**Plan B:** [Alternative elements to negotiate]
-**Walk-away Point:** [Your minimum]
+## Wenn sie ablehnen
+**Plan B:** [Alternative Verhandlungselemente]
+**Untere Grenze:** [Ihr Minimum]
 
-## Key Talking Points
-1. [Your experience/value point]
-2. [Market data point]
-3. [Specific achievement]
+## Wichtige Gesprächspunkte
+1. [Erfahrungs-/Wertpunkt]
+2. [Marktdaten-Punkt]
+3. [Spezifische Leistung]
 
-## Questions to Clarify
-- [Equity vesting schedule?]
-- [Bonus guaranteed?]
-- [Review cycle timeline?]
+## Zu klärende Fragen
+- [Bonus garantiert oder zielabhängig?]
+- [Gehaltsüberprüfungs-Zyklus?]
+- [bAV-Details?]
 ```
 
-## Implementation Checklist
+## Implementierungs-Checkliste
 
-1. ✅ Research market rate from 3+ sources
-2. ✅ Calculate total compensation (not just base)
-3. ✅ Identify your priorities
-4. ✅ Determine walk-away point
-5. ✅ Prepare counter-offer with justification
-6. ✅ Write or practice negotiation script
-7. ✅ Plan for pushback scenarios
-8. ✅ Get agreement in writing
-9. ✅ Review final offer letter carefully
-10. ✅ Sign and celebrate!
+1. ✅ Marktgehalt aus 3+ Quellen recherchiert
+2. ✅ Gesamtvergütung berechnet (nicht nur Grundgehalt)
+3. ✅ Prioritäten identifiziert
+4. ✅ Untere Grenze festgelegt
+5. ✅ Gegenangebot mit Begründung vorbereitet
+6. ✅ Verhandlungsskript geschrieben oder geübt
+7. ✅ Plan für Gegenwehr-Szenarien
+8. ✅ Einigung schriftlich festhalten
+9. ✅ Endgültiges Angebot sorgfältig prüfen
+10. ✅ Unterzeichnen und feiern!

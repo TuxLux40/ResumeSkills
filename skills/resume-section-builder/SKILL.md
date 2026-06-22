@@ -1,397 +1,379 @@
 ---
 name: resume-section-builder
-description: Create targeted resume sections optimized for different experience levels and roles
+description: Gezielte Lebenslauf-Abschnitte erstellen, optimiert für verschiedene Erfahrungsstufen und Rollen
 ---
 
-# Resume Section Builder
+# Lebenslauf-Abschnitt-Ersteller
 
-## When to Use This Skill
+## Wann diesen Skill verwenden
 
-Use this skill when the user:
-- Needs help with specific resume sections
-- Wants to optimize a particular part of their resume
-- Is unsure what to include in a section
-- Needs section-specific guidance
-- Mentions: "resume sections", "skills section", "summary section", "experience section", "what to include"
+Diesen Skill verwenden, wenn der Nutzer:
+- Hilfe mit spezifischen Lebenslauf-Abschnitten benötigt
+- Einen bestimmten Teil des Lebenslaufs optimieren möchte
+- Unsicher ist, was in einen Abschnitt gehört
+- Abschnittsspezifische Anleitung benötigt
+- Erwähnt: „Lebenslauf-Abschnitte", „Fähigkeiten-Abschnitt", „Zusammenfassungs-Abschnitt", „Erfahrungs-Abschnitt", „was einbeziehen"
 
-## Core Capabilities
+## Kernfähigkeiten
 
-- Build targeted professional summaries
-- Structure skills sections effectively
-- Optimize experience sections
-- Create education sections appropriately
-- Add supplementary sections strategically
-- Tailor sections for different career stages
+- Gezielte berufliche Zusammenfassungen entwickeln
+- Fähigkeiten-Abschnitte effektiv strukturieren
+- Erfahrungs-Abschnitte optimieren
+- Ausbildungs-Abschnitte angemessen erstellen
+- Ergänzende Abschnitte strategisch hinzufügen
+- Abschnitte für verschiedene Karrierestufen anpassen
 
-## Professional Summary Section
+## Berufliches Profil / Zusammenfassung
 
-### When to Include
+### Wann einbeziehen
 
-**Include Summary If:**
-- Career changers (need to explain transition)
-- Senior professionals (distill long career)
-- Returning to workforce (address gaps)
-- Highly specialized role (emphasize fit)
+**Zusammenfassung einbeziehen bei:**
+- Quereinstieg (Übergang erklären)
+- Senior-Fachleute (lange Karriere destillieren)
+- Wiedereinstieg (Lücken ansprechen)
+- Hochspezialisierte Rolle (Passung betonen)
 
-**Skip Summary If:**
-- Entry level with limited experience
-- Straightforward career progression
-- Space is at a premium
+**Zusammenfassung weglassen bei:**
+- Berufseinsteiger mit begrenzter Erfahrung
+- Geradliniger Karriereverlauf
+- Wenig Platz
 
-### Summary Framework
+### Zusammenfassungs-Rahmenwerk
 
-**Formula:** [Title/Identity] + [Years/Experience] + [Key Skills] + [Value Proposition]
+**Formel:** [Titel/Identität] + [Jahre/Erfahrung] + [Kernfähigkeiten] + [Wertversprechen]
 
-### By Career Stage
+### Nach Karrierestufe
 
-**Entry Level:**
+**Berufseinsteiger:**
 ```
-Recent Computer Science graduate from UC Berkeley with internship experience in full-stack development. Skilled in Python, React, and AWS. Seeking to leverage academic projects in machine learning and user-facing application development in a software engineering role.
+Frischgebackene/r Informatik-Absolvent/in der TU München mit Praktikumserfahrung in Full-Stack-Entwicklung. Kenntnisse in Python, React und AWS. Möchte akademische Projekte im Bereich Machine Learning und nutzerorientierte Anwendungsentwicklung in einer Software-Engineering-Rolle einbringen.
 ```
 
-**Mid-Career:**
+**Mittlere Karriere:**
 ```
-Product Manager with 6 years driving B2B SaaS products from concept to scale. Track record of launching products that generated $10M+ ARR through data-driven roadmap prioritization and cross-functional leadership. Expert in API products, developer tools, and enterprise sales motions.
+Product Manager mit 6 Jahren Erfahrung beim Aufbau und Skalieren von B2B-SaaS-Produkten. Erfolgsbilanz bei der Markteinführung von Produkten mit 10+ Mio. € ARR durch datengetriebene Roadmap-Priorisierung und bereichsübergreifende Führung. Expert/in für API-Produkte, Developer-Tools und Enterprise-Sales.
 ```
 
 **Senior/Executive:**
 ```
-Technology executive with 15+ years building and scaling engineering organizations from 50 to 500+ across global markets. Proven success leading digital transformation initiatives, M&A integration, and platform modernization. P&L ownership of $100M+ with track record of 40%+ efficiency improvements.
+Technology-Executive mit 15+ Jahren Aufbau und Skalierung von Engineering-Organisationen von 50 auf 500+ Mitarbeitende in globalen Märkten. Bewährte Erfolge bei digitaler Transformation, M&A-Integration und Plattformmodernisierung. GuV-Verantwortung von 100+ Mio. € mit 40%+ Effizienzverbesserungen.
 ```
 
-**Career Changer:**
+**Quereinstieg:**
 ```
-Sales professional transitioning to Customer Success, bringing 5 years of consultative selling experience and proven ability to build lasting client relationships. Skilled in needs assessment, solution design, and stakeholder management. Seeking to apply relationship-building expertise to drive customer retention and expansion.
+Vertriebsprofi beim Wechsel in Customer Success mit 5 Jahren Erfahrung im beratenden Verkauf und nachgewiesener Fähigkeit zum Aufbau langfristiger Kundenbeziehungen. Expertise in Bedarfsanalyse, Lösungsdesign und Stakeholder-Management. Möchte Beziehungskompetenz für Kundenbindung und -ausbau einsetzen.
 ```
 
-### Summary Don'ts
+### Zusammenfassungs-Verbote
 
-- ❌ "Seeking a challenging position..."
-- ❌ "Hard-working team player..."
-- ❌ "Results-oriented professional..."
-- ❌ Third person ("John is a...")
-- ❌ Objectives (what you want vs. what you offer)
+- ❌ „Ich suche eine herausfordernde Position..."
+- ❌ „Teamorientierte/r, fleißige/r Mitarbeiter/in..."
+- ❌ „Ergebnisorientierte/r Fachmann/-frau..."
+- ❌ Dritte Person
+- ❌ Bewerbungsziele (was man will vs. was man bietet)
 
-## Skills Section
+## Fähigkeiten-Abschnitt
 
-### Organization Options
+### Organisationsoptionen
 
-**Option 1: Simple List**
+**Option 1: Einfache Liste**
 ```
-SKILLS
+FÄHIGKEITEN
 Python, JavaScript, SQL, React, Node.js, AWS, Docker, Git, Agile, JIRA
 ```
-Best for: ATS optimization, space constraints
+Beste für: ATS-Optimierung, Platzmangel
 
-**Option 2: Categorized**
+**Option 2: Kategorisiert**
 ```
-TECHNICAL SKILLS
-Languages: Python, JavaScript, TypeScript, SQL
+TECHNISCHE KENNTNISSE
+Sprachen: Python, JavaScript, TypeScript, SQL
 Frameworks: React, Node.js, Django, FastAPI
 Cloud: AWS (EC2, S3, Lambda), GCP, Docker, Kubernetes
 Tools: Git, JIRA, Confluence, Datadog
 ```
-Best for: Technical roles, extensive skill sets
+Beste für: Technische Rollen, umfangreiche Fähigkeitssätze
 
-**Option 3: Proficiency Levels** (use carefully)
+**Option 3: Kompetenzstufen** (vorsichtig verwenden)
 ```
-SKILLS
-Expert: Python, SQL, Product Management
-Advanced: AWS, Data Analysis, Stakeholder Management
-Proficient: Machine Learning, Figma, Financial Modeling
-```
-Best for: Roles requiring specific proficiency, honest representation
-
-### What to Include
-
-**Technical/Hard Skills:**
-- Programming languages
-- Software and tools
-- Methodologies (Agile, Lean)
-- Platforms (Salesforce, SAP)
-- Certifications
-
-**Functional Skills:**
-- Project management
-- Financial analysis
-- Data analysis
-- Market research
-
-**Industry Knowledge:**
-- Domain expertise
-- Regulatory knowledge
-- Industry certifications
-
-### What to Exclude
-
-- ❌ Microsoft Office (assumed)
-- ❌ "Basic" skills
-- ❌ Skills you can't discuss in interview
-- ❌ Soft skills (show, don't list)
-- ❌ Outdated technologies
-
-## Experience Section
-
-### Standard Format
-
-```
-COMPANY NAME | City, State
-Job Title | Start Date - End Date
-
-• Achievement bullet with metric and impact
-• Achievement bullet with metric and impact
-• Achievement bullet with metric and impact
+KENNTNISSE
+Experte: Python, SQL, Produktmanagement
+Fortgeschritten: AWS, Datenanalyse, Stakeholder-Management
+Kenntnisse: Machine Learning, Figma, Finanzmodellierung
 ```
 
-### Bullet Guidelines by Career Stage
+### Was einbeziehen
 
-**Entry Level (0-2 years):**
-- 3-5 bullets per role
-- Include relevant projects
-- Quantify where possible
-- Show initiative and learning
+**Technische/Hard Skills:**
+- Programmiersprachen
+- Software und Tools
+- Methoden (Agile, Lean)
+- Plattformen (Salesforce, SAP)
+- Zertifizierungen
 
-**Mid-Career (3-10 years):**
-- 4-6 bullets for recent roles
-- 2-3 bullets for older roles
-- Focus on achievements over duties
-- Strong metrics throughout
+**Fachliche Fähigkeiten:**
+- Projektmanagement
+- Finanzanalyse
+- Datenanalyse
+- Marktforschung
 
-**Senior (10+ years):**
-- 5-6 bullets for recent roles
-- 2-3 bullets for older roles
-- Emphasize leadership and strategy
-- Show increasing scope
+**Branchenwissen:**
+- Domänen-Expertise
+- Regulatorisches Wissen
+- Branchenzertifizierungen
 
-### Handling Different Situations
+### Was ausschließen
 
-**Multiple Roles at Same Company:**
-```
-COMPANY NAME | City, State
-Senior Manager | 2021 - Present
-• [Bullets for current role]
+- ❌ Microsoft Office (vorausgesetzt)
+- ❌ „Grundlegende" Kenntnisse
+- ❌ Fähigkeiten, die im Interview nicht diskutiert werden können
+- ❌ Soft Skills (zeigen, nicht auflisten)
+- ❌ Veraltete Technologien
 
-Manager | 2019 - 2021
-• [Bullets for previous role]
+## Erfahrungs-Abschnitt
 
-Analyst | 2017 - 2019
-• [Bullets for earliest role]
-```
-
-**Short Tenure:**
-- Include if relevant experience
-- Frame around project or achievement
-- Don't apologize or explain in resume
-
-**Contract/Freelance:**
-```
-Freelance Product Consultant | 2022 - Present
-Clients include: Company A, Company B, Company C
-• [Achievement with Client A]
-• [Achievement with Client B]
-```
-
-## Education Section
-
-### Standard Format
+### Standardformat
 
 ```
-EDUCATION
+UNTERNEHMENSNAME | Ort
+Berufsbezeichnung | Startdatum – Enddatum
 
-Bachelor of Science in Computer Science
-University of California, Berkeley | 2020
-GPA: 3.8/4.0 | Honors: Magna Cum Laude
+• Leistungsaufzählung mit Kennzahl und Impact
+• Leistungsaufzählung mit Kennzahl und Impact
+• Leistungsaufzählung mit Kennzahl und Impact
 ```
 
-### What to Include by Career Stage
+### Aufzählungsrichtlinien nach Karrierestufe
 
-**Entry Level:**
-- Degree, major, school, year
-- GPA (if 3.5+)
-- Honors and awards
-- Relevant coursework
-- Academic projects
-- Study abroad
+**Berufseinsteiger (0–2 Jahre):**
+- 3–5 Aufzählungen pro Stelle
+- Relevante Projekte einbeziehen
+- Wenn möglich quantifizieren
+- Initiative und Lernbereitschaft zeigen
 
-**Mid-Career:**
-- Degree, major, school, year
-- GPA only if exceptional
-- Skip coursework (replaced by experience)
+**Mittlere Karriere (3–10 Jahre):**
+- 4–6 Aufzählungen für aktuelle Stellen
+- 2–3 Aufzählungen für ältere Stellen
+- Leistungen über Aufgaben stellen
+- Starke Kennzahlen durchgehend
+
+**Senior (10+ Jahre):**
+- 5–6 Aufzählungen für aktuelle Stellen
+- 2–3 Aufzählungen für ältere Stellen
+- Führung und Strategie betonen
+- Wachsenden Verantwortungsbereich zeigen
+
+### Besondere Situationen
+
+**Mehrere Rollen im selben Unternehmen:**
+```
+UNTERNEHMENSNAME | Ort
+Senior Manager | 2021 – heute
+• [Aufzählungen für aktuelle Rolle]
+
+Manager | 2019 – 2021
+• [Aufzählungen für vorherige Rolle]
+
+Analyst | 2017 – 2019
+• [Aufzählungen für frühere Rolle]
+```
+
+**Kurze Betriebszugehörigkeit:**
+- Wenn relevante Erfahrung vorhanden: einbeziehen
+- Um Projekt oder Leistung rahmen
+- Im Lebenslauf nicht entschuldigen oder erklären
+
+**Freiberuflich/Selbstständig:**
+```
+Freiberufliche/r Produktberater/in | 2022 – heute
+Kunden: Unternehmen A, Unternehmen B, Unternehmen C
+• [Leistung mit Kunde A]
+• [Leistung mit Kunde B]
+```
+
+## Ausbildungs-Abschnitt
+
+### Standardformat
+
+```
+AUSBILDUNG
+
+Bachelor of Science Informatik
+Technische Universität München | 2020
+Note: Sehr gut (1,2) | Auszeichnung: DAAD-Stipendium
+```
+
+### Was nach Karrierestufe einbeziehen
+
+**Berufseinsteiger:**
+- Abschluss, Studienfach, Hochschule, Jahr
+- Note (wenn sehr gut)
+- Auszeichnungen und Preise
+- Relevante Kurse
+- Akademische Projekte
+- Auslandssemester
+
+**Mittlere Karriere:**
+- Abschluss, Studienfach, Hochschule, Jahr
+- Note nur wenn sehr gut
+- Kurse weglassen (durch Erfahrung ersetzt)
 
 **Senior:**
-- Degree, school
-- May skip year (age discrimination)
-- Professional development more relevant
+- Abschluss, Hochschule
+- Jahr kann weggelassen werden (Altersschutz)
+- Berufliche Weiterbildung relevanter
 
-### Advanced Degrees
-
-```
-MBA, Finance & Strategy
-Harvard Business School | 2022
-• Leadership Fellow
-• Relevant coursework: Corporate Finance, M&A Strategy
-
-M.S. in Computer Science
-Stanford University | 2018
-• Specialization: Artificial Intelligence
-• Thesis: "Title of Thesis"
-```
-
-### Certifications
+### Zertifizierungen
 
 ```
-CERTIFICATIONS
+ZERTIFIZIERUNGEN
 AWS Solutions Architect Associate | Amazon Web Services | 2023
-PMP (Project Management Professional) | PMI | 2022
-Google Analytics Certified | Google | 2023
+PMP (Projektmanagement-Fachmann) | PMI | 2022
+Google Analytics Zertifiziert | Google | 2023
 ```
 
-## Additional Sections
+## Ergänzende Abschnitte
 
-### When to Include Each
+### Wann welchen einbeziehen
 
-**Projects Section:**
-- Entry level with limited work experience
-- Career changers showing new skills
-- Technical roles with personal projects
+**Projekte:**
+- Berufseinsteiger mit begrenzter Berufserfahrung
+- Quereinsteiger, die neue Fähigkeiten zeigen
+- Technische Rollen mit Eigenprojekten
 
-**Volunteer Section:**
-- Relevant volunteer experience
-- Leadership roles
-- Fills employment gaps meaningfully
+**Ehrenamt:**
+- Relevante ehrenamtliche Erfahrung
+- Führungsrollen
+- Beschäftigungslücken sinnvoll füllen
 
-**Languages:**
-- If relevant to role/company
-- List proficiency levels accurately
-- Only if beyond basic conversational
+**Sprachen:**
+- Falls für Stelle/Unternehmen relevant
+- Sprachkenntnisse ehrlich angeben
+- Nur über Grundkenntnisse hinaus
 
-**Publications/Patents:**
-- Academic positions
-- Research roles
-- Technical thought leadership
+**Publikationen/Patente:**
+- Akademische Positionen
+- Forschungsrollen
+- Technisches Thought Leadership
 
-**Awards/Recognition:**
-- Significant industry awards
-- Company-wide recognition
-- Relevant honors
+**Auszeichnungen/Anerkennung:**
+- Bedeutende Branchenauszeichnungen
+- Unternehmensweite Anerkennung
+- Relevante Ehrungen
 
-### Format Examples
+### Formatbeispiele
 
-**Projects:**
+**Projekte:**
 ```
-PROJECTS
-E-commerce Platform | React, Node.js, PostgreSQL | github.com/user/project
-• Built full-stack marketplace with 500+ active users
-• Implemented payment processing with Stripe integration
-```
-
-**Volunteer:**
-```
-VOLUNTEER EXPERIENCE
-Board Member | Local Nonprofit | 2021 - Present
-• Led fundraising committee, increasing annual donations by 40%
+PROJEKTE
+E-Commerce-Plattform | React, Node.js, PostgreSQL | github.com/nutzer/projekt
+• Full-Stack-Marktplatz mit 500+ aktiven Nutzern aufgebaut
+• Zahlungsabwicklung mit Stripe-Integration implementiert
 ```
 
-**Languages:**
+**Ehrenamt:**
 ```
-LANGUAGES
-English (Native) | Spanish (Professional) | Mandarin (Conversational)
+EHRENAMT
+Vorstandsmitglied | Lokaler Verein | 2021 – heute
+• Fundraising-Komitee geleitet, Jahresspenden um 40% gesteigert
 ```
 
-## Section Order by Role Type
+**Sprachen:**
+```
+SPRACHEN
+Deutsch (Muttersprache) | Englisch (Verhandlungssicher) | Französisch (Grundkenntnisse)
+```
 
-### Standard Order
-1. Contact
-2. Summary (optional)
-3. Skills
-4. Experience
-5. Education
-6. Additional
+## Abschnittsreihenfolge nach Rollentyp
 
-### Technical Roles
-1. Contact
-2. Skills (prioritized)
-3. Experience
-4. Projects
-5. Education
-6. Certifications
+### Standardreihenfolge
+1. Kontakt
+2. Zusammenfassung (optional)
+3. Fähigkeiten
+4. Erfahrung
+5. Ausbildung
+6. Sonstiges
 
-### Recent Graduate
-1. Contact
-2. Education (prioritized)
-3. Skills
-4. Experience/Internships
-5. Projects
-6. Activities
+### Technische Rollen
+1. Kontakt
+2. Technische Fähigkeiten (priorisiert)
+3. Erfahrung
+4. Projekte
+5. Ausbildung
+6. Zertifizierungen
+
+### Berufseinsteiger
+1. Kontakt
+2. Ausbildung (priorisiert)
+3. Fähigkeiten
+4. Erfahrung/Praktika
+5. Projekte
+6. Aktivitäten
 
 ### Executive
-1. Contact
+1. Kontakt
 2. Executive Summary
-3. Career Highlights
-4. Experience
-5. Board Roles
-6. Education
+3. Karriere-Highlights
+4. Erfahrung
+5. Vorstandsrollen
+6. Ausbildung
 
-### Career Changer
-1. Contact
-2. Summary (explaining transition)
-3. Skills (transferable)
-4. Experience (reframed)
-5. Bridge Experience
-6. Education
+### Quereinstieg
+1. Kontakt
+2. Zusammenfassung (Übergang erklären)
+3. Fähigkeiten (übertragbare)
+4. Erfahrung (neu formuliert)
+5. Brückenerfahrungen
+6. Ausbildung
 
-## Output Format
-
-When building resume sections:
+## Ausgabeformat
 
 ```markdown
-# RESUME SECTION RECOMMENDATIONS
+# LEBENSLAUF-ABSCHNITTSEMPFEHLUNGEN
 
-## For: [User's situation/role]
+## Für: [Situation/Rolle des Nutzers]
 
-### Recommended Section Order
-1. [Section] - [Why]
-2. [Section] - [Why]
-...
+### Empfohlene Abschnittsreihenfolge
+1. [Abschnitt] – [Warum]
+2. [Abschnitt] – [Warum]
 
-### Section Details
+### Abschnittsdetails
 
-#### Professional Summary
-**Recommendation:** [Include/Skip]
-**Draft:**
-[Written summary if recommended]
+#### Berufliches Profil
+**Empfehlung:** [Einbeziehen/Weglassen]
+**Entwurf:**
+[Geschriebene Zusammenfassung falls empfohlen]
 
-#### Skills Section
-**Format:** [Simple/Categorized/Proficiency]
-**Content:**
-[Organized skills list]
+#### Fähigkeiten-Abschnitt
+**Format:** [Einfach/Kategorisiert/Stufen]
+**Inhalt:**
+[Organisierte Fähigkeitsliste]
 
-#### Experience Section
-**Format:** [Standard/Functional/Hybrid]
-**Bullets per Role:**
-- Recent: [X] bullets
-- Older: [X] bullets
+#### Erfahrungs-Abschnitt
+**Format:** [Standard/Funktional/Hybrid]
+**Aufzählungen pro Stelle:**
+- Aktuelle: [X] Aufzählungen
+- Ältere: [X] Aufzählungen
 
-#### Education Section
-**Include:**
-- [Items to include]
-**Exclude:**
-- [Items to exclude]
+#### Ausbildungs-Abschnitt
+**Einbeziehen:**
+- [Einzubeziehende Elemente]
+**Ausschließen:**
+- [Auszuschließende Elemente]
 
-#### Additional Sections
-**Recommended:** [Section name] because [reason]
-**Skip:** [Section name] because [reason]
+#### Ergänzende Abschnitte
+**Empfohlen:** [Abschnittsname] weil [Grund]
+**Weglassen:** [Abschnittsname] weil [Grund]
 ```
 
-## Section-Building Checklist
+## Abschnitt-Erstellungs-Checkliste
 
-- ✅ Section order optimized for role
-- ✅ Summary is concise and targeted (if included)
-- ✅ Skills are relevant and organized
-- ✅ Experience bullets are achievement-focused
-- ✅ Education appropriate for career stage
-- ✅ Additional sections add value (not filler)
-- ✅ Consistent formatting throughout
-- ✅ All sections support the target role
-- ✅ Nothing irrelevant or outdated included
-- ✅ Total length appropriate (1-2 pages)
+- ✅ Abschnittsreihenfolge für Rolle optimiert
+- ✅ Zusammenfassung prägnant und zielgerichtet (wenn einbezogen)
+- ✅ Fähigkeiten relevant und organisiert
+- ✅ Erfahrungs-Aufzählungen leistungsorientiert
+- ✅ Ausbildung für Karrierestufe angemessen
+- ✅ Ergänzende Abschnitte wertvoll (kein Füllmaterial)
+- ✅ Konsistente Formatierung durchgehend
+- ✅ Alle Abschnitte unterstützen Zielrolle
+- ✅ Nichts Irrelevantes oder Veraltetes
+- ✅ Gesamtlänge angemessen (1–2 Seiten)

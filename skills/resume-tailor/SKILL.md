@@ -1,312 +1,298 @@
 ---
 name: resume-tailor
-description: Customize resume for specific job postings while maintaining truthfulness
+description: Lebenslauf für spezifische Stellenangebote anpassen und dabei Wahrhaftigkeit bewahren
 ---
 
-# Resume Tailor
+# Lebenslauf-Anpasser
 
-## When to Use This Skill
+## Wann diesen Skill verwenden
 
-Use this skill when the user wants to:
-- Customize their resume for a specific job posting
-- Adjust their resume to match job requirements
-- Create a targeted version of their resume
-- Mentions: "tailor resume", "customize resume", "target role", "specific job", "match job description"
+Diesen Skill verwenden, wenn der Nutzer:
+- Lebenslauf für eine bestimmte Stellenanzeige anpassen möchte
+- Lebenslauf auf Stellenanforderungen abstimmen möchte
+- Eine gezielte Version des Lebenslaufs erstellen möchte
+- Erwähnt: „Lebenslauf anpassen", „Lebenslauf zuschneiden", „auf Stelle abstimmen", „spezifischen Job", „Stellenbeschreibung abgleichen"
 
-Use AFTER job-description-analyzer to know what to emphasize.
+Nach dem Stellenbeschreibungs-Analysator verwenden, um zu wissen, was betont werden soll.
 
-## Core Capabilities
+## Kernfähigkeiten
 
-- Reorder experience sections by relevance to target role
-- Adjust professional summary for specific position
-- Add missing keywords from job description
-- Modify bullet points to match job requirements
-- Maintain authenticity while optimizing match
-- Create multiple targeted resume versions
+- Erfahrungsabschnitte nach Relevanz für Zielrolle neu ordnen
+- Berufliches Profil für spezifische Position anpassen
+- Fehlende Schlüsselwörter aus Stellenbeschreibung hinzufügen
+- Aufzählungspunkte auf Stellenanforderungen abstimmen
+- Authentizität bei optimierter Übereinstimmung wahren
+- Mehrere gezielte Lebenslaufversionen erstellen
 
-## The Tailoring Philosophy
+## Die Anpassungsphilosophie
 
-**Key Principle:** You're not lying or fabricating - you're HIGHLIGHTING the most relevant parts of your true experience.
+**Grundprinzip:** Man lügt nicht oder erfindet nicht – man HEBT die relevantesten Teile der echten Erfahrung hervor.
 
-Think of your full experience as a library of achievements. Tailoring means selecting the books that best fit what each employer is looking for.
+Stellen Sie sich Ihre gesamte Erfahrung als Bibliothek von Leistungen vor. Anpassen bedeutet, die Bücher auszuwählen, die am besten zu dem passen, was der jeweilige Arbeitgeber sucht.
 
-## Tailoring Process
+## Der Anpassungsprozess
 
-### Step 1: Analyze the Job (Use Job Description Analyzer First)
-- Identify required skills and keywords
-- Note the company's priorities
-- Understand the role's primary responsibilities
+### Schritt 1: Stelle analysieren (Stellenbeschreibungs-Analysator zuerst)
+- Erforderliche Fähigkeiten und Schlüsselwörter identifizieren
+- Prioritäten des Unternehmens notieren
+- Hauptverantwortlichkeiten der Rolle verstehen
 
-### Step 2: Audit Your Resume
-For each section, ask:
-- Does this support my candidacy for THIS specific role?
-- Is there a better way to phrase this for THIS job?
-- Should this be higher or lower in priority?
+### Schritt 2: Lebenslauf prüfen
+Für jeden Abschnitt fragen:
+- Unterstützt das meine Bewerbung für DIESE spezifische Rolle?
+- Gibt es eine bessere Formulierung für DIESEN Job?
+- Sollte das höher oder niedriger priorisiert werden?
 
-### Step 3: Make Strategic Adjustments
+### Schritt 3: Strategische Anpassungen vornehmen
 
-**Professional Summary:** Rewrite to mirror the job's key requirements
+**Berufliches Profil:** Neu schreiben, um die Hauptanforderungen der Stelle widerzuspiegeln
 
-**Skills Section:** Reorder to put most relevant skills first, add missing keywords
+**Fähigkeiten-Abschnitt:** Neu ordnen, um relevanteste Fähigkeiten zuerst zu setzen, fehlende Schlüsselwörter hinzufügen
 
-**Experience:** 
-- Reorder jobs if a less recent role is more relevant
-- Swap bullet points to lead with most relevant achievements
-- Add keywords naturally into existing bullets
+**Erfahrung:**
+- Stellen neu ordnen, wenn eine weniger aktuelle Rolle relevanter ist
+- Aufzählungspunkte tauschen, um mit relevantesten Leistungen zu beginnen
+- Schlüsselwörter natürlich in bestehende Aufzählungen einbauen
 
-**Education:** Highlight relevant coursework, certifications
+**Ausbildung:** Relevante Kurse, Zertifizierungen hervorheben
 
-## Section-by-Section Tailoring Guide
+## Abschnitt-für-Abschnitt Anpassungsleitfaden
 
-### Professional Summary
+### Berufliches Profil
 
-This is your "elevator pitch" - customize for each application.
+Das ist Ihr „Elevator Pitch" – für jede Bewerbung anpassen.
 
-**Generic Summary (AVOID):**
+**Generisches Profil (VERMEIDEN):**
 ```
-Results-driven professional with 5 years of experience in business operations. Strong analytical and communication skills. Looking for a challenging opportunity to grow.
-```
-
-**Tailored for Operations Manager Role:**
-```
-Operations Manager with 5 years optimizing supply chain processes and reducing costs by 25%. Expertise in Lean Six Sigma, vendor management, and cross-functional team leadership. Track record of improving operational efficiency while maintaining quality standards.
+Ergebnisorientierte/r Fachmann/-frau mit 5 Jahren Erfahrung in der Unternehmensführung. Starke analytische und kommunikative Fähigkeiten. Suche nach einer herausfordernden Möglichkeit zum Wachstum.
 ```
 
-**Tailored for Project Manager Role (Same Person):**
+**Angepasst für Operations-Manager-Stelle:**
 ```
-Project Manager with 5 years leading cross-functional initiatives from concept to delivery. PMP-certified with expertise in Agile methodology, stakeholder management, and budget oversight. Track record of on-time, under-budget project delivery across $10M+ portfolios.
-```
-
-### Skills Section Reordering
-
-**Job Description Emphasizes:** Data analysis, SQL, Python, stakeholder communication
-
-**Before (Generic Order):**
-```
-Skills: Microsoft Office, Communication, Project Management, Python, SQL, Data Visualization, Leadership
+Operations Manager mit 5 Jahren Optimierung von Supply-Chain-Prozessen und 25% Kostenreduzierung. Expertise in Lean Six Sigma, Lieferantenmanagement und bereichsübergreifender Teamführung. Erfolgsbilanz bei Verbesserung der operativen Effizienz unter Qualitätssicherung.
 ```
 
-**After (Tailored Order):**
+**Angepasst für Projektmanager-Stelle (gleiche Person):**
 ```
-Skills: SQL, Python, Data Analysis, Data Visualization, Stakeholder Communication, Project Management, Microsoft Office
+Projektmanager mit 5 Jahren Leitung bereichsübergreifender Initiativen von der Konzeption bis zur Umsetzung. PMP-zertifiziert mit Expertise in Agile-Methodik, Stakeholder-Management und Budgetüberwachung. Erfolgsbilanz bei pünktlicher, kosteneffizenter Projektlieferung über Portfolios von 10+ Mio. €.
 ```
 
-### Experience Section
+### Fähigkeiten-Abschnitt neu ordnen
 
-**Strategy 1: Reorder Jobs**
+**Stellenbeschreibung betont:** Datenanalyse, SQL, Python, Stakeholder-Kommunikation
 
-If your most recent job is less relevant than a previous role:
+**Vorher (generische Reihenfolge):**
+```
+Fähigkeiten: Microsoft Office, Kommunikation, Projektmanagement, Python, SQL, Datenvisualisierung, Führung
+```
 
-**Before:**
-1. Marketing Coordinator (current, but applying for data role)
-2. Data Analyst (previous, highly relevant)
+**Nachher (angepasste Reihenfolge):**
+```
+Fähigkeiten: SQL, Python, Datenanalyse, Datenvisualisierung, Stakeholder-Kommunikation, Projektmanagement, Microsoft Office
+```
 
-**After:**
-1. Data Analyst (labeled with dates, moved up)
-2. Marketing Coordinator (still included, but secondary)
+### Erfahrungs-Abschnitt
 
-**Strategy 2: Swap Bullet Order**
+**Strategie 1: Stellen neu ordnen**
 
-Lead with bullets most relevant to the target role.
+Wenn die aktuellste Stelle weniger relevant ist als eine frühere:
 
-**Applying for Management Role - Lead with:**
-- "Led team of 12..."
-- "Managed budget of $2M..."
+**Vorher:**
+1. Marketing-Koordinator (aktuell, aber auf Datenstelle bewerben)
+2. Datenanalyst (früher, hochrelevant)
 
-**Applying for Technical Role - Lead with:**
-- "Developed automated system..."
-- "Analyzed 500K+ data points..."
+**Nachher:**
+1. Datenanalyst (mit Daten beschriftet, nach oben verschoben)
+2. Marketing-Koordinator (noch enthalten, aber sekundär)
 
-**Strategy 3: Adjust Bullet Language**
+**Strategie 2: Aufzählungsreihenfolge tauschen**
 
-Incorporate job description keywords while staying truthful.
+Mit den für Zielrolle relevantesten Aufzählungen führen.
 
-**Job Description Says:** "stakeholder management"
-**Your Bullet Says:** "Worked with various teams"
-**Tailored Version:** "Managed stakeholder relationships across 5 departments, ensuring alignment on project priorities"
+**Bei Managementstelle führen mit:**
+- „Team von 12 geleitet..."
+- „Budget von 2 Mio. € verantwortet..."
 
-## Tailoring Templates
+**Bei technischer Stelle führen mit:**
+- „Automatisiertes System entwickelt..."
+- „500K+ Datenpunkte analysiert..."
 
-### For Each Job Application, Create:
+**Strategie 3: Aufzählungssprache anpassen**
+
+Stellenbeschreibungs-Schlüsselwörter einbauen und dabei wahrheitsgemäß bleiben.
+
+**Stellenbeschreibung sagt:** „Stakeholder-Management"
+**Ihre Aufzählung sagt:** „Mit verschiedenen Teams zusammengearbeitet"
+**Angepasste Version:** „Stakeholder-Beziehungen über 5 Abteilungen gemanagt, Ausrichtung auf Projektprioritäten sichergestellt"
+
+## Anpassungs-Templates
+
+### Für jede Bewerbung erstellen:
 
 ```markdown
-## RESUME TAILORING PLAN
+## LEBENSLAUF-ANPASSUNGSPLAN
 
-**Target Position:** [Job Title]
-**Company:** [Company Name]
-**Match Score:** [From JD Analyzer]
+**Zielstelle:** [Jobtitel]
+**Unternehmen:** [Unternehmensname]
+**Übereinstimmungswert:** [Aus Stellenbeschreibungs-Analysator]
 
-### Summary Customization
-**Current:** [Your current summary]
-**Tailored:** [Rewritten for this role]
+### Zusammenfassungsanpassung
+**Aktuell:** [Aktuelle Zusammenfassung]
+**Angepasst:** [Neu geschrieben für diese Rolle]
 
-### Skills Reordering
-**Current Order:** [List]
-**New Order:** [Reordered list with added keywords]
-**Keywords Added:** [New skills from JD]
+### Fähigkeiten-Neuordnung
+**Aktuelle Reihenfolge:** [Liste]
+**Neue Reihenfolge:** [Neu geordnete Liste mit hinzugefügten Schlüsselwörtern]
+**Hinzugefügte Schlüsselwörter:** [Neue Fähigkeiten aus Stellenbeschreibung]
 
-### Experience Adjustments
+### Erfahrungsanpassungen
 
-**Job 1: [Title]**
-- Bullet to emphasize: [Which bullet to lead with]
-- Keyword to add: [What phrase to incorporate]
-- Bullet to de-emphasize: [Move down or remove if space needed]
+**Stelle 1: [Titel]**
+- Aufzählung zum Betonen: [Welche Aufzählung zuerst]
+- Schlüsselwort hinzufügen: [Welchen Begriff einbauen]
+- Aufzählung zu depriorisieren: [Nach unten verschieben]
 
-**Job 2: [Title]**
-[Same structure]
+**Stelle 2: [Titel]**
+[Gleiche Struktur]
 
-### Other Adjustments
-- Education: [Any relevant coursework to add]
-- Certifications: [Any to highlight]
-- Projects: [Relevant projects to include]
+### Sonstige Anpassungen
+- Ausbildung: [Relevante Kurse hinzuzufügen]
+- Zertifizierungen: [Hervorzuhebende]
+- Projekte: [Relevante Projekte einzubeziehen]
 ```
 
-## Common Tailoring Scenarios
+## Häufige Anpassungsszenarien
 
-### Scenario 1: Technical Role at Non-Tech Company
+### Szenario 1: Technische Rolle bei Nicht-Tech-Unternehmen
 
-**Challenge:** They want technical skills but also business acumen
+**Herausforderung:** Technische Fähigkeiten und Business-Verständnis gewünscht
 
-**Strategy:**
-- Lead with technical achievements
-- Include business impact in every technical bullet
-- Add "translated technical concepts for business stakeholders"
+**Strategie:**
+- Mit technischen Leistungen führen
+- Business-Impact in jeden technischen Aufzählungspunkt einbeziehen
+- „Technische Konzepte für Business-Stakeholder übersetzt" hinzufügen
 
-### Scenario 2: Management Role (But You've Done Both IC and Management)
+### Szenario 2: Managementrolle (Aber sowohl IC als auch Management gemacht)
 
-**Challenge:** Show leadership without abandoning technical credibility
+**Herausforderung:** Führung zeigen ohne technische Glaubwürdigkeit aufzugeben
 
-**Strategy:**
-- Summary: Emphasize leadership
-- Experience: Lead with team management bullets
-- Keep some technical bullets to show you understand the work
+**Strategie:**
+- Zusammenfassung: Führung betonen
+- Erfahrung: Mit Team-Management-Aufzählungen führen
+- Einige technische Aufzählungen behalten
 
-### Scenario 3: Startup (But You've Worked at Big Companies)
+### Szenario 3: Start-up (Aber in Großunternehmen gearbeitet)
 
-**Challenge:** Show you can thrive in ambiguity and wear many hats
+**Herausforderung:** Zeigen, dass man in Unsicherheit gedeiht
 
-**Strategy:**
-- Highlight cross-functional work
-- Emphasize initiative and self-starting
-- Show scrappy, creative problem-solving
-- De-emphasize rigid processes and large team structures
+**Strategie:**
+- Bereichsübergreifende Arbeit hervorheben
+- Initiative und Eigenständigkeit betonen
+- Kreative Problemlösung zeigen
 
-### Scenario 4: Big Company (But You've Worked at Startups)
+### Szenario 4: Großunternehmen (Aber in Start-ups gearbeitet)
 
-**Challenge:** Show you can work within structure and at scale
+**Herausforderung:** Zeigen, dass man in Strukturen arbeiten kann
 
-**Strategy:**
-- Emphasize process improvement
-- Highlight work that scaled
-- Show collaboration across teams
-- Add metrics that show impact at scale
+**Strategie:**
+- Prozessverbesserung betonen
+- Arbeit hervorheben, die skaliert hat
+- Teamübergreifende Zusammenarbeit zeigen
 
-## Keyword Integration Rules
+## Schlüsselwort-Integrationsregeln
 
-### DO:
-- Add keywords that truthfully describe your work
-- Use exact phrasing from job description when accurate
-- Place keywords naturally in context
-- Include keywords in multiple locations (summary, skills, experience)
+### TUN:
+- Schlüsselwörter hinzufügen, die die Arbeit wahrheitsgemäß beschreiben
+- Exakte Formulierungen aus Stellenbeschreibung verwenden, wenn zutreffend
+- Schlüsselwörter natürlich im Kontext platzieren
+- Schlüsselwörter in mehreren Stellen einbeziehen
 
-### DON'T:
-- Add skills you don't actually have
-- Keyword stuff (repeating same term 10x)
-- Create a different meaning than your actual experience
-- Sacrifice readability for keyword density
+### NICHT TUN:
+- Fähigkeiten hinzufügen, die man nicht hat
+- Schlüsselwörter überhäufen
+- Eine andere Bedeutung als die tatsächliche Erfahrung erzeugen
+- Lesbarkeit für Schlüsselwortdichte opfern
 
-## Truth vs. Tailoring Line
+## Grenze zwischen Wahrheit und Anpassung
 
-**Acceptable Tailoring:**
-- Reordering true information
-- Emphasizing relevant experience
-- Using industry-standard terminology
-- Adding context to vague statements
-- Matching language style to job description
+**Akzeptable Anpassung:**
+- Wahre Informationen neu ordnen
+- Relevante Erfahrung betonen
+- Branchenübliche Terminologie verwenden
+- Kontext zu vagen Aussagen hinzufügen
+- Sprachstil an Stellenbeschreibung anpassen
 
-**Unacceptable (Lying):**
-- Adding skills you don't have
-- Changing numbers or metrics
-- Creating fake experiences
-- Claiming titles you didn't hold
-- Stating certifications you don't have
+**Nicht akzeptabel (Lügen):**
+- Fähigkeiten hinzufügen, die man nicht hat
+- Zahlen oder Kennzahlen ändern
+- Falsche Erfahrungen erfinden
+- Titel behaupten, die man nicht hatte
+- Zertifizierungen angeben, die man nicht hat
 
-## Version Management
+## Versionsmanagement
 
-### Maintain a Master Resume
-- Keep ONE complete document with ALL experiences
-- Include every bullet you've ever written
-- This is your "source of truth"
+### Master-Lebenslauf pflegen
+- EIN vollständiges Dokument mit ALLEN Erfahrungen führen
+- Jeden Aufzählungspunkt, den man je geschrieben hat, aufbewahren
+- Das ist die „Quelle der Wahrheit"
 
-### Create Targeted Versions
-- Name files clearly: "JohnSmith_Resume_ProductManager_TechCorp.pdf"
-- Track which version went to which company
-- Save tailoring notes for interview prep
+### Gezielte Versionen erstellen
+- Dateien klar benennen: „MaxMustermann_Lebenslauf_Produktmanager_TechGmbH.pdf"
+- Verfolgen, welche Version an welches Unternehmen geschickt wurde
+- Anpassungsnotizen für Gesprächsvorbereitung speichern
 
-### Version Naming Convention
+### Namenskonvention
 ```
-[LastName]_Resume_[TargetRole]_[Company]_[Date].pdf
+[Nachname]_Lebenslauf_[Zielrolle]_[Unternehmen]_[Datum].pdf
 
-Examples:
-- Smith_Resume_PM_Google_Jan2024.pdf
-- Smith_Resume_DataAnalyst_Meta_Jan2024.pdf
-- Smith_Resume_General_Master.docx (your master file)
+Beispiele:
+- Mustermann_Lebenslauf_PM_TechGmbH_Jan2024.pdf
+- Mustermann_Lebenslauf_Datenanalyst_StartupAG_Jan2024.pdf
+- Mustermann_Lebenslauf_Allgemein_Master.docx (Master-Datei)
 ```
 
-## Quick Tailoring Checklist
+## Schnell-Anpassungs-Checkliste
 
-Before submitting any resume:
+Vor dem Absenden jedes Lebenslaufs:
 
-1. ✅ Summary mentions the exact job title/function
-2. ✅ Top 5 skills match job description's top 5 requirements
-3. ✅ Most relevant experience is positioned first
-4. ✅ Each job's top bullet addresses job's key requirement
-5. ✅ Keywords from JD appear naturally throughout
-6. ✅ Company/industry terminology is used correctly
-7. ✅ All claims are truthful
-8. ✅ File is named appropriately
-9. ✅ ATS formatting maintained
-10. ✅ Saved for interview prep reference
+1. ✅ Zusammenfassung nennt genaue Jobtitel-/Funktion
+2. ✅ Top 5 Fähigkeiten entsprechen Top 5 Anforderungen der Stelle
+3. ✅ Relevanteste Erfahrung ist zuerst positioniert
+4. ✅ Wichtigste Aufzählung jeder Stelle spricht Hauptanforderung an
+5. ✅ Schlüsselwörter aus Stellenbeschreibung erscheinen natürlich
+6. ✅ Unternehmens-/Branchenterminologie korrekt verwendet
+7. ✅ Alle Aussagen sind wahrheitsgemäß
+8. ✅ Datei ist passend benannt
+9. ✅ ATS-Formatierung beibehalten
+10. ✅ Für Gesprächsvorbereitung gespeichert
 
-## Output Format
-
-When tailoring a resume, provide:
+## Ausgabeformat
 
 ```markdown
-# TAILORED RESUME CHANGES
+# ANGEPASSTE LEBENSLAUF-ÄNDERUNGEN
 
-## Target: [Job Title] at [Company]
+## Ziel: [Jobtitel] bei [Unternehmen]
 
-### Professional Summary
-**Before:** [Original]
-**After:** [Tailored version]
-**Keywords Added:** [List]
+### Berufliches Profil
+**Vorher:** [Original]
+**Nachher:** [Angepasste Version]
+**Hinzugefügte Schlüsselwörter:** [Liste]
 
-### Skills Section
-**New Order:** [Reordered list]
-**Added:** [New keywords]
-**Removed:** [If any, for space]
+### Fähigkeiten-Abschnitt
+**Neue Reihenfolge:** [Neu geordnete Liste]
+**Hinzugefügt:** [Neue Schlüsselwörter]
+**Entfernt:** [Falls welche, für Platz]
 
-### Experience Changes
+### Erfahrungsänderungen
 
-**[Company Name] - [Title]**
-- Move bullet X to position 1
-- Modify bullet Y: [Before → After]
-- Add keyword "[phrase]" to bullet Z
+**[Unternehmensname] – [Titel]**
+- Aufzählung X auf Position 1 verschieben
+- Aufzählung Y ändern: [Vorher → Nachher]
+- Schlüsselwort „[Phrase]" in Aufzählung Z hinzufügen
 
-[Repeat for each relevant job]
-
-### Overall Changes Summary
-- Keywords added: X
-- Bullets modified: Y
-- Sections reordered: Yes/No
-- Estimated new match score: Z%
+### Gesamtänderungs-Zusammenfassung
+- Hinzugefügte Schlüsselwörter: X
+- Geänderte Aufzählungen: Y
+- Neugeordnete Abschnitte: Ja/Nein
+- Geschätzter neuer Übereinstimmungswert: Z%
 ```
-
-## Implementation Notes
-
-- Always start with the job description analyzer
-- Keep tailoring changes documented for interview prep
-- Maintain master resume as source of truth
-- Never sacrifice ATS compatibility for tailoring
-- Test keyword match after tailoring

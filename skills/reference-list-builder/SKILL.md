@@ -1,347 +1,302 @@
 ---
 name: reference-list-builder
-description: Format professional references properly and prepare reference materials
+description: Professionelle Referenzlisten korrekt formatieren und Referenzmaterialien vorbereiten
 ---
 
-# Reference List Builder
+# Referenzlisten-Ersteller
 
-## When to Use This Skill
+## Wann diesen Skill verwenden
 
-Use this skill when the user:
-- Needs to create a professional reference list
-- Wants help choosing the right references
-- Needs to format references properly
-- Is preparing references for job applications
-- Mentions: "references", "reference list", "professional references", "reference check"
+Diesen Skill verwenden, wenn der Nutzer:
+- Eine professionelle Referenzliste erstellen möchte
+- Hilfe bei der Auswahl geeigneter Referenzen benötigt
+- Referenzen korrekt formatieren möchte
+- Referenzen für Bewerbungen vorbereitet
+- Erwähnt: „Referenzen", „Referenzliste", „professionelle Referenzen", „Referenzprüfung", „Zeugen"
 
-## Core Capabilities
+## Kernfähigkeiten
 
-- Format professional reference lists
-- Guide reference selection strategy
-- Prepare reference briefing materials
-- Anticipate reference check questions
-- Handle difficult reference situations
-- Coordinate reference outreach
+- Professionelle Referenzlisten formatieren
+- Referenzauswahl-Strategie begleiten
+- Referenz-Briefing-Materialien vorbereiten
+- Referenzprüfungsfragen antizipieren
+- Schwierige Referenzsituationen handhaben
+- Referenz-Kontaktaufnahme koordinieren
 
-## Reference Strategy
+## Referenzstrategie
 
-### Who Makes a Good Reference?
+### Wer ist eine gute Referenz?
 
-**Ideal References:**
-- Former direct managers (most important)
-- Senior colleagues who observed your work
-- Cross-functional partners
-- Clients or customers
-- Direct reports (for leadership roles)
-- Professors or advisors (for recent graduates)
+**Ideale Referenzen:**
+- Frühere direkte Vorgesetzte (am wichtigsten)
+- Leitende Kolleg/innen, die Ihre Arbeit beobachtet haben
+- Bereichsübergreifende Partner
+- Kunden oder Auftraggeber
+- Direkte Mitarbeiter (für Führungsrollen)
+- Professor/innen oder Betreuer/innen (für Berufseinsteiger)
 
-**Reference Hierarchy:**
-1. **Most Valuable:** Recent direct supervisor
-2. **Very Valuable:** Senior leaders who know your work
-3. **Valuable:** Peers and cross-functional partners
-4. **Acceptable:** Clients, vendors, professors
-5. **Avoid:** Friends, family, HR contacts only
+**Referenz-Hierarchie:**
+1. **Am wertvollsten:** Aktueller/letzter direkter Vorgesetzter
+2. **Sehr wertvoll:** Leitende Persönlichkeiten, die Ihre Arbeit kennen
+3. **Wertvoll:** Gleichgestellte und bereichsübergreifende Partner
+4. **Akzeptabel:** Kunden, Lieferanten, Professor/innen
+5. **Vermeiden:** Freunde, Familie, nur HR-Kontakte
 
-### Who to Avoid
+### Wen vermeiden
 
-- ❌ Current employer (without permission)
-- ❌ People who barely know you
-- ❌ References from 10+ years ago only
-- ❌ Personal friends (unless specified)
-- ❌ People who might give lukewarm feedback
-- ❌ Anyone you haven't contacted in advance
+- ❌ Aktuellen Arbeitgeber (ohne Erlaubnis)
+- ❌ Personen, die Sie kaum kennen
+- ❌ Nur Referenzen von vor 10+ Jahren
+- ❌ Private Freunde (außer explizit gewünscht)
+- ❌ Personen, die möglicherweise laues Feedback geben
+- ❌ Personen, die nicht vorab informiert wurden
 
-## Reference List Format
+## Format der Referenzliste
 
-### Standard Format
+### Standardformat
 
 ```
-PROFESSIONAL REFERENCES
+PROFESSIONELLE REFERENZEN
 
-Jane Smith
-Senior Director of Product
-TechCorp Inc.
-Phone: (555) 123-4567
-Email: jane.smith@techcorp.com
-Relationship: Direct supervisor for 3 years (2020-2023)
+Dr. Maria Müller
+Senior Director Produktentwicklung
+TechGmbH
+Telefon: +49 123 456789
+E-Mail: m.mueller@techgmbh.de
+Beziehung: Direkte Vorgesetzte für 3 Jahre (2020–2023)
 
-John Doe
-VP of Engineering
-Previous Company
-Phone: (555) 234-5678
-Email: john.doe@previous.com
-Relationship: Cross-functional partner on 5 major projects
+Thomas Schmidt
+VP Engineering
+Vorheriges Unternehmen
+Telefon: +49 987 654321
+E-Mail: t.schmidt@vorherig.de
+Beziehung: Bereichsübergreifender Partner bei 5 Großprojekten
 ```
 
-### Information to Include
+### Anzugebende Informationen
 
-**Required:**
-- Full name
-- Current job title
-- Current company
-- Phone number
-- Professional email
-- Your relationship to them
+**Erforderlich:**
+- Vollständiger Name
+- Aktuelle Berufsbezeichnung
+- Aktuelles Unternehmen
+- Telefonnummer
+- Professionelle E-Mail
+- Ihre Beziehung zu der Person
 
 **Optional:**
-- LinkedIn URL
-- Best time to reach
-- Preferred contact method
+- LinkedIn-URL
+- Beste Kontaktzeit
+- Bevorzugte Kontaktmethode
 
-### Formatting Guidelines
+### Formatierungsrichtlinien
 
-- Match the style of your resume (fonts, formatting)
-- 3-5 references (more only if requested)
-- Separate page from resume
-- Header should match resume header
-- Include "References" or "Professional References" as title
+- Stil des Lebenslaufs anpassen (Schriftarten, Formatierung)
+- 3–5 Referenzen (mehr nur wenn angefordert)
+- Separate Seite vom Lebenslauf
+- Kopfzeile sollte Lebenslauf-Kopfzeile entsprechen
+- „Referenzen" oder „Professionelle Referenzen" als Titel
 
-## Reference Preparation
+## Referenzenvorbereitung
 
-### Step 1: Ask Permission
+### Schritt 1: Um Erlaubnis bitten
 
-**Before listing anyone:**
-- Call or email to ask permission
-- Confirm their contact information
-- Explain the role you're applying for
-- Gauge their willingness and enthusiasm
+**Vor der Listung:**
+- Anrufen oder E-Mail senden
+- Kontaktdaten bestätigen
+- Stelle erklären, auf die man sich bewirbt
+- Bereitschaft und Begeisterung einschätzen
 
-**Script:**
+**Skript:**
 ```
-"Hi [Name], I hope you're doing well! I'm applying for a [Role] position at [Company] and was wondering if you'd be comfortable serving as a reference for me. The role involves [brief description], and I think your perspective on [specific project/skill] would be particularly valuable. Would you be willing to speak with them if they reach out?"
-```
-
-### Step 2: Brief Your References
-
-**Send them:**
-- Copy of your resume
-- Job description
-- Key points you want highlighted
-- Specific projects to mention
-- Timeline for when they might be contacted
-
-**Briefing Email Template:**
-```
-Subject: Reference Preparation - [Role] at [Company]
-
-Hi [Name],
-
-Thank you so much for agreeing to be a reference! Here's some context to help:
-
-**The Role:** [Job title] at [Company]
-**What they're looking for:** [Key requirements]
-
-**Points I'm emphasizing:**
-- [Achievement 1]
-- [Achievement 2]
-- [Skill they should mention]
-
-**Our work together they might ask about:**
-- [Project 1]
-- [Project 2]
-
-I've attached my resume and the job description for reference. They may reach out in the next [timeframe].
-
-Please let me know if you have any questions, and thank you again!
-
-Best,
-[Your name]
+„Hallo [Name], ich hoffe, es geht Ihnen gut! Ich bewerbe mich für eine [Rolle]-Stelle bei [Unternehmen] und wollte fragen, ob Sie bereit wären, als Referenz für mich zu dienen. Die Stelle beinhaltet [kurze Beschreibung], und ich denke, Ihre Perspektive auf [spezifisches Projekt/Fähigkeit] wäre besonders wertvoll. Wären Sie bereit, mit ihnen zu sprechen, wenn sie sich melden?"
 ```
 
-### Step 3: Follow Up
+### Schritt 2: Referenzen briefen
 
-After references are checked:
-- Thank your references regardless of outcome
-- Let them know the result
-- Offer to reciprocate
+**Ihnen senden:**
+- Kopie Ihres Lebenslaufs
+- Stellenbeschreibung
+- Zu betonende Kernpunkte
+- Spezifische Projekte zum Erwähnen
+- Zeitrahmen für mögliche Kontaktaufnahme
 
-## Handling Special Situations
+**Briefing-E-Mail-Template:**
+```
+Betreff: Referenz-Vorbereitung – [Rolle] bei [Unternehmen]
 
-### Current Employer Doesn't Know
+Hallo [Name],
 
-**Options:**
-- Ask if reference check can wait until later stage
-- Use colleagues who've left the company
-- Be upfront: "My current employer doesn't know I'm looking"
-- Use other professional references
+vielen Dank, dass Sie sich bereit erklärt haben, als Referenz zu dienen! Hier ist etwas Kontext:
 
-### Manager Left the Company
+**Die Stelle:** [Jobtitel] bei [Unternehmen]
+**Wonach sie suchen:** [Hauptanforderungen]
 
-**Options:**
-- Track them down on LinkedIn
-- Use their personal email/phone
-- Include their new company in reference list
-- Explain "Former manager, now at [New Company]"
+**Punkte, die ich betone:**
+- [Leistung 1]
+- [Leistung 2]
+- [Fähigkeit, die erwähnt werden soll]
 
-### Bad Relationship with Past Manager
+**Unsere gemeinsame Arbeit, nach der sie fragen könnten:**
+- [Projekt 1]
+- [Projekt 2]
 
-**Options:**
-- Use another supervisor from that role
-- Use senior colleagues instead
-- Choose references from different roles
-- Be prepared to explain if asked
+Ich habe meinen Lebenslauf und die Stellenbeschreibung beigefügt. Sie könnten sich in den nächsten [Zeitrahmen] melden.
 
-### Limited Professional Experience
+Bitte lassen Sie mich wissen, wenn Sie Fragen haben, und nochmals herzlichen Dank!
 
-**Options:**
-- Professors or academic advisors
-- Internship supervisors
-- Volunteer organization leaders
-- Coaches or mentors
-- Client contacts
+Mit freundlichen Grüßen,
+[Ihr Name]
+```
 
-### Reference Won't Give Positive Review
+### Schritt 3: Nachbereitung
 
-**Don't use them.** It's better to have fewer references than a lukewarm or negative one.
+Nach Referenzprüfungen:
+- Referenzen unabhängig vom Ergebnis danken
+- Ihnen das Ergebnis mitteilen
+- Anbieten, die Gunst zu erwidern
 
-## What Reference Checkers Ask
+## Besondere Situationen
 
-### Common Questions
+### Aktueller Arbeitgeber weiß nichts
 
-**Performance:**
-- "How would you describe [name]'s work?"
-- "What were their primary responsibilities?"
-- "How did they perform against expectations?"
+**Optionen:**
+- Bitten, Referenzprüfung auf spätere Phase zu verschieben
+- Kolleg/innen nutzen, die das Unternehmen verlassen haben
+- Transparent sein: „Mein aktueller Arbeitgeber weiß nicht, dass ich suche"
+- Andere professionelle Referenzen nutzen
 
-**Skills:**
-- "What are their greatest strengths?"
-- "What areas could they improve?"
-- "How would you rate their [specific skill]?"
+### Vorgesetzte/r hat Unternehmen verlassen
 
-**Work Style:**
-- "How did they handle pressure/deadlines?"
-- "How did they work with the team?"
-- "How did they handle conflict?"
+**Optionen:**
+- Auf LinkedIn suchen
+- Persönliche E-Mail/Telefon nutzen
+- Neues Unternehmen in Referenzliste angeben
+- Erklären: „Frühere/r Vorgesetzte/r, jetzt bei [Neuem Unternehmen]"
 
-**Character:**
-- "Would you rehire them?"
-- "Is there anything else I should know?"
-- "How do they compare to peers?"
+### Schlechte Beziehung zu früherem Vorgesetzten
 
-### The "Would You Rehire?" Question
+**Optionen:**
+- Andere Vorgesetzte aus dieser Rolle nutzen
+- Stattdessen leitende Kolleg/innen wählen
+- Referenzen aus anderen Stellen wählen
+- Auf Nachfrage bereit sein zu erklären
 
-**Most important question.** Brief your references that this may be asked and ensure they can answer enthusiastically.
+### Begrenzte Berufserfahrung
 
-## Reference List Template
+**Optionen:**
+- Professor/innen oder akademische Betreuer/innen
+- Praktikumsbetreuer/innen
+- Organisationsleiter/innen aus Ehrenamt
+- Coaches oder Mentor/innen
+- Kundenkontakte
+
+## Was Referenzprüfer fragen
+
+### Häufige Fragen
+
+**Leistung:**
+- „Wie würden Sie [Name]s Arbeit beschreiben?"
+- „Was waren ihre hauptsächlichen Aufgaben?"
+- „Wie hat sie/er die Erwartungen erfüllt?"
+
+**Fähigkeiten:**
+- „Was sind ihre größten Stärken?"
+- „In welchen Bereichen könnte sie/er sich verbessern?"
+- „Wie würden Sie [spezifische Fähigkeit] bewerten?"
+
+**Arbeitsstil:**
+- „Wie hat sie/er mit Druck/Fristen umgegangen?"
+- „Wie arbeitete sie/er im Team?"
+- „Wie hat sie/er mit Konflikten umgegangen?"
+
+### Die „Würden Sie wieder einstellen?"-Frage
+
+**Wichtigste Frage.** Referenzen briefen, dass sie danach gefragt werden könnten und sicherstellen, dass sie begeistert antworten können.
+
+## Referenzlisten-Template
 
 ```
-[YOUR NAME]
-[Your Email] | [Your Phone]
+[IHR NAME]
+[Ihre E-Mail] | [Ihre Telefonnummer]
 
-PROFESSIONAL REFERENCES
+PROFESSIONELLE REFERENZEN
 
-[REFERENCE 1 - MOST SENIOR/RELEVANT]
+[REFERENZ 1 – AM SENIORSTEN/RELEVANTESTEN]
 [Name]
-[Title]
-[Company]
-Phone: [Number]
-Email: [Email]
-Relationship: [How you worked together, dates]
+[Titel]
+[Unternehmen]
+Telefon: [Nummer]
+E-Mail: [E-Mail]
+Beziehung: [Wie Sie zusammengearbeitet haben, Zeitraum]
 
-[REFERENCE 2]
+[REFERENZ 2]
 [Name]
-[Title]
-[Company]
-Phone: [Number]
-Email: [Email]
-Relationship: [How you worked together, dates]
+[Titel]
+[Unternehmen]
+Telefon: [Nummer]
+E-Mail: [E-Mail]
+Beziehung: [Wie Sie zusammengearbeitet haben, Zeitraum]
 
-[REFERENCE 3]
+[REFERENZ 3]
 [Name]
-[Title]
-[Company]
-Phone: [Number]
-Email: [Email]
-Relationship: [How you worked together, dates]
+[Titel]
+[Unternehmen]
+Telefon: [Nummer]
+E-Mail: [E-Mail]
+Beziehung: [Wie Sie zusammengearbeitet haben, Zeitraum]
 
 ---
-References available upon request for additional contacts.
+Weitere Referenzen auf Anfrage verfügbar.
 ```
 
-## Reference Timing
+## Timing für Referenzen
 
-### When to Provide References
+### Wann Referenzen angeben
 
-- **Don't include with initial application** (unless requested)
-- **Bring to interview** (have them ready)
-- **Provide when asked** (usually after final interview)
-- **Always ask before sharing** (confirm permission each time)
+- **Nicht mit Initialbewerbung** (außer explizit angefordert)
+- **Zum Gespräch mitbringen** (bereithalten)
+- **Bei Anfrage angeben** (meist nach Finalrunden)
+- **Immer vorher fragen** (Erlaubnis jedes Mal bestätigen)
 
-### Common Timeline
-
-1. **Application:** "References available upon request" (optional on resume)
-2. **First Interview:** Have list ready but don't offer
-3. **Final Rounds:** "Can you provide references?" → Share list
-4. **Reference Check:** Company contacts your references
-5. **Offer:** Follow up with references, thank them
-
-## Output Format
-
-When building a reference list:
+## Ausgabeformat
 
 ```markdown
-# REFERENCE LIST
+# REFERENZLISTE
 
-## Reference Strategy
-**Target Role:** [Position]
-**Company:** [Company]
+## Referenzstrategie
+**Zielrolle:** [Stelle]
+**Unternehmen:** [Unternehmen]
 
-## Recommended References
+## Empfohlene Referenzen
 
-### Primary References (Use These)
+### Primäre Referenzen
 
-**Reference 1: [Name]**
-- Current Title: [Title]
-- Company: [Company]
-- Contact: [Phone/Email]
-- Relationship: [Description]
-- Why: [What they can speak to]
-- Key points to highlight: [Specific projects/skills]
+**Referenz 1: [Name]**
+- Aktuelle Position: [Titel]
+- Unternehmen: [Unternehmen]
+- Kontakt: [Telefon/E-Mail]
+- Beziehung: [Beschreibung]
+- Warum: [Was sie ansprechen können]
+- Zu betonende Punkte: [Spezifische Projekte/Fähigkeiten]
 
-**Reference 2: [Name]**
-[Same format]
+## Briefing-Hinweise
 
-**Reference 3: [Name]**
-[Same format]
+### Für jede Referenz senden:
+- [ ] Lebenslauf
+- [ ] Stellenbeschreibung
+- [ ] Wichtige Gesprächspunkte
+- [ ] Zeitrahmen
 
-### Backup References (If Needed)
+## Referenzen-Checkliste
 
-**Reference 4: [Name]**
-[Same format]
-
-## Briefing Notes
-
-### For Each Reference, Send:
-- [ ] Resume
-- [ ] Job description
-- [ ] Key talking points
-- [ ] Timeline
-
-### Key Points to Emphasize
-- [Point 1 - who should mention]
-- [Point 2 - who should mention]
-
-## Reference Outreach
-
-### Permission Request Script
-[Customized script]
-
-### Briefing Email
-[Draft briefing email]
-
-### Thank You Template
-[Post-check thank you message]
+- ✅ 3–5 Referenzen bereit
+- ✅ Alle Referenzen haben zugestimmt
+- ✅ Kontaktdaten aktuell und korrekt
+- ✅ Referenzen kennen die spezifische Stelle
+- ✅ Alle haben Lebenslauf und Gesprächspunkte
+- ✅ Mindestens ein/e direkte/r Vorgesetzte/r dabei
+- ✅ Referenzen decken verschiedene Aspekte der Arbeit ab
+- ✅ Referenzen sind begeistert (nicht nur bereit)
+- ✅ Backup-Referenzen identifiziert
+- ✅ Dankesnachrichten geplant
 ```
-
-## Reference Checklist
-
-- ✅ Have 3-5 references ready
-- ✅ All references have given permission
-- ✅ Contact information is current and accurate
-- ✅ References know about the specific role
-- ✅ Each reference has your resume and talking points
-- ✅ At least one direct supervisor included
-- ✅ References span different aspects of your work
-- ✅ References are enthusiastic (not just willing)
-- ✅ Backup references identified
-- ✅ Thank you notes planned

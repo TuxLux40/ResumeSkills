@@ -1,247 +1,237 @@
 ---
 name: application-form-filler
-description: Fill out job application form fields with context-aware, tailored answers drawn from the candidate's CV and the job description
+description: Bewerbungsformularfelder kontextbewusst und auf die Stellenbeschreibung zugeschnitten ausfüllen
 ---
 
-# Application Form Filler
+# Bewerbungsformular-Ausfüller
 
-## When to Use This Skill
+## Wann diesen Skill verwenden
 
-Use this skill when the user wants to:
-- Answer specific questions on a job application form
-- Fill out text fields on Greenhouse, Lever, Ashby, Workday, or any ATS
-- Write responses to "tell us about yourself" or "why do you want to work here" prompts
-- Get clean, copy-pasteable answers to application questions
-- Mentions: "fill this out", "what do I write here", "answer this question", "application form", "form field"
+Diesen Skill verwenden, wenn der Nutzer:
+- Spezifische Fragen in einem Bewerbungsformular beantworten möchte
+- Textfelder bei Bewerbersystemen wie Greenhouse, Lever, Workday o.ä. ausfüllen möchte
+- Antworten auf „Erzählen Sie etwas über sich" oder „Warum möchten Sie hier arbeiten?" sucht
+- Saubere, kopierfertige Antworten auf Bewerbungsfragen braucht
+- Erwähnt: „dieses Feld ausfüllen", „was schreibe ich hier", „Bewerbungsformular", „Formularfeld"
 
-## Core Principle
+## Grundprinzip
 
-Application form answers should be direct and specific — not a cover letter crammed into a text box. Each field has a purpose. Answer that purpose clearly, then stop.
+Antworten in Bewerbungsformularen sollten direkt und spezifisch sein – kein Anschreiben in ein Textfeld gequetscht. Jedes Feld hat einen Zweck. Diesen Zweck klar beantworten, dann aufhören.
 
-**The answer should feel like:** A real person typed it, not a template was filled in.
+**Die Antwort soll sich anfühlen wie:** Eine echte Person hat sie getippt, kein Template wurde befüllt.
 
-## Before Answering
+## Vor dem Antworten
 
-Always read:
-1. **The job description** — mirror its language and priorities
-2. **The candidate's CV/profile** — pull real projects, roles, and metrics
-3. **The specific question** — answer exactly what was asked, not what you wish was asked
+Immer lesen:
+1. **Die Stellenbeschreibung** – Sprache und Prioritäten spiegeln
+2. **Den Lebenslauf/das Profil des Bewerbers** – echte Projekte, Stellen und Kennzahlen verwenden
+3. **Die konkrete Frage** – genau das beantworten, was gefragt wurde
 
-If the user hasn't provided a CV or JD, ask for them before writing.
+Wenn kein Lebenslauf oder keine Stellenbeschreibung vorhanden: erst nachfragen.
 
-## Question Types and How to Handle Each
+## Fragetypen und Umgang damit
 
 ---
 
-### Type 1: Experience/Background Questions
+### Typ 1: Erfahrungs-/Hintergrundfragen
 
-**Examples:**
-- "How many years of experience do you have with [technology]?"
-- "Describe your experience with [domain]"
-- "What backend frameworks have you used?"
+**Beispiele:**
+- „Wie viele Jahre Erfahrung haben Sie mit [Technologie]?"
+- „Beschreiben Sie Ihre Erfahrung mit [Bereich]"
+- „Welche Backend-Frameworks haben Sie verwendet?"
 
 **Format:**
 ```
-[Technology/skill] — [X years]. [One sentence on what you used it for, with a
-specific project or context]. [Optional: secondary tools in the same category].
+[Technologie/Fähigkeit] – [X Jahre]. [Ein Satz zum konkreten Einsatz mit Projekt oder Kontext]. [Optional: verwandte Tools in derselben Kategorie].
 ```
 
-**Rules:**
-- Lead with the most used/relevant technology
-- Give years honestly — don't inflate
-- Anchor every claim to a real project or role
-- For "describe experience" questions: 2-4 sentences max, one project per sentence
-- If experience is indirect (adjacent domain), say so and pivot to what is relevant
+**Regeln:**
+- Mit der meistgenutzten/relevantesten Technologie beginnen
+- Jahre ehrlich angeben – nicht aufblähen
+- Jeden Anspruch an ein echtes Projekt oder eine echte Stelle koppeln
+- Bei „Erfahrung beschreiben": max. 2–4 Sätze, ein Projekt pro Satz
+- Indirekte Erfahrung (verwandter Bereich): ehrlich benennen und zum Relevanten überleiten
 
 ---
 
-### Type 2: Why This Company / What Interests You
+### Typ 2: Warum dieses Unternehmen / Was interessiert Sie
 
-**Examples:**
-- "Why do you want to work at [Company]?"
-- "What interests you about this role?"
-- "Why are you a good fit?"
+**Beispiele:**
+- „Warum möchten Sie bei [Unternehmen] arbeiten?"
+- „Was interessiert Sie an dieser Stelle?"
+- „Warum passen Sie gut zu uns?"
 
 **Format:**
 ```
-[Specific thing about the company/role that's genuinely interesting — not generic].
-[How that connects to something the candidate has actually worked on].
-[Optional: one line on why this domain, not just this company].
+[Spezifisches Detail über das Unternehmen/die Stelle – kein Allgemeinplatz].
+[Wie das mit etwas zusammenhängt, woran der Bewerber tatsächlich gearbeitet hat].
+[Optional: Eine Zeile zur Domäne, nicht nur zum Unternehmen].
 ```
 
-**Rules:**
-- Must be specific to this company — no boilerplate
-- Research the company before answering if needed
-- Connect to real work, not aspirations
-- Keep it under 150 words for a form field
-- Don't repeat the JD back to them
+**Regeln:**
+- Muss spezifisch für dieses Unternehmen sein – keine Floskel
+- Unternehmen vorher recherchieren
+- An echte Arbeit anknüpfen, nicht an Wünsche
+- Unter 150 Wörter für ein Formularfeld
+- Die Stellenbeschreibung nicht einfach zurückspiegeln
 
 ---
 
-### Type 3: Portfolio / Work Samples
+### Typ 3: Portfolio / Arbeitsproben
 
-**Examples:**
-- "Include any other samples of work you're proud of"
-- "Link to relevant projects or repositories"
-- "Describe a project you've built end-to-end"
+**Beispiele:**
+- „Fügen Sie Arbeitsproben hinzu, auf die Sie stolz sind"
+- „Links zu relevanten Projekten oder Repositories"
+- „Beschreiben Sie ein Projekt, das Sie von Anfang bis Ende umgesetzt haben"
 
 **Format:**
-List projects with one-line descriptions and links. Lead with the most relevant.
+Projekte mit Einzeilenbeschreibung und Links auflisten. Mit dem relevantesten beginnen.
 
 ```
-[Project Name] ([live URL] | [github URL]) — [one line: what it is and one
-proof point]. [Stack if relevant].
+[Projektname] ([Live-URL] | [GitHub-URL]) – [eine Zeile: was es ist und ein Nachweis]. [Stack falls relevant].
 ```
 
-**Rules:**
-- Only include projects relevant to the role
-- Always include links (live demo > GitHub > nothing)
-- If the project has paying users or measurable usage, say so — once
-- Don't pad with irrelevant projects to look prolific
+**Regeln:**
+- Nur für die Stelle relevante Projekte einbeziehen
+- Immer Links angeben (Live-Demo > GitHub > nichts)
+- Falls zahlende Nutzer oder messbare Nutzung: einmal erwähnen
+- Nicht mit irrelevanten Projekten auffüllen
 
 ---
 
-### Type 4: Technical Skill Questions
+### Typ 4: Technische Fähigkeiten
 
-**Examples:**
-- "Which frontend frameworks have you used most extensively?"
-- "Rate your proficiency in Python"
-- "Describe your experience with cloud infrastructure"
+**Beispiele:**
+- „Welche Frontend-Frameworks haben Sie am intensivsten genutzt?"
+- „Bewerten Sie Ihre Python-Kenntnisse"
+- „Beschreiben Sie Ihre Erfahrung mit Cloud-Infrastruktur"
 
-**Format:**
-For open-text fields:
+**Format (offene Textfelder):**
 ```
-[Primary skill] — [X years]. [Specific use: what you built with it, in what context].
-[Secondary skill] — [X years]. [Same].
-[Note any relevant gaps honestly].
+[Hauptfähigkeit] – [X Jahre]. [Konkreter Einsatz: was damit gebaut, in welchem Kontext].
+[Nebenfähigkeit] – [X Jahre]. [Gleich].
+[Etwaige Lücken ehrlich benennen].
 ```
 
-For rating/dropdown fields: pick the honest level — don't optimize for the highest rating if it's not accurate.
+Bei Bewertungs-/Dropdown-Feldern: den ehrlichen Level wählen – nicht für die höchste Bewertung optimieren.
 
-**Rules:**
-- Years + context beats years alone
-- Acknowledge gaps rather than hiding them
-- If asked to rate, rate honestly — inflated ratings create problems in technical interviews
-- For stacks you've used but not recently, note it
+**Regeln:**
+- Jahre + Kontext schlägt Jahre allein
+- Lücken zugeben statt verbergen
+- Aufgeblähte Bewertungen erzeugen Probleme im Fachinterview
 
 ---
 
-### Type 5: Open-Ended / "Tell Us About Yourself"
+### Typ 5: Offene Fragen / „Erzählen Sie etwas über sich"
 
-**Examples:**
-- "Tell us about yourself"
-- "Describe your professional background"
-- "What are you looking for in your next role?"
+**Beispiele:**
+- „Erzählen Sie etwas über sich"
+- „Beschreiben Sie Ihren beruflichen Werdegang"
+- „Was suchen Sie in Ihrer nächsten Stelle?"
 
 **Format:**
 ```
-Current role + what you do there (1 sentence).
-Relevant prior experience, briefly (1 sentence).
-What you're looking for / why this role (1-2 sentences — specific to the company).
-Optional: one project or side work that's relevant (1 sentence).
+Aktuelle Stelle + was man dort macht (1 Satz).
+Relevante frühere Erfahrung, kurz (1 Satz).
+Was man sucht / warum diese Stelle (1–2 Sätze – unternehmensspezifisch).
+Optional: ein relevantes Projekt oder Nebenprojekt (1 Satz).
 ```
 
-**Rules:**
-- Start with current role, not education
-- Keep to 100-200 words for most form fields
-- End on the forward-looking note (what you want, not where you've been)
-- No trait statements ("I'm passionate about...") — just facts and projects
+**Regeln:**
+- Mit aktueller Stelle beginnen, nicht mit Ausbildung
+- 100–200 Wörter für die meisten Formularfelder
+- Mit Blick nach vorn enden (was man will, nicht wo man war)
+- Keine Eigenschaftsaussagen („Ich bin leidenschaftlich") – nur Fakten und Projekte
 
 ---
 
-### Type 6: Situational / Behavioral Questions
+### Typ 6: Situative / Verhaltensbasierte Fragen
 
-**Examples:**
-- "Describe a time you solved a complex technical problem"
-- "Tell us about a project you led end-to-end"
-- "How do you handle working across multiple teams?"
+**Beispiele:**
+- „Beschreiben Sie eine Situation, in der Sie ein komplexes Problem gelöst haben"
+- „Erzählen Sie von einem Projekt, das Sie vollständig geleitet haben"
+- „Wie gehen Sie mit der Arbeit in mehreren Teams um?"
 
-**Format:** Condensed STAR (no labels, just flow)
+**Format:** Komprimierte STAR-Methode (ohne Bezeichnungen, als Fließtext)
 
 ```
-[Context in one sentence]. [What you specifically did — 2 sentences]. [Outcome
-with a metric if possible — 1 sentence].
+[Kontext in einem Satz]. [Was Sie konkret getan haben – 2 Sätze]. [Ergebnis mit Kennzahl wenn möglich – 1 Satz].
 ```
 
-**Rules:**
-- Be specific — name the project, the tech, the team size
-- Don't generalize ("I always approach problems by...")
-- Keep to 150-250 words
-- First-person, active voice throughout
-- End with the result, not the lesson learned (save that for interviews)
+**Regeln:**
+- Konkret sein – Projekt, Technologie, Teamgröße benennen
+- Nicht verallgemeinern
+- 150–250 Wörter
+- Erste Person, Aktivform durchgehend
+- Mit dem Ergebnis enden, nicht mit der Erkenntnis
 
 ---
 
-### Type 7: Opinion / Vision Questions
+### Typ 7: Meinungs-/Visionsfragen
 
-**Examples:**
-- "Which technologies do you think are most important for the future?"
-- "What would you learn if you had unlimited time?"
-- "Where do you see AI/[domain] in 5 years?"
+**Beispiele:**
+- „Welche Technologien halten Sie für die Zukunft am wichtigsten?"
+- „Was würden Sie lernen, wenn Sie unbegrenzt Zeit hätten?"
+- „Wo sehen Sie KI/[Bereich] in 5 Jahren?"
 
 **Format:**
-Answer with a genuine opinion. Pick one or two things and explain the reasoning briefly.
+Mit echter Meinung antworten. Ein oder zwei Punkte wählen und kurz begründen.
 
-**Rules:**
-- Have an actual point of view — vague answers are forgettable
-- Ground opinions in domain knowledge or real experience
-- Keep to 100-150 words
-- Don't hedge everything — commit to a view, acknowledge it's one perspective
+**Regeln:**
+- Einen echten Standpunkt haben – vage Antworten sind unvergesslich vergesslich
+- Meinungen in Fachwissen oder echter Erfahrung verankern
+- 100–150 Wörter
+- Nicht alles absichern – eine Sicht einnehmen, als solche kennzeichnen
 
 ---
 
-## Output Format
+## Ausgabeformat
 
-Always wrap the answer in a plain code block so it's clean to copy-paste:
+Antwort immer in einem einfachen Code-Block für sauberes Kopieren:
 
 ```
-[Answer text here]
+[Antworttext hier]
 ```
 
-If providing multiple answers (one per field), use separate code blocks with a label above each:
+Bei mehreren Antworten (je Feld): separate Code-Blöcke mit Bezeichnung darüber:
 
-**Years of React experience:**
+**Jahre React-Erfahrung:**
 ```
-4 years. Used it across Screenr (agentic hiring SaaS), a Tauri-based POS
-system, and several client projects. Also used Next.js where SSR was needed.
+4 Jahre. Genutzt für Screenr (agentische Recruiting-SaaS), ein Tauri-basiertes POS-System und mehrere Kundenprojekte. Auch Next.js wo SSR benötigt wurde.
 ```
 
-**Describe your backend experience:**
+**Backend-Erfahrung beschreiben:**
 ```
 ...
 ```
 
-## Length Calibration
+## Längenrichtwerte
 
-| Field type | Target length |
-|------------|---------------|
-| Single-line text | 1 sentence |
-| Short answer | 2-4 sentences |
-| Long answer / textarea | 100-250 words |
-| "Describe your experience" | 150-300 words |
-| "Tell us about yourself" | 100-200 words |
-| Portfolio / links section | List format, no prose |
+| Feldtyp | Ziel-Länge |
+|---------|------------|
+| Einzeiliges Textfeld | 1 Satz |
+| Kurzantwort | 2–4 Sätze |
+| Langantwort / Textarea | 100–250 Wörter |
+| „Erfahrung beschreiben" | 150–300 Wörter |
+| „Über mich" | 100–200 Wörter |
+| Portfolio / Links | Listenformat, kein Fließtext |
 
-When in doubt, shorter is better. Recruiters skim form answers. The goal is to be clear and memorable, not comprehensive.
+Im Zweifel: kürzer ist besser. Recruiter überfliegen Formularantworten.
 
-## Common Mistakes to Avoid
+## Häufige Fehler vermeiden
 
-**Repeating the JD:**
-❌ "I am interested in this role because you are looking for someone to build scalable backend systems..."
-✅ "What caught my attention was the real-time constraint — healthcare data at milliseconds latency is a different class of problem than most backend work."
+**Die Stellenbeschreibung zurückspiegeln:**
+❌ „Ich interessiere mich für diese Stelle, weil Sie jemanden für skalierbare Backend-Systeme suchen..."
+✅ „Was meine Aufmerksamkeit geweckt hat, ist die Echtzeit-Anforderung – Healthcare-Daten bei Millisekunden-Latenz ist eine ganz andere Klasse als die meisten Backend-Aufgaben."
 
-**Generic trait claims:**
-❌ "I am a fast learner who thrives in collaborative environments"
-✅ [Just describe the actual work — the traits come through]
+**Generische Eigenschaften behaupten:**
+❌ „Ich bin ein schneller Lerner und arbeite gerne im Team"
+✅ [Einfach die tatsächliche Arbeit beschreiben – Eigenschaften kommen durch]
 
-**Over-qualifying:**
-❌ "While I may not have exactly 5 years, I believe my experience..."
-✅ "The role mentions 5 years — I'm at 3, but the systems I've shipped are production-facing."
+**Überqualifizieren:**
+❌ „Auch wenn ich vielleicht nicht genau 5 Jahre habe, glaube ich, dass meine Erfahrung..."
+✅ „Die Stelle nennt 5 Jahre – ich bin bei 3, aber die Systeme, die ich geliefert habe, sind produktiv im Einsatz."
 
-**Listing without context:**
-❌ "React, Vue, Angular, Next.js, TypeScript, Node.js..."
-✅ "React is my primary frontend framework — 4 years across Screenr and several client projects. Vue and Angular for about 3 years each, mostly dashboards and admin tooling."
-
-**Padding to fill space:**
-❌ Adding projects or experience that aren't relevant just to look prolific
-✅ Include only what's relevant to this specific role
+**Auflisten ohne Kontext:**
+❌ „React, Vue, Angular, Next.js, TypeScript, Node.js..."
+✅ „React ist mein Haupt-Frontend-Framework – 4 Jahre in Screenr und mehreren Kundenprojekten. Vue und Angular je ca. 3 Jahre, hauptsächlich Dashboards und Admin-Tools."

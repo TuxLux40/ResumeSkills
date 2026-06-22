@@ -1,319 +1,304 @@
 ---
 name: resume-ats-optimizer
-description: Optimize resumes for Applicant Tracking Systems, check ATS compatibility, and analyze keyword match
+description: Lebensläufe für Bewerber-Tracking-Systeme optimieren, ATS-Kompatibilität prüfen und Schlüsselwort-Übereinstimmung analysieren
 ---
 
-# Resume ATS Optimizer
+# Lebenslauf ATS-Optimierer
 
-## When to Use This Skill
+## Wann diesen Skill verwenden
 
-Use this skill when the user wants to:
-- Optimize their resume for Applicant Tracking Systems (ATS)
-- Check if their resume will pass automated screening
-- Understand why their applications aren't getting responses
-- Mentions keywords like: "ATS", "not getting interviews", "resume not working", "optimize resume", "keyword optimization"
+Diesen Skill verwenden, wenn der Nutzer:
+- Lebenslauf für Bewerber-Tracking-Systeme (ATS) optimieren möchte
+- Prüfen möchte, ob Lebenslauf die automatische Vorauswahl besteht
+- Verstehen möchte, warum Bewerbungen keine Rückmeldungen bekommen
+- Erwähnt: „ATS", „keine Interviews", „Lebenslauf funktioniert nicht", „Lebenslauf optimieren", „Schlüsselwortoptimierung"
 
-Also use when the user provides a resume file and mentions they're applying to jobs.
+## Kernfähigkeiten
 
-## Core Capabilities
+- Lebenslauf auf ATS-Kompatibilität prüfen
+- Schlüsselwörter extrahieren und mit Stellenbeschreibungen abgleichen
+- Formatierungsprobleme identifizieren, die ATS-Parser stören
+- Übereinstimmungswerte zwischen Lebenslauf und Stellenanzeigen berechnen
+- Schlüsselwort-Hinzufügungen und -Platzierungen vorschlagen
+- ATS-freundliche Formatierungsempfehlungen geben
 
-- Parse resume and test ATS compatibility
-- Extract and analyze keywords against job descriptions
-- Identify formatting issues that break ATS parsers
-- Calculate match scores between resume and job postings
-- Suggest keyword additions and placements
-- Generate ATS-friendly formatting recommendations
+## Das ATS-Problem
 
-## The ATS Problem
+75% der Lebensläufe werden von Bewerber-Tracking-Systemen abgelehnt, bevor sie ein Mensch sieht. Unternehmen nutzen ATS, um:
+- Unqualifizierte Kandidaten automatisch zu filtern
+- Nach spezifischen Schlüsselwörtern aus Stellenanforderungen zu suchen
+- Lebensläufe in strukturierte Daten zu parsen
+- Kandidaten nach Schlüsselwort-Übereinstimmungsprozentsatz zu ranken
 
-75% of resumes are rejected by Applicant Tracking Systems before a human ever sees them. Companies use ATS to:
-- Filter out unqualified candidates automatically
-- Search for specific keywords from job requirements
-- Parse resumes into structured data
-- Rank candidates by keyword match percentage
+Häufige Gründe für ATS-Scheitern:
+1. Schlechte Formatierung (Tabellen, Spalten, Kopf-/Fußzeilen)
+2. Fehlende Schlüsselwörter aus der Stellenbeschreibung
+3. Inkonsistente Abschnittsüberschriften
+4. Nicht-standardmäßige Schriftarten oder Sonderzeichen
+5. Text in Bildern eingebettet
+6. Falsches Dateiformat
 
-Common reasons resumes fail ATS:
-1. Poor formatting (tables, columns, headers/footers)
-2. Missing keywords from job description
-3. Inconsistent section headers
-4. Non-standard fonts or special characters
-5. Text embedded in images
-6. Incorrect file format
+## ATS-Kompatibilitätscheckliste
 
-## ATS Compatibility Checklist
+### Dateiformat
+- ✅ .docx oder .pdf verwenden (nicht .pages, .odt)
+- ✅ PDF muss textbasiert sein, kein eingescanntes Bild
+- ✅ Dateiname: „Vorname_Nachname_Lebenslauf.pdf"
 
-### File Format
-- ✅ Use .docx or .pdf (not .pages, .odt)
-- ✅ PDF must be text-based, not scanned image
-- ✅ File name: "FirstName_LastName_Resume.pdf"
+### Schrift & Formatierung
+- ✅ Standardschriften: Arial, Calibri, Georgia, Times New Roman
+- ✅ Schriftgröße: 10–12pt für Text, 14–16pt für Überschriften
+- ✅ Keine Textboxen, Tabellen oder Spalten
+- ✅ Keine Kopf-/Fußzeilen (Kontaktdaten in den Textkörper)
+- ✅ Keine Bilder, Grafiken oder Diagramme
+- ✅ Konsistente Datumsformate (MM/JJJJ)
+- ✅ Standard-Aufzählungspunkte (•, -, *)
 
-### Font & Formatting
-- ✅ Standard fonts: Arial, Calibri, Georgia, Times New Roman
-- ✅ Font size: 10-12pt for body, 14-16pt for headers
-- ✅ No text boxes, tables, or columns
-- ✅ No headers/footers (put contact info in body)
-- ✅ No images, graphics, or charts
-- ✅ Consistent date formats (MM/YYYY)
-- ✅ Standard bullet points (•, -, *)
+### Abschnittsüberschriften
+Standard-Überschriften verwenden:
+- ✅ „Berufliche Erfahrung" oder „Berufserfahrung"
+- ✅ „Ausbildung" oder „Bildung"
+- ✅ „Fähigkeiten" oder „Kenntnisse"
+- ✅ „Zusammenfassung" oder „Berufliches Profil"
 
-### Section Headers
-Use standard, recognizable headers:
-- ✅ "Professional Experience" or "Work Experience" (not "Where I've Been")
-- ✅ "Education" (not "Academic Background")
-- ✅ "Skills" (not "Core Competencies")
-- ✅ "Summary" or "Professional Summary"
-
-### Contact Information
+### Kontaktdaten
 ```
-John Smith
-email@example.com | (555) 123-4567 | LinkedIn: linkedin.com/in/johnsmith
-San Francisco, CA
+Max Mustermann
+max.mustermann@email.de | +49 123 456789 | LinkedIn: linkedin.com/in/maxmustermann
+München
 ```
 
-NOT in header/footer, and avoid:
-- ❌ Tables for contact info
-- ❌ Special characters in email
-- ❌ Multiple phone numbers
-- ❌ Full mailing address (city/state is enough)
+NICHT in Kopf-/Fußzeile, und vermeiden:
+- ❌ Tabellen für Kontaktdaten
+- ❌ Sonderzeichen in E-Mail
+- ❌ Mehrere Telefonnummern
+- ❌ Vollständige Postadresse (Stadt reicht)
 
-## Keyword Optimization Process
+## Schlüsselwortoptimierungs-Prozess
 
-### Step 1: Extract Job Description Keywords
+### Schritt 1: Schlüsselwörter aus Stellenbeschreibung extrahieren
 
-Identify three types of keywords:
-
-**Hard Skills (Technical)**
-- Programming languages (Python, Java, SQL)
-- Tools and platforms (Salesforce, AWS, Excel)
-- Certifications (PMP, CPA, CFA)
-- Methodologies (Agile, Six Sigma, SDLC)
+**Hard Skills (Technisch)**
+- Programmiersprachen (Python, Java, SQL)
+- Tools und Plattformen (Salesforce, AWS, Excel)
+- Zertifizierungen (PMP, CPA, AWS-zertifiziert)
+- Methoden (Agile, Six Sigma, SDLC)
 
 **Soft Skills**
-- Leadership, collaboration, communication
-- Problem-solving, analytical thinking
-- Project management, stakeholder management
+- Führung, Zusammenarbeit, Kommunikation
+- Problemlösung, analytisches Denken
+- Projektmanagement, Stakeholder-Management
 
-**Industry Terms**
-- B2B, SaaS, e-commerce
-- Enterprise, SMB, mid-market
-- ARR, MRR, churn rate
+**Branchenbegriffe**
+- B2B, SaaS, E-Commerce
+- Enterprise, KMU
+- ARR, MRR, Churn-Rate, DSGVO
 
-### Step 2: Match Analysis
+### Schritt 2: Übereinstimmungsanalyse
 
-For each keyword in job description:
-1. Check if exact phrase appears in resume
-2. Check for synonyms or variations
-3. Count frequency of mention
-4. Note location (summary, experience, skills)
+Für jedes Schlüsselwort in der Stellenbeschreibung:
+1. Prüfen, ob exakter Begriff im Lebenslauf erscheint
+2. Nach Synonymen oder Varianten suchen
+3. Häufigkeit zählen
+4. Ort notieren (Zusammenfassung, Erfahrung, Fähigkeiten)
 
-### Step 3: Calculate Match Score
+### Schritt 3: Übereinstimmungswert berechnen
 
 ```
-Match Score = (Keywords Matched / Total Required Keywords) × 100
+Übereinstimmungswert = (Übereinstimmende Schlüsselwörter / Gesamt erforderliche Schlüsselwörter) × 100
 
-Example:
-Job has 20 required keywords
-Your resume has 15 of them
-Match Score = 75%
+Beispiel:
+Stelle hat 20 erforderliche Schlüsselwörter
+Ihr Lebenslauf hat 15 davon
+Übereinstimmungswert = 75%
 
-Target: 80%+ for strong match
+Ziel: 80%+ für starke Übereinstimmung
 ```
 
-### Step 4: Keyword Placement Strategy
+### Schritt 4: Schlüsselwort-Platzierungsstrategie
 
-**Priority 1: Professional Summary (Top of Resume)**
-- Include 5-8 most important keywords
-- Use naturally in 3-4 sentence paragraph
-- Example: "Data Scientist with 5+ years using Python, SQL, and machine learning to drive business insights..."
+**Priorität 1: Berufliches Profil (Oben im Lebenslauf)**
+- 5–8 wichtigste Schlüsselwörter einbeziehen
+- Natürlich in 3–4 Satz-Absatz verwenden
 
-**Priority 2: Skills Section**
-- List keywords explicitly
-- Group by category if needed
-- Use exact phrasing from job description
+**Priorität 2: Fähigkeiten-Abschnitt**
+- Schlüsselwörter explizit auflisten
+- Exakte Formulierung aus der Stellenbeschreibung verwenden
 
-**Priority 3: Experience Bullets**
-- Incorporate keywords into achievement statements
-- Don't force keywords unnaturally
-- Use variations throughout
+**Priorität 3: Erfahrungs-Aufzählungen**
+- Schlüsselwörter in Leistungsaussagen einbinden
+- Schlüsselwörter nicht erzwingen
 
-**Keyword Density Guidelines:**
-- Critical keywords: Appear 2-4 times throughout resume
-- Important keywords: Appear 1-2 times
-- Don't keyword stuff - keep it natural
-- Vary phrasing (e.g., "led team" and "team leadership")
+**Schlüsselwortdichte-Richtlinien:**
+- Kritische Schlüsselwörter: 2–4x im gesamten Lebenslauf
+- Wichtige Schlüsselwörter: 1–2x
+- Nicht überhäufen – natürlich halten
 
-## Analysis Output Format
-
-When analyzing a resume, provide this structured report:
+## Analyse-Ausgabeformat
 
 ```markdown
-# ATS COMPATIBILITY REPORT
+# ATS-KOMPATIBILITÄTSBERICHT
 
-## Overall Score: [X]/100
+## Gesamtscore: [X]/100
 
-### File Format Check ✅/❌
+### Dateiformat-Prüfung ✅/❌
 - Format: [DOCX/PDF]
-- Text extraction: [Success/Failed]
-- File size: [X KB/MB]
+- Textextraktion: [Erfolgreich/Fehlgeschlagen]
 
-### Formatting Issues
-✅ No tables or columns detected
-❌ Contact info in header (move to body)
-⚠️  Two different font sizes in skills section
+### Formatierungsprobleme
+✅ Keine Tabellen oder Spalten erkannt
+❌ Kontaktdaten in Kopfzeile (in Textkörper verschieben)
+⚠️ Zwei verschiedene Schriftgrößen im Fähigkeiten-Abschnitt
 
-### Keyword Analysis
+### Schlüsselwortanalyse
 
-JOB REQUIREMENTS vs YOUR RESUME:
+STELLENANFORDERUNGEN vs. IHR LEBENSLAUF:
 
-**Critical Keywords (Must Have):**
-✅ Project Management - Found 3x
-✅ Agile/Scrum - Found 2x
-❌ Stakeholder Management - MISSING (mentioned 5x in JD)
-❌ Budget Management - MISSING (mentioned 3x in JD)
+**Kritische Schlüsselwörter (Muss vorhanden):**
+✅ Projektmanagement – 3x gefunden
+✅ Agile/Scrum – 2x gefunden
+❌ Stakeholder-Management – FEHLT (5x in Stelle erwähnt)
+❌ Budgetverantwortung – FEHLT (3x in Stelle erwähnt)
 
-**Important Keywords:**
-✅ Cross-functional teams - Found 1x
-⚠️  "Risk management" - You have "risk mitigation" (close but not exact match)
-✅ Process improvement - Found 2x
+**Wichtige Schlüsselwörter:**
+✅ Bereichsübergreifende Teams – 1x gefunden
+⚠️ „Risikomanagement" – Sie haben „Risikoabsicherung" (nah aber kein exakter Treffer)
 
-**Match Score: 65%**
-Target: 80%+ recommended
+**Übereinstimmungswert: 65%**
+Ziel: 80%+ empfohlen
 
-### Recommended Changes
+### Empfohlene Änderungen
 
-**1. Add Missing Keywords:**
+**1. Fehlende Schlüsselwörter hinzufügen:**
 
-In Professional Summary, change:
-"Experienced project manager with proven track record..."
+Im Beruflichen Profil ändern:
+„Erfahrene/r Projektleiter/in mit nachgewiesener Erfolgsbilanz..."
 
-To:
-"Experienced project manager with proven track record in stakeholder management and budget oversight..."
+Zu:
+„Erfahrene/r Projektleiter/in mit nachgewiesener Erfolgsbilanz im Stakeholder-Management und der Budgetverantwortung..."
 
-In Experience section, add bullet:
-"Managed stakeholder communication across 3 departments and executive leadership team"
-"Directed budget management for $2.5M project portfolio"
+In Erfahrungsabschnitt hinzufügen:
+„Stakeholder-Kommunikation über 3 Abteilungen und Führungsebene gesteuert"
+„Budgetverantwortung für 2,5 Mio. € Projektportfolio übernommen"
 
-**2. Fix Formatting:**
-- Move contact information from header to body of resume
-- Make all skill section items same font size (currently 10pt and 11pt mixed)
+**2. Formatierung korrigieren:**
+- Kontaktdaten aus Kopfzeile in Textkörper verschieben
 
-**3. Strengthen Existing Keywords:**
-Change "risk mitigation" to "risk management" for exact match
+**3. Bestehende Schlüsselwörter stärken:**
+„Risikoabsicherung" zu „Risikomanagement" für exakte Übereinstimmung ändern
 
-### Estimated New Match Score: 85%
+### Geschätzter neuer Übereinstimmungswert: 85%
 ```
 
-## Common ATS Failure Patterns
+## Häufige ATS-Fehler
 
-### Pattern 1: Creative Formatting
+### Muster 1: Kreatives Design
 ```
 ❌ PROBLEM:
-[Two-column layout with graphics]
-[Skill bars and proficiency charts]
-[Text in colored boxes]
+[Zweispaltiges Layout mit Grafiken]
+[Fähigkeitsbalken und Kompetenzdiagramme]
+[Text in farbigen Boxen]
 
-✅ SOLUTION:
-- Single column layout
-- Text-only skills list
-- Simple bullet points
+✅ LÖSUNG:
+- Einspaltig
+- Nur Text für Fähigkeitsliste
+- Einfache Aufzählungspunkte
 ```
 
-### Pattern 2: Unconventional Section Names
-```
-❌ PROBLEM:
-"My Journey" (instead of Experience)
-"What I Bring to the Table" (instead of Skills)
-"Academic Pursuits" (instead of Education)
-
-✅ SOLUTION:
-Use standard headers ATS recognizes
-```
-
-### Pattern 3: Missing Keywords
+### Muster 2: Unkonventionelle Abschnittsnamen
 ```
 ❌ PROBLEM:
-Job requires: "Python, SQL, Data Visualization"
-Resume says: "Programming, databases, making charts"
+„Mein Werdegang" (statt Berufserfahrung)
+„Was ich mitbringe" (statt Fähigkeiten)
+„Akademischer Weg" (statt Ausbildung)
 
-✅ SOLUTION:
-Use exact terminology from job description
+✅ LÖSUNG:
+ATS-erkannte Standardüberschriften verwenden
 ```
 
-### Pattern 4: Keyword Stuffing
+### Muster 3: Fehlende Schlüsselwörter
 ```
 ❌ PROBLEM:
-Skills: Python, Python programming, Python developer, Python expert, Python specialist, Advanced Python...
+Stelle verlangt: „Python, SQL, Datenvisualisierung"
+Lebenslauf sagt: „Programmierung, Datenbanken, Charts erstellen"
 
-✅ SOLUTION:
-Skills: Python, SQL, JavaScript, React, Node.js
-(Then incorporate naturally in bullets)
+✅ LÖSUNG:
+Exakte Terminologie aus der Stellenbeschreibung verwenden
 ```
 
-## Industry-Specific Considerations
+### Muster 4: Keyword-Überhäufung
+```
+❌ PROBLEM:
+Fähigkeiten: Python, Python-Programmierung, Python-Entwickler, Python-Experte, Python-Spezialist, Fortgeschrittenes Python...
 
-### Tech Resumes
-- Emphasize programming languages and frameworks
-- Include GitHub, portfolio links in Skills section (not header)
-- Certifications and courses matter highly
+✅ LÖSUNG:
+Fähigkeiten: Python, SQL, JavaScript, React, Node.js
+(Dann natürlich in Aufzählungen einbauen)
+```
+
+## Branchenspezifische Überlegungen
+
+### Tech-Lebensläufe
+- Programmiersprachen und Frameworks betonen
+- GitHub, Portfolio-Links im Fähigkeiten-Abschnitt (nicht im Kontaktbereich)
+- Zertifizierungen und Kurse hoch relevant
 
 ### Business/Finance
-- Focus on software proficiency (Excel, SAP, Salesforce)
-- Certifications critical (CPA, CFA, PMP)
-- Industry keywords (P&L, ROI, KPI)
+- Software-Kenntnisse priorisieren (Excel, SAP, Salesforce)
+- Zertifizierungen wichtig (CPA, CFA, PMP)
+- Branchenkennzahlen (GuV, ROI, KPI)
 
-### Healthcare
-- Licenses and certifications required
-- Specific systems (Epic, Cerner, MEDITECH)
-- Compliance keywords (HIPAA, Joint Commission)
+### Gesundheitswesen
+- Lizenzen und Zertifizierungen erforderlich
+- Spezifische Systeme (z.B. Medicom, CGM, ORBIS)
+- Compliance-Schlüsselwörter (DSGVO, MDR, ISO 13485)
 
 ### Marketing
-- Platform expertise (HubSpot, Salesforce, Google Analytics)
-- Channel keywords (SEO, PPC, email marketing)
-- Metrics and results-driven language
+- Plattform-Expertise (HubSpot, Salesforce, Google Analytics)
+- Kanal-Schlüsselwörter (SEO, SEA, E-Mail-Marketing)
+- Kennzahlen und ergebnisorientierte Sprache
 
-## Edge Cases & Special Situations
+## Sonderfälle
 
-### Career Changers
-- Focus on transferable skills
-- Use keywords from TARGET industry, not just current
-- May need two resume versions for ATS
+### Quereinsteiger
+- Übertragbare Fähigkeiten fokussieren
+- Schlüsselwörter aus ZIEL-Branche verwenden, nicht aus aktueller
+- Ggf. zwei Lebenslauf-Versionen für ATS
 
-### Recent Graduates
-- Education section becomes priority for keywords
-- Include relevant coursework, projects
-- Internships count as experience - use those keywords
+### Berufseinsteiger
+- Ausbildungsabschnitt für Schlüsselwörter priorisieren
+- Relevante Kurse und Projekte einbeziehen
+- Praktika als Erfahrung werten – entsprechende Schlüsselwörter verwenden
 
-### Executive Level
-- ATS still matters for senior roles
-- Focus on strategic keywords
-- Include board experience, P&L size, team size
+### Führungskräfte
+- ATS auch bei Senior-Stellen relevant
+- Strategische Schlüsselwörter fokussieren
+- Vorstandserfahrung, GuV-Größe, Teamgröße einbeziehen
 
-### Gaps in Employment
-- Use years only (not months) if it helps
-- Include freelance/consulting with keywords
-- Volunteer work can include relevant keywords
+### Beschäftigungslücken
+- Nur Jahre angeben (keine Monate) wenn hilfreich
+- Freiberuflichkeit/Beratung mit Schlüsselwörtern einbeziehen
+- Ehrenamt kann relevante Schlüsselwörter enthalten
 
-## Implementation Checklist
+## Erfolgskennzahlen
 
-When helping user optimize for ATS:
+Nach der Optimierung sollte der Lebenslauf:
+- 80%+ Übereinstimmung für Ziel-Stellenbeschreibungen erzielen
+- ATS-Parsing-Test bestehen (alle Abschnitte erkannt)
+- Null Formatierungsfehler aufweisen
+- Alle kritischen Schlüsselwörter 2–4x enthalten
+- Natürlich lesbar sein (keine Überhäufung)
+- Sofort einreichfertig sein
 
-1. ✅ Scan current resume for ATS compatibility issues
-2. ✅ Analyze job description for required keywords
-3. ✅ Calculate current match score
-4. ✅ Identify specific missing keywords
-5. ✅ Suggest exact placements for new keywords
-6. ✅ Flag formatting problems
-7. ✅ Provide before/after examples
-8. ✅ Re-score after suggested changes
-9. ✅ Verify file format and naming
-10. ✅ Test with ATS simulator if possible
+## Implementierungs-Checkliste
 
-## Success Metrics
-
-After optimization, the resume should:
-- Score 80%+ match for target job descriptions
-- Pass ATS parsing test (all sections recognized)
-- Have zero formatting errors
-- Include all critical keywords 2-4x each
-- Read naturally (not keyword-stuffed)
-- Be ready to submit immediately
+1. ✅ Aktuellen Lebenslauf auf ATS-Kompatibilitätsprobleme prüfen
+2. ✅ Stellenbeschreibung auf erforderliche Schlüsselwörter analysieren
+3. ✅ Aktuellen Übereinstimmungswert berechnen
+4. ✅ Spezifisch fehlende Schlüsselwörter identifizieren
+5. ✅ Genaue Platzierungen für neue Schlüsselwörter vorschlagen
+6. ✅ Formatierungsprobleme kennzeichnen
+7. ✅ Vorher/Nachher-Beispiele bereitstellen
+8. ✅ Nach Änderungen neu bewerten
+9. ✅ Dateiformat und -benennung prüfen
+10. ✅ Zur sofortigen Einreichung bereit

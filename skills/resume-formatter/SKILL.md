@@ -1,360 +1,318 @@
 ---
 name: resume-formatter
-description: Ensure ATS-friendly formatting and create clean scannable layouts
+description: ATS-freundliche Formatierung sicherstellen und übersichtliche, scannbare Layouts erstellen
 ---
 
-# Resume Formatter
+# Lebenslauf-Formatierer
 
-## When to Use This Skill
+## Wann diesen Skill verwenden
 
-Use this skill when the user:
-- Needs help with resume layout and formatting
-- Has a messy or hard-to-read resume
-- Wants to ensure ATS compatibility through formatting
-- Needs a clean, professional design
-- Mentions: "format resume", "resume layout", "resume design", "clean resume", "professional format"
+Diesen Skill verwenden, wenn der Nutzer:
+- Hilfe mit Lebenslauf-Layout und -Formatierung benötigt
+- Einen unübersichtlichen oder schwer lesbaren Lebenslauf hat
+- ATS-Kompatibilität durch Formatierung sicherstellen möchte
+- Ein sauberes, professionelles Design benötigt
+- Erwähnt: „Lebenslauf formatieren", „Lebenslauf-Layout", „Lebenslauf-Design", „sauberer Lebenslauf", „professionelles Format"
 
-## Core Capabilities
+## Kernfähigkeiten
 
-- Structure resumes for optimal readability
-- Ensure ATS compatibility through formatting
-- Create visual hierarchy
-- Optimize white space and margins
-- Select appropriate fonts and sizes
-- Balance aesthetic appeal with functionality
+- Lebensläufe für optimale Lesbarkeit strukturieren
+- ATS-Kompatibilität durch Formatierung sicherstellen
+- Visuelle Hierarchie schaffen
+- Weißraum und Ränder optimieren
+- Geeignete Schriftarten und -größen auswählen
+- Ästhetischen Reiz mit Funktionalität ausbalancieren
 
-## Formatting Fundamentals
+## Formatierungs-Grundlagen
 
-### The Dual Audience Challenge
+### Die doppelte Zielgruppe
 
-Your resume must work for:
-1. **ATS (Applicant Tracking Systems)** - Robots that parse text
-2. **Human Readers** - Recruiters who scan quickly
+Ihr Lebenslauf muss für zwei Zielgruppen funktionieren:
+1. **ATS (Bewerber-Tracking-Systeme)** – Roboter, die Text parsen
+2. **Menschliche Leser** – Recruiter, die schnell überfliegen
 
-**The Solution:** Clean, simple formatting that satisfies both.
+**Die Lösung:** Saubere, einfache Formatierung, die beide zufriedenstellt.
 
-## Document Setup
+## Dokument-Einrichtung
 
-### Page Length
-- **Entry Level (0-5 years):** 1 page
-- **Mid-Level (5-15 years):** 1-2 pages
-- **Senior/Executive (15+ years):** 2 pages (max 3 for executives)
+### Seitenlänge
+- **Berufseinsteiger (0–5 Jahre):** 1 Seite
+- **Mittlere Karriere (5–15 Jahre):** 1–2 Seiten
+- **Senior/Executive (15+ Jahre):** 2 Seiten (max. 3 für Führungskräfte)
 
-### Margins
-- **Recommended:** 0.5" - 1" all sides
-- **Minimum:** 0.5" (don't go smaller)
-- **Maximum:** 1" (don't waste space)
+### Ränder
+- **Empfohlen:** 1,5–2,5 cm alle Seiten
+- **Minimum:** 1,5 cm (nicht kleiner)
+- **Maximum:** 2,5 cm (nicht zu viel Platz verschwenden)
 
-### Font Selection
+### Schriftauswahl
 
-**Safe, ATS-Friendly Fonts:**
-- **Sans-serif:** Arial, Calibri, Helvetica, Verdana
+**Sichere, ATS-freundliche Schriftarten:**
+- **Sans-Serif:** Arial, Calibri, Helvetica, Verdana
 - **Serif:** Times New Roman, Georgia, Garamond
 
-**Font Sizes:**
-- **Name:** 16-20pt
-- **Section Headers:** 12-14pt
-- **Body Text:** 10-12pt
-- **Minimum readable:** 10pt
+**Schriftgrößen:**
+- **Name:** 16–20pt
+- **Abschnittsüberschriften:** 12–14pt
+- **Fließtext:** 10–12pt
+- **Minimum lesbar:** 10pt
 
-### Spacing
-- **Line spacing:** 1.0 to 1.15
-- **Space after paragraphs:** 6-12pt
-- **Section spacing:** 12-16pt between sections
+### Abstände
+- **Zeilenabstand:** 1,0 bis 1,15
+- **Abstand nach Absatz:** 6–12pt
+- **Abschnittsabstand:** 12–16pt zwischen Abschnitten
 
-## ATS-Safe Formatting Rules
+## ATS-sichere Formatierungsregeln
 
-### DO:
-- ✅ Use standard fonts
-- ✅ Use simple bullet points (•, -, *)
-- ✅ Use bold and italic sparingly
-- ✅ Use standard section headers
-- ✅ Save as .docx or text-based .pdf
-- ✅ Put contact info in body (not header)
-- ✅ Use single column layout
-- ✅ Use consistent formatting throughout
+### Machen:
+- ✅ Standardschriftarten verwenden
+- ✅ Einfache Aufzählungspunkte (•, -, *)
+- ✅ Fettdruck und Kursiv sparsam
+- ✅ Standardmäßige Abschnittsüberschriften
+- ✅ Als .docx oder textbasiertes .pdf speichern
+- ✅ Kontaktdaten im Textkörper (nicht in Kopfzeile)
+- ✅ Einspaltiges Layout
+- ✅ Konsistente Formatierung durchgehend
 
-### DON'T:
-- ❌ Use tables (except simple ones for contact info)
-- ❌ Use text boxes
-- ❌ Use columns (multi-column layouts)
-- ❌ Use headers/footers for important info
-- ❌ Use images or graphics
-- ❌ Use unusual fonts
-- ❌ Use skill bars or progress indicators
-- ❌ Use special characters or emojis
-- ❌ Use color for essential information
+### Nicht machen:
+- ❌ Tabellen verwenden (außer einfache für Kontaktdaten)
+- ❌ Textboxen verwenden
+- ❌ Mehrspaltiges Layout
+- ❌ Wichtige Infos in Kopf-/Fußzeile
+- ❌ Bilder oder Grafiken
+- ❌ Ungewöhnliche Schriftarten
+- ❌ Fähigkeitsbalken oder Fortschrittsanzeiger
+- ❌ Sonderzeichen oder Emojis
+- ❌ Farbe für wesentliche Informationen
 
-## Section Organization
+## Abschnittsorganisation
 
-### Standard Section Order
+### Standard-Abschnittsreihenfolge
 
 ```
-1. Contact Information
-2. Professional Summary (optional)
-3. Skills/Technical Skills
-4. Professional Experience
-5. Education
-6. Certifications (if relevant)
-7. Additional (volunteer, languages, etc.)
+1. Kontaktdaten
+2. Berufliches Profil (optional)
+3. Fähigkeiten/Technische Fähigkeiten
+4. Berufserfahrung
+5. Ausbildung
+6. Zertifizierungen (falls relevant)
+7. Sonstiges (Ehrenamt, Sprachen usw.)
 ```
 
-### Section Header Formatting
+### Abschnittsüberschriften-Formatierung
 
-**ATS-Recognized Headers:**
-- PROFESSIONAL EXPERIENCE or WORK EXPERIENCE
-- EDUCATION
-- SKILLS or TECHNICAL SKILLS
-- PROFESSIONAL SUMMARY or SUMMARY
-- CERTIFICATIONS
-- PROJECTS
+**ATS-erkannte Überschriften:**
+- BERUFSERFAHRUNG
+- AUSBILDUNG
+- FÄHIGKEITEN oder KENNTNISSE
+- BERUFLICHES PROFIL oder PROFIL
+- ZERTIFIZIERUNGEN
+- PROJEKTE
 
-**Format Options:**
+**Formatierungsoptionen:**
 ```
-PROFESSIONAL EXPERIENCE
+BERUFSERFAHRUNG
 ━━━━━━━━━━━━━━━━━━━━━━
 
-or
+oder
 
-Professional Experience
-_______________________
+Berufserfahrung
+_______________
 
-or
+oder
 
-PROFESSIONAL EXPERIENCE
+BERUFSERFAHRUNG
 ```
 
-## Contact Information Layout
+## Kontaktdaten-Layout
 
-### Recommended Format
+### Empfohlenes Format
 ```
-JOHN SMITH
-john.smith@email.com | (555) 123-4567 | linkedin.com/in/johnsmith
-San Francisco, CA
-```
-
-### Alternative Format
-```
-JOHN SMITH
-San Francisco, CA
-john.smith@email.com | (555) 123-4567
-LinkedIn: linkedin.com/in/johnsmith | GitHub: github.com/johnsmith
+MAX MUSTERMANN
+max.mustermann@email.de | +49 123 456789 | linkedin.com/in/maxmustermann
+München
 ```
 
-### What to Include
-- ✅ Full name
-- ✅ Professional email
-- ✅ Phone number
-- ✅ City, State (no full address needed)
-- ✅ LinkedIn URL
-- ✅ Portfolio/GitHub (if relevant)
+### Was einbeziehen
+- ✅ Vollständiger Name
+- ✅ Professionelle E-Mail
+- ✅ Telefonnummer
+- ✅ Stadt (vollständige Adresse nicht notwendig)
+- ✅ LinkedIn-URL
+- ✅ Portfolio/GitHub (falls relevant)
 
-### What to Exclude
-- ❌ Full street address
-- ❌ Photo
-- ❌ Date of birth
-- ❌ Marital status
-- ❌ Multiple phone numbers
-- ❌ Personal social media
+### Was ausschließen
+- ❌ Vollständige Postadresse
+- ❌ Foto
+- ❌ Geburtsdatum
+- ❌ Familienstand
+- ❌ Mehrere Telefonnummern
+- ❌ Private Social Media
 
-## Experience Section Formatting
+## Erfahrungsabschnitt-Formatierung
 
-### Standard Format
+### Standardformat
 ```
-COMPANY NAME | City, ST
-Job Title | Month Year - Month Year
+UNTERNEHMENSNAME | Ort
+Berufsbezeichnung | Monat Jahr – Monat Jahr
 
-• Achievement bullet with metrics and results
-• Achievement bullet with metrics and results
-• Achievement bullet with metrics and results
-```
-
-### Alternative Format
-```
-Job Title
-COMPANY NAME, City, ST                    Month Year - Month Year
-
-• Achievement bullet with metrics and results
-• Achievement bullet with metrics and results
+• Leistungsaufzählung mit Kennzahlen und Ergebnissen
+• Leistungsaufzählung mit Kennzahlen und Ergebnissen
+• Leistungsaufzählung mit Kennzahlen und Ergebnissen
 ```
 
-### Date Formatting
-- **Consistent format:** Use same format throughout
-- **Recommended:** Month Year (Jan 2020 - Present)
-- **Also acceptable:** MM/YYYY (01/2020 - Present)
-- **Avoid:** Full dates (January 15, 2020)
+### Datumsformatierung
+- **Konsistentes Format:** Gleiches Format durchgehend
+- **Empfohlen:** Monat Jahr (Jan 2020 – heute)
+- **Auch akzeptabel:** MM/JJJJ (01/2020 – heute)
+- **Vermeiden:** Vollständige Datumsangaben
 
-### Bullet Point Guidelines
-- **Length:** 1-2 lines each
-- **Format:** Start with action verb, end with result
-- **Quantity:** 3-6 bullets per role (more for recent, fewer for old)
-- **Symbol:** Use standard bullets (•, -, *)
+### Aufzählungspunkt-Richtlinien
+- **Länge:** Je 1–2 Zeilen
+- **Format:** Mit Aktionsverb beginnen, mit Ergebnis enden
+- **Anzahl:** 3–6 pro Stelle (mehr für aktuelle, weniger für ältere)
+- **Symbol:** Standard-Aufzählungspunkte (•, -, *)
 
-## Skills Section Formatting
+## Fähigkeiten-Abschnitt-Formatierung
 
-### Option 1: Simple List
+### Option 1: Einfache Liste
 ```
-SKILLS
+FÄHIGKEITEN
 Python, JavaScript, SQL, React, Node.js, AWS, Docker, Git, Agile, JIRA
 ```
 
-### Option 2: Categorized
+### Option 2: Kategorisiert
 ```
-TECHNICAL SKILLS
-Languages: Python, JavaScript, TypeScript, SQL
+TECHNISCHE KENNTNISSE
+Sprachen: Python, JavaScript, TypeScript, SQL
 Frameworks: React, Node.js, Django, Flask
 Tools: AWS, Docker, Kubernetes, Git, Jenkins
 ```
 
-### Option 3: Columns (Careful with ATS)
+### Option 3: Spalten (Vorsicht bei ATS)
 ```
-SKILLS
-Languages        Frameworks       Tools
+FÄHIGKEITEN
+Sprachen         Frameworks       Tools
 Python           React            AWS
 JavaScript       Node.js          Docker
 SQL              Django           Git
 ```
 
-**Note:** Multi-column layouts may cause ATS issues. Test before using.
+**Hinweis:** Mehrspaltiges Layout kann ATS-Probleme verursachen. Vor Verwendung testen.
 
-## Education Section Formatting
+## Ausbildungsabschnitt-Formatierung
 
-### Standard Format
+### Standardformat
 ```
-EDUCATION
-Bachelor of Science in Computer Science
-University of California, Berkeley | 2018
-GPA: 3.8/4.0 (include if 3.5+)
-```
-
-### With Honors/Details
-```
-EDUCATION
-MBA, Finance & Strategy | Stanford Graduate School of Business | 2020
-• Graduated with Distinction
-• Relevant Coursework: Corporate Finance, M&A Strategy
+AUSBILDUNG
+Bachelor of Science Informatik
+Technische Universität München | 2018
+Note: Sehr gut (1,2)
 ```
 
-## Visual Hierarchy Principles
+## Visuelle Hierarchieprinzipien
 
-### Hierarchy Order
-1. **Name** - Largest, most prominent
-2. **Section Headers** - Clear divisions
-3. **Job Titles/Company Names** - Easy to scan
-4. **Bullet Points** - The details
+### Hierarchiereihenfolge
+1. **Name** – Größtes, prominentestes Element
+2. **Abschnittsüberschriften** – Klare Unterteilungen
+3. **Berufsbezeichnungen/Unternehmensnamen** – Leicht scannbar
+4. **Aufzählungspunkte** – Die Details
 
-### Creating Hierarchy
-- Use font SIZE to create levels
-- Use **BOLD** for emphasis (names, titles, headers)
-- Use CAPS for section headers
-- Use consistent spacing to separate sections
+### Hierarchie schaffen
+- Schriftgröße für Ebenen nutzen
+- **FETTDRUCK** für Betonung (Namen, Titel, Überschriften)
+- GROSSBUCHSTABEN für Abschnittsüberschriften
+- Konsistente Abstände für Abschnittstrennungen
 
-## White Space Management
+## Weißraum-Management
 
-### Good White Space:
-- Between sections (clear separation)
-- After headings (visual breathing room)
-- Between bullets (don't cram)
-- Around margins (frame the content)
+### Guter Weißraum:
+- Zwischen Abschnitten (klare Trennung)
+- Nach Überschriften (visueller Atemraum)
+- Zwischen Aufzählungen (nicht quetschen)
+- Um Ränder (Inhalt rahmen)
 
-### Bad White Space:
-- Huge gaps between sections
-- Inconsistent spacing
-- Half-empty pages
-- Excessive margins eating space
+### Schlechter Weißraum:
+- Riesige Lücken zwischen Abschnitten
+- Inkonsistente Abstände
+- Halb leere Seiten
+- Übermäßige Ränder fressen Platz
 
-## Common Formatting Mistakes
+## Häufige Formatierungsfehler
 
-### Mistake 1: Wall of Text
-**Problem:** Dense paragraphs with no bullets
-**Solution:** Use bullet points, keep paragraphs short
+### Fehler 1: Textwand
+**Problem:** Dichte Absätze ohne Aufzählungen
+**Lösung:** Aufzählungspunkte verwenden, Absätze kurz halten
 
-### Mistake 2: Inconsistent Formatting
-**Problem:** Different fonts, sizes, or styles throughout
-**Solution:** Pick one format and stick to it
+### Fehler 2: Inkonsistente Formatierung
+**Problem:** Verschiedene Schriften, Größen oder Stile
+**Lösung:** Ein Format wählen und durchhalten
 
-### Mistake 3: Trying to Be Creative
-**Problem:** Fancy designs that break ATS
-**Solution:** Save creativity for portfolio, not resume
+### Fehler 3: Kreativitätsdrang
+**Problem:** Ausgefallene Designs, die ATS kaputt machen
+**Lösung:** Kreativität für Portfolio aufsparen, nicht für Lebenslauf
 
-### Mistake 4: Too Much Information
-**Problem:** Cramming everything onto one page
-**Solution:** Edit ruthlessly, prioritize relevance
+### Fehler 4: Zu viele Informationen
+**Problem:** Alles auf eine Seite quetschen
+**Lösung:** Kompromisslos redigieren, Relevanz priorisieren
 
-### Mistake 5: Not Enough Information
-**Problem:** Half-page resume with massive margins
-**Solution:** Add detail, reduce margins (to 0.5")
+## Dateiformat-Richtlinien
 
-## File Format Guidelines
+### Für Online-Bewerbungen
+- **.docx** – Beste ATS-Verarbeitung
+- **.pdf** – Gut wenn aus Word erstellt
 
-### For Online Applications
-- **.docx** - Best for ATS parsing
-- **.pdf** - Good if created from Word (not scanned)
+### Für E-Mail/Direkt-Versand
+- **.pdf** – Behält Formatierung bei
 
-### For Email/Direct Send
-- **.pdf** - Preserves formatting
-
-### File Naming
+### Datei-Benennung
 ```
-FirstName_LastName_Resume.pdf
-JohnSmith_Resume_ProductManager.pdf
+Vorname_Nachname_Lebenslauf.pdf
+MaxMustermann_Lebenslauf_Produktmanager.pdf
 ```
 
-**Avoid:**
-- resume_final_v2_updated_FINAL.docx
-- resume (1).pdf
-- Untitled document.docx
+**Vermeiden:**
+- lebenslauf_final_v2_aktualisiert_ENDGUELTIG.docx
+- lebenslauf (1).pdf
 
-## Output Format
-
-When formatting a resume:
+## Ausgabeformat
 
 ```markdown
-# RESUME FORMATTING REVIEW
+# LEBENSLAUF-FORMATIERUNGSPRÜFUNG
 
-## Current Issues
-- [ ] [Issue 1]
-- [ ] [Issue 2]
-- [ ] [Issue 3]
+## Aktuelle Probleme
+- [ ] [Problem 1]
+- [ ] [Problem 2]
 
-## Recommended Changes
+## Empfohlene Änderungen
 
-### Document Setup
-- Margins: [Current] → [Recommended]
-- Font: [Current] → [Recommended]
-- Font sizes: [Current] → [Recommended]
+### Dokument-Einrichtung
+- Ränder: [Aktuell] → [Empfohlen]
+- Schriftart: [Aktuell] → [Empfohlen]
+- Schriftgrößen: [Aktuell] → [Empfohlen]
 
-### Section Order
-**Current:** [Current order]
-**Recommended:** [New order and why]
+### Abschnittsreihenfolge
+**Aktuell:** [Aktuelle Reihenfolge]
+**Empfohlen:** [Neue Reihenfolge und Begründung]
 
-### Visual Improvements
-- [Specific change 1]
-- [Specific change 2]
+### Visuelle Verbesserungen
+- [Konkrete Änderung 1]
+- [Konkrete Änderung 2]
 
-### ATS Compatibility Fixes
-- [Fix 1]
-- [Fix 2]
-
-## Before/After Preview
-
-### Before:
-[Description or example of current formatting]
-
-### After:
-[Description or example of improved formatting]
+### ATS-Kompatibilitätskorrekturen
+- [Korrektur 1]
+- [Korrektur 2]
 ```
 
-## Quick Formatting Checklist
+## Schnell-Formatierungscheckliste
 
-Before submitting any resume:
-- ✅ One page (or two if warranted)
-- ✅ Standard font (10-12pt body)
-- ✅ Consistent formatting throughout
-- ✅ Clear section headers
-- ✅ Appropriate white space
-- ✅ No tables, text boxes, or columns
-- ✅ Contact info in body (not header)
-- ✅ Saved as .docx or .pdf
-- ✅ Proper file name
-- ✅ Proofread for consistency
+- ✅ Eine Seite (oder zwei wenn gerechtfertigt)
+- ✅ Standardschriftart (10–12pt Text)
+- ✅ Konsistente Formatierung durchgehend
+- ✅ Klare Abschnittsüberschriften
+- ✅ Angemessener Weißraum
+- ✅ Keine Tabellen, Textboxen oder Spalten
+- ✅ Kontaktdaten im Textkörper
+- ✅ Als .docx oder .pdf gespeichert
+- ✅ Korrekter Dateiname
+- ✅ Auf Konsistenz korrekturgelesen

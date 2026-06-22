@@ -1,351 +1,349 @@
 ---
 name: resume-version-manager
-description: Track different resume versions, maintain master resume, manage tailored versions
+description: Verschiedene Lebenslauf-Versionen verwalten, Master-Lebenslauf pflegen und angepasste Versionen organisieren
 ---
 
-# Resume Version Manager
+# Lebenslauf-Versions-Manager
 
-## When to Use This Skill
+## Wann diesen Skill verwenden
 
-Use this skill when the user:
-- Has multiple resume versions to manage
-- Needs to track tailored resumes
-- Wants to maintain a master resume
-- Is applying to many different roles
-- Mentions: "resume versions", "master resume", "different versions", "track resumes", "which resume"
+Diesen Skill verwenden, wenn der Nutzer:
+- Mehrere Lebenslauf-Versionen verwalten muss
+- Angepasste Lebensläufe verfolgen möchte
+- Einen Master-Lebenslauf pflegen möchte
+- Sich auf viele verschiedene Stellen bewirbt
+- Erwähnt: „Lebenslauf-Versionen", „Master-Lebenslauf", „verschiedene Versionen", „Lebensläufe verfolgen", „welcher Lebenslauf"
 
-## Core Capabilities
+## Kernfähigkeiten
 
-- Create and maintain master resume document
-- Track tailored resume versions
-- Organize resume versions by role/industry
-- Maintain consistent source of truth
-- Streamline resume updates
-- Prevent version confusion
+- Master-Lebenslauf-Dokument erstellen und pflegen
+- Angepasste Lebenslauf-Versionen verfolgen
+- Versionen nach Stelle/Branche organisieren
+- Einheitliche Quelle der Wahrheit pflegen
+- Lebenslauf-Updates vereinfachen
+- Versions-Verwirrung verhindern
 
-## The Version Management Problem
+## Das Versions-Verwaltungsproblem
 
-**Common Pain Points:**
-- "Which version did I send to Company X?"
-- "Where's my most recent resume?"
-- "I have 15 resume files and don't know which is best"
-- "I forgot to update my resume after that project"
-- "I keep tailoring from different base versions"
+**Häufige Schmerzpunkte:**
+- „Welche Version habe ich an Unternehmen X geschickt?"
+- „Wo ist mein aktuellster Lebenslauf?"
+- „Ich habe 15 Lebenslauf-Dateien und weiß nicht, welche die beste ist"
+- „Ich habe vergessen, meinen Lebenslauf nach dem Projekt zu aktualisieren"
+- „Ich passe immer von verschiedenen Basisversionen an"
 
-**The Solution:**
-A systematic approach with:
-1. One master resume (source of truth)
-2. Organized tailored versions
-3. Clear naming conventions
-4. Update workflow
+**Die Lösung:**
+Systematischer Ansatz mit:
+1. Einem Master-Lebenslauf (Quelle der Wahrheit)
+2. Organisierten, angepassten Versionen
+3. Klaren Benennungskonventionen
+4. Aktualisierungs-Workflow
 
-## Master Resume Concept
+## Master-Lebenslauf-Konzept
 
-### What is a Master Resume?
+### Was ist ein Master-Lebenslauf?
 
-A comprehensive document containing:
-- ALL your experiences (not just recent)
-- ALL bullet points you've ever written
-- Every achievement, project, skill
-- Full details (even if they won't fit on one page)
+Ein umfassendes Dokument mit:
+- ALLEN Erfahrungen (nicht nur aktuellen)
+- ALLEN jemals geschriebenen Aufzählungspunkten
+- Jeder Leistung, jedem Projekt, jeder Fähigkeit
+- Vollständigen Details (auch wenn sie nicht auf eine Seite passen)
 
-**Purpose:** Source of truth to pull from when tailoring
+**Zweck:** Quelle der Wahrheit, aus der beim Anpassen geschöpft wird
 
-### Master Resume Structure
+### Master-Lebenslauf-Struktur
 
 ```markdown
-# MASTER RESUME - [YOUR NAME]
-Last Updated: [Date]
+# MASTER-LEBENSLAUF - [IHR NAME]
+Zuletzt aktualisiert: [Datum]
 
-## CONTACT INFORMATION
-[Full contact details]
+## KONTAKTDATEN
+[Vollständige Kontaktdaten]
 
-## PROFESSIONAL SUMMARY VERSIONS
-[Summary for Role Type A]
-[Summary for Role Type B]
-[Summary for Role Type C]
+## BERUFLICHE PROFIL-VERSIONEN
+[Profil für Rollentyp A]
+[Profil für Rollentyp B]
+[Profil für Rollentyp C]
 
-## ALL SKILLS
-### Technical Skills
-[Complete list by category]
+## ALLE FÄHIGKEITEN
+### Technische Fähigkeiten
+[Vollständige Liste nach Kategorie]
 
 ### Soft Skills
-[Complete list]
+[Vollständige Liste]
 
-### Industry Knowledge
-[All domains]
+### Branchenkenntnisse
+[Alle Domänen]
 
-## PROFESSIONAL EXPERIENCE
+## BERUFSERFAHRUNG
 
-### Company Name | Title | Dates
+### Unternehmensname | Titel | Zeitraum
 
-**All Bullets (choose best for each application):**
-• Bullet 1 (leadership focused)
-• Bullet 2 (technical focused)
-• Bullet 3 (results focused)
-• Bullet 4 (collaboration focused)
-• Bullet 5 (additional achievement)
-• Bullet 6 (additional achievement)
+**Alle Aufzählungen (für jede Bewerbung die besten auswählen):**
+• Aufzählung 1 (führungsfokussiert)
+• Aufzählung 2 (technisch fokussiert)
+• Aufzählung 3 (ergebnisorientiert)
+• Aufzählung 4 (teamorientiert)
+• Aufzählung 5 (weitere Leistung)
+• Aufzählung 6 (weitere Leistung)
 
-**Keywords this experience covers:**
-[List of keywords this job demonstrates]
+**Schlüsselwörter, die diese Erfahrung abdeckt:**
+[Liste der Schlüsselwörter, die diese Stelle demonstriert]
 
-### Previous Company | Title | Dates
-[Same format...]
+### Vorheriges Unternehmen | Titel | Zeitraum
+[Gleiches Format...]
 
-## EDUCATION
-[Complete education history]
+## AUSBILDUNG
+[Vollständige Ausbildungshistorie]
 
-## CERTIFICATIONS
-[All certifications ever earned]
+## ZERTIFIZIERUNGEN
+[Alle je erworbenen Zertifizierungen]
 
-## PROJECTS
-[All notable projects]
+## PROJEKTE
+[Alle nennenswerten Projekte]
 
-## VOLUNTEER / ADDITIONAL
-[All other relevant experience]
+## EHRENAMT / SONSTIGES
+[Alle weiteren relevanten Erfahrungen]
 ```
 
-## File Organization System
+## Dateiorganisationssystem
 
-### Folder Structure
+### Ordnerstruktur
 
 ```
-Resume/
+Lebenslauf/
 ├── Master/
-│   └── LastName_Master_Resume.docx
-├── Tailored/
-│   ├── ProductManagement/
-│   │   ├── LastName_PM_Google_Jan2024.pdf
-│   │   └── LastName_PM_Meta_Jan2024.pdf
+│   └── Mustermann_Master_Lebenslauf.docx
+├── Angepasst/
+│   ├── Produktmanagement/
+│   │   ├── Mustermann_PM_TechGmbH_Jan2024.pdf
+│   │   └── Mustermann_PM_StartupAG_Jan2024.pdf
 │   ├── Engineering/
-│   │   ├── LastName_SWE_Startup_Feb2024.pdf
-│   │   └── LastName_SWE_Enterprise_Feb2024.pdf
-│   └── General/
-│       └── LastName_General_Resume.pdf
-├── CoverLetters/
-│   ├── Google_PM_CoverLetter.docx
-│   └── Meta_PM_CoverLetter.docx
-└── Applications/
-    └── ApplicationTracker.xlsx
+│   │   ├── Mustermann_SWE_Startup_Feb2024.pdf
+│   │   └── Mustermann_SWE_Konzern_Feb2024.pdf
+│   └── Allgemein/
+│       └── Mustermann_Allgemeiner_Lebenslauf.pdf
+├── Anschreiben/
+│   ├── TechGmbH_PM_Anschreiben.docx
+│   └── StartupAG_PM_Anschreiben.docx
+└── Bewerbungen/
+    └── BewerbungsTracker.xlsx
 ```
 
-### File Naming Convention
+### Datei-Benennungskonvention
 
-**Pattern:**
-`[LastName]_[Role/Type]_[Company]_[Date].pdf`
+**Muster:**
+`[Nachname]_[Rolle/Typ]_[Unternehmen]_[Datum].pdf`
 
-**Examples:**
-- `Smith_ProductManager_Google_Jan2024.pdf`
-- `Smith_SWE_Stripe_Feb2024.pdf`
-- `Smith_DataScience_General_2024.pdf`
-- `Smith_Master_Resume_v3.docx`
+**Beispiele:**
+- `Mustermann_Produktmanager_TechGmbH_Jan2024.pdf`
+- `Mustermann_SWE_Stripe_Feb2024.pdf`
+- `Mustermann_Datenwissenschaft_Allgemein_2024.pdf`
+- `Mustermann_Master_Lebenslauf_v3.docx`
 
-## Version Categories
+## Versions-Kategorien
 
-### By Target Role
+### Nach Zielrolle
 
-**Product Management:**
-- Emphasizes: Strategy, roadmap, metrics, stakeholders
-- Skills highlight: Product tools, analytics, user research
+**Produktmanagement:**
+- Betont: Strategie, Roadmap, Kennzahlen, Stakeholder
+- Fähigkeiten: Product-Tools, Analytics, User-Research
 
-**Software Engineering:**
-- Emphasizes: Technical projects, systems, code
-- Skills highlight: Languages, frameworks, tools
+**Software-Engineering:**
+- Betont: Technische Projekte, Systeme, Code
+- Fähigkeiten: Sprachen, Frameworks, Tools
 
-**Data Science:**
-- Emphasizes: Analysis, ML, statistical methods
-- Skills highlight: Python, SQL, ML libraries
+**Datenwissenschaft:**
+- Betont: Analyse, ML, statistische Methoden
+- Fähigkeiten: Python, SQL, ML-Bibliotheken
 
-### By Industry
+### Nach Branche
 
-**Tech/Startup:**
-- Emphasizes: Innovation, growth, scrappiness
-- Tone: Modern, direct, achievement-focused
+**Tech/Start-up:**
+- Betont: Innovation, Wachstum, Hands-on-Mentalität
+- Ton: Modern, direkt, leistungsfokussiert
 
-**Enterprise/Corporate:**
-- Emphasizes: Scale, process, collaboration
-- Tone: Professional, structured, comprehensive
+**Konzern/Mittelstand:**
+- Betont: Skalierung, Prozesse, Zusammenarbeit
+- Ton: Professionell, strukturiert, umfassend
 
-**Finance:**
-- Emphasizes: Analysis, compliance, accuracy
-- Tone: Conservative, precise, credentialed
+**Finanzwesen:**
+- Betont: Analyse, Compliance, Genauigkeit
+- Ton: Konservativ, präzise, qualifiziert
 
-### By Seniority Level
+### Nach Karrierestufe
 
-**Individual Contributor:**
-- Focus on execution and technical skills
-- Detailed project descriptions
-- Technical accomplishments
+**Mitarbeitende (IC):**
+- Fokus auf Umsetzung und technische Fähigkeiten
+- Detaillierte Projektbeschreibungen
+- Technische Leistungen
 
-**Manager:**
-- Team leadership and development
-- Cross-functional collaboration
-- Business impact metrics
+**Führungskraft:**
+- Team-Leadership und -Entwicklung
+- Bereichsübergreifende Zusammenarbeit
+- Business-Impact-Kennzahlen
 
 **Executive:**
-- Strategic leadership
-- P&L responsibility
-- Organizational transformation
+- Strategische Führung
+- GuV-Verantwortung
+- Organisatorische Transformation
 
-## Application Tracking
+## Bewerbungs-Tracking
 
-### Simple Tracker Spreadsheet
-
-```
-| Company | Role | Version Used | Date Applied | Status | Notes |
-|---------|------|--------------|--------------|--------|-------|
-| Google | PM | PM_Google_Jan | 1/15/24 | Interview | 2nd round 2/1 |
-| Meta | PM | PM_Meta_Jan | 1/18/24 | Applied | Referral from John |
-| Startup | PM | PM_General | 1/20/24 | Rejected | Too senior |
-```
-
-### Information to Track
-
-- Company name
-- Job title
-- Resume version used
-- Cover letter version used
-- Application date
-- Application method (portal, referral, direct)
-- Current status
-- Follow-up dates
-- Notes and contacts
-
-## Update Workflow
-
-### When to Update Master Resume
-
-**Immediately Update For:**
-- New job or promotion
-- Completed major project
-- New skills or certifications
-- Significant achievements
-- Awards or recognition
-
-**Quarterly Review:**
-- Add recent accomplishments
-- Update metrics with new data
-- Refresh skills section
-- Remove outdated information
-
-### Master to Tailored Workflow
+### Einfache Tracking-Tabelle
 
 ```
-1. Start with Master Resume
-   ↓
-2. Copy to new file (don't edit master)
-   ↓
-3. Analyze job description
-   ↓
-4. Select relevant bullets from master
-   ↓
-5. Choose appropriate summary version
-   ↓
-6. Reorder skills for relevance
-   ↓
-7. Add job-specific keywords
-   ↓
-8. Trim to appropriate length
-   ↓
-9. Save with proper naming convention
-   ↓
-10. Update application tracker
+| Unternehmen | Stelle | Verwendete Version | Bewerbungsdatum | Status | Notizen |
+|-------------|--------|--------------------|-----------------|--------|---------|
+| TechGmbH | PM | PM_TechGmbH_Jan | 15.01.24 | Interview | 2. Runde 01.02. |
+| StartupAG | PM | PM_StartupAG_Jan | 18.01.24 | Beworben | Empfehlung von Anna |
+| KleinGmbH | PM | PM_Allgemein | 20.01.24 | Abgelehnt | Zu senior |
 ```
 
-## Common Scenarios
+### Was verfolgen
 
-### Scenario 1: Applying to Similar Roles
+- Unternehmensname
+- Berufsbezeichnung
+- Verwendete Lebenslauf-Version
+- Verwendetes Anschreiben
+- Bewerbungsdatum
+- Bewerbungsweg (Portal, Empfehlung, direkt)
+- Aktueller Status
+- Nachfass-Termine
+- Notizen und Kontakte
 
-**Strategy:**
-- Create one well-tailored version for the role type
-- Make minor adjustments for each company
-- Track which slight variation went where
+## Aktualisierungs-Workflow
 
-### Scenario 2: Applying to Different Role Types
+### Wann Master-Lebenslauf aktualisieren
 
-**Strategy:**
-- Create separate base versions for each role type
-- Maintain clear folder organization
-- Each version pulls from same master
+**Sofort aktualisieren bei:**
+- Neuer Job oder Beförderung
+- Abgeschlossenem Hauptprojekt
+- Neuen Fähigkeiten oder Zertifizierungen
+- Bedeutenden Leistungen
+- Auszeichnungen oder Anerkennung
 
-### Scenario 3: Rapid Application Volume
+**Quartalsweise überprüfen:**
+- Aktuelle Leistungen hinzufügen
+- Kennzahlen mit neuen Daten aktualisieren
+- Fähigkeiten-Abschnitt auffrischen
+- Veraltete Informationen entfernen
 
-**Strategy:**
-- Create 2-3 strong category versions
-- Use "general" versions for quick applications
-- Reserve deep tailoring for top choices
+### Master → Angepasst Workflow
 
-### Scenario 4: Career Transition
+```
+1. Mit Master-Lebenslauf beginnen
+   ↓
+2. In neue Datei kopieren (Master NICHT bearbeiten)
+   ↓
+3. Stellenbeschreibung analysieren
+   ↓
+4. Relevante Aufzählungen aus Master auswählen
+   ↓
+5. Passendes Profil wählen
+   ↓
+6. Fähigkeiten nach Relevanz neu ordnen
+   ↓
+7. Stellenspezifische Schlüsselwörter hinzufügen
+   ↓
+8. Auf angemessene Länge kürzen
+   ↓
+9. Mit korrekter Benennungskonvention speichern
+   ↓
+10. Bewerbungs-Tracker aktualisieren
+```
 
-**Strategy:**
-- Create transition-focused version
-- Emphasize transferable skills
-- Maintain original industry version as backup
+## Häufige Szenarien
 
-## Version Control Best Practices
+### Szenario 1: Bewerbung auf ähnliche Stellen
 
-### DO:
-- ✅ Always work from master as source
-- ✅ Use consistent naming conventions
-- ✅ Track which version went where
-- ✅ Keep master updated
-- ✅ Date your files
-- ✅ Backup to cloud storage
+**Strategie:**
+- Eine gut angepasste Version für den Rollentyp erstellen
+- Kleine Anpassungen für jedes Unternehmen vornehmen
+- Verfolgen, welche Variation wohin ging
 
-### DON'T:
-- ❌ Edit master directly for applications
-- ❌ Use vague names like "resume_final_v2"
-- ❌ Forget which version you sent
-- ❌ Let master get out of date
-- ❌ Have multiple "master" files
-- ❌ Delete old versions (archive instead)
+### Szenario 2: Bewerbung auf verschiedene Rollentypen
 
-## Output Format
+**Strategie:**
+- Separate Basis-Versionen für jeden Rollentyp erstellen
+- Klare Ordnerorganisation aufrechterhalten
+- Jede Version zieht aus demselben Master
 
-When managing resume versions:
+### Szenario 3: Hohes Bewerbungsvolumen
+
+**Strategie:**
+- 2–3 starke Kategorie-Versionen erstellen
+- „Allgemein"-Versionen für schnelle Bewerbungen
+- Tiefe Anpassung für Top-Stellen reservieren
+
+### Szenario 4: Berufliche Neuorientierung
+
+**Strategie:**
+- Übergangsfokussierte Version erstellen
+- Übertragbare Fähigkeiten betonen
+- Original-Branchenversion als Backup behalten
+
+## Versions-Kontroll-Best-Practices
+
+### TUN:
+- ✅ Immer vom Master als Quelle ausgehen
+- ✅ Konsistente Benennungskonventionen verwenden
+- ✅ Verfolgen, welche Version wohin ging
+- ✅ Master aktuell halten
+- ✅ Dateien datieren
+- ✅ In der Cloud sichern
+
+### NICHT TUN:
+- ❌ Master direkt für Bewerbungen bearbeiten
+- ❌ Vage Namen wie „lebenslauf_final_v2" verwenden
+- ❌ Vergessen, welche Version gesendet wurde
+- ❌ Master veralten lassen
+- ❌ Mehrere „Master"-Dateien haben
+- ❌ Alte Versionen löschen (archivieren statt löschen)
+
+## Ausgabeformat
 
 ```markdown
-# RESUME VERSION MANAGEMENT
+# LEBENSLAUF-VERSIONS-VERWALTUNG
 
-## Master Resume Status
-**Last Updated:** [Date]
-**Location:** [File path]
-**Total Experience Entries:** [X]
-**Total Bullet Points Available:** [X]
+## Master-Lebenslauf-Status
+**Zuletzt aktualisiert:** [Datum]
+**Speicherort:** [Dateipfad]
+**Gesamt Erfahrungseinträge:** [X]
+**Verfügbare Aufzählungspunkte gesamt:** [X]
 
-## Active Versions
+## Aktive Versionen
 
-### Role Type: Product Management
-**Base Version:** PM_General_2024.docx
-**Tailored Versions:**
-| Company | File Name | Date Created | Status |
-|---------|-----------|--------------|--------|
-| Google | PM_Google_Jan24 | 1/15/24 | Submitted |
-| Meta | PM_Meta_Jan24 | 1/18/24 | Submitted |
+### Rollentyp: Produktmanagement
+**Basis-Version:** PM_Allgemein_2024.docx
+**Angepasste Versionen:**
+| Unternehmen | Dateiname | Erstellungsdatum | Status |
+|-------------|-----------|-----------------|--------|
+| TechGmbH | PM_TechGmbH_Jan24 | 15.01.24 | Gesendet |
+| StartupAG | PM_StartupAG_Jan24 | 18.01.24 | Gesendet |
 
-### Role Type: Engineering
-[Same structure]
+### Rollentyp: Engineering
+[Gleiche Struktur]
 
-## Update Queue
-- [ ] Add Q4 project results to master
-- [ ] Update skills with new certification
-- [ ] Archive versions older than 6 months
+## Update-Warteschlange
+- [ ] Q4-Projekt-Ergebnisse zum Master hinzufügen
+- [ ] Fähigkeiten mit neuer Zertifizierung aktualisieren
+- [ ] Versionen älter als 6 Monate archivieren
 
-## Recommended Actions
-1. [Action 1]
-2. [Action 2]
+## Empfohlene Maßnahmen
+1. [Maßnahme 1]
+2. [Maßnahme 2]
 ```
 
-## Version Management Checklist
+## Versions-Verwaltungs-Checkliste
 
-- ✅ Master resume exists and is current
-- ✅ Folder structure is organized
-- ✅ Naming convention is consistent
-- ✅ Application tracker is maintained
-- ✅ Know which version sent to each company
-- ✅ All versions pull from same master
-- ✅ Backup system in place
-- ✅ Old versions archived (not deleted)
-- ✅ Update workflow is established
-- ✅ Regular master resume reviews scheduled
+- ✅ Master-Lebenslauf existiert und ist aktuell
+- ✅ Ordnerstruktur ist organisiert
+- ✅ Benennungskonvention ist konsistent
+- ✅ Bewerbungs-Tracker wird gepflegt
+- ✅ Wissen, welche Version an welches Unternehmen
+- ✅ Alle Versionen stammen aus demselben Master
+- ✅ Backup-System vorhanden
+- ✅ Alte Versionen archiviert (nicht gelöscht)
+- ✅ Update-Workflow etabliert
+- ✅ Regelmäßige Master-Lebenslauf-Reviews geplant

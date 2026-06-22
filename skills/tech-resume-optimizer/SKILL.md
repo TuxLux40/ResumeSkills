@@ -1,370 +1,378 @@
 ---
 name: tech-resume-optimizer
-description: Optimize resumes for software engineering, PM, and technical roles
+description: Lebensläufe für Software-Engineering, PM und technische Rollen optimieren
 ---
 
-# Tech Resume Optimizer
+# Tech-Lebenslauf-Optimierer
 
-## When to Use This Skill
+## Wann diesen Skill verwenden
 
-Use this skill when the user:
-- Is applying for software engineering roles
-- Wants to optimize a technical resume
-- Needs help with developer/PM/technical job applications
-- Mentions: "tech resume", "software engineer resume", "developer resume", "technical resume", "SWE resume", "PM resume"
+Diesen Skill verwenden, wenn der Nutzer:
+- Sich auf Software-Engineering-Stellen bewirbt
+- Einen technischen Lebenslauf optimieren möchte
+- Hilfe bei Entwickler-/PM-/Tech-Bewerbungen benötigt
+- Erwähnt: „Tech-Lebenslauf", „Software Engineer Lebenslauf", „Entwickler-Lebenslauf", „technischer Lebenslauf", „SWE-Lebenslauf", „PM-Lebenslauf"
 
-## Core Capabilities
+## Kernfähigkeiten
 
-- Optimize resumes for technical roles (SWE, PM, Data, DevOps)
-- Structure technical skills sections effectively
-- Highlight projects and technical achievements
-- Balance technical depth with business impact
-- Format for both ATS and technical recruiters
-- Include GitHub, portfolio, and technical links
+- Lebensläufe für technische Rollen optimieren (SWE, PM, Data, DevOps)
+- Technische Fähigkeiten-Abschnitte effektiv strukturieren
+- Projekte und technische Leistungen hervorheben
+- Technische Tiefe mit Business-Impact ausbalancieren
+- Für ATS und technische Recruiter formatieren
+- GitHub, Portfolio und technische Links einbeziehen
 
-## Tech Resume Philosophy
+## Tech-Lebenslauf-Philosophie
 
-**What Tech Recruiters Look For:**
-1. Relevant technical skills (languages, frameworks, tools)
-2. Scale and impact (users, transactions, data size)
-3. Problem-solving abilities
-4. System design understanding
-5. Collaborative abilities
-6. Growth trajectory
+**Was Tech-Recruiter suchen:**
+1. Relevante technische Fähigkeiten (Sprachen, Frameworks, Tools)
+2. Maßstab und Impact (Nutzer, Transaktionen, Datengröße)
+3. Problemlösungs-Fähigkeiten
+4. Systemdesign-Verständnis
+5. Kooperations-Fähigkeiten
+6. Wachstumskurve
 
-## Tech Resume Structure
+## Tech-Lebenslauf-Struktur
 
-### Recommended Order
-
-```
-1. Contact Information (including GitHub, Portfolio)
-2. Professional Summary (optional but helpful)
-3. Technical Skills (critical for ATS)
-4. Work Experience (with technical achievements)
-5. Projects (especially for early career)
-6. Education
-7. Certifications (if relevant)
-```
-
-### Contact Section for Tech
+### Empfohlene Reihenfolge
 
 ```
-John Developer
-San Francisco, CA
-john@email.com | (555) 123-4567
-LinkedIn: linkedin.com/in/johndev
-GitHub: github.com/johndev
-Portfolio: johndev.io
+1. Kontaktdaten (inkl. GitHub, Portfolio)
+2. Berufliches Profil (optional, aber hilfreich)
+3. Technische Fähigkeiten (ATS-kritisch)
+4. Berufserfahrung (mit technischen Leistungen)
+5. Projekte (besonders für Berufseinsteiger)
+6. Ausbildung
+7. Zertifizierungen (falls relevant)
 ```
 
-**Include:**
-- GitHub (required for SWE roles)
-- Portfolio/personal website
+### Kontaktbereich für Tech
+
+```
+Jana Entwickler
+München
+jana@email.de | +49 89 123456
+LinkedIn: linkedin.com/in/janaentwickler
+GitHub: github.com/janaentwickler
+Portfolio: janaentwickler.de
+```
+
+**Einbeziehen:**
+- GitHub (Pflicht für SWE-Stellen)
+- Portfolio/persönliche Website
 - LinkedIn
-- Tech blog (if you have one)
+- Tech-Blog (falls vorhanden)
 
-**Don't Include:**
-- Address (city/state is enough)
-- Photo
-- Social media (unless relevant)
+**Nicht einbeziehen:**
+- Vollständige Adresse (Stadt reicht)
+- Foto
+- Nicht-relevante Social Media
 
-## Technical Skills Section
+## Technischer Fähigkeiten-Abschnitt
 
-### Organization Strategies
+### Organisationsstrategien
 
-**Option 1: By Category**
+**Option 1: Nach Kategorie**
 ```
-Languages: Python, JavaScript, TypeScript, Go, SQL
+Sprachen: Python, JavaScript, TypeScript, Go, SQL
 Frameworks: React, Node.js, Django, FastAPI
-Databases: PostgreSQL, MongoDB, Redis, Elasticsearch
-Cloud/Infrastructure: AWS (EC2, S3, Lambda, RDS), Docker, Kubernetes, Terraform
+Datenbanken: PostgreSQL, MongoDB, Redis, Elasticsearch
+Cloud/Infrastruktur: AWS (EC2, S3, Lambda, RDS), Docker, Kubernetes, Terraform
 Tools: Git, JIRA, CI/CD, Datadog, Grafana
 ```
 
-**Option 2: By Proficiency** (use carefully)
+**Option 2: Nach Kenntnisstufe** (vorsichtig verwenden)
 ```
-Expert: Python, React, PostgreSQL, AWS
-Proficient: Go, TypeScript, MongoDB, Docker
-Familiar: Rust, GraphQL, Kubernetes
-```
-
-**Option 3: Flat List** (ATS-friendly)
-```
-Skills: Python, JavaScript, TypeScript, React, Node.js, Django, PostgreSQL, MongoDB, AWS, Docker, Kubernetes, Git
+Experte: Python, React, PostgreSQL, AWS
+Fortgeschritten: Go, TypeScript, MongoDB, Docker
+Kenntnisse: Rust, GraphQL, Kubernetes
 ```
 
-### What to Include
+**Option 3: Flache Liste** (ATS-freundlich)
+```
+Kenntnisse: Python, JavaScript, TypeScript, React, Node.js, Django, PostgreSQL, MongoDB, AWS, Docker, Kubernetes, Git
+```
 
-**Languages:**
-- List languages you can code in confidently
-- Order by relevance to target role
-- Include query languages (SQL, GraphQL)
+### Was einbeziehen
 
-**Frameworks/Libraries:**
+**Sprachen:**
+- Sprachen, in denen sicher kodiert werden kann
+- Nach Relevanz für Zielrolle ordnen
+- Query-Sprachen einbeziehen (SQL, GraphQL)
+
+**Frameworks/Bibliotheken:**
 - Web: React, Vue, Angular, Django, Flask, Express
 - Data: Pandas, NumPy, TensorFlow, PyTorch
 - Testing: Jest, Pytest, Selenium
 
-**Databases:**
+**Datenbanken:**
 - Relational: PostgreSQL, MySQL, SQL Server
 - NoSQL: MongoDB, DynamoDB, Cassandra
 - Caching: Redis, Memcached
 
 **Cloud/DevOps:**
-- Cloud: AWS, GCP, Azure (specific services)
-- Containers: Docker, Kubernetes
+- Cloud: AWS, GCP, Azure (spezifische Services)
+- Container: Docker, Kubernetes
 - CI/CD: Jenkins, GitHub Actions, CircleCI
 - IaC: Terraform, CloudFormation
 
-### What NOT to Include
-- ❌ Microsoft Office (assumed)
-- ❌ Operating systems (unless DevOps role)
-- ❌ Outdated tech (unless specifically required)
-- ❌ Skill bars or ratings (subjective and break ATS)
-- ❌ Every technology you've touched once
+### Was NICHT einbeziehen
+- ❌ Microsoft Office (vorausgesetzt)
+- ❌ Betriebssysteme (außer DevOps)
+- ❌ Veraltete Technologien (außer spezifisch gefordert)
+- ❌ Fähigkeitsbalken oder Bewertungen (subjektiv und ATS-schädigend)
+- ❌ Jede Technologie die einmal berührt wurde
 
-## Experience Section for Tech Roles
+## Erfahrungs-Abschnitt für technische Rollen
 
-### The Technical Bullet Formula
+### Die technische Aufzählungsformel
 
-**[Action Verb] + [Technical What] + [Scale/Impact] + [Technology Used]**
+**[Aktionsverb] + [Technisches Was] + [Maßstab/Impact] + [Verwendete Technologie]**
 
-**Examples:**
+**Beispiele:**
 
-❌ **Weak Technical Bullet:**
+❌ **Schwache technische Aufzählung:**
 ```
-- Worked on backend services
-- Helped improve system performance
-- Built features for the product
-```
-
-✅ **Strong Technical Bullet:**
-```
-- Architected microservices migration from monolith, reducing deployment time from 2 hours to 15 minutes and enabling independent team deployments
-- Optimized PostgreSQL queries and implemented Redis caching, reducing API latency by 60% (from 500ms to 200ms) for 100K daily active users
-- Built real-time notification system using WebSockets and AWS SNS, handling 1M+ messages daily with 99.9% delivery rate
+- An Backend-Services gearbeitet
+- Geholfen, System-Performance zu verbessern
+- Features für das Produkt gebaut
 ```
 
-### Technical Metrics to Include
+✅ **Starke technische Aufzählung:**
+```
+- Microservices-Migration vom Monolithen architekturiert, Deployment-Zeit von 2 Stunden auf 15 Minuten reduziert und unabhängige Team-Deployments ermöglicht
+- PostgreSQL-Abfragen optimiert und Redis-Caching implementiert, API-Latenz um 60% reduziert (von 500ms auf 200ms) für 100.000 DAU
+- Echtzeit-Benachrichtigungssystem mit WebSockets und AWS SNS gebaut, 1 Mio.+ Nachrichten täglich mit 99,9% Zustellungsrate verarbeitet
+```
 
-**Scale:**
-- Users: "serving 500K DAU"
-- Requests: "handling 10K requests/second"
-- Data: "processing 50TB daily"
-- Uptime: "maintaining 99.99% availability"
+### Technische Kennzahlen einbeziehen
+
+**Maßstab:**
+- Nutzer: „500.000 DAU bedient"
+- Anfragen: „10.000 Anfragen/Sekunde"
+- Daten: „50 TB täglich verarbeitet"
+- Verfügbarkeit: „99,99% Uptime"
 
 **Performance:**
-- Latency: "reduced from Xms to Yms"
-- Speed: "improved by X%"
-- Load time: "decreased by X seconds"
+- Latenz: „von Xms auf Yms reduziert"
+- Geschwindigkeit: „um X% verbessert"
+- Ladezeit: „um X Sekunden verringert"
 
-**Efficiency:**
-- Cost: "reduced AWS costs by 40%"
-- Time: "cut deployment time from X to Y"
-- Resources: "reduced memory usage by X%"
+**Effizienz:**
+- Kosten: „AWS-Kosten um 40% reduziert"
+- Zeit: „Deployment-Zeit von X auf Y verkürzt"
+- Ressourcen: „Speichernutzung um X% reduziert"
 
 **Business:**
-- Revenue: "features drove $XM revenue"
-- Conversion: "improved checkout by X%"
-- Engagement: "increased DAU by X%"
+- Umsatz: „Features haben X Mio. € Umsatz generiert"
+- Konversion: „Checkout um X% verbessert"
+- Engagement: „DAU um X% gesteigert"
 
-### Role-Specific Bullet Examples
+### Rollenspezifische Aufzählungsbeispiele
 
 **Software Engineer:**
 ```
-• Designed and implemented authentication service using OAuth 2.0 and JWT, securing 2M+ user accounts with zero security incidents
-• Led migration to Kubernetes, achieving 99.99% uptime and reducing infrastructure costs by 35% ($200K annually)
-• Mentored 3 junior engineers through code reviews and pair programming, improving team velocity by 25%
+• Authentifizierungs-Service mit OAuth 2.0 und JWT designed und implementiert, 2 Mio.+ Nutzerkonten ohne Sicherheitsvorfälle gesichert
+• Migration auf Kubernetes geführt, 99,99% Uptime und 35% reduzierte Infrastrukturkosten (200.000 € jährlich) erzielt
+• 3 Junior-Engineers durch Code-Reviews und Pair-Programming betreut, Team-Velocity um 25% verbessert
 ```
 
 **Data Engineer:**
 ```
-• Built data pipeline processing 100M+ events daily using Apache Kafka and Spark, reducing data latency from hours to minutes
-• Designed data warehouse schema in Snowflake, enabling self-service analytics for 50+ business users
-• Implemented data quality monitoring with Great Expectations, catching 95% of data issues before impacting downstream systems
+• Datenpipeline für 100 Mio.+ Ereignisse täglich mit Apache Kafka und Spark gebaut, Daten-Latenz von Stunden auf Minuten reduziert
+• Data-Warehouse-Schema in Snowflake designed, Self-Service-Analytics für 50+ Business-User ermöglicht
+• Datenqualitäts-Monitoring mit Great Expectations implementiert, 95% der Datenfehler vor Downstream-Auswirkungen abgefangen
 ```
 
 **DevOps/SRE:**
 ```
-• Implemented infrastructure as code using Terraform, reducing provisioning time from 2 days to 30 minutes
-• Built monitoring and alerting system with Prometheus and Grafana, reducing MTTR from 4 hours to 30 minutes
-• Automated deployment pipeline with GitHub Actions, enabling 50+ daily deployments with zero-downtime releases
+• Infrastructure as Code mit Terraform implementiert, Bereitstellungszeit von 2 Tagen auf 30 Minuten reduziert
+• Monitoring- und Alerting-System mit Prometheus und Grafana gebaut, MTTR von 4 Stunden auf 30 Minuten gesenkt
+• Deployment-Pipeline mit GitHub Actions automatisiert, 50+ tägliche Deployments ohne Ausfallzeiten ermöglicht
 ```
 
-**Product Manager (Technical):**
+**Product Manager (Technisch):**
 ```
-• Led API platform roadmap for developer tools used by 10K+ developers, driving 40% increase in API adoption
-• Defined technical requirements for ML recommendation engine, resulting in 25% increase in user engagement
-• Partnered with engineering to reduce technical debt by 30%, improving release velocity from bi-weekly to weekly
-```
-
-## Projects Section
-
-**Critical for:**
-- Junior engineers
-- Career changers
-- Bootcamp graduates
-- Anyone with gaps
-
-### Project Format
-
-```
-Project Name | Technologies | Link
-• Description of what it does
-• Technical highlights and challenges solved
-• Scale or usage metrics if available
+• API-Plattform-Roadmap für Developer-Tools mit 10.000+ Entwicklern geführt, API-Adoption um 40% gesteigert
+• Technische Anforderungen für ML-Empfehlungsengine definiert, 25% Steigerung des Nutzer-Engagements erzielt
+• Technische Schulden mit Engineering um 30% reduziert, Release-Velocity von zweiwöchentlich auf wöchentlich verbessert
 ```
 
-### Example Projects Section
+## Projekte-Abschnitt
+
+**Kritisch für:**
+- Berufseinsteiger
+- Quereinsteiger
+- Bootcamp-Absolventen
+- Personen mit Beschäftigungslücken
+
+### Projektformat
 
 ```
-PROJECTS
-
-Distributed Task Queue | Python, Redis, Docker | github.com/user/taskqueue
-• Built distributed task queue handling 10K+ jobs/hour with automatic retries and dead letter queue
-• Implemented priority queuing and rate limiting for multi-tenant support
-
-Real-time Chat App | React, Node.js, WebSocket, MongoDB | chatapp.demo.com
-• Full-stack chat application supporting 100+ concurrent users with real-time messaging
-• Implemented end-to-end encryption and message persistence
-
-ML Price Predictor | Python, TensorFlow, FastAPI | github.com/user/predictor
-• Trained regression model on 1M+ data points achieving 92% accuracy for price prediction
-• Deployed as REST API with automatic model retraining pipeline
+Projektname | Technologien | Link
+• Beschreibung was es macht
+• Technische Highlights und gelöste Herausforderungen
+• Maßstab oder Nutzungskennzahlen wenn verfügbar
 ```
 
-### What Makes a Good Project
+### Beispiel Projekte-Abschnitt
 
-**Do Include:**
-- Projects with real users
-- Open source contributions
-- Technical blog posts
-- Hackathon projects (especially winners)
-- Complex personal projects
-
-**Don't Include:**
-- Tutorial follow-alongs
-- Trivial to-do apps
-- Incomplete projects
-- Coursework (unless exceptional)
-
-## Education Section for Tech
-
-### Standard Format
 ```
-B.S. Computer Science | Stanford University | 2020
-GPA: 3.8/4.0 (include if above 3.5)
-Relevant Coursework: Distributed Systems, Machine Learning, Database Systems
+PROJEKTE
+
+Verteilte Task-Queue | Python, Redis, Docker | github.com/nutzer/taskqueue
+• Verteilte Task-Queue für 10.000+ Jobs/Stunde mit automatischen Wiederholungen und Dead-Letter-Queue gebaut
+• Prioritätswarteschlange und Rate-Limiting für Multi-Tenant-Support implementiert
+
+Echtzeit-Chat-App | React, Node.js, WebSocket, MongoDB | chatapp.demo.de
+• Full-Stack-Chat-Anwendung für 100+ gleichzeitige Nutzer mit Echtzeit-Messaging entwickelt
+• End-to-End-Verschlüsselung und Nachrichtenpersistenz implementiert
+
+ML-Preis-Vorhersager | Python, TensorFlow, FastAPI | github.com/nutzer/predictor
+• Regressionsmodell auf 1 Mio.+ Datenpunkten trainiert, 92% Genauigkeit bei Preisvorhersage erzielt
+• Als REST-API mit automatischer Modell-Neutrainings-Pipeline deployed
 ```
 
-### For Bootcamp Graduates
-```
-Software Engineering Certificate | App Academy | 2023
-- 1000+ hour immersive program
-- Full-stack JavaScript, React, Node.js, PostgreSQL
+### Was ein gutes Projekt ausmacht
 
-B.A. Economics | UCLA | 2020
+**Einbeziehen:**
+- Projekte mit echten Nutzern
+- Open-Source-Beiträge
+- Technische Blog-Posts
+- Hackathon-Projekte (besonders Gewinner)
+- Komplexe persönliche Projekte
+
+**Nicht einbeziehen:**
+- Tutorial-Nachahmungen
+- Triviale To-Do-Apps
+- Unvollständige Projekte
+- Kursarbeiten (außer herausragend)
+
+## Ausbildungs-Abschnitt für Tech
+
+### Standardformat
+```
+Bachelor of Science Informatik | Technische Universität München | 2020
+Note: 1,3 (einbeziehen wenn sehr gut)
+Relevante Kurse: Verteilte Systeme, Machine Learning, Datenbanksysteme
 ```
 
-### For Self-Taught Engineers
+### Für Bootcamp-Absolventen
 ```
-Professional Certifications:
+Software-Engineering-Zertifikat | neue fische | 2023
+- 800-Stunden intensives Programm
+- Full-Stack JavaScript, React, Node.js, PostgreSQL
+
+Bachelor of Arts Wirtschaftswissenschaften | Universität Hamburg | 2020
+```
+
+### Für Autodidakten
+```
+Berufliche Zertifizierungen:
 - AWS Solutions Architect Associate | 2023
 - MongoDB Certified Developer | 2023
 
-Relevant Education:
-- MIT OpenCourseWare: Algorithms, Data Structures
+Relevante Weiterbildung:
+- MIT OpenCourseWare: Algorithmen, Datenstrukturen
 - Coursera: Machine Learning Specialization (Stanford)
 ```
 
-## Tech-Specific Tips
+## Tech-spezifische Tipps
 
-### GitHub Profile Optimization
+### GitHub-Profil optimieren
 
-**Make sure your GitHub shows:**
-- Pinned repositories (your best 6)
-- Green contribution graph (activity)
-- README for profile
-- Complete project READMEs
+**GitHub sollte zeigen:**
+- Angeheftete Repositories (Ihre besten 6)
+- Grüner Beitragsgraph (Aktivität)
+- Profil-README
+- Vollständige Projekt-READMEs
 
-**Project READMEs should include:**
-- What the project does
-- Technologies used
-- How to run it
-- Screenshots/demos
-- Your contributions (for collaborative projects)
+**Projekt-READMEs sollten enthalten:**
+- Was das Projekt macht
+- Verwendete Technologien
+- Wie man es ausführt
+- Screenshots/Demos
+- Eigene Beiträge (bei Gemeinschaftsprojekten)
 
-### Dealing with Tech Stacks
+### Umgang mit Tech-Stacks
 
-**If you match their stack:**
-- Lead with those technologies
-- Quantify your experience with them
+**Wenn Stack passt:**
+- Mit diesen Technologien führen
+- Erfahrung damit quantifizieren
 
-**If you don't match exactly:**
-- Emphasize transferable skills
-- Show learning ability
-- Highlight similar technologies
-- Example: "Django" → "Extensive Python web framework experience (Django); quick to ramp on new frameworks"
+**Wenn Stack nicht exakt passt:**
+- Übertragbare Fähigkeiten betonen
+- Lernbereitschaft zeigen
+- Ähnliche Technologien hervorheben
+- Beispiel: „Django" → „Umfangreiche Python-Webframework-Erfahrung (Django); schnelles Einarbeiten in neue Frameworks"
 
-### Technical Interviews Prep Note
+### Hinweis zur technischen Interview-Vorbereitung
 
-Tech resumes should support your interview:
-- Only claim technologies you can discuss deeply
-- Be ready to explain every project listed
-- Know the architecture of systems you've built
-- Have stories ready for each bullet
+Tech-Lebensläufe sollten das Interview unterstützen:
+- Nur Technologien angeben, die tiefgehend diskutiert werden können
+- Bereit sein, jedes aufgelistete Projekt zu erklären
+- Architektur gebauter Systeme kennen
+- Geschichten für jeden Aufzählungspunkt bereit haben
 
-## Output Format
+## ATS + Tech-Recruiter Balance
 
-When optimizing a tech resume:
+Der Lebenslauf muss ATS bestehen UND technische Recruiter beeindrucken.
+
+**Für ATS:**
+- Exakte Skill-Schlüsselwörter einbeziehen
+- Standard-Abschnittsüberschriften verwenden
+- Tabellen und Grafiken vermeiden
+
+**Für Tech-Recruiter:**
+- Technische Tiefe zeigen
+- Kennzahlen und Maßstab einbeziehen
+- Problemlösung demonstrieren
+- Systemverständnis zeigen
+
+## Ausgabeformat
 
 ```markdown
-# TECH RESUME OPTIMIZATION
+# TECH-LEBENSLAUF-OPTIMIERUNG
 
-## Technical Skills Restructure
-**Current:** [Their current skills section]
-**Optimized:**
-Languages: [Ordered list]
-Frameworks: [Ordered list]
-Databases: [Ordered list]
-Cloud/Tools: [Ordered list]
+## Technische Fähigkeiten Umstrukturierung
+**Aktuell:** [Aktueller Fähigkeiten-Abschnitt]
+**Optimiert:**
+Sprachen: [Geordnete Liste]
+Frameworks: [Geordnete Liste]
+Datenbanken: [Geordnete Liste]
+Cloud/Tools: [Geordnete Liste]
 
-## Experience Improvements
+## Erfahrungs-Verbesserungen
 
-### [Company/Role]
+### [Unternehmen/Rolle]
 
-**Current Bullet 1:**
-"Worked on backend services"
+**Aktuelle Aufzählung 1:**
+„An Backend-Services gearbeitet"
 
-**Improved:**
-"Designed and deployed 5 Node.js microservices handling 50K requests/minute, reducing system coupling and enabling independent team deployments"
+**Verbessert:**
+„5 Node.js-Microservices designed und deployed, 50.000 Anfragen/Minute, System-Kopplung reduziert und unabhängige Team-Deployments ermöglicht"
 
-**Current Bullet 2:**
-[Continue for each bullet]
+## Hervorzuhebende Projekte
+[Vorschläge basierend auf Hintergrund]
 
-## Projects to Highlight
-[Suggestions based on their background]
+## GitHub-Empfehlungen
+- [ ] READMEs zu angehefteten Repos hinzufügen
+- [ ] X-Projekt anpinnen (relevantestes)
+- [ ] Profil-README hinzufügen
 
-## GitHub Recommendations
-- [ ] Add READMEs to pinned repos
-- [ ] Pin X project (most relevant)
-- [ ] Add profile README
-
-## Technical Gaps to Address
-- [Missing skill] → [How to address in resume/cover letter]
+## Technische Lücken zu adressieren
+- [Fehlende Fähigkeit] → [Wie im Lebenslauf/Anschreiben ansprechen]
 ```
 
-## ATS + Tech Recruiter Balance
+## Tech-Lebenslauf-Checkliste
 
-Remember: Your resume must pass ATS AND impress technical recruiters.
-
-**For ATS:**
-- Include exact skill keywords
-- Use standard section headers
-- Avoid tables and graphics
-
-**For Tech Recruiters:**
-- Show technical depth
-- Include metrics and scale
-- Demonstrate problem-solving
-- Show you understand systems
+- ✅ GitHub-URL einbezogen
+- ✅ Technische Fähigkeiten nach Kategorie und Relevanz geordnet
+- ✅ Jede Aufzählung zeigt Maßstab/Impact + Technologie
+- ✅ Kennzahlen in Aufzählungen (Nutzer, Requests, Latenz, Kosten)
+- ✅ Projekte haben Links und Tech-Stack-Angaben
+- ✅ Nur Fähigkeiten gelistet die im Interview diskutiert werden können
+- ✅ ATS-freundliche Formatierung (kein ausgefallenes Layout)
+- ✅ Stack auf Zielrolle abgestimmt
+- ✅ Keine veralteten Technologien
+- ✅ Gesamtlänge angemessen (1–2 Seiten)

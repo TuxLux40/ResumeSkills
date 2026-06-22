@@ -1,306 +1,251 @@
 ---
 name: executive-resume-writer
-description: Create C-suite and VP level resumes emphasizing strategic leadership
+description: Lebensläufe für C-Suite und VP-Positionen erstellen mit Fokus auf strategische Führung
 ---
 
-# Executive Resume Writer
+# Führungskraft-Lebenslauf-Schreiber
 
-## When to Use This Skill
+## Wann diesen Skill verwenden
 
-Use this skill when the user:
-- Is applying for C-suite, VP, or Director roles
-- Has 15+ years of experience in senior leadership
-- Needs to emphasize strategic leadership over tactical skills
-- Mentions: "executive resume", "C-suite", "VP resume", "senior leadership", "board", "executive search"
+Diesen Skill verwenden, wenn der Nutzer:
+- Sich auf C-Suite-, VP- oder Direktorenstellen bewirbt
+- 15+ Jahre Erfahrung in Führungspositionen hat
+- Strategische Führung statt taktische Fähigkeiten betonen muss
+- Erwähnt: „Führungskraft-Lebenslauf", „C-Suite", „VP-Lebenslauf", „Senior Leadership", „Vorstand", „Executive Search"
 
-## Core Capabilities
+## Kernfähigkeiten
 
-- Write resumes for C-suite and VP-level positions
-- Emphasize strategic leadership and business transformation
-- Showcase P&L responsibility and organizational impact
-- Balance achievements with leadership philosophy
-- Format for executive recruiters and board presentations
-- Include board experience and industry recognition
+- Lebensläufe für C-Suite- und VP-Positionen schreiben
+- Strategische Führung und unternehmerische Transformation hervorheben
+- GuV-Verantwortung und organisatorischen Impact zeigen
+- Leistungen und Führungsphilosophie ausbalancieren
+- Für Executive-Recruiter und Vorstandspräsentationen formatieren
+- Vorstandserfahrung und Branchenanerkennung einbinden
 
-## Executive Resume Philosophy
+## Philosophie des Führungskraft-Lebenslaufs
 
-**Key Differences from Standard Resumes:**
+**Wesentliche Unterschiede zum Standard-Lebenslauf:**
 
-| Standard Resume | Executive Resume |
-|-----------------|------------------|
-| Lists skills | Demonstrates leadership brand |
-| Shows tasks | Shows strategic impact |
-| Focuses on "what" | Focuses on "so what" |
-| 1-2 pages | 2-3 pages acceptable |
-| Keywords for ATS | Story for decision-makers |
-| Individual contributions | Organizational transformation |
+| Standard-Lebenslauf | Führungskraft-Lebenslauf |
+|---------------------|--------------------------|
+| Listet Fähigkeiten | Demonstriert Führungsmarke |
+| Zeigt Aufgaben | Zeigt strategischen Impact |
+| Fokus auf „Was" | Fokus auf „Warum das wichtig ist" |
+| 1–2 Seiten | 2–3 Seiten akzeptabel |
+| Keywords für ATS | Geschichte für Entscheider |
+| Einzelbeiträge | Organisatorische Transformation |
 
-## Executive Resume Structure
+## Struktur des Führungskraft-Lebenslaufs
 
-### Recommended Sections
+### Empfohlene Abschnitte
 
 ```
-1. Executive Profile/Summary
-2. Core Competencies (Leadership Themes)
-3. Career Highlights / Key Achievements
-4. Professional Experience
-5. Board & Advisory Roles
-6. Education & Executive Development
-7. Industry Recognition (optional)
+1. Executive-Profil/Zusammenfassung
+2. Kernkompetenzen (Führungsthemen)
+3. Karriere-Highlights / Schlüsselleistungen
+4. Berufliche Erfahrung
+5. Vorstands- & Beratungsrollen
+6. Ausbildung & Executive-Weiterbildung
+7. Branchenanerkennung (optional)
 ```
 
-### Length Guidelines
-- VP/SVP: 2 pages
-- C-Suite: 2-3 pages
-- Board CV: Can be longer
+### Längenrichtwerte
+- VP/SVP: 2 Seiten
+- C-Suite: 2–3 Seiten
+- Board-CV: Kann länger sein
 
-## Executive Profile Section
+## Executive-Profil-Abschnitt
 
-This replaces the standard professional summary. Should communicate your **leadership brand**.
+Ersetzt die Standard-Berufszusammenfassung. Kommuniziert die **Führungsmarke**.
 
 ### Format
 ```
-[TITLE/FUNCTION] EXECUTIVE
+[TITEL/FUNKTION] EXECUTIVE
 
-[Leadership brand statement - who you are as a leader]
+[Führungsmarken-Statement – wer man als Führungskraft ist]
 
-[2-3 sentences on your track record with scope/scale]
+[2–3 Sätze zur Erfolgsbilanz mit Umfang/Maßstab]
 
-[What you're known for / unique value proposition]
+[Wofür man bekannt ist / einzigartiges Wertversprechen]
 ```
 
-### Example
+### Beispiel
 
 ```
-CHIEF OPERATING OFFICER | P&L LEADERSHIP | OPERATIONAL TRANSFORMATION
+CHIEF OPERATING OFFICER | GuV-FÜHRUNG | OPERATIVE TRANSFORMATION
 
-Growth-focused operations executive with 20+ years scaling B2B technology companies from $50M to $500M+ in revenue. Known for building high-performance teams, operational excellence, and creating scalable infrastructure that enables rapid growth.
+Wachstumsorientierte Operations-Führungskraft mit 20+ Jahren Erfahrung beim Skalieren von B2B-Technologieunternehmen von 50 Mio. auf 500+ Mio. € Umsatz. Bekannt für den Aufbau hochleistungsfähiger Teams, operative Exzellenz und skalierbare Infrastruktur, die schnelles Wachstum ermöglicht.
 
-Track record includes 3 successful exits, 2 IPO preparations, and leading organizations of 500+ employees across 6 countries. Expertise in operational strategy, M&A integration, and digital transformation in SaaS and enterprise software environments.
+Erfolgsbilanz: 3 erfolgreiche Exits, 2 IPO-Vorbereitungen, Führung von Organisationen mit 500+ Mitarbeitenden in 6 Ländern. Expertise in operativer Strategie, M&A-Integration und digitaler Transformation im SaaS- und Enterprise-Software-Umfeld.
 
-Core philosophy: Build repeatable processes that scale while maintaining the agility that drives innovation.
+Leitphilosophie: Wiederholbare Prozesse aufbauen, die skalieren, ohne die Agilität zu verlieren, die Innovation vorantreibt.
 ```
 
-## Core Competencies Section
+## Kernkompetenzen-Abschnitt
 
-Frame as leadership themes rather than skills lists.
+Als Führungsthemen formulieren statt als Fähigkeitenliste.
 
-### Example
+### Beispiel
 ```
-LEADERSHIP COMPETENCIES
+FÜHRUNGSKOMPETENZEN
 
-Strategic Growth        | M&A Integration          | Digital Transformation
-P&L Management ($500M+) | Global Team Leadership   | Board Relations
-Operational Excellence  | Change Management        | Investor Relations
-```
-
-## Career Highlights Section
-
-Place your biggest achievements upfront before chronological experience.
-
-### Format
-```
-CAREER HIGHLIGHTS
-
-• [Achievement 1 with metrics]
-• [Achievement 2 with metrics]
-• [Achievement 3 with metrics]
-• [Achievement 4 with metrics]
+Strategisches Wachstum     | M&A-Integration          | Digitale Transformation
+GuV-Management (500M€+)   | Globale Teamführung       | Vorstandsbeziehungen
+Operative Exzellenz        | Change Management         | Investor Relations
 ```
 
-### Example
+## Karriere-Highlights-Abschnitt
+
+Größte Leistungen vor der chronologischen Erfahrung platzieren.
+
+### Beispiel
 ```
-CAREER HIGHLIGHTS
+KARRIERE-HIGHLIGHTS
 
-• Led operational transformation at TechCorp, improving EBITDA margins from 12% to 28% while growing revenue from $150M to $400M
-• Executed 5 acquisitions totaling $200M+ and successfully integrated 3 companies with 95% employee retention
-• Built global operations team from 50 to 500+ employees across US, EMEA, and APAC regions
-• Prepared company for successful IPO, implementing SOX compliance and investor-ready reporting
+• Operative Transformation bei TechCorp geleitet, EBITDA-Marge von 12% auf 28% verbessert bei Umsatzwachstum von 150 auf 400 Mio. €
+• 5 Akquisitionen im Gesamtwert von 200+ Mio. € durchgeführt, 3 Unternehmen mit 95% Mitarbeiterbindung integriert
+• Globales Operations-Team von 50 auf 500+ Mitarbeitende in USA, DACH und APAC aufgebaut
+• Unternehmen erfolgreich auf IPO vorbereitet, SOX-Compliance implementiert und investorengerechtes Reporting aufgebaut
 ```
 
-## Experience Section for Executives
+## Erfahrungsabschnitt für Führungskräfte
 
-### The Executive Bullet Formula
+### Die Führungskraft-Aufzählungsformel
 
-**[Leadership Action] + [Strategic Initiative] + [Business Outcome at Scale]**
+**[Führungshandlung] + [Strategische Initiative] + [Geschäftsergebnis in Maßstab]**
 
-### Example Role
+### Beispiel-Rolle
 
 ```
 CHIEF OPERATING OFFICER
-TechCorp Inc. | San Francisco, CA | 2019 - Present
-$400M B2B SaaS company | 1,200 employees | Series D - IPO track
+TechCorp GmbH | München | 2019 – heute
+400 Mio. € B2B-SaaS-Unternehmen | 1.200 Mitarbeitende | Series D – IPO-Kurs
 
-Recruited by CEO to transform operations and prepare company for IPO. Direct reports include VP Engineering, VP Customer Success, VP Operations, and CIO. Full P&L ownership for services business ($150M).
+Vom CEO rekrutiert, um Operations zu transformieren und Unternehmen auf IPO vorzubereiten. Direkte Berichte: VP Engineering, VP Customer Success, VP Operations und CIO. Volle GuV-Verantwortung für Servicegeschäft (150 Mio. €).
 
-Strategic Initiatives & Results:
+Strategische Initiativen & Ergebnisse:
 
-• Operational Transformation: Redesigned end-to-end operations, improving gross margins from 62% to 78% and reducing customer onboarding time from 90 to 30 days
+• Operative Transformation: End-to-End-Betrieb umstrukturiert, Bruttomarge von 62% auf 78% verbessert, Kunden-Onboarding von 90 auf 30 Tage verkürzt
 
-• Scale & Growth: Built infrastructure to support growth from $150M to $400M revenue, including implementation of ERP, expansion to 3 new geographies, and establishment of 24/7 global support
+• Skalierung & Wachstum: Infrastruktur für Wachstum von 150 auf 400 Mio. € Umsatz aufgebaut, ERP implementiert, 3 neue Märkte erschlossen, 24/7 globalen Support etabliert
 
-• M&A Leadership: Served as operational lead for 3 acquisitions totaling $75M, achieving full integration within 6 months and 95% talent retention
+• M&A-Führung: Operativer Leiter für 3 Akquisitionen im Gesamtwert von 75 Mio. €, vollständige Integration in 6 Monaten mit 95% Talentbindung
 
-• Team Development: Expanded operations organization from 200 to 600 employees, established leadership development program that promoted 15 internal candidates to VP/Director roles
-
-• IPO Preparation: Led SOX compliance implementation, established audit committee reporting, and built investor-ready operational metrics and forecasting capabilities
+• Teamentwicklung: Operations-Organisation von 200 auf 600 Mitarbeitende erweitert, Führungskräfteentwicklungsprogramm etabliert, 15 interne Kandidaten in VP/Direktor-Rollen gefördert
 ```
 
-### Key Elements for Executive Experience
+### Wichtige Elemente für Executive-Erfahrung
 
-**Always Include:**
-- Company context (revenue, employees, stage)
-- Reporting structure / span of control
-- P&L or budget responsibility
-- Strategic scope
+**Immer angeben:**
+- Unternehmenskontext (Umsatz, Mitarbeitende, Phase)
+- Berichtsstruktur / Führungsspanne
+- GuV- oder Budgetverantwortung
+- Strategischer Umfang
 
-**Metrics to Emphasize:**
-- Revenue growth ($ and %)
-- Profitability improvement (margins, EBITDA)
-- Cost reduction
-- Team size and development
-- Geographic expansion
-- M&A activity
-- Exit outcomes
+**Zu betonende Kennzahlen:**
+- Umsatzwachstum (€ und %)
+- Rentabilitätsverbesserung (Margen, EBITDA)
+- Kostensenkung
+- Teamgröße und -entwicklung
+- Geografische Expansion
+- M&A-Aktivität
+- Exit-Ergebnisse
 
-## Board & Advisory Section
+## Vorstands- & Beratungsabschnitt
 
 ```
-BOARD & ADVISORY POSITIONS
+VORSTANDS- & BEIRATSPOSITIONEN
 
-Board of Directors | TechStartup Inc. | 2022 - Present
-$50M ARR B2B SaaS company. Chair of Compensation Committee.
+Aufsichtsrat | TechStartup AG | 2022 – heute
+50 Mio. € ARR B2B-SaaS-Unternehmen. Vorsitz des Vergütungsausschusses.
 
-Advisory Board | VentureStudio | 2020 - Present
-Supporting portfolio companies with operational strategy and GTM execution.
-
-Board Observer | AcquiredCo (acquired by BigTech, 2023) | 2021 - 2023
-Provided operational guidance through $200M acquisition process.
+Beirat | VentureStudio | 2020 – heute
+Portfolio-Unternehmen in operativer Strategie und GTM-Execution begleitet.
 ```
 
-## Executive-Specific Considerations
+## Executive-spezifische Überlegungen
 
-### Emphasize Transformation
+### Transformation betonen
 
-Executives are hired to **transform**, not maintain. Show:
-- What changed because of you
-- Before/after states
-- Scale of impact
+Führungskräfte werden für **Transformation** eingestellt, nicht für Aufrechterhaltung. Zeigen:
+- Was sich durch Ihre Arbeit verändert hat
+- Vorher/Nachher-Zustände
+- Ausmaß des Impacts
 
-**Transformation Story Formula:**
-"Inherited [situation]. Implemented [strategic change]. Achieved [outcome]."
+**Transformations-Formel:**
+„[Situation übernommen]. [Strategische Veränderung implementiert]. [Ergebnis erzielt]."
 
-### Show Leadership Philosophy
+### Führungsphilosophie zeigen
 
-Unlike individual contributor resumes, executive resumes should hint at **how** you lead.
+**Beispiele:**
+- „Bekannt für den Aufbau von Konsens unter diversen Stakeholder-Gruppen"
+- „Führt mit datengetriebenen Entscheidungen bei strategischer Flexibilität"
+- „Fördert Innovation bei Aufrechterhaltung operativer Disziplin"
 
-**Examples:**
-- "Known for building consensus across diverse stakeholder groups"
-- "Leads with data-driven decision making while maintaining strategic flexibility"
-- "Champions innovation while maintaining operational discipline"
+### Kurze Amtszeiten rahmen
 
-### Handle Tenure Carefully
+**Kurze Amtszeiten:** Um spezifische Missionen rahmen
+- „Für die Leitung der Post-Merger-Integration eingestellt"
+- „Für Turnaround rekrutiert; in 18 Monaten abgeschlossen"
 
-**Short Tenures:** Frame around specific missions
-- "Brought in to lead post-merger integration"
-- "Recruited for turnaround; completed in 18 months"
-- "Joined to prepare company for acquisition"
+**Lange Amtszeiten:** Progression und Erneuerung zeigen
+- „In 4 Rollen über 12 Jahre aufgestiegen"
 
-**Long Tenures:** Show progression and reinvention
-- "Promoted through 4 roles over 12 years"
-- "Led multiple transformations as company grew from $50M to $500M"
+## Executive-Sprache
 
-### Confidential Information
+### Kraftvolle Aktionsverben
 
-**Do:**
-- Use percentage improvements when absolutes are confidential
-- Use ranges for revenue/headcount
-- Speak to relative impact
+**Strategisch:**
+- Strategisch vorangetrieben, orchestriert, gefördert
+- Transformiert, revolutioniert, weggewiesen
+- Gestaltet, konstruiert (strategisch)
 
-**Don't:**
-- Share proprietary strategies
-- Name confidential acquisition targets
-- Reveal undisclosed financial information
+**Führung:**
+- „Organisation durch … geführt"
+- „Aufgebaut und skaliert…"
+- „Vision für … entwickelt"
+- „Verhandelt und gesichert…"
 
-## Executive Resume Tone
+### Zu vermeiden
 
-### Power Language for Executives
+- ❌ Taktisch/operationale Sprache (verwaltet, bearbeitet, unterstützt)
+- ❌ Erste Person (ich, mein, mir)
+- ❌ Jargon ohne Kontext
+- ❌ Generische Aussagen ohne Belege
+- ❌ Zu viel Bescheidenheit
 
-**Strategic Action Verbs:**
-- Spearheaded, Orchestrated, Championed, Steered
-- Transformed, Revolutionized, Pioneered
-- Architected, Engineered (strategically)
-- Drove, Accelerated, Catalyzed
-
-**Leadership Language:**
-- "Led organization through..."
-- "Built and scaled..."
-- "Established vision for..."
-- "Negotiated and secured..."
-- "Championed transformation..."
-
-### What to Avoid
-
-- ❌ Tactical/operational language (managed, handled, assisted)
-- ❌ First person pronouns (I, my, me)
-- ❌ Jargon without context
-- ❌ Generic statements without proof
-- ❌ Too much humility (take credit appropriately)
-
-## Output Format
-
-When writing an executive resume:
+## Ausgabeformat
 
 ```markdown
-# EXECUTIVE RESUME
+# FÜHRUNGSKRAFT-LEBENSLAUF
 
-## Executive Profile
-[Full executive profile section]
+## Executive-Profil
+[Vollständiger Executive-Profil-Abschnitt]
 
-## Core Competencies
-[Formatted competency grid]
+## Kernkompetenzen
+[Formatiertes Kompetenzraster]
 
-## Career Highlights
-[4-6 top achievements with metrics]
+## Karriere-Highlights
+[4–6 Top-Leistungen mit Kennzahlen]
 
-## Professional Experience
+## Berufliche Erfahrung
 
-### [Most Recent Role]
-[Full executive role writeup]
+### [Aktuellste Rolle]
+[Vollständiger Executive-Rollen-Text]
 
-### [Previous Role]
-[Full executive role writeup]
+### [Vorherige Rolle]
+[Vollständiger Executive-Rollen-Text]
 
-## Board & Advisory
-[Board positions]
+## Vorstands- & Beratungsrollen
+[Positionen]
 
-## Education & Development
-[Degrees and executive education]
+## Ausbildung & Weiterbildung
+[Abschlüsse und Executive-Education]
 
 ---
 
-## Positioning Notes
-- Key narrative theme: [The story your resume tells]
-- Leadership brand: [What you're known for]
-- Differentiator: [What sets you apart]
+## Positionierungshinweise
+- Haupterzählung: [Die Geschichte, die der Lebenslauf erzählt]
+- Führungsmarke: [Wofür Sie bekannt sind]
+- Differenzierungsmerkmal: [Was Sie abhebt]
 ```
-
-## Executive Search Considerations
-
-**Your resume may be seen by:**
-- Executive recruiters
-- Board members
-- PE/VC partners
-- CEOs and CHROs
-
-**Optimize for:**
-- Quick scanning by busy executives
-- Clear narrative of career progression
-- Obvious leadership brand
-- Credible, verifiable achievements
-
-**Remember:**
-- Executive searches often involve references before interviews
-- Your resume will be fact-checked
-- Relationships and reputation matter
-- The resume opens doors; relationships close deals
